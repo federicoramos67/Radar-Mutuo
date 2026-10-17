@@ -1,9 +1,20 @@
 {
-  "fecha": "2026-10-17T19:16:42.134754-03:00",
+  "fecha": "2026-10-17T19:19:00.340267-03:00",
   "revisados": 51,
   "con_modelo": false,
   "modelos": [],
-  "errores_modelo": [],
+  "errores_modelo": [
+    "openai/gpt-4o-mini: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
+    "openai/gpt-4o-mini: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
+    "openai/gpt-4.1: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
+    "openai/gpt-4.1: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
+    "openai/gpt-4.1-mini: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
+    "openai/gpt-4.1-mini: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
+    "openai/gpt-4o-mini: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
+    "openai/gpt-4o-mini: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
+    "openai/gpt-4.1: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
+    "openai/gpt-4.1: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'"
+  ],
   "diagnostico": {
     "proveedores": [
       "GitHub Models:openai/gpt-4.1-mini",

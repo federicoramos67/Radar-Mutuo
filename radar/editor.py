@@ -24,11 +24,11 @@ Un anuncio sin datos, una cifra sin estudio o una lista de "10 cosas" tiene anti
 Respondé SOLO con un objeto JSON con esta forma:
 {"historias": [{"id": "...", "senal": 0, "impacto": 0, "conversacion": 0, "antihype": 0,
   "titular": "titular en español, corto, con criterio, máximo 12 palabras",
-  "resumen": "2 frases en español que dicen qué pasó, solo con datos del material",
-  "porque_importa": "1 o 2 frases: qué le cambia a la gente que crea y trabaja",
+  "resumen": "1 o 2 frases cortas en español: qué pasó, solo con datos del material",
+  "porque_importa": "1 frase: qué le cambia a la gente que crea y trabaja",
   "angulo": "una línea que serviría de gancho para redes",
   "formato": "reel | carrusel | post | hilo | agenda | streaming",
-  "descarte": "si alguna nota es baja, por qué en una frase; si no, vacío"}]}
+  "descarte": "si alguna nota es baja, por qué en una frase corta; si no, vacío"}]}\nSé breve: cada campo, una o dos líneas como máximo.
 """
 )
 

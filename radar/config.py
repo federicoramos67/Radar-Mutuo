@@ -62,7 +62,7 @@ MODELOS_GITHUB = ["openai/gpt-4.1-mini", "openai/gpt-4o-mini", "openai/gpt-4.1"]
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 MODELOS_GROQ = ["llama-3.3-70b-versatile"]
 
-LOTE_PUNTAJE = 12  # historias por llamada; el plan gratuito limita el tamaño del pedido
+LOTE_PUNTAJE = 6  # historias por llamada; el plan gratuito limita el tamaño del pedido
 
 # --- Voz editorial -----------------------------------------------------------
 VOZ_MUTUO = """\

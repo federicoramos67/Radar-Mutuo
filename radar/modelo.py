@@ -84,7 +84,17 @@ class Cliente:
             for intento in range(2):
                 try:
                     r = self.enviar(url, token, cuerpo)
-                    datos = extraer_json(r["choices"][0]["message"]["content"])
+                    eleccion = r["choices"][0]
+                    contenido = eleccion["message"].get("content") or ""
+                    try:
+                        datos = extraer_json(contenido)
+                    except ValueError:
+                        self.errores.append(
+                            f"{modelo}: JSON inválido (fin={eleccion.get('finish_reason')}, {len(contenido)} caracteres, termina en {contenido[-60:]!r})"
+                        )
+                        if eleccion.get("finish_reason") == "length":
+                            break  # cortado por largo: reintentar igual no sirve
+                        raise
                     etiqueta = f"{modelo} ({nombre})"
                     if etiqueta not in self.usados:
                         self.usados.append(etiqueta)
@@ -101,7 +111,8 @@ class Cliente:
                     if e.code in (401, 403, 404, 413, 429):
                         break  # este modelo no va a funcionar hoy: probar el siguiente
                 except Exception as e:  # red, timeout, JSON roto
-                    self.errores.append(f"{modelo}: {type(e).__name__}")
+                    if not isinstance(e, ValueError):
+                        self.errores.append(f"{modelo}: {type(e).__name__}")
                 if intento == 0:
                     self.esperar(3)
         raise SinModelo("; ".join(self.errores[-4:]))

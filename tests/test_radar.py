@@ -125,6 +125,18 @@ class PruebasLimpieza(unittest.TestCase):
     def setUp(self):
         self.items, _ = fuentes.leer_todas(FUENTES_PRUEBA, descargador_falso)
 
+    def test_filtro_de_tema(self):
+        items = [
+            {"titulo": "Rusia prueba drones con motores a reacción", "resumen": "Defensa.", "fuente": "General"},
+            {"titulo": "Meta lanza un agente de IA para anunciantes", "resumen": "", "fuente": "General"},
+            {"titulo": "Nueva función de inteligencia artificial en el móvil", "resumen": "", "fuente": "General"},
+            {"titulo": "Cualquier cosa", "resumen": "", "fuente": "Especializada"},
+        ]
+        fuentes_ = [{"nombre": "General", "solo_ia": True}, {"nombre": "Especializada"}]
+        quedan = [i["titulo"] for i in limpieza.filtrar_tema(items, fuentes_, config.PALABRAS_IA)]
+        self.assertNotIn("Rusia prueba drones con motores a reacción", quedan)
+        self.assertEqual(len(quedan), 3)
+
     def test_filtra_viejos(self):
         recientes = limpieza.filtrar_por_fecha(self.items, AHORA, 36)
         self.assertNotIn("Old story from last week", [i["titulo"] for i in recientes])

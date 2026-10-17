@@ -98,7 +98,7 @@ class Cliente:
             }
             if "gpt-oss" in modelo:
                 cuerpo["reasoning_effort"] = "low"  # menos tokens pensando, más para la respuesta
-                cuerpo["max_tokens"] = max_tokens + 2000
+                cuerpo["max_tokens"] = max_tokens + 800
             for intento in range(3):
                 try:
                     r = self.enviar(url, token, cuerpo)

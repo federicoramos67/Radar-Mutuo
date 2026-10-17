@@ -55,7 +55,7 @@ def _para_modelo(grupo):
     return {
         "id": grupo["id"],
         "titulo": p["titulo"],
-        "resumen": p["resumen"][:450],
+        "resumen": p["resumen"][:280],
         "fuente": p["fuente"],
         "tipo_fuente": p["tipo"],
         "tambien_en": otras,
@@ -80,7 +80,7 @@ def puntuar(grupos, cliente):
         lote = grupos[inicio : inicio + config.LOTE_PUNTAJE]
         pedido = "Historias del día:\n" + json.dumps([_para_modelo(g) for g in lote], ensure_ascii=False, indent=1)
         try:
-            datos = cliente.pedir_json(SISTEMA_PUNTAJE, pedido, max_tokens=3500)
+            datos = cliente.pedir_json(SISTEMA_PUNTAJE, pedido, max_tokens=config.MAX_TOKENS_PUNTAJE)
         except SinModelo:
             continue
         for h in datos.get("historias", []) if isinstance(datos, dict) else []:
@@ -155,7 +155,7 @@ def redactar_piezas(publicables, cliente):
     ]
     pedido = "Notas aprobadas del brief de hoy:\n" + json.dumps(notas, ensure_ascii=False, indent=1)
     try:
-        datos = cliente.pedir_json(SISTEMA_PIEZAS, pedido, max_tokens=3500)
+        datos = cliente.pedir_json(SISTEMA_PIEZAS, pedido, max_tokens=config.MAX_TOKENS_PIEZAS)
     except SinModelo:
         return None
     return datos if isinstance(datos, dict) else None

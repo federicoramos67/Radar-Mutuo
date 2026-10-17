@@ -39,6 +39,7 @@ def correr(salida=SALIDA, descargador=fuentes.descargar, cliente=None, ahora=Non
 
     items, estado = fuentes.leer_todas(lista_fuentes or config.FUENTES, descargador)
     items = limpieza.deduplicar(items)
+    items = limpieza.filtrar_tema(items, lista_fuentes or config.FUENTES, config.PALABRAS_IA)
     recientes = limpieza.filtrar_por_fecha(items, ahora, config.VENTANA_HORAS)
     if len(recientes) < config.MINIMO_ITEMS:
         recientes = limpieza.filtrar_por_fecha(items, ahora, config.VENTANA_AMPLIADA)

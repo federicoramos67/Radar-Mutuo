@@ -21,15 +21,24 @@ FUENTES = [
     {"nombre": "Google AI", "url": "https://blog.google/technology/ai/rss/", "tipo": "oficial"},
     {"nombre": "Google DeepMind", "url": "https://deepmind.google/blog/rss.xml", "tipo": "oficial"},
     {"nombre": "Hugging Face", "url": "https://huggingface.co/blog/feed.xml", "tipo": "oficial"},
-    {"nombre": "Microsoft", "url": "https://blogs.microsoft.com/ai/feed/", "tipo": "oficial"},
-    {"nombre": "NVIDIA", "url": "https://blogs.nvidia.com/feed/", "tipo": "oficial"},
+    {"nombre": "Microsoft", "url": "https://blogs.microsoft.com/ai/feed/", "tipo": "oficial", "solo_ia": True},
+    {"nombre": "NVIDIA", "url": "https://blogs.nvidia.com/feed/", "tipo": "oficial", "solo_ia": True},
     {"nombre": "TechCrunch", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "tipo": "medio"},
     {"nombre": "The Verge", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "tipo": "medio"},
-    {"nombre": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/technology-lab", "tipo": "medio"},
+    {"nombre": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/technology-lab", "tipo": "medio", "solo_ia": True},
     {"nombre": "VentureBeat", "url": "https://venturebeat.com/category/ai/feed/", "tipo": "medio"},
     {"nombre": "MIT Technology Review", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed", "tipo": "medio"},
-    {"nombre": "Xataka", "url": "https://www.xataka.com/feedburner.xml", "tipo": "medio"},
+    {"nombre": "Xataka", "url": "https://www.xataka.com/feedburner.xml", "tipo": "medio", "solo_ia": True},
     {"nombre": "Hacker News", "url": "https://hnrss.org/newest?points=150&q=AI+OR+LLM+OR+OpenAI+OR+Anthropic+OR+Gemini", "tipo": "comunidad"},
+]
+
+# Fuentes con "solo_ia": publican de todo; se quedan solo las notas que hablan de IA.
+PALABRAS_IA = [
+    "ia", "ai", "inteligencia artificial", "artificial intelligence", "llm", "modelo de lenguaje",
+    "language model", "chatgpt", "openai", "anthropic", "claude", "gemini", "deepmind", "copilot",
+    "llama", "mistral", "deepseek", "qwen", "agente", "agentes", "agent", "agents", "machine learning",
+    "aprendizaje automático", "neural", "neuronal", "generativa", "generative", "gpt", "nemotron",
+    "chatbot", "diffusion", "sora", "veo", "midjourney", "hugging face", "inference", "inferencia",
 ]
 
 # Ventana de tiempo: se mira hacia atrás esta cantidad de horas.
@@ -59,7 +68,9 @@ MODELOS_GROQ = ["openai/gpt-oss-120b", "llama-3.3-70b-versatile", "openai/gpt-os
 
 LOTE_PUNTAJE = 6       # historias por pedido
 MAX_HISTORIAS = 30     # se puntúan las 30 más prometedoras del día, para cuidar la cuota
-PAUSA_ENTRE_PEDIDOS = 6  # segundos; el plan gratuito limita tokens por minuto
+PAUSA_ENTRE_PEDIDOS = 20  # segundos; el plan gratuito limita tokens por minuto
+MAX_TOKENS_PUNTAJE = 1800
+MAX_TOKENS_PIEZAS = 2800
 
 # --- Voz editorial -----------------------------------------------------------
 VOZ_MUTUO = """\

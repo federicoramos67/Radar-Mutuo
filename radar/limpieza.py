@@ -40,6 +40,23 @@ def similitud(a, b):
     return len(a & b) / len(a | b)
 
 
+def habla_de_ia(item, palabras_ia):
+    plano = unicodedata.normalize("NFKD", (item["titulo"] + " " + item["resumen"]).lower())
+    plano = " " + "".join(ch for ch in plano if not unicodedata.combining(ch)) + " "
+    plano = re.sub(r"[^a-z0-9]+", " ", plano)
+    for p in palabras_ia:
+        q = unicodedata.normalize("NFKD", p.lower())
+        q = "".join(ch for ch in q if not unicodedata.combining(ch))
+        if f" {q} " in plano:
+            return True
+    return False
+
+
+def filtrar_tema(items, fuentes, palabras_ia):
+    generales = {f["nombre"] for f in fuentes if f.get("solo_ia")}
+    return [i for i in items if i["fuente"] not in generales or habla_de_ia(i, palabras_ia)]
+
+
 def filtrar_por_fecha(items, ahora, horas):
     limite = ahora - timedelta(hours=horas)
     # Un item sin fecha se acepta: muchas fuentes oficiales la omiten.

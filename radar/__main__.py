@@ -46,13 +46,18 @@ def correr(salida=SALIDA, descargador=fuentes.descargar, cliente=None, ahora=Non
     print(f"Fuentes que respondieron: {sum(f['ok'] for f in estado)}/{len(estado)} · items recientes: {len(recientes)}")
 
     grupos = limpieza.agrupar(recientes)
-    for g in grupos:
-        g["verificacion"] = verificar(g)
-    # Se puntúan las más prometedoras: con más fuentes, con fuente primaria, más recientes.
+
+    # Se trabajan las más prometedoras: con más fuentes, con fuente primaria, más recientes.
     def promesa(g):
         fecha = max((i["fecha"] for i in g["items"] if i["fecha"]), default=None)
-        return (len({i["fuente"] for i in g["items"]}), g["verificacion"]["estado"] == "verificada", fecha.timestamp() if fecha else 0)
+        oficial = any(i["tipo"] == "oficial" for i in g["items"])
+        return (len({i["fuente"] for i in g["items"]}), oficial, fecha.timestamp() if fecha else 0)
+
+    grupos = sorted(grupos, key=promesa, reverse=True)[: config.MAX_HISTORIAS + 15]
+    grupos = editor.unir_por_modelo(grupos, cliente)
     grupos = sorted(grupos, key=promesa, reverse=True)[: config.MAX_HISTORIAS]
+    for g in grupos:
+        g["verificacion"] = verificar(g)  # la regla de verificación la aplica el código, siempre
     print(f"Historias: {len(grupos)} · verificadas: {sum(g['verificacion']['estado'] == 'verificada' for g in grupos)}")
 
     con_modelo = editor.puntuar(grupos, cliente) if grupos else False

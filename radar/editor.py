@@ -49,6 +49,39 @@ El reel dura unos 40 segundos y tiene 5 o 6 beats. Cada pieza sale de una nota d
 )
 
 
+SISTEMA_AGRUPAR = """Sos editor de una mesa de noticias. Te paso titulares de distintas fuentes.
+Agrupá SOLO los que cuentan el MISMO hecho concreto (el mismo anuncio, lanzamiento, estudio o evento).
+Que hablen del mismo tema o de la misma empresa NO alcanza: tiene que ser la misma noticia.
+Ante la duda, no agrupes.
+Respondé SOLO con JSON: {"grupos": [["h01", "h07"], ["h03", "h12", "h15"]]}
+Incluí únicamente grupos de 2 o más. Si no hay ninguno: {"grupos": []}"""
+
+
+def unir_por_modelo(grupos, cliente):
+    """Junta historias que el agrupador por palabras no vio (títulos distintos, mismo hecho)."""
+    if len(grupos) < 2:
+        return grupos
+    lista = "\n".join(f'{g["id"]} [{g["principal"]["fuente"]}] {g["principal"]["titulo"]}' for g in grupos)
+    try:
+        datos = cliente.pedir_json(SISTEMA_AGRUPAR, "Titulares:\n" + lista, max_tokens=600)
+    except SinModelo:
+        return grupos
+    por_id = {g["id"]: g for g in grupos}
+    absorbidos = set()
+    for conjunto in (datos.get("grupos") or []) if isinstance(datos, dict) else []:
+        ids = [i for i in conjunto if isinstance(i, str) and i in por_id and i not in absorbidos] if isinstance(conjunto, list) else []
+        if len(ids) < 2:
+            continue
+        base = por_id[ids[0]]
+        for otro in ids[1:]:
+            base["items"].extend(por_id[otro]["items"])
+            absorbidos.add(otro)
+        # la fuente principal pasa a ser la de mayor jerarquía (oficial > medio > comunidad)
+        base["items"].sort(key=lambda i: {"oficial": 0, "medio": 1, "comunidad": 2}[i["tipo"]])
+        base["principal"] = base["items"][0]
+    return [g for g in grupos if g["id"] not in absorbidos]
+
+
 def _para_modelo(grupo):
     p = grupo["principal"]
     otras = [i["fuente"] for i in grupo["items"][1:]]

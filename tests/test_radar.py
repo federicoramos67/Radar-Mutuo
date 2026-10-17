@@ -76,13 +76,18 @@ class ModeloFalso:
         self.llamadas += 1
         sistema = cuerpo["messages"][0]["content"]
         usuario = cuerpo["messages"][1]["content"]
+        if "MISMO hecho" in sistema:
+            ids = {l.split(" ", 1)[0]: l for l in usuario.splitlines()[1:]}
+            juntos = [i for i, l in ids.items() if "rumor" in l.lower() or "gpt-6" in l.lower() or "mismo-hecho" in l.lower()]
+            contenido = json.dumps({"grupos": [juntos] if len(juntos) > 1 else []})
+            return {"choices": [{"message": {"content": contenido}}]}
         if "rúbrica" in sistema and "historias" in sistema:
             historias = json.loads(usuario.split("\n", 1)[1])
             salida = []
             for h in historias:
                 t = h["titulo"].lower()
                 alto = "nemotron" in t or "mcp" in t
-                rumor = "rumor" in t
+                rumor = "rumor" in t or "gpt-6" in t
                 p = (5, 5, 4, 4) if alto else ((4, 4, 5, 1) if rumor else (1, 2, 4, 0))
                 salida.append(
                     {"id": h["id"], "senal": p[0], "impacto": p[1], "conversacion": p[2], "antihype": p[3],
@@ -223,6 +228,18 @@ class PruebasEdicionCompleta(unittest.TestCase):
             self.assertTrue((Path(d) / "ediciones" / "2026-10-17.html").exists())
             datos = json.loads((Path(d) / "datos" / "2026-10-17.json").read_text())
             self.assertEqual(len(datos["publicables"]), 2)
+
+    def test_el_modelo_une_pero_la_regla_verifica(self):
+        feeds = dict(FEEDS)
+        feeds["https://medio4.test/rss"] = rss([("OpenAI's mysterious GPT-6 run is real, insiders say", "https://medio4.test/gpt6", "mismo-hecho", 3)])
+        fuentes_ = FUENTES_PRUEBA + [{"nombre": "Medio Cuatro", "url": "https://medio4.test/rss", "tipo": "medio"}]
+        with tempfile.TemporaryDirectory() as d:
+            ed = radar_main.correr(Path(d), lambda u, timeout=20: feeds[u] if u in feeds else (_ for _ in ()).throw(urllib.error.URLError("x")), cliente_falso(), AHORA, fuentes_)
+            todos = ed["publicables"] + ed["sin_confirmar"]
+            g = next(g for g in todos if any("gpt-6" in i["titulo"].lower() for i in g["items"]))
+            self.assertEqual(len(g["items"]), 2)
+            # un foro + un solo medio no alcanza: sigue sin confirmar
+            self.assertEqual(g["verificacion"]["estado"], "sin_confirmar")
 
     def test_sin_modelo_igual_publica(self):
         def caido(url, token, cuerpo):

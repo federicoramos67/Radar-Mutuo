@@ -16,6 +16,10 @@ import urllib.request
 from . import config
 
 
+class RespuestaRara(Exception):
+    """El servidor respondió algo que no es JSON."""
+
+
 class SinModelo(Exception):
     """Ningún proveedor respondió. El Radar sigue en modo sin modelo."""
 
@@ -55,7 +59,12 @@ def _post(url, token, cuerpo, timeout=90):
         method="POST",
     )
     with urllib.request.urlopen(pedido, timeout=timeout) as r:
-        return json.loads(r.read())
+        crudo = r.read()
+        estado, tipo = r.status, r.headers.get("Content-Type", "")
+    try:
+        return json.loads(crudo)
+    except ValueError:
+        raise RespuestaRara(f"HTTP {estado} {tipo} {len(crudo)}B: {crudo[:200]!r}") from None
 
 
 class Cliente:
@@ -114,7 +123,7 @@ class Cliente:
                         break  # este modelo no va a funcionar hoy: probar el siguiente
                 except Exception as e:  # red, timeout, JSON roto
                     if not isinstance(e, ValueError):
-                        self.errores.append(f"{modelo}: {type(e).__name__}")
+                        self.errores.append(f"{modelo}: {type(e).__name__} {e}"[:300])
                 if intento == 0:
                     self.esperar(3)
         raise SinModelo("; ".join(self.errores[-4:]))

@@ -55,7 +55,9 @@ EJES = [
     ("antihype", "Antihype", "¿Se sostiene sin exagerar? 5 = datos verificables; 0 = puro marketing o cifra sin fuente."),
 ]
 PUNTAJE_MAXIMO = 5 * len(EJES)
-UMBRAL_PUBLICABLE = 12  # sobre 20
+UMBRAL_PUBLICABLE = 10  # sobre 20
+MINIMO_PUBLICABLES = 3  # un brief diario siempre trae al menos las 3 mejores verificadas
+PISO_PUBLICABLE = 7    # salvo que ni siquiera lleguen a este piso
 MAX_PUBLICABLES = 8
 MAX_SIN_VERIFICAR = 2
 MAX_DESCARTADOS = 4

@@ -126,7 +126,11 @@ def seleccionar(grupos):
     orden = sorted(grupos, key=lambda g: (g["total"], g["puntos"]["antihype"]), reverse=True)
     # Sin modelo el puntaje es grueso: se baja el umbral y manda la verificación.
     umbral = config.UMBRAL_PUBLICABLE if any(not g.get("respaldo") for g in grupos) else 8
-    publicables = [g for g in orden if g["verificacion"]["estado"] == "verificada" and g["total"] >= umbral]
+    verificadas = [g for g in orden if g["verificacion"]["estado"] == "verificada"]
+    publicables = [g for g in verificadas if g["total"] >= umbral]
+    if len(publicables) < config.MINIMO_PUBLICABLES:
+        extra = [g for g in verificadas if g not in publicables and g["total"] >= config.PISO_PUBLICABLE]
+        publicables += extra[: config.MINIMO_PUBLICABLES - len(publicables)]
     publicables = publicables[: config.MAX_PUBLICABLES]
     # Lo sin confirmar que más interés despierta: se muestra para no esconderlo.
     sin_confirmar = [g for g in orden if g["verificacion"]["estado"] == "sin_confirmar" and g["total"] >= umbral - 2]

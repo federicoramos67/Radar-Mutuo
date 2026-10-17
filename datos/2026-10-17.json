@@ -1,9 +1,18 @@
 {
-  "fecha": "2026-10-17T19:14:05.463693-03:00",
+  "fecha": "2026-10-17T19:16:42.134754-03:00",
   "revisados": 51,
   "con_modelo": false,
   "modelos": [],
   "errores_modelo": [],
+  "diagnostico": {
+    "proveedores": [
+      "GitHub Models:openai/gpt-4.1-mini",
+      "GitHub Models:openai/gpt-4o-mini",
+      "GitHub Models:openai/gpt-4.1"
+    ],
+    "pedidos": 9,
+    "historias": 51
+  },
   "fuentes": [
     {
       "nombre": "OpenAI",
@@ -20,8 +29,8 @@
     {
       "nombre": "Google DeepMind",
       "tipo": "oficial",
-      "ok": true,
-      "items": 100
+      "ok": false,
+      "error": "ParseError"
     },
     {
       "nombre": "Hugging Face",

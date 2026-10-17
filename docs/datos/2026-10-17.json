@@ -1,20 +1,9 @@
 {
-  "fecha": "2026-10-17T19:12:14.194191-03:00",
+  "fecha": "2026-10-17T19:14:05.463693-03:00",
   "revisados": 51,
   "con_modelo": false,
   "modelos": [],
-  "errores_modelo": [
-    "openai/gpt-4o-mini: JSONDecodeError",
-    "openai/gpt-4o-mini: JSONDecodeError",
-    "openai/gpt-4.1: JSONDecodeError",
-    "openai/gpt-4.1: JSONDecodeError",
-    "openai/gpt-4.1-mini: JSONDecodeError",
-    "openai/gpt-4.1-mini: JSONDecodeError",
-    "openai/gpt-4o-mini: JSONDecodeError",
-    "openai/gpt-4o-mini: JSONDecodeError",
-    "openai/gpt-4.1: JSONDecodeError",
-    "openai/gpt-4.1: JSONDecodeError"
-  ],
+  "errores_modelo": [],
   "fuentes": [
     {
       "nombre": "OpenAI",

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Radar Mutuo · 17/10/2026</title>
+<meta name="description" content="Brief editorial diario de IA: detectado, puntuado y verificado automáticamente.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+:root{--bg:#F4F5F7;--surface:#FFFFFF;--ink:#14161B;--muted:#5A6271;--rule:#DCDFE6;--rule-soft:#E9EBF0;
+--accent:#8E3B5E;--ok:#2E6F4E;--warn:#8A6100;--warn-soft:#FBF1D9;--off:#C7CBD4;
+--display:"Newsreader",Georgia,"Times New Roman",serif;--body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+--mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101217;--surface:#171A21;--ink:#E8EAEF;--muted:#99A1B0;
+--rule:#262A33;--rule-soft:#1F232B;--accent:#E489AC;--ok:#63BE8E;--warn:#D9AE3F;--warn-soft:#2A2314;--off:#333845;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#101217;--surface:#171A21;--ink:#E8EAEF;--muted:#99A1B0;--rule:#262A33;--rule-soft:#1F232B;
+--accent:#E489AC;--ok:#63BE8E;--warn:#D9AE3F;--warn-soft:#2A2314;--off:#333845;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;margin:0;padding:0 16px 64px}
+.wrap{max-width:720px;margin:0 auto}
+a{color:inherit;text-decoration-color:var(--rule);text-underline-offset:3px}
+a:hover{text-decoration-color:var(--accent)}
+header{border-bottom:2px solid var(--ink);padding-block:40px 18px}
+.kicker,.tag,.lab,.num,.dateline,.tally,.fmt,.from,.stamp,.score-chip,.src,.script dt{font-family:var(--mono)}
+.kicker{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 10px}
+h1{font-family:var(--display);font-weight:600;font-size:clamp(2.1rem,7vw,3.1rem);line-height:1.05;letter-spacing:-.02em;margin:0}
+.dateline{font-size:12.5px;color:var(--muted);margin:10px 0 0}
+.tally{display:flex;flex-wrap:wrap;gap:0 22px;list-style:none;padding:0;margin:18px 0 0;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.tally b{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
+.standfirst{font-family:var(--display);font-size:1.18rem;line-height:1.5;color:var(--muted);border-bottom:1px solid var(--rule);padding-block:22px 26px;margin:0;max-width:60ch}
+.aviso{background:var(--warn-soft);border-left:3px solid var(--warn);padding:14px 18px;margin:24px 0 0;font-size:15px}
+article{border-bottom:1px solid var(--rule);padding-block:34px}
+.head{display:grid;grid-template-columns:auto 1fr;gap:0 16px;align-items:start}
+.num{font-size:12px;font-weight:600;color:var(--accent);padding-top:.45em;letter-spacing:.06em}
+h2{font-family:var(--display);font-weight:600;font-size:clamp(1.4rem,4.4vw,1.85rem);line-height:1.18;letter-spacing:-.015em;margin:0;text-wrap:balance;min-width:0}
+.scores{display:flex;flex-wrap:wrap;gap:14px 20px;margin:16px 0 20px;padding-block:12px;border-top:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft)}
+.lab{display:block;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+.bars{display:flex;gap:3px;align-items:center}
+.seg{width:13px;height:7px;background:var(--off);border-radius:1px}
+.seg.on{background:var(--accent)}
+.metric.flag .seg.on{background:var(--warn)}
+.val{font-family:var(--mono);font-size:11px;font-weight:600;color:var(--muted);margin-left:5px;font-variant-numeric:tabular-nums}
+.total{margin-left:auto;align-self:center;font-family:var(--mono);font-size:13px;font-weight:600;font-variant-numeric:tabular-nums}
+.total span{color:var(--muted);font-weight:400}
+p{margin:0 0 1em;max-width:62ch}
+.tag{font-size:10.5px;font-weight:600;letter-spacing:.11em;text-transform:uppercase;color:var(--accent);display:block;margin-bottom:4px}
+.angle{background:var(--surface);border-left:3px solid var(--accent);padding:16px 18px;margin-top:20px}
+.angle .line{font-family:var(--display);font-size:1.12rem;font-weight:600;margin:0;max-width:62ch}
+.srcs{list-style:none;padding:0;margin:18px 0 0;display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px}
+.src{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:4px}
+.ok{color:var(--ok)}
+article.unverified{background:var(--warn-soft);border-left:3px solid var(--warn);padding-inline:18px;margin-block:34px;border-bottom:none}
+.stamp{display:inline-block;font-size:10.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--warn);border:1px solid var(--warn);border-radius:2px;padding:3px 8px;margin-bottom:12px}
+article.unverified .num,article.unverified .tag{color:var(--warn)}
+article.unverified .seg.on{background:var(--warn)}
+h3{font-family:var(--display);font-size:1.5rem;font-weight:600;letter-spacing:-.01em;margin:0 0 6px}
+section{padding-block:36px;border-bottom:1px solid var(--rule)}
+.piece{border-top:1px solid var(--rule-soft);padding-block:26px}
+.piece:first-of-type{border-top:none;padding-top:20px}
+.piece-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin-bottom:14px}
+.fmt{font-size:10.5px;font-weight:600;letter-spacing:.11em;text-transform:uppercase;color:var(--surface);background:var(--accent);border-radius:2px;padding:3px 8px}
+.from{font-size:11px;color:var(--muted);letter-spacing:.04em}
+.piece h4{font-family:var(--display);font-size:1.2rem;font-weight:600;margin:0;width:100%;text-wrap:balance}
+.script{display:grid;grid-template-columns:auto 1fr;gap:10px 16px;margin:0;font-size:15px}
+.script dt{font-size:11.5px;font-weight:600;color:var(--accent);padding-top:.3em;white-space:nowrap}
+.script dd{margin:0;min-width:0}
+.onscreen{display:block;font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:3px}
+.slides{padding-left:1.4em;margin:0;display:grid;gap:10px}
+.slides li::marker{font-family:var(--mono);font-size:11px;font-weight:600;color:var(--accent)}
+.draft{background:var(--surface);border:1px solid var(--rule);padding:18px;margin:0;font-size:15.5px;white-space:pre-line;max-width:62ch}
+.qs{margin:0;padding-left:1.1em;max-width:62ch}
+.qs li{margin-bottom:.5em}
+.cut-list{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:16px}
+.cut-list li{display:grid;grid-template-columns:1fr auto;gap:4px 16px;align-items:baseline;padding-bottom:16px;border-bottom:1px solid var(--rule-soft)}
+.cut-list li:last-child{border-bottom:none;padding-bottom:0}
+.what{font-weight:600;min-width:0}
+.why{grid-column:1/-1;color:var(--muted);font-size:15px;max-width:62ch}
+.score-chip{font-size:10.5px;font-weight:600;letter-spacing:.06em;color:var(--muted);white-space:nowrap;border:1px solid var(--rule);border-radius:2px;padding:2px 7px}
+footer{padding-block:34px;color:var(--muted);font-size:14.5px}
+footer .tag{color:var(--muted)}
+.estado{list-style:none;padding:0;margin:0 0 1em;font-size:13.5px;columns:2;column-gap:24px}
+.estado li{break-inside:avoid}
+.archivo{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:6px 14px;font-family:var(--mono);font-size:12.5px}
+@media (max-width:460px){.head{grid-template-columns:1fr;gap:6px}.num{padding-top:0}.total{margin-left:0;width:100%}.estado{columns:1}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<p class="kicker">Brief editorial · Canal Mutuo</p>
+<h1>Radar</h1>
+<p class="dateline">Sábado 17 de octubre de 2026 · cierre 19:10 · Montevideo</p>
+<ul class="tally">
+<li><b>51</b> revisados</li>
+<li><b>2</b> publicables</li>
+<li><b>2</b> sin confirmar</li>
+<li><b>0</b> descartados con causa</li>
+</ul>
+</header>
+<p class="standfirst">Cada nota entra con su puntaje a la vista y su estado de verificación declarado. Lo que no se pudo confirmar no se esconde: se muestra marcado y queda fuera de lo publicable.</p>
+<p class="aviso">Hoy el modelo de lenguaje no respondió. Este brief se armó con el puntaje de respaldo, sin redacción ni piezas. La verificación de fuentes sí funcionó, porque no depende del modelo.</p>
+<article><div class="head"><span class="num">01</span><h2>How Itaú is building generative AI for its entire customer base</h2></div><div class="scores"><div class="metric"><span class="lab">Señal</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><span class="val">3/5</span></div></div><div class="metric"><span class="lab">Impacto</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><span class="val">2/5</span></div></div><div class="metric"><span class="lab">Conversación</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><span class="val">2/5</span></div></div><div class="metric"><span class="lab">Antihype</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><span class="val">3/5</span></div></div><div class="total">10<span>/20</span></div></div><p>With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.</p><p><span class="tag">Verificación</span><span class="ok">Fuente primaria: OpenAI.</span></p><ul class="srcs"><li><span class="src">oficial</span><a href="https://openai.com/index/itau-generative-ai" rel="noopener">OpenAI</a></li></ul></article><article class="unverified"><span class="stamp">Sin confirmar · no se publica</span><div class="head"><span class="num">02</span><h2>Meta removes language that raised scraping and AI training concerns</h2></div><div class="scores"><div class="metric"><span class="lab">Señal</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><span class="val">2/5</span></div></div><div class="metric"><span class="lab">Impacto</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><span class="val">2/5</span></div></div><div class="metric"><span class="lab">Conversación</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><span class="val">2/5</span></div></div><div class="metric flag"><span class="lab">Antihype</span><div class="bars"><i class="seg on"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><span class="val">1/5</span></div></div><div class="total">7<span>/20</span></div></div><p>A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.</p><p><span class="tag">Qué falta</span><span>Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.</span></p><div class="angle" style="background:transparent;border:none;padding-left:0"><span class="tag">Decisión</span><p>Queda en observación. Entra al brief cuando aparezca la fuente original o una segunda fuente independiente.</p></div><ul class="srcs"><li><span class="src">medio</span><a href="https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/" rel="noopener">TechCrunch</a></li></ul></article><article class="unverified"><span class="stamp">Sin confirmar · no se publica</span><div class="head"><span class="num">03</span><h2>Anthropic says its workforce has become less junior and is spending more time in meetings</h2></div><div class="scores"><div class="metric"><span class="lab">Señal</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><span class="val">2/5</span></div></div><div class="metric"><span class="lab">Impacto</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><span class="val">2/5</span></div></div><div class="metric"><span class="lab">Conversación</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><span class="val">2/5</span></div></div><div class="metric flag"><span class="lab">Antihype</span><div class="bars"><i class="seg on"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><span class="val">1/5</span></div></div><div class="total">7<span>/20</span></div></div><p>The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.</p><p><span class="tag">Qué falta</span><span>Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.</span></p><div class="angle" style="background:transparent;border:none;padding-left:0"><span class="tag">Decisión</span><p>Queda en observación. Entra al brief cuando aparezca la fuente original o una segunda fuente independiente.</p></div><ul class="srcs"><li><span class="src">medio</span><a href="https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/" rel="noopener">TechCrunch</a></li></ul></article><article><div class="head"><span class="num">04</span><h2>RTX Spark Ignites Global Celebration as New Windows PCs Arrive</h2></div><div class="scores"><div class="metric"><span class="lab">Señal</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><span class="val">3/5</span></div></div><div class="metric"><span class="lab">Impacto</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><span class="val">2/5</span></div></div><div class="metric"><span class="lab">Conversación</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><span class="val">2/5</span></div></div><div class="metric"><span class="lab">Antihype</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><span class="val">3/5</span></div></div><div class="total">10<span>/20</span></div></div><p>NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with […]</p><p><span class="tag">Verificación</span><span class="ok">Fuente primaria: NVIDIA.</span></p><ul class="srcs"><li><span class="src">oficial</span><a href="https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/" rel="noopener">NVIDIA</a></li></ul></article>
+
+
+<footer>
+<p><span class="tag">Cómo se armó</span>51 items de 11 fuentes, agrupados en 51 historias. Puntuados con una rúbrica de cuatro ejes —señal, impacto, conversación, antihype—. La verificación la decide el código, no el modelo: fuente primaria o dos medios independientes. Modelo usado: ninguno (modo respaldo).</p>
+<p>La máquina ordena, puntúa y justifica. Las decisiones editoriales y la redacción final son humanas.</p>
+<p><span class="tag">Estado de las fuentes</span></p>
+<ul class="estado"><li>✓ OpenAI · 1299</li><li>✓ Google AI · 20</li><li>✓ Google DeepMind · 100</li><li>✓ Hugging Face · 880</li><li>✗ Microsoft · no respondió</li><li>✓ NVIDIA · 18</li><li>✓ TechCrunch · 20</li><li>✓ The Verge · 10</li><li>✓ Ars Technica · 20</li><li>✗ VentureBeat · no respondió</li><li>✓ MIT Technology Review · 10</li><li>✓ Xataka · 26</li><li>✓ Hacker News · 20</li></ul>
+<p>2 fuente(s) no respondieron hoy. El brief se armó con las demás.</p>
+
+<p>Código abierto: <a href="https://github.com/federicoramos67/radar-mutuo">github.com/federicoramos67/radar-mutuo</a> · Hecho por Federico Ramos.</p>
+</footer>
+</div>
+</body>
+</html>

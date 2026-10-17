@@ -1,0 +1,204 @@
+{
+  "fecha": "2026-10-17T19:10:23.043131-03:00",
+  "revisados": 51,
+  "con_modelo": false,
+  "modelos": [],
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1299
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 880
+    },
+    {
+      "nombre": "Microsoft",
+      "tipo": "oficial",
+      "ok": false,
+      "error": "HTTPError"
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "VentureBeat",
+      "tipo": "medio",
+      "ok": false,
+      "error": "HTTPError"
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h01",
+      "titular": "How Itaú is building generative AI for its entire customer base",
+      "resumen": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "porque_importa": "",
+      "angulo": "",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/itau-generative-ai",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "titulo_original": "How Itaú is building generative AI for its entire customer base"
+    },
+    {
+      "id": "h02",
+      "titular": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+      "resumen": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with […]",
+      "porque_importa": "",
+      "angulo": "",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: NVIDIA.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "titulo_original": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h03",
+      "titular": "Meta removes language that raised scraping and AI training concerns",
+      "resumen": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+      "porque_importa": "",
+      "angulo": "",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "titulo_original": "Meta removes language that raised scraping and AI training concerns"
+    },
+    {
+      "id": "h04",
+      "titular": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "resumen": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+      "porque_importa": "",
+      "angulo": "",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "titulo_original": "Anthropic says its workforce has become less junior and is spending more time in meetings"
+    }
+  ],
+  "descartados": [],
+  "piezas": null
+}

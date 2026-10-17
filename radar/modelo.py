@@ -49,7 +49,13 @@ def _post(url, token, cuerpo, timeout=90):
     pedido = urllib.request.Request(
         url,
         data=json.dumps(cuerpo).encode(),
-        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json", "Accept": "application/json"},
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            # Sin esto, Cloudflare bloquea el identificador por defecto de Python (error 1010).
+            "User-Agent": "radar-mutuo/1.0 (+https://github.com/federicoramos67/radar-mutuo)",
+        },
         method="POST",
     )
     with urllib.request.urlopen(pedido, timeout=timeout) as r:

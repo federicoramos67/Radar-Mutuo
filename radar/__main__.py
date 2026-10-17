@@ -83,6 +83,7 @@ def correr(salida=SALIDA, descargador=fuentes.descargar, cliente=None, ahora=Non
         "con_modelo": con_modelo,
         "modelos": cliente.usados,
         "errores_modelo": cliente.errores[-10:],
+        "diagnostico": {"proveedores": [f"{n}:{mo}" for n, _, _, mo in cliente.proveedores], "pedidos": getattr(cliente, "llamadas", 0), "historias": len(grupos)},
         "fuentes": estado,
         "publicables": [_serializable(g) for g in publicables],
         "sin_confirmar": [_serializable(g) for g in sin_confirmar],

@@ -71,7 +71,9 @@ class Cliente:
         return bool(self.proveedores)
 
     def pedir_json(self, sistema, usuario, max_tokens=3000):
+        self.llamadas = getattr(self, "llamadas", 0) + 1
         if not self.proveedores:
+            self.errores.append("sin proveedores: no hay GITHUB_TOKEN ni GROQ_API_KEY")
             raise SinModelo("No hay GITHUB_TOKEN ni GROQ_API_KEY.")
         for nombre, url, token, modelo in list(self.proveedores):
             cuerpo = {

@@ -171,6 +171,24 @@ class PruebasModelo(unittest.TestCase):
         self.assertEqual(c.pedir_json("s", "u"), {"ok": True})
         self.assertEqual(c.usados, ["bueno (B)"])
 
+    def test_espera_y_reintenta_con_cuota_agotada(self):
+        esperas, intentos = [], []
+
+        def enviar(url, token, cuerpo):
+            intentos.append(1)
+            if len(intentos) == 1:
+                raise urllib.error.HTTPError(url, 429, "cuota", {"retry-after": "7"}, None)
+            return {"choices": [{"message": {"content": '{"ok": 1}'}}]}
+
+        c = Cliente(enviar=enviar, proveedores=[("A", "u", "t", "m")], esperar=esperas.append)
+        self.assertEqual(c.pedir_json("s", "u"), {"ok": 1})
+        self.assertEqual(esperas, [7.0])
+
+    def test_sin_key_avisa_en_la_pagina(self):
+        with tempfile.TemporaryDirectory() as d:
+            radar_main.correr(Path(d), descargador_falso, Cliente(proveedores=[]), AHORA, FUENTES_PRUEBA)
+            self.assertIn("Falta configurar la key", (Path(d) / "index.html").read_text())
+
     def test_sin_proveedores(self):
         with self.assertRaises(SinModelo):
             Cliente(proveedores=[]).pedir_json("s", "u")

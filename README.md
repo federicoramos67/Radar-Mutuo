@@ -37,7 +37,7 @@ Un modelo de lenguaje puede sonar seguro sin tener razón. Por eso el estado de 
 | Página | [`radar/pagina.py`](radar/pagina.py) |
 | Ejecución diaria | [`.github/workflows/radar.yml`](.github/workflows/radar.yml) |
 
-- **Costo cero.** Corre en GitHub Actions y usa GitHub Models con el token propio del repositorio, sin API keys. Si hay un secreto `GROQ_API_KEY`, Groq queda como respaldo.
+- **Costo cero.** Corre en GitHub Actions (gratis en repositorios públicos) y usa el plan gratuito de Groq (`openai/gpt-oss-120b`, con respaldo en Llama 3.3 70B). La key vive como secreto del repositorio, nunca en el código. Se puntúan las 30 historias más prometedoras del día, con pausas entre pedidos para respetar los límites del plan gratuito.
 - **Sin dependencias.** Usa solo la biblioteca estándar de Python.
 - **Tolerante a fallas.** Si una fuente se cae, sigue con las demás y lo informa en la página. Si el modelo no responde, igual publica con un puntaje de respaldo, avisa en la página y la verificación sigue funcionando.
 - **Probado.** Antes de cada edición corren las pruebas (`python -m unittest discover -s tests`). Si alguna falla, ese día no se publica nada.

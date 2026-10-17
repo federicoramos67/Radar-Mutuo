@@ -52,17 +52,14 @@ MAX_SIN_VERIFICAR = 2
 MAX_DESCARTADOS = 4
 
 # --- Modelos -----------------------------------------------------------------
-# GitHub Models: gratis desde GitHub Actions con el token propio del repositorio,
-# sin API key. Si uno falla o se queda sin cuota, se prueba el siguiente.
-GITHUB_MODELS_URL = "https://models.github.ai/inference/chat/completions"
-MODELOS_GITHUB = ["openai/gpt-4.1-mini", "openai/gpt-4o-mini", "openai/gpt-4.1"]
-
-# Respaldo opcional: si el repositorio tiene el secreto GROQ_API_KEY, se usa
-# cuando GitHub Models no responde. Si no existe, se saltea sin error.
+# Groq: plan gratuito, sin tarjeta. La key va como secreto GROQ_API_KEY del
+# repositorio, nunca en el código. Si un modelo falla, se prueba el siguiente.
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
-MODELOS_GROQ = ["llama-3.3-70b-versatile"]
+MODELOS_GROQ = ["openai/gpt-oss-120b", "llama-3.3-70b-versatile", "openai/gpt-oss-20b"]
 
-LOTE_PUNTAJE = 6  # historias por llamada; el plan gratuito limita el tamaño del pedido
+LOTE_PUNTAJE = 6       # historias por pedido
+MAX_HISTORIAS = 30     # se puntúan las 30 más prometedoras del día, para cuidar la cuota
+PAUSA_ENTRE_PEDIDOS = 6  # segundos; el plan gratuito limita tokens por minuto
 
 # --- Voz editorial -----------------------------------------------------------
 VOZ_MUTUO = """\

@@ -1,8 +1,6 @@
 """Cliente mínimo para modelos de lenguaje compatibles con la API de OpenAI.
 
-Proveedores, en orden:
-  1. GitHub Models (gratis dentro de GitHub Actions, usa el token del repositorio).
-  2. Groq, solo si existe la variable GROQ_API_KEY.
+Usa Groq (plan gratuito) con la key del secreto GROQ_API_KEY.
 Si un modelo falla (cuota, caída, respuesta rota) se pasa al siguiente.
 """
 
@@ -26,10 +24,6 @@ class SinModelo(Exception):
 
 def _proveedores():
     lista = []
-    token = os.environ.get("GITHUB_TOKEN")
-    if token:
-        for m in config.MODELOS_GITHUB:
-            lista.append(("GitHub Models", config.GITHUB_MODELS_URL, token, m))
     groq = os.environ.get("GROQ_API_KEY")
     if groq:
         for m in config.MODELOS_GROQ:
@@ -74,16 +68,20 @@ class Cliente:
         self.esperar = esperar
         self.usados = []  # para el pie de página: qué modelo hizo el trabajo
         self.errores = []
+        self.llamadas = 0
 
     @property
     def disponible(self):
         return bool(self.proveedores)
 
     def pedir_json(self, sistema, usuario, max_tokens=3000):
-        self.llamadas = getattr(self, "llamadas", 0) + 1
         if not self.proveedores:
-            self.errores.append("sin proveedores: no hay GITHUB_TOKEN ni GROQ_API_KEY")
-            raise SinModelo("No hay GITHUB_TOKEN ni GROQ_API_KEY.")
+            if "falta la key" not in self.errores:
+                self.errores.append("falta la key")
+            raise SinModelo("Falta el secreto GROQ_API_KEY.")
+        if self.llamadas:
+            self.esperar(config.PAUSA_ENTRE_PEDIDOS)
+        self.llamadas += 1
         for nombre, url, token, modelo in list(self.proveedores):
             cuerpo = {
                 "model": modelo,
@@ -92,7 +90,10 @@ class Cliente:
                 "max_tokens": max_tokens,
                 "response_format": {"type": "json_object"},
             }
-            for intento in range(2):
+            if "gpt-oss" in modelo:
+                cuerpo["reasoning_effort"] = "low"  # menos tokens pensando, más para la respuesta
+                cuerpo["max_tokens"] = max_tokens + 2000
+            for intento in range(3):
                 try:
                     r = self.enviar(url, token, cuerpo)
                     eleccion = r["choices"][0]
@@ -116,8 +117,12 @@ class Cliente:
                     except Exception:
                         detalle = ""
                     self.errores.append(f"{modelo}: HTTP {e.code} {detalle}".strip())
-                    if e.code == 429 and intento == 0:
-                        self.esperar(20)  # cuota por minuto: esperar y reintentar una vez
+                    if e.code == 429 and intento < 2:
+                        try:
+                            espera = float(e.headers.get("retry-after", 20))
+                        except (TypeError, ValueError, AttributeError):
+                            espera = 20
+                        self.esperar(min(max(espera, 5), 60))  # cuota por minuto: esperar y reintentar
                         continue
                     if e.code in (401, 403, 404, 413, 429):
                         break  # este modelo no va a funcionar hoy: probar el siguiente
@@ -126,4 +131,6 @@ class Cliente:
                         self.errores.append(f"{modelo}: {type(e).__name__} {e}"[:300])
                 if intento == 0:
                     self.esperar(3)
+                else:
+                    break
         raise SinModelo("; ".join(self.errores[-4:]))

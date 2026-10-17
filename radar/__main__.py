@@ -47,6 +47,11 @@ def correr(salida=SALIDA, descargador=fuentes.descargar, cliente=None, ahora=Non
     grupos = limpieza.agrupar(recientes)
     for g in grupos:
         g["verificacion"] = verificar(g)
+    # Se puntúan las más prometedoras: con más fuentes, con fuente primaria, más recientes.
+    def promesa(g):
+        fecha = max((i["fecha"] for i in g["items"] if i["fecha"]), default=None)
+        return (len({i["fuente"] for i in g["items"]}), g["verificacion"]["estado"] == "verificada", fecha.timestamp() if fecha else 0)
+    grupos = sorted(grupos, key=promesa, reverse=True)[: config.MAX_HISTORIAS]
     print(f"Historias: {len(grupos)} · verificadas: {sum(g['verificacion']['estado'] == 'verificada' for g in grupos)}")
 
     con_modelo = editor.puntuar(grupos, cliente) if grupos else False
@@ -72,6 +77,7 @@ def correr(salida=SALIDA, descargador=fuentes.descargar, cliente=None, ahora=Non
         "estado_fuentes": estado,
         "con_modelo": con_modelo,
         "modelos": cliente.usados,
+        "errores_modelo": cliente.errores,
         "archivo": anteriores,
     }
     (salida / "index.html").write_text(pagina.render(edicion, raiz=""), encoding="utf-8")
@@ -83,7 +89,7 @@ def correr(salida=SALIDA, descargador=fuentes.descargar, cliente=None, ahora=Non
         "con_modelo": con_modelo,
         "modelos": cliente.usados,
         "errores_modelo": cliente.errores[-10:],
-        "diagnostico": {"proveedores": [f"{n}:{mo}" for n, _, _, mo in cliente.proveedores], "pedidos": getattr(cliente, "llamadas", 0), "historias": len(grupos)},
+        "pedidos_al_modelo": cliente.llamadas,
         "fuentes": estado,
         "publicables": [_serializable(g) for g in publicables],
         "sin_confirmar": [_serializable(g) for g in sin_confirmar],

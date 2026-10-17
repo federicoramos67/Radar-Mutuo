@@ -229,7 +229,12 @@ def render(edicion, raiz=""):
     )
 
     aviso = ""
-    if not edicion["con_modelo"]:
+    if "falta la key" in (edicion.get("errores_modelo") or []):
+        aviso = (
+            '<p class="aviso">Falta configurar la key del modelo de lenguaje. Este brief se armó con el puntaje de respaldo, '
+            "sin redacción ni piezas. La verificación de fuentes sí funcionó, porque no depende del modelo.</p>"
+        )
+    elif not edicion["con_modelo"]:
         aviso = (
             '<p class="aviso">Hoy el modelo de lenguaje no respondió. Este brief se armó con el puntaje de respaldo, '
             "sin redacción ni piezas. La verificación de fuentes sí funcionó, porque no depende del modelo.</p>"

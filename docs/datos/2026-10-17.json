@@ -1,13 +1,11 @@
 {
-  "fecha": "2026-10-17T19:35:40.294147-03:00",
-  "revisados": 51,
+  "fecha": "2026-10-17T19:37:34.389946-03:00",
+  "revisados": 31,
   "con_modelo": true,
   "modelos": [
     "openai/gpt-oss-120b (Groq)"
   ],
-  "errores_modelo": [
-    "openai/gpt-oss-120b: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kjx9d28he2wbev383nccdrr2` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5645, Requested 2614. Please try again in 1.9425s"
-  ],
+  "errores_modelo": [],
   "pedidos_al_modelo": 5,
   "fuentes": [
     {
@@ -25,8 +23,8 @@
     {
       "nombre": "Google DeepMind",
       "tipo": "oficial",
-      "ok": false,
-      "error": "ParseError"
+      "ok": true,
+      "items": 100
     },
     {
       "nombre": "Hugging Face",
@@ -92,11 +90,11 @@
   "publicables": [],
   "sin_confirmar": [
     {
-      "id": "h34",
-      "titular": "Rusia equipa drones con motores a reacción",
-      "resumen": "Drones rusos alcanzan ~600 km/h con pequeños motores a reacción; Ucrania responde con torretas robotizadas.",
-      "porque_importa": "Acelera la carrera tecnológica en conflictos, implica nuevas amenazas para la vigilancia y la IA en defensa.",
-      "angulo": "Velocidad vs. detección: ¿Quién gana la guerra de los drones?",
+      "id": "h31",
+      "titular": "Gemini 4 Argon juega StarCraft en benchmark",
+      "resumen": "Se actualizó StarSkirmish Bench con resultados de modelos de OpenAI, Anthropic, Google y Muse jugando StarCraft BW.",
+      "porque_importa": "Desarrolladores de IA en LATAM pueden medir capacidades de sus modelos contra un estándar abierto.",
+      "angulo": "¿Qué tan cerca está la IA de dominar juegos de estrategia en tiempo real?",
       "formato": "post",
       "puntos": {
         "senal": 4,
@@ -107,159 +105,159 @@
       "total": 14,
       "verificacion": {
         "estado": "sin_confirmar",
-        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "motivo": "Solo aparece en Hacker News, que es un agregador. Falta un medio o la fuente original.",
         "fuentes": [
           {
-            "nombre": "Xataka",
-            "link": "https://www.xataka.com/magnet/rusia-puso-motores-a-reaccion-a-sus-drones-para-volar-a-600-km-h-respuesta-ucrania-ha-sido-darle-ojos-cerebro-a-ametralladora",
-            "tipo": "medio"
+            "nombre": "Hacker News",
+            "link": "https://starskirmish.com/bench/v0-2/",
+            "tipo": "comunidad"
           }
         ]
       },
       "descarte": "",
-      "titulo_original": "Rusia puso motores a reacción a sus drones para volar a 600 km/h: la respuesta de Ucrania ha sido darle ojos y cerebro a una ametralladora"
+      "titulo_original": "Show HN: Gemini 4 Argon plays StarCraft"
     },
     {
-      "id": "h14",
-      "titular": "Meta elimina cláusula que permitía raspar noticias para IA",
-      "resumen": "Tras críticas, Meta quitó del contrato la frase que le autorizaba a usar contenido de sitios, incluidas noticias, para entrenar su IA.",
-      "porque_importa": "Reafirma la presión de la comunidad de medios latinoamericanos para proteger su contenido frente a la IA de Meta.",
-      "angulo": "Una victoria parcial para el periodismo regional ante los gigantes tecnológicos.",
+      "id": "h30",
+      "titular": "Postgres 19 se retrasa por bugs detectados con IA",
+      "resumen": "Los revisores IA encontraron más fallas de las que humanos pueden arreglar y pospusieron la versión 19 de Postgres.",
+      "porque_importa": "Los desarrolladores uruguayos tendrán que esperar más para usar la nueva versión en sus infraestructuras.",
+      "angulo": "¿Vale la pena confiar en IA para auditorías críticas de bases de datos?",
       "formato": "post",
       "puntos": {
-        "senal": 3,
-        "impacto": 3,
-        "conversacion": 4,
-        "antihype": 3
+        "senal": 4,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
       },
-      "total": 13,
+      "total": 11,
       "verificacion": {
         "estado": "sin_confirmar",
-        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "motivo": "Solo aparece en Hacker News, que es un agregador. Falta un medio o la fuente original.",
         "fuentes": [
           {
-            "nombre": "The Verge",
-            "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
-            "tipo": "medio"
+            "nombre": "Hacker News",
+            "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+            "tipo": "comunidad"
           }
         ]
       },
       "descarte": "",
-      "titulo_original": "Meta removes language that may have allowed it to scrape news sites"
+      "titulo_original": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix"
     }
   ],
   "descartados": [
     {
-      "id": "h27",
-      "titular": "Tatuajes invisibles que aparecen bajo demanda",
-      "resumen": "Se presentó PhotoTat, una tinta fotocrómica que se vuelve visible bajo ciertas condiciones, pensada para ocultar o revelar diseños.",
-      "porque_importa": "Aún sin pruebas de uso real, no altera el trabajo de creativos hoy.",
-      "angulo": "Tecnología de tinta que suena más a truco que a herramienta.",
+      "id": "h20",
+      "titular": "IA diseña virus microscópicos",
+      "resumen": "Un estudiante de Stanford usó IA generativa para proponer planos genéticos de virus, según MIT Technology Review.",
+      "porque_importa": "Plantea dilemas éticos y de bioseguridad para investigadores y reguladores en la región.",
+      "angulo": "¿Hasta dónde llega la creatividad peligrosa de la IA?",
       "formato": "post",
       "puntos": {
-        "senal": 0,
-        "impacto": 0,
-        "conversacion": 2,
-        "antihype": 0
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 1
       },
-      "total": 2,
+      "total": 6,
       "verificacion": {
         "estado": "sin_confirmar",
-        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "motivo": "Solo lo publicó MIT Technology Review. Falta una segunda fuente independiente o el anuncio oficial.",
         "fuentes": [
           {
-            "nombre": "Xataka",
-            "link": "https://www.xataka.com/medicina-y-salud/tatuajes-invisibles-que-aparecen-cuando-tu-quieres-asi-funciona-phototat-tinta-fotocromica-ideal-para-entrevistas-trabajo-visitas-a-tu-abuela",
+            "nombre": "MIT Technology Review",
+            "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
             "tipo": "medio"
           }
         ]
       },
-      "descarte": "Falta evidencia, suena a hype sin datos.",
-      "titulo_original": "Tatuajes invisibles que aparecen cuando tú quieres: así funciona PhotoTat, la tinta fotocrómica ideal para entrevistas de trabajo y visitas a tu abuela"
+      "descarte": "Aún en fase preliminar; falta evidencia de aplicación real.",
+      "titulo_original": "Roundtables: A Conversation With the Creator of AI-Designed Viruses"
     },
     {
-      "id": "h04",
-      "titular": "Anthropic reporta menos personal junior",
-      "resumen": "Según TechCrunch, la plantilla de Anthropic ha envejecido y dedica más tiempo a reuniones que a desarrollo.",
-      "porque_importa": "Indica una posible ralentización de innovación en una empresa que compite en IA generativa, pero sin efecto directo local.",
-      "angulo": "¿Qué dice esto del ritmo de desarrollo de IA en startups latinoamericanas?",
+      "id": "h29",
+      "titular": "90 % del tiempo laboral no cubierto por IA",
+      "resumen": "Según un artículo citado, la mayor parte del trabajo en EE. UU. no se alinea con métricas de IA.",
+      "porque_importa": "Invita a replantear qué tareas pueden automatizarse en empresas uruguayas.",
+      "angulo": "¿Qué trabajos locales quedan fuera de la ola de IA?",
       "formato": "post",
       "puntos": {
         "senal": 1,
-        "impacto": 0,
-        "conversacion": 2,
+        "impacto": 2,
+        "conversacion": 3,
         "antihype": 1
       },
-      "total": 4,
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo aparece en Hacker News, que es un agregador. Falta un medio o la fuente original.",
+        "fuentes": [
+          {
+            "nombre": "Hacker News",
+            "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
+            "tipo": "comunidad"
+          }
+        ]
+      },
+      "descarte": "Falta fuente verificable y datos concretos, más rumor que hecho.",
+      "titulo_original": "90% of US working hours are spent on tasks not covered well by AI benchmarks"
+    },
+    {
+      "id": "h01",
+      "titular": "Itaú lanza IA generativa para clientes",
+      "resumen": "El banco brasileño despliega ia.i y la plataforma de gobernanza IARA para clientes y empleados, bajo su estrategia AI‑First.",
+      "porque_importa": "Puede inspirar a bancos uruguayos a probar IA en atención al cliente, aunque falta detalle de implementación.",
+      "angulo": "¿Cómo la regulación bancaria afecta la adopción de IA en la región?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/itau-generative-ai",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta información concreta sobre resultados o alcance.",
+      "titulo_original": "How Itaú is building generative AI for its entire customer base"
+    },
+    {
+      "id": "h07",
+      "titular": "Robótica aún en su era Lego, según ex‑Nvidia",
+      "resumen": "Amulya Vishwanath, ex‑Nvidia, afirma que la robótica carece de componentes básicos estandarizados y aún está en fase de construcción de bloques.",
+      "porque_importa": "Indica que startups latinoamericanas deben invertir en infraestructura básica antes de escalar.",
+      "angulo": "¿Cuándo llegará la ‘era ChatGPT’ a la robótica regional?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 10,
       "verificacion": {
         "estado": "sin_confirmar",
         "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
         "fuentes": [
           {
             "nombre": "TechCrunch",
-            "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+            "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
             "tipo": "medio"
           }
         ]
       },
-      "descarte": "Falta evidencia cuantitativa y relevancia regional.",
-      "titulo_original": "Anthropic says its workforce has become less junior and is spending more time in meetings"
-    },
-    {
-      "id": "h33",
-      "titular": "Pere Navarro critica sanciones de la DGT",
-      "resumen": "El director de la DGT dice que las multas son “por tonto” y no por exceso de velocidad.",
-      "porque_importa": "Genera debate sobre regulación y percepción pública, pero sin vínculo con creación digital.",
-      "angulo": "¿Hasta dónde llega la autoridad en la era de los datos de tráfico?",
-      "formato": "post",
-      "puntos": {
-        "senal": 1,
-        "impacto": 0,
-        "conversacion": 2,
-        "antihype": 1
-      },
-      "total": 4,
-      "verificacion": {
-        "estado": "sin_confirmar",
-        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
-        "fuentes": [
-          {
-            "nombre": "Xataka",
-            "link": "https://www.xataka.com/movilidad/pere-navarro-director-dgt-sanciones-no-exceso-velocidad-tonto",
-            "tipo": "medio"
-          }
-        ]
-      },
-      "descarte": "Falta de relevancia para IA o sector creativo.",
-      "titulo_original": "Pere Navarro, director de la DGT: \"Las sanciones no son tanto por el exceso de velocidad, son por tonto\""
-    },
-    {
-      "id": "h35",
-      "titular": "Casas de 9 000 € en Cuenca, pero con problemas",
-      "resumen": "Una joven compra una vivienda barata en un pueblo de Cuenca; la reforma será costosa y larga.",
-      "porque_importa": "Ilustra riesgos de inversiones inmobiliarias rápidas, útil para creativos que buscan espacios de trabajo fuera de la ciudad.",
-      "angulo": "¿Vale la pena mudarse a pueblos remotos para ahorrar?",
-      "formato": "post",
-      "puntos": {
-        "senal": 2,
-        "impacto": 2,
-        "conversacion": 2,
-        "antihype": 2
-      },
-      "total": 8,
-      "verificacion": {
-        "estado": "sin_confirmar",
-        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
-        "fuentes": [
-          {
-            "nombre": "Xataka",
-            "link": "https://www.xataka.com/magnet/posible-encontrar-casas-9-000-euros-pueblos-remotos-cuenca-verdadero-problema-llega-despues",
-            "tipo": "medio"
-          }
-        ]
-      },
-      "descarte": "Historia de nicho, poco vínculo con IA.",
-      "titulo_original": "Es posible encontrar casas por 9.000 euros en pueblos remotos de Cuenca. El verdadero problema llega después"
+      "descarte": "Poco concreto, sin ejemplos locales ni datos medibles.",
+      "titulo_original": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet"
     }
   ],
   "piezas": null

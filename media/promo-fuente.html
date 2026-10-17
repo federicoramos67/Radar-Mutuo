@@ -1,0 +1,161 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  :root{--bg:#000;--ink:#F2F2EE;--dim:#7d7d78;--amber:#E0A526;--rose:#E489AC;--line:#262626}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1080px;height:1920px;background:var(--bg);overflow:hidden;color:var(--ink);font-family:"DejaVu Sans",sans-serif}
+  .mono{font-family:"DejaVu Sans Mono",monospace}
+  #stage{position:relative;width:1080px;height:1920px}
+  .layer{position:absolute;inset:0;opacity:0}
+  .hud{position:absolute;left:72px;right:72px;font-size:26px;letter-spacing:.32em;color:var(--dim);display:flex;justify-content:space-between}
+  #top{top:80px}#bottom{bottom:80px}
+  .scan{position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(255,255,255,.035) 0 2px,transparent 2px 5px);pointer-events:none}
+  #noise{position:absolute;inset:0;pointer-events:none;mix-blend-mode:screen}
+  .big{position:absolute;left:72px;right:72px;font-weight:700;line-height:1.02;letter-spacing:-.02em}
+  .kick{font-size:28px;letter-spacing:.36em;color:var(--rose);margin-bottom:36px}
+  .wave{position:absolute;left:0;right:0}
+  .bar{display:flex;gap:10px;margin-top:14px}
+  .seg{width:86px;height:30px;background:#222}
+  .seg.on{background:var(--rose)}
+  .metric{margin-bottom:54px}
+  .metric .lab{font-size:30px;letter-spacing:.3em;color:var(--dim)}
+  .stamp{display:inline-block;white-space:nowrap;border:5px solid var(--amber);color:var(--amber);font-size:38px;letter-spacing:.14em;padding:22px 30px;font-weight:700}
+  .chip{display:inline-block;background:var(--rose);color:#000;font-size:44px;letter-spacing:.2em;padding:18px 30px;margin:0 0 26px;font-weight:700}
+  .src{font-size:40px;letter-spacing:.12em;color:var(--ink);line-height:1.55}
+  .src .ok{color:var(--rose)}
+</style></head>
+<body>
+<div id="stage">
+  <canvas id="noise" width="270" height="480" style="width:1080px;height:1920px;image-rendering:pixelated"></canvas>
+
+  <!-- Escena 1: ruido -->
+  <div class="layer" id="s1">
+    <div class="big" style="top:640px">
+      <div class="kick mono">01 / RUIDO</div>
+      <div style="font-size:118px">Cada día salen<br>cien novedades<br>de IA.</div>
+    </div>
+  </div>
+
+  <!-- Escena 2: criterio -->
+  <div class="layer" id="s2">
+    <div class="big" style="top:700px">
+      <div style="font-size:150px">Información<br>sobra.</div>
+      <div id="crit" style="font-size:150px;color:var(--rose);margin-top:30px">Criterio,<br>no.</div>
+    </div>
+  </div>
+
+  <!-- Escena 3: fuentes -->
+  <div class="layer" id="s3">
+    <div class="big" style="top:300px">
+      <div class="kick mono">02 / SEÑAL · 07:18</div>
+      <div style="font-size:104px;margin-bottom:60px">Radar lee<br><span id="count">0</span> fuentes<br>cada mañana.</div>
+      <div class="src mono" id="srcs"></div>
+    </div>
+  </div>
+
+  <!-- Escena 4: rúbrica -->
+  <div class="layer" id="s4">
+    <div class="big" style="top:330px">
+      <div class="kick mono">03 / RÚBRICA</div>
+      <div style="font-size:92px;margin-bottom:80px">Cada nota,<br>con su puntaje<br>a la vista.</div>
+      <div id="metrics"></div>
+    </div>
+  </div>
+
+  <!-- Escena 5: verificación -->
+  <div class="layer" id="s5">
+    <div class="big" style="top:520px">
+      <div class="kick mono">04 / VERIFICACIÓN</div>
+      <div id="stampwrap" style="margin-bottom:80px"><span class="stamp mono">SIN CONFIRMAR · NO SE PUBLICA</span></div>
+      <div style="font-size:92px">El modelo opina.<br><span style="color:var(--rose)">El código verifica.</span></div>
+      <div class="mono" style="font-size:34px;color:var(--dim);margin-top:60px;line-height:1.6;letter-spacing:.06em">Fuente primaria o dos medios<br>independientes. Si no, no sale.</div>
+    </div>
+  </div>
+
+  <!-- Escena 6: piezas -->
+  <div class="layer" id="s6">
+    <div class="big" style="top:380px">
+      <div class="kick mono">05 / PIEZAS</div>
+      <div style="font-size:96px;margin-bottom:80px">De la nota<br>a la pieza.</div>
+      <div id="chips"></div>
+      <div class="mono" style="font-size:34px;color:var(--dim);margin-top:50px;letter-spacing:.06em">En voseo. Listas para aprobar.</div>
+    </div>
+  </div>
+
+  <!-- Escena 7: cierre -->
+  <div class="layer" id="s7">
+    <div class="big" style="top:620px">
+      <div class="mono" style="font-size:210px;letter-spacing:.14em;font-weight:700" id="logo">RADAR</div>
+      <div style="font-size:72px;margin-top:40px">Del ruido al criterio.<br><span style="color:var(--rose)">Todos los días.</span></div>
+      <div class="mono" style="font-size:36px;color:var(--ink);margin-top:110px;letter-spacing:.04em">federicoramos67.github.io/radar-mutuo</div>
+      <div class="mono" style="font-size:26px;color:var(--dim);margin-top:24px;letter-spacing:.14em;white-space:nowrap">FEDERICO RAMOS · PARA CANAL MUTUO</div>
+    </div>
+  </div>
+
+  <svg class="wave" id="wave" style="top:1460px" width="1080" height="200" viewBox="0 0 1080 200"><path id="wpath" fill="none" stroke="#E489AC" stroke-width="3"/></svg>
+
+  <div class="hud mono" id="top"><span>TRANSMISIÓN · RADAR</span><span id="sig">SIG ▮▮▯▯▯</span></div>
+  <div class="hud mono" id="bottom"><span>LAT -34.90 · LON -56.16</span><span id="tc">00:00</span></div>
+  <div class="scan"></div>
+</div>
+
+<script>
+const SRC = ["OpenAI","Google AI","DeepMind","Hugging Face","Microsoft","NVIDIA","TechCrunch","The Verge","Ars Technica","VentureBeat","MIT Tech Review","Xataka","Hacker News"];
+const MET = [["SEÑAL",4],["IMPACTO",3],["CONVERSACIÓN",4],["ANTIHYPE",4]];
+const CHIPS = ["REEL · 40s","CARRUSEL","POST","HILO","OPENCAST"];
+// escenas: [inicio, fin] en segundos
+const SC = {s1:[0,3.6],s2:[3.6,7.2],s3:[7.2,12.6],s4:[12.6,18],s5:[18,23.4],s6:[23.4,27.6],s7:[27.6,32]};
+const DUR = 32;
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const ease=x=>1-Math.pow(1-clamp(x),3);
+function rnd(seed){let s=seed;return()=>{s=(s*16807)%2147483647;return s/2147483647}}
+
+const nctx=document.getElementById('noise').getContext('2d');
+function noise(t,amount){
+  const r=rnd(Math.floor(t*24)+7), img=nctx.createImageData(270,480);
+  for(let i=0;i<img.data.length;i+=4){const v=r()<amount?Math.floor(r()*255):0;img.data[i]=img.data[i+1]=img.data[i+2]=v;img.data[i+3]=v?90:0}
+  nctx.putImageData(img,0,0);
+}
+
+function render(t){
+  // capas: fundido de entrada y salida, leve subida
+  for(const [id,[a,b]] of Object.entries(SC)){
+    const el=document.getElementById(id);
+    const fi=ease((t-a)/0.45), fo=1-ease((t-(b-0.35))/0.35);
+    const o=(t<a||t>b)?0:Math.min(fi,id==='s7'?1:fo);
+    el.style.opacity=o; el.style.transform=`translateY(${(1-fi)*40}px)`;
+  }
+  // ruido fuerte al principio, se limpia con el criterio
+  const amt = t<3.6 ? 0.22 : t<4.4 ? 0.22*(1-(t-3.6)/0.8) : 0.012;
+  noise(t,amt);
+  // señal
+  const lvl = t<3.6?2:t<12.6?3:t<23.4?4:5;
+  document.getElementById('sig').textContent='SIG '+'▮'.repeat(lvl)+'▯'.repeat(5-lvl);
+  const s=Math.floor(t); document.getElementById('tc').textContent='00:'+String(s).padStart(2,'0');
+  // escena 2: "Criterio, no." aparece tarde
+  document.getElementById('crit').style.opacity=ease((t-5.0)/0.4);
+  // escena 3: contador y lista
+  const k=clamp((t-7.8)/3.6); const n=Math.round(k*13);
+  document.getElementById('count').textContent=n;
+  document.getElementById('srcs').innerHTML=SRC.slice(0,n).map((x,i)=>`<span class="ok">✓</span> ${x}${i%2?'<br>':'&nbsp;&nbsp;&nbsp;'}`).join('');
+  // escena 4: barras que se llenan
+  document.getElementById('metrics').innerHTML=MET.map(([lab,v],i)=>{
+    const fill=Math.round(clamp((t-13.4-i*0.55)/0.9)*v);
+    return `<div class="metric"><div class="lab mono">${lab} · ${fill}/5</div><div class="bar">${[1,2,3,4,5].map(j=>`<i class="seg${j<=fill?' on':''}"></i>`).join('')}</div></div>`}).join('');
+  // escena 5: sello que golpea
+  const st=clamp((t-18.5)/0.3); const sw=document.getElementById('stampwrap');
+  sw.style.opacity=st; sw.style.transform=`scale(${1.6-0.6*ease(st)}) rotate(${-4*(1-ease(st))-2}deg)`; sw.style.transformOrigin='left center';
+  // escena 6: chips
+  document.getElementById('chips').innerHTML=CHIPS.map((c,i)=>{const o=ease((t-24.2-i*0.35)/0.3);return `<span class="chip mono" style="opacity:${o};transform:translateX(${(1-o)*-60}px)">${c}</span><br>`}).join('');
+  // escena 7: glitch del logo en la entrada
+  const lg=document.getElementById('logo'); const g=t>27.6&&t<28.4;
+  lg.style.textShadow = g?`${Math.sin(t*90)*14}px 0 #E489AC, ${-Math.sin(t*70)*10}px 0 #E0A526`:'none';
+  // onda: amplitud según escena
+  const amp = t<3.6?70:t<7.2?70*(1-clamp((t-3.6)/2))+8:t>27.6?4:16;
+  let d='M0 100'; for(let x=0;x<=1080;x+=6){const y=100+Math.sin(x*0.035+t*6)*amp*0.6+Math.sin(x*0.11+t*11)*amp*(t<4.5?0.5:0.1);d+=` L${x} ${y.toFixed(1)}`}
+  document.getElementById('wpath').setAttribute('d',d);
+}
+window.render=render; window.DUR=DUR;
+render(0);
+</script>
+</body></html>

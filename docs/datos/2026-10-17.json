@@ -1,29 +1,12 @@
 {
-  "fecha": "2026-10-17T19:19:00.340267-03:00",
+  "fecha": "2026-10-17T19:22:14.802112-03:00",
   "revisados": 51,
   "con_modelo": false,
   "modelos": [],
   "errores_modelo": [
-    "openai/gpt-4o-mini: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
-    "openai/gpt-4o-mini: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
-    "openai/gpt-4.1: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
-    "openai/gpt-4.1: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
-    "openai/gpt-4.1-mini: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
-    "openai/gpt-4.1-mini: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
-    "openai/gpt-4o-mini: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
-    "openai/gpt-4o-mini: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
-    "openai/gpt-4.1: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'",
-    "openai/gpt-4.1: RespuestaRara HTTP 200 text/plain 4B: b'OK\\r\\n'"
+    "falta la key"
   ],
-  "diagnostico": {
-    "proveedores": [
-      "GitHub Models:openai/gpt-4.1-mini",
-      "GitHub Models:openai/gpt-4o-mini",
-      "GitHub Models:openai/gpt-4.1"
-    ],
-    "pedidos": 9,
-    "historias": 51
-  },
+  "pedidos_al_modelo": 0,
   "fuentes": [
     {
       "nombre": "OpenAI",
@@ -40,8 +23,8 @@
     {
       "nombre": "Google DeepMind",
       "tipo": "oficial",
-      "ok": false,
-      "error": "ParseError"
+      "ok": true,
+      "items": 100
     },
     {
       "nombre": "Hugging Face",
@@ -106,34 +89,6 @@
   ],
   "publicables": [
     {
-      "id": "h01",
-      "titular": "How Itaú is building generative AI for its entire customer base",
-      "resumen": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-      "porque_importa": "",
-      "angulo": "",
-      "formato": "post",
-      "puntos": {
-        "senal": 3,
-        "impacto": 2,
-        "conversacion": 2,
-        "antihype": 3
-      },
-      "total": 10,
-      "verificacion": {
-        "estado": "verificada",
-        "motivo": "Fuente primaria: OpenAI.",
-        "fuentes": [
-          {
-            "nombre": "OpenAI",
-            "link": "https://openai.com/index/itau-generative-ai",
-            "tipo": "oficial"
-          }
-        ]
-      },
-      "descarte": "",
-      "titulo_original": "How Itaú is building generative AI for its entire customer base"
-    },
-    {
       "id": "h02",
       "titular": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
       "resumen": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with […]",
@@ -160,6 +115,34 @@
       },
       "descarte": "",
       "titulo_original": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive"
+    },
+    {
+      "id": "h01",
+      "titular": "How Itaú is building generative AI for its entire customer base",
+      "resumen": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "porque_importa": "",
+      "angulo": "",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/itau-generative-ai",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "titulo_original": "How Itaú is building generative AI for its entire customer base"
     }
   ],
   "sin_confirmar": [

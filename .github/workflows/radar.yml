@@ -9,7 +9,7 @@ on:
     paths: ["radar/**", "tests/**", ".github/workflows/**"]
 
 permissions:
-  contents: write   # guardar la edición y publicar la página
+  contents: write   # guardar la edición y publicar la página (rama gh-pages)
 
 concurrency:
   group: radar

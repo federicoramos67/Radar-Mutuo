@@ -1,12 +1,12 @@
 {
-  "fecha": "2026-10-17T19:37:34.389946-03:00",
+  "fecha": "2026-10-17T19:39:42.283853-03:00",
   "revisados": 31,
   "con_modelo": true,
   "modelos": [
     "openai/gpt-oss-120b (Groq)"
   ],
   "errores_modelo": [],
-  "pedidos_al_modelo": 5,
+  "pedidos_al_modelo": 6,
   "fuentes": [
     {
       "nombre": "OpenAI",
@@ -87,106 +87,107 @@
       "items": 20
     }
   ],
-  "publicables": [],
+  "publicables": [
+    {
+      "id": "h01",
+      "titular": "Itaú despliega IA generativa para clientes",
+      "resumen": "El banco brasileño usa ia.i y la plataforma de gobernanza IARA para ofrecer IA a clientes y empleados, bajo su estrategia AI‑First.",
+      "porque_importa": "Podría abrir la puerta a servicios financieros con IA en Uruguay y la región, aunque la regulación sigue siendo un obstáculo.",
+      "angulo": "¿Cómo la banca latinoamericana adopta IA sin romper la normativa?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/itau-generative-ai",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "titulo_original": "How Itaú is building generative AI for its entire customer base"
+    }
+  ],
   "sin_confirmar": [
     {
-      "id": "h31",
-      "titular": "Gemini 4 Argon juega StarCraft en benchmark",
-      "resumen": "Se actualizó StarSkirmish Bench con resultados de modelos de OpenAI, Anthropic, Google y Muse jugando StarCraft BW.",
-      "porque_importa": "Desarrolladores de IA en LATAM pueden medir capacidades de sus modelos contra un estándar abierto.",
-      "angulo": "¿Qué tan cerca está la IA de dominar juegos de estrategia en tiempo real?",
+      "id": "h17",
+      "titular": "Meta podrá entrenar IA con contenidos de noticias sin pagar",
+      "resumen": "Meta incluye en sus términos, vigentes desde el 30 octubre, permiso para rastrear y usar contenidos de sitios asociados, incluidos medios de comunicación.",
+      "porque_importa": "Los editores uruguayos podrían perder ingresos por su contenido usado en modelos de IA.",
+      "angulo": "¿Hasta dónde llega la extracción de datos sin compensar a los creadores?",
       "formato": "post",
       "puntos": {
         "senal": 4,
         "impacto": 3,
         "conversacion": 4,
-        "antihype": 3
+        "antihype": 4
       },
-      "total": 14,
+      "total": 15,
       "verificacion": {
         "estado": "sin_confirmar",
-        "motivo": "Solo aparece en Hacker News, que es un agregador. Falta un medio o la fuente original.",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
         "fuentes": [
           {
-            "nombre": "Hacker News",
-            "link": "https://starskirmish.com/bench/v0-2/",
-            "tipo": "comunidad"
-          }
-        ]
-      },
-      "descarte": "",
-      "titulo_original": "Show HN: Gemini 4 Argon plays StarCraft"
-    },
-    {
-      "id": "h30",
-      "titular": "Postgres 19 se retrasa por bugs detectados con IA",
-      "resumen": "Los revisores IA encontraron más fallas de las que humanos pueden arreglar y pospusieron la versión 19 de Postgres.",
-      "porque_importa": "Los desarrolladores uruguayos tendrán que esperar más para usar la nueva versión en sus infraestructuras.",
-      "angulo": "¿Vale la pena confiar en IA para auditorías críticas de bases de datos?",
-      "formato": "post",
-      "puntos": {
-        "senal": 4,
-        "impacto": 2,
-        "conversacion": 3,
-        "antihype": 2
-      },
-      "total": 11,
-      "verificacion": {
-        "estado": "sin_confirmar",
-        "motivo": "Solo aparece en Hacker News, que es un agregador. Falta un medio o la fuente original.",
-        "fuentes": [
-          {
-            "nombre": "Hacker News",
-            "link": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
-            "tipo": "comunidad"
-          }
-        ]
-      },
-      "descarte": "",
-      "titulo_original": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix"
-    }
-  ],
-  "descartados": [
-    {
-      "id": "h20",
-      "titular": "IA diseña virus microscópicos",
-      "resumen": "Un estudiante de Stanford usó IA generativa para proponer planos genéticos de virus, según MIT Technology Review.",
-      "porque_importa": "Plantea dilemas éticos y de bioseguridad para investigadores y reguladores en la región.",
-      "angulo": "¿Hasta dónde llega la creatividad peligrosa de la IA?",
-      "formato": "post",
-      "puntos": {
-        "senal": 1,
-        "impacto": 1,
-        "conversacion": 3,
-        "antihype": 1
-      },
-      "total": 6,
-      "verificacion": {
-        "estado": "sin_confirmar",
-        "motivo": "Solo lo publicó MIT Technology Review. Falta una segunda fuente independiente o el anuncio oficial.",
-        "fuentes": [
-          {
-            "nombre": "MIT Technology Review",
-            "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
             "tipo": "medio"
           }
         ]
       },
-      "descarte": "Aún en fase preliminar; falta evidencia de aplicación real.",
-      "titulo_original": "Roundtables: A Conversation With the Creator of AI-Designed Viruses"
+      "descarte": "",
+      "titulo_original": "Meta’s new terms may allow it to train AI on news sites for free"
     },
     {
+      "id": "h14",
+      "titular": "Meta elimina cláusula para scrapeo de noticias",
+      "resumen": "Tras la polémica, Meta retira del contrato la frase que permitía usar contenidos de sitios, entre ellos medios de prensa, para entrenar su IA.",
+      "porque_importa": "Se abre la puerta a que los medios negocien su uso futuro con plataformas.",
+      "angulo": "¿Es suficiente la corrección o sigue la captura de datos?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "titulo_original": "Meta removes language that may have allowed it to scrape news sites"
+    }
+  ],
+  "descartados": [
+    {
       "id": "h29",
-      "titular": "90 % del tiempo laboral no cubierto por IA",
-      "resumen": "Según un artículo citado, la mayor parte del trabajo en EE. UU. no se alinea con métricas de IA.",
-      "porque_importa": "Invita a replantear qué tareas pueden automatizarse en empresas uruguayas.",
-      "angulo": "¿Qué trabajos locales quedan fuera de la ola de IA?",
+      "titular": "90% del tiempo laboral US no cubierto por IA",
+      "resumen": "Según un artículo enlazado en Hacker News, la mayor parte del trabajo en EE.UU. no encaja en los benchmarks de IA.",
+      "porque_importa": "Invita a reflexionar sobre qué tareas reales pueden automatizarse en la región.",
+      "angulo": "¿Cuánto de tu jornada podría delegarse a una IA?",
       "formato": "post",
       "puntos": {
         "senal": 1,
-        "impacto": 2,
+        "impacto": 3,
         "conversacion": 3,
-        "antihype": 1
+        "antihype": 0
       },
       "total": 7,
       "verificacion": {
@@ -200,65 +201,167 @@
           }
         ]
       },
-      "descarte": "Falta fuente verificable y datos concretos, más rumor que hecho.",
+      "descarte": "Falta estudio propio, solo repost de comunidad.",
       "titulo_original": "90% of US working hours are spent on tasks not covered well by AI benchmarks"
     },
     {
-      "id": "h01",
-      "titular": "Itaú lanza IA generativa para clientes",
-      "resumen": "El banco brasileño despliega ia.i y la plataforma de gobernanza IARA para clientes y empleados, bajo su estrategia AI‑First.",
-      "porque_importa": "Puede inspirar a bancos uruguayos a probar IA en atención al cliente, aunque falta detalle de implementación.",
-      "angulo": "¿Cómo la regulación bancaria afecta la adopción de IA en la región?",
+      "id": "h23",
+      "titular": "ChatGPT sigue liderando, pero el panorama IA se diversifica",
+      "resumen": "Un año después del lanzamiento, OpenAI mantiene la posición dominante, aunque aparecen cientos de competidores y demandas relacionadas con entrenamientos masivos.",
+      "porque_importa": "Muestra la presión competitiva que enfrentan startups latinoamericanas en IA.",
+      "angulo": "¿El dominio de ChatGPT está realmente asegurado?",
       "formato": "post",
       "puntos": {
-        "senal": 3,
-        "impacto": 3,
-        "conversacion": 3,
-        "antihype": 2
-      },
-      "total": 11,
-      "verificacion": {
-        "estado": "verificada",
-        "motivo": "Fuente primaria: OpenAI.",
-        "fuentes": [
-          {
-            "nombre": "OpenAI",
-            "link": "https://openai.com/index/itau-generative-ai",
-            "tipo": "oficial"
-          }
-        ]
-      },
-      "descarte": "Falta información concreta sobre resultados o alcance.",
-      "titulo_original": "How Itaú is building generative AI for its entire customer base"
-    },
-    {
-      "id": "h07",
-      "titular": "Robótica aún en su era Lego, según ex‑Nvidia",
-      "resumen": "Amulya Vishwanath, ex‑Nvidia, afirma que la robótica carece de componentes básicos estandarizados y aún está en fase de construcción de bloques.",
-      "porque_importa": "Indica que startups latinoamericanas deben invertir en infraestructura básica antes de escalar.",
-      "angulo": "¿Cuándo llegará la ‘era ChatGPT’ a la robótica regional?",
-      "formato": "post",
-      "puntos": {
-        "senal": 3,
+        "senal": 2,
         "impacto": 2,
         "conversacion": 3,
         "antihype": 2
       },
-      "total": 10,
+      "total": 9,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/robotica-e-ia/chatgpt-sigue-siendo-rey-no-intocable-asi-ha-cambiado-mapa-ia-ano",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Resumen genérico, poco nuevo.",
+      "titulo_original": "ChatGPT sigue siendo el rey, pero ya no es tan intocable: así ha cambiado el mapa de la IA en un año"
+    },
+    {
+      "id": "h03",
+      "titular": "Meta modifica términos de rastreo web",
+      "resumen": "Meta dijo que la actualización de sus términos no cambia la forma en que la empresa rastrea la web para entrenar IA.",
+      "porque_importa": "Los creadores de contenido uruguayos siguen sin claridad sobre cómo se usan sus datos en los modelos de Meta.",
+      "angulo": "¿Meta realmente protege o sigue alimentando sus modelos con nuestro contenido?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
       "verificacion": {
         "estado": "sin_confirmar",
         "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
         "fuentes": [
           {
             "nombre": "TechCrunch",
-            "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+            "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
             "tipo": "medio"
           }
         ]
       },
-      "descarte": "Poco concreto, sin ejemplos locales ni datos medibles.",
-      "titulo_original": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet"
+      "descarte": "Sin evidencia de cambio real, solo discurso corporativo.",
+      "titulo_original": "Meta removes language that raised scraping and AI training concerns"
+    },
+    {
+      "id": "h04",
+      "titular": "Anthropic reporta menos junior y más reuniones",
+      "resumen": "Según TechCrunch, la plantilla de Anthropic ha envejecido y dedica más tiempo a reuniones que a desarrollo.",
+      "porque_importa": "Indica que los equipos de IA en la región podrían enfrentar estructuras similares, con menos foco en producción.",
+      "angulo": "¿Las startups de IA están perdiendo agilidad por la burocracia interna?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos vagos, sin cifras ni impacto directo.",
+      "titulo_original": "Anthropic says its workforce has become less junior and is spending more time in meetings"
     }
   ],
-  "piezas": null
+  "piezas": {
+    "reel": {
+      "nota": "h01",
+      "titulo": "Itaú lleva IA generativa a la banca",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "Itaú lanzó IA generativa para clientes y empleados",
+          "pantalla": "Logo de Itaú y animación de IA"
+        },
+        {
+          "t": "0:07",
+          "texto": "Usa la plataforma de gobernanza IARA y la herramienta ia.i",
+          "pantalla": "Pantalla de la plataforma IARA"
+        },
+        {
+          "t": "0:14",
+          "texto": "Todo bajo su estrategia AI‑First",
+          "pantalla": "Texto “AI‑First” con fondo corporativo"
+        },
+        {
+          "t": "0:21",
+          "texto": "¿Qué implica para Uruguay y la región?",
+          "pantalla": "Mapa de Uruguay y países vecinos"
+        },
+        {
+          "t": "0:28",
+          "texto": "Podría abrir servicios financieros con IA, pero la regulación sigue siendo un obstáculo",
+          "pantalla": "Balanza de regulación y símbolos de IA"
+        },
+        {
+          "t": "0:35",
+          "texto": "La banca latinoamericana avanza, pero sin romper normas",
+          "pantalla": "Imagen de un cajero con holograma de IA"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h01",
+      "titulo": "Itaú y la IA generativa en la banca latinoamericana",
+      "placas": [
+        "Itaú despliega IA generativa para clientes y empleados",
+        "La solución combina ia.i y la plataforma de gobernanza IARA",
+        "Todo bajo la estrategia AI‑First del banco",
+        "Puede abrir la puerta a servicios financieros con IA en Uruguay",
+        "La regulación sigue siendo el mayor obstáculo",
+        "¿Cómo adoptará la banca regional sin romper normas?"
+      ]
+    },
+    "post": {
+      "nota": "h01",
+      "titulo": "Itaú lleva IA generativa a la banca latinoamericana",
+      "texto": "Itaú anunció que sus clientes y empleados ya pueden usar IA generativa a través de ia.i y la plataforma de gobernanza IARA.\n\nEsta movida forma parte de su estrategia AI‑First, que busca integrar la inteligencia artificial en todos los procesos.\n\nPara Uruguay y el resto de la región, el paso abre la posibilidad de servicios financieros impulsados por IA, pero la regulación todavía pone freno.\n\nLa pregunta que queda es: ¿cómo adoptará la banca latinoamericana estas tecnologías sin cruzar la línea normativa?"
+    },
+    "hilo": {
+      "nota": "h01",
+      "titulo": "IA generativa en la banca: el caso Itaú",
+      "partes": [
+        "Itaú lanzó IA generativa para clientes y empleados, usando ia.i y la plataforma IARA.",
+        "La iniciativa está alineada con su estrategia AI‑First, que busca que la IA sea central en la operación del banco.",
+        "Para Uruguay, esto podría significar nuevos productos financieros basados en IA, aunque la regulación sigue siendo un reto.",
+        "La banca latinoamericana avanza, pero ¿cómo equilibrar innovación y cumplimiento normativo?"
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h01"
+      ],
+      "preguntas": [
+        "¿Qué riesgos regulatorios ve Itaú al ofrecer IA generativa a clientes?",
+        "¿Cómo afecta la adopción de IA a la relación entre bancos y usuarios en Uruguay?",
+        "¿Qué barreras técnicas y de datos existen para replicar este modelo en otras instituciones de la región?"
+      ]
+    }
+  }
 }

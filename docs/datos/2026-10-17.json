@@ -1,19 +1,12 @@
 {
-  "fecha": "2026-10-17T19:34:29.158774-03:00",
+  "fecha": "2026-10-17T19:35:40.294147-03:00",
   "revisados": 51,
-  "con_modelo": false,
-  "modelos": [],
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
   "errores_modelo": [
-    "openai/gpt-oss-20b: HTTP 403 {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\",\"title\":\"Error 1010: Access denied\",\"status\":403,\"detail\":\"The site owner has blocked access based on your browser's si",
-    "openai/gpt-oss-120b: HTTP 403 {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\",\"title\":\"Error 1010: Access denied\",\"status\":403,\"detail\":\"The site owner has blocked access based on your browser's si",
-    "llama-3.3-70b-versatile: HTTP 403 {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\",\"title\":\"Error 1010: Access denied\",\"status\":403,\"detail\":\"The site owner has blocked access based on your browser's si",
-    "openai/gpt-oss-20b: HTTP 403 {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\",\"title\":\"Error 1010: Access denied\",\"status\":403,\"detail\":\"The site owner has blocked access based on your browser's si",
-    "openai/gpt-oss-120b: HTTP 403 {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\",\"title\":\"Error 1010: Access denied\",\"status\":403,\"detail\":\"The site owner has blocked access based on your browser's si",
-    "llama-3.3-70b-versatile: HTTP 403 {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\",\"title\":\"Error 1010: Access denied\",\"status\":403,\"detail\":\"The site owner has blocked access based on your browser's si",
-    "openai/gpt-oss-20b: HTTP 403 {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\",\"title\":\"Error 1010: Access denied\",\"status\":403,\"detail\":\"The site owner has blocked access based on your browser's si",
-    "openai/gpt-oss-120b: HTTP 403 {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\",\"title\":\"Error 1010: Access denied\",\"status\":403,\"detail\":\"The site owner has blocked access based on your browser's si",
-    "llama-3.3-70b-versatile: HTTP 403 {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\",\"title\":\"Error 1010: Access denied\",\"status\":403,\"detail\":\"The site owner has blocked access based on your browser's si",
-    "openai/gpt-oss-20b: HTTP 403 {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1010/\",\"title\":\"Error 1010: Access denied\",\"status\":403,\"detail\":\"The site owner has blocked access based on your browser's si"
+    "openai/gpt-oss-120b: HTTP 429 {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kjx9d28he2wbev383nccdrr2` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5645, Requested 2614. Please try again in 1.9425s"
   ],
   "pedidos_al_modelo": 5,
   "fuentes": [
@@ -32,8 +25,8 @@
     {
       "nombre": "Google DeepMind",
       "tipo": "oficial",
-      "ok": true,
-      "items": 100
+      "ok": false,
+      "error": "ParseError"
     },
     {
       "nombre": "Hugging Face",
@@ -96,107 +89,108 @@
       "items": 20
     }
   ],
-  "publicables": [
-    {
-      "id": "h02",
-      "titular": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
-      "resumen": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with […]",
-      "porque_importa": "",
-      "angulo": "",
-      "formato": "post",
-      "puntos": {
-        "senal": 3,
-        "impacto": 2,
-        "conversacion": 2,
-        "antihype": 3
-      },
-      "total": 10,
-      "verificacion": {
-        "estado": "verificada",
-        "motivo": "Fuente primaria: NVIDIA.",
-        "fuentes": [
-          {
-            "nombre": "NVIDIA",
-            "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
-            "tipo": "oficial"
-          }
-        ]
-      },
-      "descarte": "",
-      "titulo_original": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive"
-    },
-    {
-      "id": "h01",
-      "titular": "How Itaú is building generative AI for its entire customer base",
-      "resumen": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-      "porque_importa": "",
-      "angulo": "",
-      "formato": "post",
-      "puntos": {
-        "senal": 3,
-        "impacto": 2,
-        "conversacion": 2,
-        "antihype": 3
-      },
-      "total": 10,
-      "verificacion": {
-        "estado": "verificada",
-        "motivo": "Fuente primaria: OpenAI.",
-        "fuentes": [
-          {
-            "nombre": "OpenAI",
-            "link": "https://openai.com/index/itau-generative-ai",
-            "tipo": "oficial"
-          }
-        ]
-      },
-      "descarte": "",
-      "titulo_original": "How Itaú is building generative AI for its entire customer base"
-    }
-  ],
+  "publicables": [],
   "sin_confirmar": [
     {
-      "id": "h03",
-      "titular": "Meta removes language that raised scraping and AI training concerns",
-      "resumen": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
-      "porque_importa": "",
-      "angulo": "",
+      "id": "h34",
+      "titular": "Rusia equipa drones con motores a reacción",
+      "resumen": "Drones rusos alcanzan ~600 km/h con pequeños motores a reacción; Ucrania responde con torretas robotizadas.",
+      "porque_importa": "Acelera la carrera tecnológica en conflictos, implica nuevas amenazas para la vigilancia y la IA en defensa.",
+      "angulo": "Velocidad vs. detección: ¿Quién gana la guerra de los drones?",
       "formato": "post",
       "puntos": {
-        "senal": 2,
-        "impacto": 2,
-        "conversacion": 2,
-        "antihype": 1
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 3
       },
-      "total": 7,
+      "total": 14,
       "verificacion": {
         "estado": "sin_confirmar",
-        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
         "fuentes": [
           {
-            "nombre": "TechCrunch",
-            "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/magnet/rusia-puso-motores-a-reaccion-a-sus-drones-para-volar-a-600-km-h-respuesta-ucrania-ha-sido-darle-ojos-cerebro-a-ametralladora",
             "tipo": "medio"
           }
         ]
       },
       "descarte": "",
-      "titulo_original": "Meta removes language that raised scraping and AI training concerns"
+      "titulo_original": "Rusia puso motores a reacción a sus drones para volar a 600 km/h: la respuesta de Ucrania ha sido darle ojos y cerebro a una ametralladora"
+    },
+    {
+      "id": "h14",
+      "titular": "Meta elimina cláusula que permitía raspar noticias para IA",
+      "resumen": "Tras críticas, Meta quitó del contrato la frase que le autorizaba a usar contenido de sitios, incluidas noticias, para entrenar su IA.",
+      "porque_importa": "Reafirma la presión de la comunidad de medios latinoamericanos para proteger su contenido frente a la IA de Meta.",
+      "angulo": "Una victoria parcial para el periodismo regional ante los gigantes tecnológicos.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 3
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "titulo_original": "Meta removes language that may have allowed it to scrape news sites"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h27",
+      "titular": "Tatuajes invisibles que aparecen bajo demanda",
+      "resumen": "Se presentó PhotoTat, una tinta fotocrómica que se vuelve visible bajo ciertas condiciones, pensada para ocultar o revelar diseños.",
+      "porque_importa": "Aún sin pruebas de uso real, no altera el trabajo de creativos hoy.",
+      "angulo": "Tecnología de tinta que suena más a truco que a herramienta.",
+      "formato": "post",
+      "puntos": {
+        "senal": 0,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 0
+      },
+      "total": 2,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/medicina-y-salud/tatuajes-invisibles-que-aparecen-cuando-tu-quieres-asi-funciona-phototat-tinta-fotocromica-ideal-para-entrevistas-trabajo-visitas-a-tu-abuela",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta evidencia, suena a hype sin datos.",
+      "titulo_original": "Tatuajes invisibles que aparecen cuando tú quieres: así funciona PhotoTat, la tinta fotocrómica ideal para entrevistas de trabajo y visitas a tu abuela"
     },
     {
       "id": "h04",
-      "titular": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-      "resumen": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
-      "porque_importa": "",
-      "angulo": "",
+      "titular": "Anthropic reporta menos personal junior",
+      "resumen": "Según TechCrunch, la plantilla de Anthropic ha envejecido y dedica más tiempo a reuniones que a desarrollo.",
+      "porque_importa": "Indica una posible ralentización de innovación en una empresa que compite en IA generativa, pero sin efecto directo local.",
+      "angulo": "¿Qué dice esto del ritmo de desarrollo de IA en startups latinoamericanas?",
       "formato": "post",
       "puntos": {
-        "senal": 2,
-        "impacto": 2,
+        "senal": 1,
+        "impacto": 0,
         "conversacion": 2,
         "antihype": 1
       },
-      "total": 7,
+      "total": 4,
       "verificacion": {
         "estado": "sin_confirmar",
         "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
@@ -208,10 +202,65 @@
           }
         ]
       },
-      "descarte": "",
+      "descarte": "Falta evidencia cuantitativa y relevancia regional.",
       "titulo_original": "Anthropic says its workforce has become less junior and is spending more time in meetings"
+    },
+    {
+      "id": "h33",
+      "titular": "Pere Navarro critica sanciones de la DGT",
+      "resumen": "El director de la DGT dice que las multas son “por tonto” y no por exceso de velocidad.",
+      "porque_importa": "Genera debate sobre regulación y percepción pública, pero sin vínculo con creación digital.",
+      "angulo": "¿Hasta dónde llega la autoridad en la era de los datos de tráfico?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/movilidad/pere-navarro-director-dgt-sanciones-no-exceso-velocidad-tonto",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de relevancia para IA o sector creativo.",
+      "titulo_original": "Pere Navarro, director de la DGT: \"Las sanciones no son tanto por el exceso de velocidad, son por tonto\""
+    },
+    {
+      "id": "h35",
+      "titular": "Casas de 9 000 € en Cuenca, pero con problemas",
+      "resumen": "Una joven compra una vivienda barata en un pueblo de Cuenca; la reforma será costosa y larga.",
+      "porque_importa": "Ilustra riesgos de inversiones inmobiliarias rápidas, útil para creativos que buscan espacios de trabajo fuera de la ciudad.",
+      "angulo": "¿Vale la pena mudarse a pueblos remotos para ahorrar?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/magnet/posible-encontrar-casas-9-000-euros-pueblos-remotos-cuenca-verdadero-problema-llega-despues",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Historia de nicho, poco vínculo con IA.",
+      "titulo_original": "Es posible encontrar casas por 9.000 euros en pueblos remotos de Cuenca. El verdadero problema llega después"
     }
   ],
-  "descartados": [],
   "piezas": null
 }

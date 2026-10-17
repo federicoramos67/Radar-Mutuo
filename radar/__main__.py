@@ -82,6 +82,7 @@ def correr(salida=SALIDA, descargador=fuentes.descargar, cliente=None, ahora=Non
         "revisados": len(recientes),
         "con_modelo": con_modelo,
         "modelos": cliente.usados,
+        "errores_modelo": cliente.errores[-10:],
         "fuentes": estado,
         "publicables": [_serializable(g) for g in publicables],
         "sin_confirmar": [_serializable(g) for g in sin_confirmar],

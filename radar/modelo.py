@@ -90,7 +90,11 @@ class Cliente:
                         self.usados.append(etiqueta)
                     return datos
                 except urllib.error.HTTPError as e:
-                    self.errores.append(f"{modelo}: HTTP {e.code}")
+                    try:
+                        detalle = e.read().decode("utf-8", "replace")[:240]
+                    except Exception:
+                        detalle = ""
+                    self.errores.append(f"{modelo}: HTTP {e.code} {detalle}".strip())
                     if e.code == 429 and intento == 0:
                         self.esperar(20)  # cuota por minuto: esperar y reintentar una vez
                         continue

@@ -227,6 +227,10 @@ class PruebasFidelidad(unittest.TestCase):
     def test_formatos_de_numero(self):
         self.assertEqual(fidelidad.cifras_sin_fuente("Llegó a 1.000 empresas y 4,5 millones", "1,000 companies, 4.5 million"), [])
 
+    def test_mitad_inventada(self):
+        self.assertEqual(fidelidad.cifras_sin_fuente("Redujo a la mitad la contratación.", "Anthropic nearly stopped hiring juniors."), ["0.5"])
+        self.assertEqual(fidelidad.cifras_sin_fuente("Redujo a la mitad la contratación.", "Hiring fell by half."), [])
+
     def test_porcentaje(self):
         self.assertEqual(fidelidad.cifras_sin_fuente("Bajó un 40%", "costs fell 30%"), ["40"])
 

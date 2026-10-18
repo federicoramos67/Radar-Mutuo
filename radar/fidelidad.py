@@ -34,6 +34,7 @@ MULTIPLICADORES = {
     "triplica": "3", "triplico": "3", "triple": "3", "tres veces": "3",
     "cuadruplica": "4", "cuatro veces": "4", "cinco veces": "5",
     "diez veces": "10", "cien veces": "100", "mil veces": "1000",
+    "la mitad": "0.5", "a la mitad": "0.5", "un tercio": "0.33", "un cuarto": "0.25",
 }
 # Cómo puede aparecer ese mismo dato en una fuente en inglés o español.
 EQUIVALENTES = {
@@ -44,6 +45,9 @@ EQUIVALENTES = {
     "10": ["10", "ten", "tenfold", "diez"],
     "100": ["100", "hundred", "cien"],
     "1000": ["1000", "1,000", "1.000", "thousand", "mil"],
+    "0.5": ["half", "halv", "mitad", "50%", "50 %", "50 percent"],
+    "0.33": ["third", "tercio", "33%"],
+    "0.25": ["quarter", "cuarto", "25%"],
 }
 
 _NUMERO = re.compile(r"(?<![\w.])(\d{1,3}(?:[.,]\d{3})+|\d+(?:[.,]\d+)?)\s*(%|x\b)?", re.I)
@@ -196,7 +200,9 @@ def revisar_mecanico(publicables, piezas, nota_dia=None):
 
 SISTEMA_REVISAR = """Sos verificador de datos de una redacción. Comparás textos redactados contra el material de sus fuentes.
 Marcá SOLO afirmaciones de hecho (qué pasó, quién, cuánto, cuándo, qué hace un producto) que el material NO sostiene.
-No marques opiniones, preguntas, interpretaciones ni consecuencias planteadas como posibilidad.
+No marques opiniones, preguntas, interpretaciones, recomendaciones ni consecuencias planteadas como posibilidad.
+Ejemplos que NO se marcan: "conviene revisar…", "si tu empresa usa…", "para quien edita, esto implica…", "¿qué harías…?".
+Ejemplos que SÍ se marcan: una cifra, un porcentaje, un nombre, una fecha, un "redujo a la mitad", o que la empresa "anunció" algo que no figura.
 Ante la duda, no marques. Respondé SOLO con JSON:
 {"alertas": [{"donde": "pieza:post", "frase": "fragmento exacto", "problema": "qué no está en la fuente"}]}
 Si no hay problemas: {"alertas": []}"""
@@ -215,6 +221,10 @@ def _paquete(publicables, piezas, nota_dia):
     return {"fuentes_por_nota": fuentes, "notas": notas, "piezas": piezas or {}, "nota_dia": nota_dia}
 
 
+CONSEJO = ["conviene", "si tu", "si sos", "si trabajas", "si editas", "si programas", "para quien", "podes",
+           "deberias", "deberia", "debera", "convendria", "vale la pena", "tenes que", "?", "¿"]
+
+
 def revisar_modelo(publicables, piezas, nota_dia, cliente):
     paquete = _paquete(publicables, piezas, nota_dia)
     try:
@@ -223,6 +233,10 @@ def revisar_modelo(publicables, piezas, nota_dia, cliente):
         return None
     out = []
     for a in (datos.get("alertas") or []) if isinstance(datos, dict) else []:
+        frase = _plano(a.get("frase", "") if isinstance(a, dict) else "")
+        # Regla del código: una recomendación o una pregunta no es una afirmación de hecho.
+        if any(frase.startswith(m) or f" {m} " in f" {frase[:40]} " for m in CONSEJO):
+            continue
         if isinstance(a, dict) and a.get("donde"):
             out.append({"donde": str(a["donde"]), "tipo": "afirmacion",
                         "detalle": f'«{str(a.get("frase", ""))[:120]}»: {str(a.get("problema", ""))[:160]}'})

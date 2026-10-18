@@ -12,9 +12,9 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from radar import __main__ as radar_main
-from radar import config, editor, fuentes, limpieza
+from radar import config, editor, fidelidad, fuentes, limpieza
 from radar.modelo import Cliente, SinModelo, extraer_json
-from radar.verificacion import verificar
+from radar.verificacion import reclasificar, verificar
 
 AHORA = datetime(2026, 10, 17, 12, 0, tzinfo=timezone.utc)
 
@@ -71,6 +71,7 @@ class ModeloFalso:
 
     def __init__(self):
         self.llamadas = 0
+        self.correcciones = None
 
     def __call__(self, url, token, cuerpo):
         self.llamadas += 1
@@ -80,6 +81,20 @@ class ModeloFalso:
             ids = {l.split(" ", 1)[0]: l for l in usuario.splitlines()[1:]}
             juntos = [i for i, l in ids.items() if "rumor" in l.lower() or "gpt-6" in l.lower() or "mismo-hecho" in l.lower()]
             contenido = json.dumps({"grupos": [juntos] if len(juntos) > 1 else []})
+            return {"choices": [{"message": {"content": contenido}}]}
+        if "verificador de datos" in sistema:
+            alertas = []
+            if "diez veces" in usuario:
+                alertas.append({"donde": "pieza:post", "frase": "diez veces más rápido", "problema": "la fuente no da esa cifra"})
+            return {"choices": [{"message": {"content": json.dumps({"alertas": alertas})}}]}
+        if "Te paso textos redactados" in sistema:
+            paquete = json.loads(usuario)
+            self.correcciones = paquete["problemas"]
+            piezas = json.loads(json.dumps(paquete["piezas"], ensure_ascii=False).replace("Crece diez veces más rápido. ", ""))
+            return {"choices": [{"message": {"content": json.dumps({"notas": {}, "piezas": piezas, "nota_dia": paquete["nota_dia"]})}}]}
+        if "editor jefe" in sistema:
+            notas = json.loads(usuario.split("\n", 1)[1])
+            contenido = json.dumps({"nota": notas[0]["id"], "tesis": "Lo importante no es el modelo sino dónde corre.", "mirar": "Si publican precios."})
             return {"choices": [{"message": {"content": contenido}}]}
         if "rúbrica" in sistema and "historias" in sistema:
             historias = json.loads(usuario.split("\n", 1)[1])
@@ -92,7 +107,8 @@ class ModeloFalso:
                 salida.append(
                     {"id": h["id"], "senal": p[0], "impacto": p[1], "conversacion": p[2], "antihype": p[3],
                      "titular": "Titular " + h["id"], "resumen": "Resumen.", "porque_importa": "Importa.",
-                     "angulo": "Gancho.", "formato": "reel", "descarte": "" if alto else "Cifra sin estudio."}
+                     "angulo": "Gancho.", "formato": "reel", "descarte": "" if alto else "Cifra sin estudio.",
+                     "naturaleza": "caso_cliente" if "how acme" in t else "lanzamiento"}
                 )
             contenido = json.dumps({"historias": salida})
         else:
@@ -102,7 +118,7 @@ class ModeloFalso:
                 {
                     "reel": {"nota": i, "titulo": "Reel", "beats": [{"t": "0:00", "texto": "Hola.", "pantalla": "Placa."}]},
                     "carrusel": {"nota": i, "titulo": "Carrusel", "placas": ["Uno", "Dos"]},
-                    "post": {"nota": i, "titulo": "Post", "texto": "Párrafo.\n\nOtro <b>no html</b>."},
+                    "post": {"nota": i, "titulo": "Post", "texto": "Crece diez veces más rápido. Párrafo.\n\nOtro <b>no html</b>."},
                     "hilo": {"nota": i, "titulo": "Hilo", "partes": ["a", "b"]},
                     "opencast": {"notas": [i], "preguntas": ["¿Por qué?"]},
                 }
@@ -174,6 +190,49 @@ class PruebasVerificacion(unittest.TestCase):
         self.assertEqual(verificar(self._de("rumor"))["estado"], "sin_confirmar")
 
 
+class PruebasComunicados(unittest.TestCase):
+    def _grupo(self, titulo, naturaleza, antihype):
+        item = {"titulo": titulo, "link": "https://lab.test/x", "resumen": "", "fecha": AHORA, "fuente": "Lab", "tipo": "oficial"}
+        g = {"items": [item], "principal": item, "naturaleza": naturaleza, "puntos": {"antihype": antihype}}
+        g["verificacion"] = verificar(g)
+        return g
+
+    def test_lanzamiento_con_datos_es_noticia(self):
+        g = self._grupo("Lab releases an open model that runs in 4GB", "lanzamiento", 4)
+        self.assertEqual(reclasificar(g)["estado"], "verificada")
+
+    def test_caso_de_cliente_es_comunicado_aunque_el_modelo_diga_otra_cosa(self):
+        g = self._grupo("How Acme is using ChatGPT to scale support", "lanzamiento", 4)
+        self.assertEqual(reclasificar(g)["estado"], "comunicado")
+        self.assertIn("caso de cliente", g["verificacion"]["motivo"])
+
+    def test_anuncio_sin_datos_es_comunicado(self):
+        g = self._grupo("Lab shares its vision for agents", "opinion", 2)
+        self.assertEqual(reclasificar(g)["estado"], "comunicado")
+
+    def test_sin_modelo_lo_oficial_solo_es_comunicado(self):
+        g = self._grupo("Lab releases a model", None, 0)
+        self.assertEqual(reclasificar(g)["estado"], "comunicado")
+
+
+class PruebasFidelidad(unittest.TestCase):
+    def test_cifra_inventada(self):
+        self.assertEqual(fidelidad.cifras_sin_fuente("Triplica usuarios y crece diez veces.", "Usage tripled this year."), ["10"])
+
+    def test_formatos_de_numero(self):
+        self.assertEqual(fidelidad.cifras_sin_fuente("Llegó a 1.000 empresas y 4,5 millones", "1,000 companies, 4.5 million"), [])
+
+    def test_porcentaje(self):
+        self.assertEqual(fidelidad.cifras_sin_fuente("Bajó un 40%", "costs fell 30%"), ["40"])
+
+    def test_region_forzada(self):
+        self.assertTrue(fidelidad.region_forzada("Los uruguayos podrían usarlo.", "A bank in Ohio launched a chatbot."))
+        self.assertFalse(fidelidad.region_forzada("Llega a Uruguay.", "Now available in Latin America."))
+
+    def test_frase_de_folleto(self):
+        self.assertIn("revolucion", fidelidad.folleto("Una revolución en la edición"))
+
+
 class PruebasModelo(unittest.TestCase):
     def test_extraer_json_con_ruido(self):
         self.assertEqual(extraer_json('Acá va:\n```json\n{"a": 1}\n```'), {"a": 1})
@@ -225,6 +284,13 @@ class PruebasEdicionCompleta(unittest.TestCase):
             self.assertIn("Sin confirmar · no se publica", html)
             self.assertIn("&lt;b&gt;no html&lt;/b&gt;", html)  # el texto del modelo se escapa
             self.assertIn("Caída · no respondió", html)
+            # nota del día y control de fidelidad
+            self.assertIn("Lo que importa hoy", html)
+            self.assertIn("Lo importante no es el modelo sino dónde corre.", html)
+            self.assertNotIn("diez veces", html)  # la cifra inventada se corrigió antes de publicar
+            self.assertIn("✓ Control de fidelidad", html)
+            self.assertGreaterEqual(ed["fidelidad"]["corregidas"], 1)
+            self.assertEqual(ed["fidelidad"]["pendientes"], [])
             self.assertTrue((Path(d) / "ediciones" / "2026-10-17.html").exists())
             datos = json.loads((Path(d) / "datos" / "2026-10-17.json").read_text())
             self.assertEqual(len(datos["publicables"]), 2)

@@ -21,11 +21,15 @@ Tu tarea ahora es de editor de research: leer historias de IA del día y puntuar
     + """
 Sé exigente. La mayoría de las historias tiene que quedar por debajo de 3 en algún eje.
 Un anuncio sin datos, una cifra sin estudio o una lista de "10 cosas" tiene antihype 0 o 1.
+Un caso de cliente contado por la empresa que vende el producto es marketing: antihype 2 como máximo.
+naturaleza: "lanzamiento" = sale un producto, modelo o función nueva con datos concretos;
+"investigacion" = paper o estudio con resultados; "caso_cliente" = una empresa cuenta cómo la usa un cliente.
 Respondé SOLO con un objeto JSON con esta forma:
 {"historias": [{"id": "...", "senal": 0, "impacto": 0, "conversacion": 0, "antihype": 0,
   "titular": "titular en español, corto, con criterio, máximo 12 palabras",
   "resumen": "1 o 2 frases cortas en español: qué pasó, solo con datos del material",
-  "porque_importa": "1 frase: qué le cambia a la gente que crea y trabaja",
+  "porque_importa": "1 frase: qué le cambia a una persona concreta (quien edita, programa, enseña, comunica). Sin forzar la región",
+  "naturaleza": "lanzamiento | investigacion | caso_cliente | opinion | promocion | evento | otro",
   "angulo": "una línea que serviría de gancho para redes",
   "formato": "reel | carrusel | post | hilo | agenda | streaming",
   "descarte": "si alguna nota es baja, por qué en una frase corta; si no, vacío"}]}\nSé breve: cada campo, una o dos líneas como máximo.
@@ -37,7 +41,8 @@ SISTEMA_PIEZAS = (
     config.VOZ_MUTUO
     + """
 Ahora sos guionista y redactor. Con las notas aprobadas del brief armás piezas listas para revisar.
-Usá SOLO los datos de cada nota. Si una fecha o cifra no está, no la escribas.
+Usá SOLO los datos de cada nota y de su campo "fuente". Si una fecha o cifra no está en la fuente, no la escribas.
+Si una nota es un anuncio de empresa, decilo como anuncio: "X dice que…", no como hecho comprobado.
 Respondé SOLO con un objeto JSON con esta forma:
 {"reel": {"nota": "id", "titulo": "...", "beats": [{"t": "0:00", "texto": "lo que se dice", "pantalla": "lo que se ve"}]},
  "carrusel": {"nota": "id", "titulo": "...", "placas": ["texto placa 1", "... hasta 6"]},
@@ -52,7 +57,9 @@ El reel dura unos 40 segundos y tiene 5 o 6 beats. Cada pieza sale de una nota d
 SISTEMA_AGRUPAR = """Sos editor de una mesa de noticias. Te paso titulares de distintas fuentes.
 Agrupá SOLO los que cuentan el MISMO hecho concreto (el mismo anuncio, lanzamiento, estudio o evento).
 Que hablen del mismo tema o de la misma empresa NO alcanza: tiene que ser la misma noticia.
-Ante la duda, no agrupes.
+SÍ cuentan como el mismo hecho dos notas que cubren el mismo anuncio desde ángulos distintos
+(por ejemplo: "X cambia sus términos" y "X ahora puede usar tus datos para entrenar" si es el mismo cambio).
+Leé el resumen, no solo el título. Si dos notas no comparten el hecho central, no las agrupes.
 Respondé SOLO con JSON: {"grupos": [["h01", "h07"], ["h03", "h12", "h15"]]}
 Incluí únicamente grupos de 2 o más. Si no hay ninguno: {"grupos": []}"""
 
@@ -61,9 +68,11 @@ def unir_por_modelo(grupos, cliente):
     """Junta historias que el agrupador por palabras no vio (títulos distintos, mismo hecho)."""
     if len(grupos) < 2:
         return grupos
-    lista = "\n".join(f'{g["id"]} [{g["principal"]["fuente"]}] {g["principal"]["titulo"]}' for g in grupos)
+    lista = "\n".join(
+        f'{g["id"]} [{g["principal"]["fuente"]}] {g["principal"]["titulo"]} — {g["principal"]["resumen"][:140]}' for g in grupos
+    )
     try:
-        datos = cliente.pedir_json(SISTEMA_AGRUPAR, "Titulares:\n" + lista, max_tokens=600)
+        datos = cliente.pedir_json(SISTEMA_AGRUPAR, "Titulares:\n" + lista, max_tokens=900)
     except SinModelo:
         return grupos
     por_id = {g["id"]: g for g in grupos}
@@ -128,6 +137,7 @@ def puntuar(grupos, cliente):
             fmt = (h.get("formato") or "post").strip().lower()
             g["formato"] = fmt if fmt in FORMATOS else "post"
             g["descarte"] = (h.get("descarte") or "").strip()
+            g["naturaleza"] = (h.get("naturaleza") or "otro").strip().lower()
             algun_lote_ok = True
     for g in grupos:
         if "puntos" not in g:
@@ -156,29 +166,68 @@ def _puntaje_respaldo(g):
 
 
 def seleccionar(grupos):
+    """Devuelve (publicables, sin_confirmar, comunicados, descartados)."""
     orden = sorted(grupos, key=lambda g: (g["total"], g["puntos"]["antihype"]), reverse=True)
     # Sin modelo el puntaje es grueso: se baja el umbral y manda la verificación.
     umbral = config.UMBRAL_PUBLICABLE if any(not g.get("respaldo") for g in grupos) else 8
-    verificadas = [g for g in orden if g["verificacion"]["estado"] == "verificada"]
+    estado = lambda g: g["verificacion"]["estado"]
+    verificadas = [g for g in orden if estado(g) == "verificada"]
     publicables = [g for g in verificadas if g["total"] >= umbral]
     if len(publicables) < config.MINIMO_PUBLICABLES:
         extra = [g for g in verificadas if g not in publicables and g["total"] >= config.PISO_PUBLICABLE]
         publicables += extra[: config.MINIMO_PUBLICABLES - len(publicables)]
     publicables = publicables[: config.MAX_PUBLICABLES]
     # Lo sin confirmar que más interés despierta: se muestra para no esconderlo.
-    sin_confirmar = [g for g in orden if g["verificacion"]["estado"] == "sin_confirmar" and g["total"] >= umbral - 2]
+    sin_confirmar = [g for g in orden if estado(g) == "sin_confirmar" and g["total"] >= umbral - 2]
     sin_confirmar = sin_confirmar[: config.MAX_SIN_VERIFICAR]
-    elegidos = {g["id"] for g in publicables + sin_confirmar}
+    comunicados = [g for g in orden if estado(g) == "comunicado"][: config.MAX_COMUNICADOS]
+    elegidos = {g["id"] for g in publicables + sin_confirmar + comunicados}
     # Descartados: los que más ruido hacían (más fuentes o más conversación) y no pasaron.
     resto = [g for g in grupos if g["id"] not in elegidos and not g.get("respaldo")]
     resto.sort(key=lambda g: (g["puntos"]["conversacion"], -g["puntos"]["antihype"]), reverse=True)
     descartados = [g for g in resto if g.get("descarte")][: config.MAX_DESCARTADOS]
-    return publicables, sin_confirmar, descartados
+    return publicables, sin_confirmar, comunicados, descartados
+
+
+SISTEMA_NOTA_DIA = (
+    config.VOZ_MUTUO
+    + """
+Sos el editor jefe. De las notas aprobadas, elegí LA que más importa hoy y escribí la postura del brief.
+"tesis": 2 frases que dicen qué significa, no qué pasó. Una postura que se pueda discutir, sostenida en los datos de la nota.
+"mirar": 1 frase con lo que conviene seguir en los próximos días (un dato que falta, una decisión pendiente).
+Usá solo datos del material. Respondé SOLO con JSON: {"nota": "id", "tesis": "...", "mirar": "..."}"""
+)
+
+
+def nota_del_dia(publicables, cliente):
+    if not publicables:
+        return None
+    from .fidelidad import material
+
+    notas = [
+        {"id": g["id"], "titular": g["titular"], "resumen": g["resumen"], "porque_importa": g["porque_importa"],
+         "puntaje": g["total"], "fuente": material(g)[:500]}
+        for g in publicables[:5]
+    ]
+    try:
+        datos = cliente.pedir_json(SISTEMA_NOTA_DIA, "Notas aprobadas:\n" + json.dumps(notas, ensure_ascii=False, indent=1), max_tokens=700)
+    except SinModelo:
+        return None
+    if not isinstance(datos, dict):
+        return None
+    ids = {g["id"] for g in publicables}
+    nid = datos.get("nota") if datos.get("nota") in ids else publicables[0]["id"]
+    tesis = str(datos.get("tesis") or "").strip()
+    if not tesis:
+        return None
+    return {"nota": nid, "tesis": tesis, "mirar": str(datos.get("mirar") or "").strip()}
 
 
 def redactar_piezas(publicables, cliente):
     if not publicables:
         return None
+    from .fidelidad import material
+
     notas = [
         {
             "id": g["id"],
@@ -187,6 +236,7 @@ def redactar_piezas(publicables, cliente):
             "porque_importa": g["porque_importa"],
             "angulo": g["angulo"],
             "formato_sugerido": g["formato"],
+            "fuente": material(g)[:600],
         }
         for g in publicables[:5]
     ]

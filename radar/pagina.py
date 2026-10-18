@@ -92,6 +92,20 @@ footer .tag{color:var(--muted)}
 .estado{list-style:none;padding:0;margin:0 0 1em;font-size:13.5px;columns:2;column-gap:24px}
 .estado li{break-inside:avoid}
 .archivo{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:6px 14px;font-family:var(--mono);font-size:12.5px}
+.lead{background:var(--ink);color:var(--bg);padding:26px 24px 24px;margin:30px 0 4px}
+.lead .tag{color:var(--accent)}
+.lead h2{color:var(--bg);margin:6px 0 14px}
+.lead .tesis{font-family:var(--display);font-size:1.28rem;line-height:1.45;margin:0 0 14px;max-width:60ch}
+.lead .mirar{font-size:15px;opacity:.8;margin:0}
+.lead a{color:inherit}
+.fid{font-family:var(--mono);font-size:11.5px;letter-spacing:.04em;margin:14px 0 0;max-width:62ch}
+.fid.ok{color:var(--ok)}
+.fid.warn{color:var(--warn)}
+.fid li{margin:4px 0 0 1.1em}
+.com-list{list-style:none;padding:0;margin:20px 0 0;display:grid;gap:14px}
+.com-list li{border-left:3px solid var(--off);padding:2px 0 2px 14px}
+.com-list .what{display:block}
+.com-list .why{display:block;color:var(--muted);font-size:14.5px;grid-column:auto}
 @media (max-width:460px){.head{grid-template-columns:1fr;gap:6px}.num{padding-top:0}.total{margin-left:0;width:100%}.estado{columns:1}}
 """
 
@@ -118,7 +132,12 @@ def _fuentes(g):
     return f'<ul class="srcs">{"".join(items)}</ul>'
 
 
-def _nota(g, numero):
+def _alertas(alertas, titulo):
+    items = "".join(f"<li>{e(a['detalle'])}</li>" for a in alertas[:4])
+    return f'<div class="fid warn">⚠ {e(titulo)}:<ul>{items}</ul></div>'
+
+
+def _nota(g, numero, pendientes=None):
     sin = g["verificacion"]["estado"] != "verificada"
     clase = ' class="unverified"' if sin else ""
     sello = '<span class="stamp">Sin confirmar · no se publica</span>' if sin else ""
@@ -128,6 +147,9 @@ def _nota(g, numero):
     estado_tag = "Qué falta" if sin else "Verificación"
     clase_estado = "" if sin else ' class="ok"'
     cuerpo.append(f'<p><span class="tag">{estado_tag}</span><span{clase_estado}>{e(g["verificacion"]["motivo"])}</span></p>')
+    alertas = [a for a in (pendientes or []) if a["donde"].startswith(f"nota:{g['id']}:")]
+    if alertas:
+        cuerpo.append(_alertas(alertas, "Dato a revisar antes de publicar"))
     angulo = ""
     if g.get("angulo") and not sin:
         angulo = (
@@ -150,7 +172,7 @@ def _desde(ids, numeros):
     return ("de la nota " if len(nums) == 1 else "de las notas ") + ", ".join(nums)
 
 
-def _piezas(piezas, numeros):
+def _piezas(piezas, numeros, informe=None):
     if not piezas:
         return ""
     bloques = []
@@ -179,15 +201,52 @@ def _piezas(piezas, numeros):
     if oc.get("preguntas"):
         qs = "".join(f"<li>{e(q)}</li>" for q in oc["preguntas"])
         bloques.append(("Opencast", oc.get("notas") or [], "Preguntas para el streaming", f'<ol class="qs">{qs}</ol>'))
+    claves = {"Reel · 40s": "reel", "Post · LinkedIn": "post", "Hilo · Threads": "hilo", "Opencast": "opencast"}
     html = []
     for fmt, ids, titulo, cuerpo in bloques:
+        clave = claves.get(fmt) or ("carrusel" if fmt.startswith("Carrusel") else "")
+        sello = ""
+        if informe is not None:
+            pend = [a for a in informe.get("pendientes", []) if a["donde"] == f"pieza:{clave}"]
+            sello = _alertas(pend, "Revisar antes de publicar") if pend else '<p class="fid ok">✓ Control de fidelidad: cada cifra está en la fuente.</p>'
         html.append(
             f'<div class="piece"><div class="piece-head"><span class="fmt">{e(fmt)}</span>'
-            f'<span class="from">{e(_desde(ids, numeros))}</span><h4>{e(titulo)}</h4></div>{cuerpo}</div>'
+            f'<span class="from">{e(_desde(ids, numeros))}</span><h4>{e(titulo)}</h4></div>{cuerpo}{sello}</div>'
         )
     return (
         '<section><h3>De la nota a la pieza</h3><p>Borradores listos para revisar. Detectar es la mitad del trabajo; '
         "esta es la otra mitad. Nada sale sin que una persona lo apruebe.</p>" + "".join(html) + "</section>"
+    )
+
+
+def _comunicados(lista):
+    if not lista:
+        return ""
+    items = []
+    for g in lista:
+        f = g["verificacion"]["fuentes"][0]
+        items.append(
+            f'<li><span class="what"><a href="{e(f["link"])}" rel="noopener">{e(g["titular"] or g["principal"]["titulo"])}</a></span>'
+            f'<span class="why">{e(g["verificacion"]["motivo"])}</span></li>'
+        )
+    return (
+        "<section><h3>Comunicados de empresas</h3><p>Es cierto que lo anunciaron. Que sea noticia es otra cosa: "
+        f'entran al brief cuando un medio independiente los cubra.</p><ul class="com-list">{"".join(items)}</ul></section>'
+    )
+
+
+def _nota_dia(nd, publicables, numeros, pendientes):
+    if not nd:
+        return ""
+    g = next((x for x in publicables if x["id"] == nd["nota"]), None)
+    if not g:
+        return ""
+    alertas = [a for a in pendientes if a["donde"] == "nota_dia"]
+    extra = _alertas(alertas, "Revisar") if alertas else ""
+    mirar = f'<p class="mirar"><b>Para seguir:</b> {e(nd["mirar"])}</p>' if nd.get("mirar") else ""
+    return (
+        f'<section class="lead"><span class="tag">Lo que importa hoy · nota {numeros.get(g["id"], 1):02d}</span>'
+        f'<h2>{e(g["titular"] or g["principal"]["titulo"])}</h2><p class="tesis">{e(nd["tesis"])}</p>{mirar}{extra}</section>'
     )
 
 
@@ -208,15 +267,30 @@ def _descartados(lista):
     )
 
 
+def _pie_fidelidad(informe):
+    if not informe:
+        return ""
+    pend = len(informe.get("pendientes", []))
+    extra = "" if informe.get("revision_modelo") else " La segunda lectura con el modelo no respondió hoy: solo se aplicó el control de cifras."
+    return (
+        f'<p><span class="tag">Control de fidelidad</span>Cada cifra de lo redactado se compara con el texto de su fuente, '
+        f'y una segunda lectura busca afirmaciones que la fuente no sostiene. Hoy: {informe["detectadas"]} problemas detectados, '
+        f'{informe["corregidas"]} corregidos antes de publicar, {pend} marcados para revisión humana.{extra}</p>'
+    )
+
+
 def render(edicion, raiz=""):
     """edicion: dict con fecha, publicables, sin_confirmar, descartados, piezas, estado_fuentes, etc."""
     pub, sinc, desc = edicion["publicables"], edicion["sin_confirmar"], edicion["descartados"]
+    com = edicion.get("comunicados") or []
+    informe = edicion.get("fidelidad")
+    pendientes = (informe or {}).get("pendientes", [])
     numeros, notas, n = {}, [], 1
     # La primera nota sin confirmar va después de la mejor publicable, como en una mesa de edición real.
     orden = pub[:1] + sinc + pub[1:]
     for g in orden:
         numeros[g["id"]] = n
-        notas.append(_nota(g, n))
+        notas.append(_nota(g, n, pendientes))
         n += 1
 
     ok = [f for f in edicion["estado_fuentes"] if f["ok"]]
@@ -271,16 +345,20 @@ def render(edicion, raiz=""):
 <li><b>{edicion['revisados']}</b> revisados</li>
 <li><b>{len(pub)}</b> publicables</li>
 <li><b>{len(sinc)}</b> sin confirmar</li>
+<li><b>{len(com)}</b> comunicados</li>
 <li><b>{len(desc)}</b> descartados con causa</li>
 </ul>
 </header>
-<p class="standfirst">Cada nota entra con su puntaje a la vista y su estado de verificación declarado. Lo que no se pudo confirmar no se esconde: se muestra marcado y queda fuera de lo publicable.</p>
+<p class="standfirst">Cada nota entra con su puntaje a la vista y su estado de verificación declarado. Lo que no se pudo confirmar no se esconde: se muestra marcado. Lo que solo dijo una empresa va aparte. Y cada texto redactado se controla contra su fuente.</p>
 {aviso}
+{_nota_dia(edicion.get('nota_dia'), pub, numeros, pendientes)}
 {''.join(notas)}
-{_piezas(edicion.get('piezas'), numeros)}
+{_piezas(edicion.get('piezas'), numeros, informe)}
+{_comunicados(com)}
 {_descartados(desc)}
 <footer>
-<p><span class="tag">Cómo se armó</span>{edicion['revisados']} items de {len(ok)} fuentes, agrupados en {edicion['historias']} historias. Puntuados con una rúbrica de cuatro ejes —señal, impacto, conversación, antihype—. La verificación la decide el código, no el modelo: fuente primaria o dos medios independientes. Modelo usado: {e(modelos)}.</p>
+<p><span class="tag">Cómo se armó</span>{edicion['revisados']} items de {len(ok)} fuentes, agrupados en {edicion['historias']} historias. Puntuados con una rúbrica de cuatro ejes —señal, impacto, conversación, antihype—. La verificación la decide el código, no el modelo: dos medios independientes, o fuente primaria con datos concretos. Modelo usado: {e(modelos)}.</p>
+{_pie_fidelidad(informe)}
 <p>La máquina ordena, puntúa y justifica. Las decisiones editoriales y la redacción final son humanas.</p>
 <p><span class="tag">Estado de las fuentes</span></p>
 <ul class="estado">{estado}</ul>

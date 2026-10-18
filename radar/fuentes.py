@@ -104,6 +104,12 @@ def leer_todas(fuentes, descargador=descargar):
     for f in fuentes:
         try:
             nuevos = parsear(descargador(f["url"]), f)
+            if f.get("max_items"):
+                # Fuentes que publican mucho: solo lo más reciente, para que no tapen al resto.
+                nuevos.sort(key=lambda i: i["fecha"].timestamp() if i["fecha"] else 0, reverse=True)
+                nuevos = nuevos[: f["max_items"]]
+            for i in nuevos:
+                i["investigacion"] = bool(f.get("investigacion"))
             items.extend(nuevos)
             estado.append({"nombre": f["nombre"], "tipo": f["tipo"], "ok": True, "items": len(nuevos)})
         except Exception as e:  # red, XML roto, 404: se registra y se sigue

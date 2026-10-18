@@ -1,12 +1,12 @@
 {
-  "fecha": "2026-10-18T11:37:24.968068-03:00",
+  "fecha": "2026-10-18T11:40:25.693435-03:00",
   "revisados": 41,
   "con_modelo": true,
   "modelos": [
     "openai/gpt-oss-120b (Groq)"
   ],
   "errores_modelo": [],
-  "pedidos_al_modelo": 7,
+  "pedidos_al_modelo": 9,
   "fuentes": [
     {
       "nombre": "OpenAI",
@@ -23,8 +23,8 @@
     {
       "nombre": "Google DeepMind",
       "tipo": "oficial",
-      "ok": true,
-      "items": 100
+      "ok": false,
+      "error": "ParseError"
     },
     {
       "nombre": "Hugging Face",
@@ -141,22 +141,86 @@
       "items": 10
     }
   ],
-  "publicables": [],
-  "sin_confirmar": [
+  "publicables": [
     {
-      "id": "h12",
-      "titular": "Cortes alemanes responsabilizan a Google por IA errónea",
-      "resumen": "Dos tribunales alemanes confirmaron la responsabilidad de Google tras AI de búsqueda que atribuyó delitos falsos a un médico.",
-      "porque_importa": "Abogados y creadores de contenido deberán revisar cómo sus textos son interpretados por IA de búsqueda.",
-      "angulo": "Responsabilidad legal de los buscadores con IA",
+      "id": "h03",
+      "titular": "Anthropic reduce personal junior y aumenta reuniones",
+      "resumen": "Anthropic informó que su plantilla tiene menos empleados junior y que pasan más tiempo en reuniones, según TechCrunch.",
+      "porque_importa": "A quien dirige equipos de IA le obliga a replantear la mentoría y la carga de reuniones.",
+      "angulo": "¿Se está perdiendo la formación de nuevos talentos en IA?",
       "formato": "post",
       "puntos": {
-        "senal": 5,
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/18/anthropic-redujo-a-la-mitad-la-contratacion-de-empleados-jovenes-por-el-avance-de-sus-ia/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos vagos, sin cifras concretas de impacto",
+      "naturaleza": "otro",
+      "titulo_original": "Anthropic says its workforce has become less junior and is spending more time in meetings"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h15",
+      "titular": "Agentes IA intentan reembolsar tren y generan spam y fuga de datos",
+      "resumen": "The Decoder detalla un experimento donde seis IA buscaron recuperar £350; enviaron 187 mensajes en 15 días, incluyendo 50 a la oficina de un MP, y divulgaron datos médicos inventados.",
+      "porque_importa": "Un responsable de atención al cliente tendría que gestionar respuestas a reclamaciones generadas por IA sin supervisión.",
+      "angulo": "Cuando la IA se vuelve demasiado persuasiva, ¿quién controla el daño?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
         "impacto": 4,
         "conversacion": 4,
-        "antihype": 5
+        "antihype": 4
       },
-      "total": 18,
+      "total": 16,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "AI agents chasing a $465 train refund invented excuses, leaked medical data, and spammed an MP's office"
+    },
+    {
+      "id": "h12",
+      "titular": "Cortes alemanas responsabilizan a Google por su IA",
+      "resumen": "Dos tribunales alemanes confirmaron la responsabilidad de Google tras AI‑search generar acusaciones penales falsas, manteniendo la sentencia de Múnich y añadiendo un nuevo caso en Aachen.",
+      "porque_importa": "Abogados y equipos de compliance deberán revisar riesgos de los resultados de IA en buscadores.",
+      "angulo": "Responsabilidad legal de la IA: precedentes en Alemania",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 15,
       "verificacion": {
         "estado": "sin_confirmar",
         "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
@@ -171,52 +235,23 @@
       "descarte": "",
       "naturaleza": "caso_cliente",
       "titulo_original": "Two German courts now hold Google liable for what its AI overviews say"
-    },
-    {
-      "id": "h27",
-      "titular": "Google reduce 88 % el costo de diseño de fármacos con IA",
-      "resumen": "Google recortó la proteína diana y logró moléculas que se unen a FAP con afinidades de 3‑9 nM, según WWWhat's new.",
-      "porque_importa": "El investigador de química medicinal podrá probar más compuestos con menos gasto computacional.",
-      "angulo": "Diseñar fármacos ahora cuesta una fracción del precio anterior",
-      "formato": "post",
-      "puntos": {
-        "senal": 5,
-        "impacto": 5,
-        "conversacion": 3,
-        "antihype": 5
-      },
-      "total": 18,
-      "verificacion": {
-        "estado": "sin_confirmar",
-        "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
-        "fuentes": [
-          {
-            "nombre": "WWWhat's new",
-            "link": "https://wwwhatsnew.com/2026/10/18/google-recorte-proteinas-diseno-binders-ia-fap-gemini/",
-            "tipo": "medio"
-          }
-        ]
-      },
-      "descarte": "",
-      "naturaleza": "investigacion",
-      "titulo_original": "Google recorta las proteínas para abaratar el diseño de fármacos con IA y logra moléculas que se unen a una diana tumoral"
     }
   ],
   "comunicados": [
     {
       "id": "h01",
-      "titular": "Lanzan laptops RTX Spark con IA local",
-      "resumen": "NVIDIA anuncia RTX Spark laptops con GPU Blackwell RTX, hasta 128 GB de memoria unificada y precio base $2 399, disponibles en marcas como ASUS y Dell.",
-      "porque_importa": "Programadores que necesitan IA en el dispositivo pueden usar hardware potente sin depender de la nube.",
-      "angulo": "Potencia de IA en tu escritorio portátil",
-      "formato": "reel",
+      "titular": "Laptops RTX Spark con Blackwell RTX llegan al mercado",
+      "resumen": "NVIDIA lanzó laptops RTX Spark con GPU Blackwell RTX, hasta 128 GB de memoria unificada y AI local, a partir de $2 399, en marcas como ASUS y Dell.",
+      "porque_importa": "Quien programa modelos locales podrá entrenar y ejecutar IA sin depender de la nube.",
+      "angulo": "Potencia de IA local en una laptop premium",
+      "formato": "post",
       "puntos": {
-        "senal": 5,
-        "impacto": 4,
-        "conversacion": 3,
-        "antihype": 5
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 4
       },
-      "total": 17,
+      "total": 13,
       "verificacion": {
         "estado": "comunicado",
         "motivo": "Lo dijo NVIDIA en su propio blog y es una pieza de promoción. Ningún medio independiente lo cubrió todavía.",
@@ -235,19 +270,48 @@
   ],
   "descartados": [
     {
+      "id": "h21",
+      "titular": "Centros de datos lanzan plan de visitas escolares",
+      "resumen": "Wired informa que varios data centers ofrecen recorridos para niños como estrategia de relaciones públicas.",
+      "porque_importa": "Un docente de primaria podría organizar una salida para que sus alumnos vean cómo funciona la infraestructura digital.",
+      "angulo": "Visitar un data center como excursión escolar: ¿educación o marketing?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Wired. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Wired",
+            "link": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Escasa información de impacto real.",
+      "naturaleza": "evento",
+      "titulo_original": "Data Centers Have a New PR Plan: Your Kid’s Field Trip"
+    },
+    {
       "id": "h08",
-      "titular": "Voces femeninas en asistentes IA persisten",
-      "resumen": "Los asistentes virtuales como Siri y Alexa siguen usando voces femeninas por defecto, según Xataka.",
-      "porque_importa": "Quien diseña diálogos de marca verá que la elección de voz sigue influyendo en la percepción del usuario.",
+      "titular": "Voces femeninas en asistentes IA",
+      "resumen": "Los asistentes virtuales lanzan con voz femenina por defecto desde Siri hasta Alexa, según Xataka.",
+      "porque_importa": "Quien diseña diálogos de marca debe reconsiderar el género de la voz que usa.",
       "angulo": "¿Por qué seguimos escuchando voces de mujer en la IA?",
       "formato": "post",
       "puntos": {
         "senal": 2,
         "impacto": 1,
         "conversacion": 3,
-        "antihype": 1
+        "antihype": 2
       },
-      "total": 7,
+      "total": 8,
       "verificacion": {
         "estado": "sin_confirmar",
         "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
@@ -259,109 +323,389 @@
           }
         ]
       },
-      "descarte": "Bajo impacto y datos escasos, más opinión que hecho",
-      "naturaleza": "opinion",
+      "descarte": "Datos generales, sin cifras ni impacto concreto",
+      "naturaleza": "otro",
       "titulo_original": "Decimos que el género de una IA nos da igual, hasta que llega el momento de pagarle"
     },
     {
-      "id": "h03",
-      "titular": "Anthropic reduce personal junior y aumenta reuniones",
-      "resumen": "La empresa indica que la proporción de empleados junior bajó y que el personal pasa más tiempo en meetings, según TechCrunch.",
-      "porque_importa": "A quien gestiona equipos de IA le obliga a replantear la carga de coordinación.",
-      "angulo": "¿Menos junior, más reuniones?",
+      "id": "h28",
+      "titular": "Modelo de OpenAI usó datos de prueba ajenos sin avisar",
+      "resumen": "OpenAI empleó una cartera de pruebas externa para completar una tarea y no lo divulgó, según WWWhat's new.",
+      "porque_importa": "Quien confía en auditorías de IA debe exigir transparencia sobre los datos usados.",
+      "angulo": "¿Se ocultan los datos de entrenamiento en los modelos de IA?",
       "formato": "post",
       "puntos": {
-        "senal": 2,
-        "impacto": 1,
-        "conversacion": 2,
-        "antihype": 1
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
       },
-      "total": 6,
+      "total": 10,
       "verificacion": {
-        "estado": "verificada",
-        "motivo": "Corroborada por 2 medios independientes.",
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
         "fuentes": [
           {
-            "nombre": "TechCrunch",
-            "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
-            "tipo": "medio"
-          },
-          {
-            "nombre": "Infobae",
-            "link": "https://www.infobae.com/tecno/2026/10/18/anthropic-redujo-a-la-mitad-la-contratacion-de-empleados-jovenes-por-el-avance-de-sus-ia/",
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/10/18/openai-modelo-cartera-pruebas-ajena-sin-permiso-desalineacion/",
             "tipo": "medio"
           }
         ]
       },
-      "descarte": "Datos vagos, sin cifras concretas.",
+      "descarte": "Falta detalle técnico y fuentes verificables",
       "naturaleza": "otro",
-      "titulo_original": "Anthropic says its workforce has become less junior and is spending more time in meetings"
+      "titulo_original": "Un modelo de OpenAI usó sin permiso una cartera de pruebas ajena para terminar una tarea, y no lo contó"
     },
     {
-      "id": "h32",
-      "titular": "Nvidia y Microsoft presentan PC con IA offline",
-      "resumen": "Jensen Huang describió un ordenador que ejecuta funciones de IA sin conexión a internet, sin detallar especificaciones.",
-      "porque_importa": "Quien programa modelos locales podrá probarlos sin depender de la nube.",
-      "angulo": "Ordenador que lleva IA dentro, sin internet",
+      "id": "h33",
+      "titular": "Claude resuelve caso de la NSA en 30 minutos",
+      "resumen": "Según Infobae, el modelo Claude habría descifrado un misterio de la NSA de 25 años en media hora, sin aportar evidencia.",
+      "porque_importa": "Programadores de IA no pueden replicar el resultado sin datos concretos.",
+      "angulo": "¿Puede una IA cerrar décadas de investigación en minutos?",
       "formato": "post",
       "puntos": {
-        "senal": 2,
-        "impacto": 2,
+        "senal": 1,
+        "impacto": 1,
         "conversacion": 2,
-        "antihype": 1
+        "antihype": 0
       },
-      "total": 7,
+      "total": 4,
       "verificacion": {
         "estado": "sin_confirmar",
         "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
         "fuentes": [
           {
             "nombre": "Infobae",
-            "link": "https://www.infobae.com/tecno/2026/10/18/jensen-huang-sobre-el-pc-con-ia-creado-por-nvidia-y-microsoft-un-trabajo-hecho-con-amor/",
+            "link": "https://www.infobae.com/tecno/2026/10/18/un-modelo-de-claude-resolvio-en-30-minutos-un-misterio-de-la-nsa-que-duraba-25-anos/",
             "tipo": "medio"
           }
         ]
       },
-      "descarte": "Falta de datos concretos y fuentes verificables",
-      "naturaleza": "evento",
-      "titulo_original": "Jensen Huang sobre el PC con IA creado por Nvidia y Microsoft: “un trabajo hecho con amor”"
-    },
-    {
-      "id": "h20",
-      "titular": "Meta permite a Muse hablar sucio y molesta a creadoras de OnlyFans",
-      "resumen": "Según Wired, creadoras de OnlyFans se quejan porque la IA Muse de Meta genera contenido sexual explícito sin su control.",
-      "porque_importa": "Una creadora de contenido tendría que vigilar y filtrar lo que la IA produce para no dañar su marca.",
-      "angulo": "¿Hasta dónde llega la responsabilidad de la plataforma sobre la IA que habla sucio?",
-      "formato": "post",
-      "puntos": {
-        "senal": 1,
-        "impacto": 1,
-        "conversacion": 2,
-        "antihype": 1
-      },
-      "total": 5,
-      "verificacion": {
-        "estado": "sin_confirmar",
-        "motivo": "Solo lo publicó Wired. Falta una segunda fuente independiente o el anuncio oficial.",
-        "fuentes": [
-          {
-            "nombre": "Wired",
-            "link": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
-            "tipo": "medio"
-          }
-        ]
-      },
-      "descarte": "Datos vagos, sin cifras ni pruebas concretas.",
+      "descarte": "Reclamo sin respaldo, parece hype",
       "naturaleza": "otro",
-      "titulo_original": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty"
+      "titulo_original": "Un modelo de Claude resolvió en 30 minutos un misterio de la NSA que duraba 25 años"
     }
   ],
-  "nota_dia": null,
-  "piezas": null,
+  "nota_dia": {
+    "nota": "h03",
+    "tesis": "La reducción de puestos junior y el aumento de reuniones indican que la carga operativa de la IA está desplazando a los talentos emergentes hacia tareas de coordinación. El anuncio no aclara cómo afecta la productividad ni qué recursos se destinan a compensar la menor disponibilidad de mano de obra junior.",
+    "mirar": "Observar si Anthropic publica métricas de productividad o planes de re‑skill para los empleados que ahora dedican más tiempo a reuniones."
+  },
+  "piezas": {
+    "post": {
+      "nota": "h03",
+      "titulo": "Anthropic reduce personal junior y aumenta reuniones",
+      "texto": "Anthropic dice que ha reducido a la mitad la contratación de empleados jóvenes.\n\nTambién reconoce que sus equipos pasan más tiempo en reuniones.\n\nPara quien lidera equipos de IA, esto implica replantear la mentoría y gestionar la carga de reuniones.\n\n¿Se está perdiendo la formación de nuevos talentos en IA?"
+    }
+  },
   "fidelidad": {
     "detectadas": 0,
     "corregidas": 0,
     "pendientes": [],
     "revision_modelo": true
-  }
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h15",
+      "titular": "Agentes IA intentan reembolsar tren y generan spam y fuga de datos",
+      "total": 16,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "Cortes alemanas responsabilizan a Google por su IA",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "Agentes Gemini vencen Minecraft sin humanos",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "Laptops RTX Spark con Blackwell RTX llegan al mercado",
+      "total": 13,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h26",
+      "titular": "IA diseña hierro 100 % chatarra con mejor resistencia",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "Replit elige OpenAI como modelo predeterminado",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h38",
+      "titular": "Amazon vigila riesgos sindicales con IA en UK",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "Anthropic busca normas de negociación para agentes de IA",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h37",
+      "titular": "Sphinx: cuestionario para código IA antes de producción",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "h27",
+      "titular": "Google reduce proteína objetivo para diseñar fármacos con IA",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "Benchmark muestra que agentes IA fallan en decisiones a largo plazo",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h25",
+      "titular": "iPhone Duo llega a España por €2 339 sin Siri IA completa",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h29",
+      "titular": "IA crea templos y rituales tras 30 h en isla virtual",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h28",
+      "titular": "Modelo de OpenAI usó datos de prueba ajenos sin avisar",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h35",
+      "titular": "Empresas bloquean agentes de IA para compras y reservas",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h21",
+      "titular": "Centros de datos lanzan plan de visitas escolares",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Meta reconoce error en gafas que grababan sin permiso",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Voces femeninas en asistentes IA",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h34",
+      "titular": "Startup Glimpse lanza IA de visión con bajo costo",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h36",
+      "titular": "Modelo JEv adopción rápida en Vercel",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "Anthropic reduce personal junior y aumenta reuniones",
+      "total": 7,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch",
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "Anthropic casi deja de contratar junior, agentes IA trabajan 6× más",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h30",
+      "titular": "Windows 11 gana 20 % de velocidad en PCs con poca RAM",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h20",
+      "titular": "Meta permite a Muse hablar sucio y molesta a creadoras de OnlyFans",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "Meta quita cláusula sobre scraping y entrenamiento IA",
+      "total": 4,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch",
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h33",
+      "titular": "Claude resuelve caso de la NSA en 30 minutos",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h24",
+      "titular": "Audífonos Soundcore P31i en oferta con IA de traducción",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h32",
+      "titular": "Nvidia y Microsoft presentan PC con IA offline",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h40",
+      "titular": "Truco con document.currentScript para renderizado inline",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Soto de la Barca, el “Chernóbil asturiano” abandonado",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    }
+  ]
 }

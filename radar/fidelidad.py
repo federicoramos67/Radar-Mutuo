@@ -221,14 +221,15 @@ def _paquete(publicables, piezas, nota_dia):
     return {"fuentes_por_nota": fuentes, "notas": notas, "piezas": piezas or {}, "nota_dia": nota_dia}
 
 
-CONSEJO = ["conviene", "si tu", "si sos", "si trabajas", "si editas", "si programas", "para quien", "podes",
+CONSEJO = ["conviene", "si tu", "si sos", "si trabajas", "si editas", "si programas", "para quien", "para un", "para una",
+           "para los", "para las", "eso significa", "esto significa", "esto implica", "eso implica", "podes",
            "deberias", "deberia", "debera", "convendria", "vale la pena", "tenes que", "?", "¿"]
 
 
 def revisar_modelo(publicables, piezas, nota_dia, cliente):
     paquete = _paquete(publicables, piezas, nota_dia)
     try:
-        datos = cliente.pedir_json(SISTEMA_REVISAR, json.dumps(paquete, ensure_ascii=False), max_tokens=1200)
+        datos = cliente.pedir_json(SISTEMA_REVISAR, json.dumps(paquete, ensure_ascii=False), max_tokens=1200, temperatura=0.0)
     except SinModelo:
         return None
     out = []
@@ -250,7 +251,7 @@ def corregir(publicables, piezas, nota_dia, alertas, cliente):
     paquete = _paquete(publicables, piezas, nota_dia)
     paquete["problemas"] = alertas
     try:
-        datos = cliente.pedir_json(SISTEMA_CORREGIR, json.dumps(paquete, ensure_ascii=False), max_tokens=3200)
+        datos = cliente.pedir_json(SISTEMA_CORREGIR, json.dumps(paquete, ensure_ascii=False), max_tokens=3200, temperatura=0.1)
     except SinModelo:
         return piezas, nota_dia
     if not isinstance(datos, dict):

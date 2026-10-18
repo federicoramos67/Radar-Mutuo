@@ -80,7 +80,7 @@ class Cliente:
     def disponible(self):
         return bool(self.proveedores)
 
-    def pedir_json(self, sistema, usuario, max_tokens=3000):
+    def pedir_json(self, sistema, usuario, max_tokens=3000, temperatura=0.2):
         if not self.proveedores:
             if "falta la key" not in self.errores:
                 self.errores.append("falta la key")
@@ -92,7 +92,7 @@ class Cliente:
             cuerpo = {
                 "model": modelo,
                 "messages": [{"role": "system", "content": sistema}, {"role": "user", "content": usuario}],
-                "temperature": 0.4,
+                "temperature": temperatura,
                 "max_tokens": max_tokens,
                 "response_format": {"type": "json_object"},
             }

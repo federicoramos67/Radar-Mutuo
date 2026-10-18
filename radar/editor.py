@@ -72,7 +72,7 @@ def unir_por_modelo(grupos, cliente):
         f'{g["id"]} [{g["principal"]["fuente"]}] {g["principal"]["titulo"]} — {g["principal"]["resumen"][:140]}' for g in grupos
     )
     try:
-        datos = cliente.pedir_json(SISTEMA_AGRUPAR, "Titulares:\n" + lista, max_tokens=900)
+        datos = cliente.pedir_json(SISTEMA_AGRUPAR, "Titulares:\n" + lista, max_tokens=900, temperatura=0.0)
     except SinModelo:
         return grupos
     por_id = {g["id"]: g for g in grupos}
@@ -122,7 +122,7 @@ def puntuar(grupos, cliente):
         lote = grupos[inicio : inicio + config.LOTE_PUNTAJE]
         pedido = "Historias del día:\n" + json.dumps([_para_modelo(g) for g in lote], ensure_ascii=False, indent=1)
         try:
-            datos = cliente.pedir_json(SISTEMA_PUNTAJE, pedido, max_tokens=config.MAX_TOKENS_PUNTAJE)
+            datos = cliente.pedir_json(SISTEMA_PUNTAJE, pedido, max_tokens=config.MAX_TOKENS_PUNTAJE, temperatura=0.0)
         except SinModelo:
             continue
         for h in datos.get("historias", []) if isinstance(datos, dict) else []:
@@ -219,7 +219,7 @@ def nota_del_dia(publicables, cliente):
         for g in sorted(publicables, key=lambda g: (_independiente(g), g["total"]), reverse=True)[:5]
     ]
     try:
-        datos = cliente.pedir_json(SISTEMA_NOTA_DIA, "Notas aprobadas:\n" + json.dumps(notas, ensure_ascii=False, indent=1), max_tokens=700)
+        datos = cliente.pedir_json(SISTEMA_NOTA_DIA, "Notas aprobadas:\n" + json.dumps(notas, ensure_ascii=False, indent=1), max_tokens=700, temperatura=0.4)
     except SinModelo:
         return None
     if not isinstance(datos, dict):
@@ -254,7 +254,7 @@ def redactar_piezas(publicables, cliente):
     ]
     pedido = "Notas aprobadas del brief de hoy:\n" + json.dumps(notas, ensure_ascii=False, indent=1)
     try:
-        datos = cliente.pedir_json(SISTEMA_PIEZAS, pedido, max_tokens=config.MAX_TOKENS_PIEZAS)
+        datos = cliente.pedir_json(SISTEMA_PIEZAS, pedido, max_tokens=config.MAX_TOKENS_PIEZAS, temperatura=0.5)
     except SinModelo:
         return None
     return datos if isinstance(datos, dict) else None

@@ -194,9 +194,18 @@ SISTEMA_NOTA_DIA = (
     + """
 Sos el editor jefe. De las notas aprobadas, elegí LA que más importa hoy y escribí la postura del brief.
 "tesis": 2 frases que dicen qué significa, no qué pasó. Una postura que se pueda discutir, sostenida en los datos de la nota.
+La tesis NO repite el anuncio con otras palabras. Si la nota es un lanzamiento de una empresa, decí qué no dice el anuncio
+(precio, resultados, a quién deja afuera) o qué tensión abre.
+Preferí una nota con "cobertura_independiente": true.
+MAL: "La nueva laptop permite ejecutar IA localmente y lleva la potencia a un dispositivo portátil."
+BIEN: "Correr modelos en la propia máquina deja de ser cosa de laboratorio. Lo que nadie dijo todavía es cuánto cuesta."
 "mirar": 1 frase con lo que conviene seguir en los próximos días (un dato que falta, una decisión pendiente).
 Usá solo datos del material. Respondé SOLO con JSON: {"nota": "id", "tesis": "...", "mirar": "..."}"""
 )
+
+
+def _independiente(g):
+    return any(i["tipo"] == "medio" for i in g["items"])
 
 
 def nota_del_dia(publicables, cliente):
@@ -206,8 +215,8 @@ def nota_del_dia(publicables, cliente):
 
     notas = [
         {"id": g["id"], "titular": g["titular"], "resumen": g["resumen"], "porque_importa": g["porque_importa"],
-         "puntaje": g["total"], "fuente": material(g)[:500]}
-        for g in publicables[:5]
+         "puntaje": g["total"], "fuente": material(g)[:500], "cobertura_independiente": _independiente(g)}
+        for g in sorted(publicables, key=lambda g: (_independiente(g), g["total"]), reverse=True)[:5]
     ]
     try:
         datos = cliente.pedir_json(SISTEMA_NOTA_DIA, "Notas aprobadas:\n" + json.dumps(notas, ensure_ascii=False, indent=1), max_tokens=700)
@@ -216,7 +225,10 @@ def nota_del_dia(publicables, cliente):
     if not isinstance(datos, dict):
         return None
     ids = {g["id"] for g in publicables}
-    nid = datos.get("nota") if datos.get("nota") in ids else publicables[0]["id"]
+    nid = datos.get("nota") if datos.get("nota") in ids else notas[0]["id"]
+    # Regla del código: si hay alguna nota con cobertura independiente, la nota del día sale de ahí.
+    if any(_independiente(g) for g in publicables) and not _independiente(next(g for g in publicables if g["id"] == nid)):
+        return None
     tesis = str(datos.get("tesis") or "").strip()
     if not tesis:
         return None

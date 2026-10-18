@@ -206,6 +206,11 @@ class PruebasComunicados(unittest.TestCase):
         self.assertEqual(reclasificar(g)["estado"], "comunicado")
         self.assertIn("caso de cliente", g["verificacion"]["motivo"])
 
+    def test_titulo_promocional_es_comunicado(self):
+        g = self._grupo("RTX Spark Ignites Global Celebration as New PCs Arrive", "lanzamiento", 4)
+        self.assertEqual(reclasificar(g)["estado"], "comunicado")
+        self.assertIn("promoción", g["verificacion"]["motivo"])
+
     def test_anuncio_sin_datos_es_comunicado(self):
         g = self._grupo("Lab shares its vision for agents", "opinion", 2)
         self.assertEqual(reclasificar(g)["estado"], "comunicado")
@@ -231,6 +236,7 @@ class PruebasFidelidad(unittest.TestCase):
 
     def test_frase_de_folleto(self):
         self.assertIn("revolucion", fidelidad.folleto("Una revolución en la edición"))
+        self.assertTrue(fidelidad.folleto("Descubrí más en la web de NVIDIA."))
 
 
 class PruebasModelo(unittest.TestCase):

@@ -65,6 +65,15 @@ def verificar(grupo):
     return {"estado": estado, "motivo": motivo, "fuentes": _fuentes(items)}
 
 
+# Títulos de tono publicitario: celebran en vez de informar.
+_PATRON_PROMO = re.compile(r"celebrat|ignites?|\bmagic|game.?changer|revolution|unleash|supercharg|the future of|"
+                           r"celebra|revoluciona|potencia tu|descubr[ií]", re.I)
+
+
+def es_promocion(titulo):
+    return bool(_PATRON_PROMO.search(titulo or ""))
+
+
 def es_caso_de_cliente(titulo):
     return bool(_PATRON_CASO.search(titulo or ""))
 
@@ -78,7 +87,8 @@ def reclasificar(grupo):
     naturaleza = grupo.get("naturaleza")
     titulo = grupo["principal"]["titulo"]
     antihype = grupo.get("puntos", {}).get("antihype", 0)
-    noticia = naturaleza in NATURALEZAS_NOTICIA and not es_caso_de_cliente(titulo) and antihype >= 3
+    noticia = (naturaleza in NATURALEZAS_NOTICIA and not es_caso_de_cliente(titulo)
+               and not es_promocion(titulo) and antihype >= 3)
     if noticia:
         v["estado"] = "verificada"
         v["motivo"] = f"Fuente primaria: {empresa}. Es un {naturaleza} con datos concretos."
@@ -86,8 +96,10 @@ def reclasificar(grupo):
         v["estado"] = "comunicado"
         if es_caso_de_cliente(titulo) or naturaleza == "caso_cliente":
             tipo = "un caso de cliente"
-        elif naturaleza in ("opinion", "promocion"):
-            tipo = "una pieza de " + ("opinión" if naturaleza == "opinion" else "promoción")
+        elif naturaleza == "promocion" or es_promocion(titulo):
+            tipo = "una pieza de promoción"
+        elif naturaleza == "opinion":
+            tipo = "una pieza de opinión"
         else:
             tipo = "un anuncio sin datos verificables"
         v["motivo"] = f"Lo dijo {empresa} en su propio blog y es {tipo}. Ningún medio independiente lo cubrió todavía."

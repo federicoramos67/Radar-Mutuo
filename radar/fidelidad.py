@@ -87,6 +87,9 @@ FOLLETO = [
     "revolucion", "revoluciona", "cambia todo", "cambiara todo", "sin precedentes", "game changer",
     "increible", "impresionante", "lo nunca visto", "llego para quedarse", "el futuro ya llego",
     "promete revolucionar", "a otro nivel", "disruptiv",
+    # llamados a la acción de folleto
+    "descubri mas", "descubre mas", "conoce mas", "conoci mas", "no te lo pierdas", "segui leyendo",
+    "visita la web", "en la web de", "link en la bio", "seguinos",
 ]
 REGION = ["urugua", "latinoameric", "america latina", "la region", "regional", "montevideo"]
 REGION_FUENTE = REGION + [

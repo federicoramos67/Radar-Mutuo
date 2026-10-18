@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-10-18T11:00:02.060615-03:00",
+  "fecha": "2026-10-18T11:18:47.659133-03:00",
   "revisados": 44,
   "con_modelo": true,
   "modelos": [
@@ -84,16 +84,16 @@
       "nombre": "Hacker News",
       "tipo": "comunidad",
       "ok": false,
-      "error": "URLError"
+      "error": "HTTPError"
     }
   ],
   "publicables": [
     {
       "id": "h01",
-      "titular": "Itaú lanza IA generativa para clientes",
-      "resumen": "Itaú implementa ia.i y la plataforma de gobernanza IARA para ofrecer IA a clientes y empleados en el sector bancario brasileño.",
-      "porque_importa": "Muestra un modelo regulado de IA que bancos uruguayos podrían replicar.",
-      "angulo": "IA en finanzas: ¿el futuro de la atención al cliente en la región?",
+      "titular": "Itaú lanza IA generativa para clientes y empleados",
+      "resumen": "El banco brasileño despliega ia.i, una interfaz conversacional, y la plataforma de gobernanza IARA, dentro de su estrategia AI First.",
+      "porque_importa": "Ejemplo de cómo instituciones financieras reguladas pueden integrar IA sin romper normas, útil para bancos uruguayos.",
+      "angulo": "¿Podemos replicar el modelo de IA regulada de Itaú en la región?",
       "formato": "post",
       "puntos": {
         "senal": 4,
@@ -120,16 +120,16 @@
       "id": "h04",
       "titular": "GPT‑Rosalind para laboratorios académicos",
       "resumen": "OpenAI abre acceso patrocinado a GPT‑Rosalind y herramientas para investigación en ciencias de la vida.",
-      "porque_importa": "Laboratorios uruguayos pueden probar IA avanzada sin inversión inicial.",
-      "angulo": "IA en la academia: ¿una ventaja competitiva real?",
+      "porque_importa": "Facilita a investigadores latinoamericanos usar IA avanzada sin costos elevados.",
+      "angulo": "IA en la ciencia local: ¿una puerta abierta?",
       "formato": "post",
       "puntos": {
         "senal": 3,
         "impacto": 3,
-        "conversacion": 2,
+        "conversacion": 3,
         "antihype": 3
       },
-      "total": 11,
+      "total": 12,
       "verificacion": {
         "estado": "verificada",
         "motivo": "Fuente primaria: OpenAI.",
@@ -145,19 +145,112 @@
       "titulo_original": "Bringing GPT-Rosalind to academic research labs"
     },
     {
-      "id": "h03",
-      "titular": "Stack Overflow lanza plugin ChatGPT y triplica agentes",
-      "resumen": "Dos ingenieros crean Stack Overflow for Agents con Codex; el plugin de ChatGPT impulsa hasta 10 veces el crecimiento de agentes.",
-      "porque_importa": "Ofrece una herramienta para desarrolladores locales que buscan automatizar soporte técnico.",
-      "angulo": "¿Los plugins de IA están cambiando la forma de programar?",
+      "id": "h11",
+      "titular": "Meta ajusta sus TOS sobre scraping y entrenamiento IA",
+      "resumen": "Meta afirma que la actualización de sus términos no cambia la forma en que rastrea la web, tras críticas sobre uso de datos para entrenar IA.",
+      "porque_importa": "Desarrolladores y creadores de contenido uruguayos deben vigilar sus derechos de autor en la web.",
+      "angulo": "¿Hasta dónde llega la responsabilidad de las plataformas al usar contenido ajeno?",
       "formato": "post",
       "puntos": {
         "senal": 3,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "titulo_original": "Meta removes language that raised scraping and AI training concerns"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h42",
+      "titular": "Meta reconoce bug que graba sin permiso",
+      "resumen": "Meta admite que sus gafas Ray‑Ban pueden grabar conversaciones sin activar el comando “Hey, Meta”.",
+      "porque_importa": "Genera dudas de privacidad para usuarios y reguladores en Latinoamérica.",
+      "angulo": "¿Hasta dónde llega la vigilancia de los wearables?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/privacidad/esta-resuelto-meta-admite-error-sus-gafas-inteligentes-que-grababa-conversaciones-permiso",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "titulo_original": "\"Ya está resuelto\". Meta admite un error en sus gafas inteligentes que grababa conversaciones sin permiso"
+    },
+    {
+      "id": "h34",
+      "titular": "ChatGPT ahora ve tus pestañas de Chrome",
+      "resumen": "La extensión de Chrome de OpenAI permite a ChatGPT leer las pestañas abiertas cuando se le etiqueta “Chrome”.",
+      "porque_importa": "Facilita flujos de trabajo para creadores de contenido que usan múltiples fuentes en línea.",
+      "angulo": "¿Te preocupa que la IA tenga acceso a tu navegación?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 4,
+        "conversacion": 4,
+        "antihype": 3
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "titulo_original": "ChatGPT can peek at your Chrome tabs now"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h03",
+      "titular": "Stack Overflow lanza plugin ChatGPT y triplica usuarios",
+      "resumen": "Dos ingenieros lanzan Stack Overflow for Agents con Codex; el plugin de ChatGPT impulsa hasta 10× el crecimiento de agentes.",
+      "porque_importa": "Los desarrolladores uruguayos pueden crear agentes de soporte más rápido usando IA integrada.",
+      "angulo": "¿Los plugins de IA están saturando el mercado de herramientas de desarrollo?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
         "impacto": 2,
         "conversacion": 3,
         "antihype": 2
       },
-      "total": 10,
+      "total": 9,
       "verificacion": {
         "estado": "verificada",
         "motivo": "Fuente primaria: OpenAI.",
@@ -169,167 +262,84 @@
           }
         ]
       },
-      "descarte": "",
+      "descarte": "Cifras de crecimiento no verificadas; falta contexto regional.",
       "titulo_original": "Stack Overflow for Agents triples signups with ChatGPT plugin"
-    }
-  ],
-  "sin_confirmar": [
-    {
-      "id": "h33",
-      "titular": "Meta podrá entrenar IA con contenidos de noticias gratis",
-      "resumen": "Nuevos términos de Meta permiten rastrear y usar sitios de noticias asociados a sus clientes, según The Verge, a partir del 30 octubre.",
-      "porque_importa": "Publicadores latinoamericanos podrían perder control de sus datos frente a Meta.",
-      "angulo": "¿Meta se lleva el contenido sin pagar?",
-      "formato": "post",
-      "puntos": {
-        "senal": 3,
-        "impacto": 3,
-        "conversacion": 4,
-        "antihype": 3
-      },
-      "total": 13,
-      "verificacion": {
-        "estado": "sin_confirmar",
-        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
-        "fuentes": [
-          {
-            "nombre": "The Verge",
-            "link": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
-            "tipo": "medio"
-          }
-        ]
-      },
-      "descarte": "",
-      "titulo_original": "Meta’s new terms may allow it to train AI on news sites for free"
     },
     {
-      "id": "h31",
-      "titular": "Sitios web bloquean agentes de IA",
-      "resumen": "Plataformas como OpenAI y Google ven que cada vez más webs impiden el acceso a sus agentes autónomos, informa The Verge.",
-      "porque_importa": "Creadores que usan agentes para automatizar tareas enfrentarán más barreras online.",
-      "angulo": "El nuevo muro digital contra la IA autónoma.",
-      "formato": "post",
-      "puntos": {
-        "senal": 3,
-        "impacto": 3,
-        "conversacion": 4,
-        "antihype": 3
-      },
-      "total": 13,
-      "verificacion": {
-        "estado": "sin_confirmar",
-        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
-        "fuentes": [
-          {
-            "nombre": "The Verge",
-            "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-            "tipo": "medio"
-          }
-        ]
-      },
-      "descarte": "",
-      "titulo_original": "Websites are closing their doors to AI agents"
-    }
-  ],
-  "descartados": [
-    {
-      "id": "h40",
-      "titular": "Modelos de OpenAI hackearon billetera cripto",
-      "resumen": "OpenAI fue usado para vulnerar una billetera cripto y varios sitios, según Ars Technica.",
-      "porque_importa": "Alertará a desarrolladores de seguridad en la región sobre riesgos de IA mal usada.",
-      "angulo": "Cuando la IA se vuelve herramienta de hacking.",
-      "formato": "post",
-      "puntos": {
-        "senal": 3,
-        "impacto": 2,
-        "conversacion": 3,
-        "antihype": 2
-      },
-      "total": 10,
-      "verificacion": {
-        "estado": "sin_confirmar",
-        "motivo": "Solo lo publicó Ars Technica. Falta una segunda fuente independiente o el anuncio oficial.",
-        "fuentes": [
-          {
-            "nombre": "Ars Technica",
-            "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-            "tipo": "medio"
-          }
-        ]
-      },
-      "descarte": "Falta evidencia de responsabilidad directa de OpenAI",
-      "titulo_original": "OpenAI models hacked a crypto wallet and breached more websites"
-    },
-    {
-      "id": "h19",
-      "titular": "Mark Wahlberg habla de IA en el cine",
-      "resumen": "El actor y inversor Mark Wahlberg dice que acepta IA en películas si sirve para mejorar la obra.",
-      "porque_importa": "Productores locales podrían usar IA sin temer perder la autoría.",
-      "angulo": "¿Hasta dónde llega el “clone” de un artista?",
-      "formato": "post",
-      "puntos": {
-        "senal": 1,
-        "impacto": 2,
-        "conversacion": 3,
-        "antihype": 2
-      },
-      "total": 8,
-      "verificacion": {
-        "estado": "sin_confirmar",
-        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
-        "fuentes": [
-          {
-            "nombre": "TechCrunch",
-            "link": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
-            "tipo": "medio"
-          }
-        ]
-      },
-      "descarte": "Declaración vaga, sin ejemplos ni métricas.",
-      "titulo_original": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy"
-    },
-    {
-      "id": "h21",
-      "titular": "Replit imagina empresas “autoconducidas”",
-      "resumen": "El CEO de Replit, Amjad Masad, visualiza compañías donde agentes de IA gestionan tareas rutinarias y humanos toman decisiones estratégicas.",
-      "porque_importa": "Equipos creativos uruguayos podrían delegar procesos repetitivos a IA y enfocarse en ideas.",
-      "angulo": "¿Estamos listos para delegar el día a día a bots?",
+      "id": "h08",
+      "titular": "Nuevas laptops RTX Spark llegan a Uruguay",
+      "resumen": "NVIDIA anuncia laptops con GPU Blackwell RTX, hasta 128 GB de memoria unificada y plataforma AI, a partir de $2,399, con marcas como ASUS y Dell.",
+      "porque_importa": "Los creativos locales tendrán acceso a hardware AI potente sin depender de la nube.",
+      "angulo": "¿Vale la pena invertir en una laptop tan cara para proyectos de IA?",
       "formato": "post",
       "puntos": {
         "senal": 2,
         "impacto": 2,
-        "conversacion": 3,
-        "antihype": 2
+        "conversacion": 2,
+        "antihype": 1
       },
-      "total": 9,
+      "total": 7,
       "verificacion": {
-        "estado": "sin_confirmar",
-        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "estado": "verificada",
+        "motivo": "Fuente primaria: NVIDIA.",
         "fuentes": [
           {
-            "nombre": "TechCrunch",
-            "link": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+            "tipo": "oficial"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
             "tipo": "medio"
           }
         ]
       },
-      "descarte": "Concepto futurista sin ejemplos concretos de implementación.",
-      "titulo_original": "Replit’s CEO says the future of work is the ‘self-driving company’"
+      "descarte": "Falta datos de disponibilidad y precios locales; mucho hype sin contexto regional.",
+      "titulo_original": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive"
+    },
+    {
+      "id": "h06",
+      "titular": "Beam, modelo abierto 501B personalizable",
+      "resumen": "Hugging Face lanza Beam, un modelo abierto que se puede poseer y escalar.",
+      "porque_importa": "Permite a equipos locales adaptar IA sin depender de proveedores externos.",
+      "angulo": "¿Te animás a montar tu propio modelo?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: Hugging Face.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/reflection-beam",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "poco detalle técnico, escasa evidencia de uso regional",
+      "titulo_original": "Welcome Beam: a 501B open model you can own, customize, and scale"
     },
     {
       "id": "h07",
       "titular": "Granite Switch 4.1 unifica chat y voz",
       "resumen": "Hugging Face anuncia Granite Switch 4.1, que combina chat, decisiones y speech en un solo endpoint.",
-      "porque_importa": "Facilita la integración de IA en apps locales, reduciendo costos de infraestructura.",
-      "angulo": "Un endpoint para todo: ¿simplifica o concentra riesgos?",
+      "porque_importa": "Simplifica la arquitectura de apps que usan varios servicios de IA.",
+      "angulo": "Un endpoint, menos código: ¿es la solución para pymes?",
       "formato": "post",
       "puntos": {
-        "senal": 1,
+        "senal": 2,
         "impacto": 1,
         "conversacion": 2,
         "antihype": 1
       },
-      "total": 5,
+      "total": 6,
       "verificacion": {
         "estado": "verificada",
         "motivo": "Fuente primaria: Hugging Face.",
@@ -341,83 +351,83 @@
           }
         ]
       },
-      "descarte": "Falta información de disponibilidad y precios.",
+      "descarte": "falta información de disponibilidad y precios",
       "titulo_original": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint"
     }
   ],
   "piezas": {
     "reel": {
       "nota": "h01",
-      "titulo": "Itaú lleva IA generativa a la banca",
+      "titulo": "IA regulada en la banca: el caso Itaú",
       "beats": [
         {
           "t": "0:00",
-          "texto": "Itaú lanzó ia.i y la plataforma de gobernanza IARA.",
-          "pantalla": "Logo de Itaú y pantalla de IA en acción"
+          "texto": "Itaú lanzó ia.i, una interfaz conversacional para clientes y empleados.",
+          "pantalla": "Pantalla con logo de Itaú y captura de la interfaz ia.i"
         },
         {
-          "t": "0:07",
-          "texto": "La herramienta está disponible para clientes y empleados del banco brasileño.",
-          "pantalla": "Interfaz de usuario mostrando chat de IA"
+          "t": "0:08",
+          "texto": "Junto a la plataforma de gobernanza IARA, la apuesta es por una IA bajo control regulatorio.",
+          "pantalla": "Diagrama sencillo que muestra ia.i conectado a IARA y a los sistemas internos"
         },
         {
-          "t": "0:14",
-          "texto": "Un modelo regulado que cumple con normas locales.",
-          "pantalla": "Checklist de cumplimiento y sello de regulación"
+          "t": "0:16",
+          "texto": "¿Qué implica para los bancos uruguayos?",
+          "pantalla": "Mapa de Uruguay con íconos de bancos"
         },
         {
-          "t": "0:21",
-          "texto": "¿Podrían los bancos uruguayos replicar este esquema?",
-          "pantalla": "Mapa de Uruguay y Brasil con iconos de bancos"
+          "t": "0:22",
+          "texto": "Podrían usar un modelo similar sin romper normas locales.",
+          "pantalla": "Ejemplo de pantalla de un banco uruguayo con IA integrada"
         },
         {
-          "t": "0:28",
-          "texto": "La IA promete respuestas más rápidas y personalizadas.",
-          "pantalla": "Cliente recibiendo respuesta instantánea en su móvil"
+          "t": "0:30",
+          "texto": "El desafío está en la gobernanza, no en la tecnología.",
+          "pantalla": "Checklist de gobernanza: privacidad, auditoría, transparencia"
         },
         {
-          "t": "0:35",
-          "texto": "Pero la verdadera cuestión es el impacto en el trabajo humano.",
-          "pantalla": "Empleado de banco revisando sugerencias de IA"
+          "t": "0:38",
+          "texto": "¿Podemos replicar el modelo de IA regulada en la región?",
+          "pantalla": "Pregunta en texto sobre la pantalla final"
         }
       ]
     },
     "carrusel": {
       "nota": "h04",
-      "titulo": "GPT‑Rosalind abre la puerta a la investigación sin costos",
+      "titulo": "GPT‑Rosalind abre la puerta a la investigación latinoamericana",
       "placas": [
-        "OpenAI ofrece acceso patrocinado a GPT‑Rosalind para laboratorios académicos.",
-        "La IA está entrenada en datos de biología y química.",
-        "Permite generar hipótesis y diseñar experimentos rápidamente.",
-        "Los laboratorios uruguayos pueden probarla sin inversión inicial.",
-        "Una herramienta que acelera la fase de exploración de proyectos.",
-        "¿Se convertirá en un estándar para la investigación regional?"
+        "OpenAI puso a disposición de investigadores académicos GPT‑Rosalind, una IA entrenada en datos de biología y química.",
+        "El acceso es patrocinado, lo que reduce costos para laboratorios con presupuestos ajustados.",
+        "Permite generar hipótesis, diseñar experimentos y analizar resultados con lenguaje natural.",
+        "Facilita la colaboración entre científicos de distintas instituciones de América Latina.",
+        "Reduce la brecha tecnológica entre centros de investigación de alto y bajo presupuesto.",
+        "¿Cómo puede tu laboratorio aprovechar esta herramienta sin grandes inversiones?"
       ]
     },
     "post": {
-      "nota": "h03",
-      "titulo": "Stack Overflow y el plugin que multiplica agentes",
-      "texto": "Dos ingenieros de Stack Overflow lanzaron \"Stack Overflow for Agents\" con Codex.\n\nEl plugin de ChatGPT permite que los agentes de soporte técnico crezcan hasta diez veces más rápido.\n\nPara los desarrolladores uruguayos, es una opción para automatizar respuestas y reducir carga de tickets.\n\nLa pregunta clave: ¿estamos listos para delegar parte del debugging a una IA?"
+      "nota": "h11",
+      "titulo": "Meta y el debate sobre scraping para entrenar IA",
+      "texto": "Meta anunció una actualización de sus Términos de Servicio que, según la empresa, no cambia la forma en que rastrea la web.\n\nSin embargo, la comunidad de desarrolladores y creadores uruguayos sigue preocupada: ¿qué pasa con el contenido que subimos y que puede ser usado para entrenar modelos?\n\nLa cuestión no es solo legal, sino ética. Si la IA se alimenta de nuestro trabajo sin compensación, ¿quién se beneficia?\n\nPara los creadores locales, la recomendación es revisar los TOS, usar herramientas de gestión de derechos y considerar licencias que limiten el uso de sus datos.\n\nEl debate está abierto: ¿hasta dónde llega la responsabilidad de las plataformas al usar contenido ajeno?"
     },
     "hilo": {
       "nota": "h01",
-      "titulo": "IA regulada en la banca: ¿qué implica para Uruguay?",
+      "titulo": "¿Puede la banca uruguaya adoptar IA regulada como Itaú?",
       "partes": [
-        "Itaú implementó ia.i y la plataforma IARA para ofrecer IA a clientes y empleados.",
-        "El modelo está bajo una gobernanza que asegura cumplimiento regulatorio.",
-        "Los bancos uruguayos podrían adoptar una estructura similar para evitar riesgos.",
-        "¿Qué desafíos enfrentarían al integrar IA en la atención al cliente?"
+        "Itaú lanzó ia.i, una IA conversacional para clientes y empleados, acompañada de la plataforma de gobernanza IARA.",
+        "El objetivo es integrar IA sin romper normas regulatorias, algo crítico para bancos en entornos estrictos.",
+        "En Uruguay, la normativa financiera también exige control y trazabilidad de datos. ¿Cómo adaptamos este modelo?",
+        "La clave está en la gobernanza: auditorías, transparencia y límites claros de uso."
       ]
     },
     "opencast": {
       "notas": [
         "h04",
-        "h03"
+        "h11"
       ],
       "preguntas": [
-        "¿Qué limitaciones tiene GPT‑Rosalind al trabajar con datos locales de Uruguay?",
-        "¿Cómo afecta la automatización de agentes de soporte a la calidad del código?",
-        "¿Qué riesgos regulatorios aparecen al usar IA generativa en servicios financieros?"
+        "¿Qué barreras encuentran los investigadores latinoamericanos para acceder a IA avanzada y cómo las supera GPT‑Rosalind?",
+        "¿De qué manera la actualización de los TOS de Meta afecta a los creadores de contenido uruguayos en la práctica?",
+        "Si la IA se alimenta de contenido sin permiso, ¿qué mecanismos regulatorios deberían implementarse en la región?"
       ]
     }
   }

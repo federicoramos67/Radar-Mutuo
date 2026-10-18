@@ -1,6 +1,7 @@
 """El trabajo editorial: puntuar con la rúbrica, elegir y redactar las piezas."""
 
 import json
+import re
 
 from . import config
 from .modelo import SinModelo
@@ -54,40 +55,98 @@ El reel dura unos 40 segundos y tiene 5 o 6 beats. Cada pieza sale de una nota d
 )
 
 
-SISTEMA_AGRUPAR = """Sos editor de una mesa de noticias. Te paso titulares de distintas fuentes.
-Agrupá SOLO los que cuentan el MISMO hecho concreto (el mismo anuncio, lanzamiento, estudio o evento).
-Que hablen del mismo tema o de la misma empresa NO alcanza: tiene que ser la misma noticia.
-SÍ cuentan como el mismo hecho dos notas que cubren el mismo anuncio desde ángulos distintos
-(por ejemplo: "X cambia sus términos" y "X ahora puede usar tus datos para entrenar" si es el mismo cambio).
-Leé el resumen, no solo el título. Si dos notas no comparten el hecho central, no las agrupes.
-Respondé SOLO con JSON: {"grupos": [["h01", "h07"], ["h03", "h12", "h15"]]}
-Incluí únicamente grupos de 2 o más. Si no hay ninguno: {"grupos": []}"""
+SISTEMA_AGRUPAR = """Sos editor de una mesa de noticias. Te paso pares de notas de distintas fuentes.
+Para cada par, decidí si cuentan el MISMO hecho concreto: el mismo anuncio, dato, estudio, decisión o evento,
+aunque lo cuenten desde ángulos distintos o con títulos distintos.
+Que hablen de la misma empresa o del mismo tema NO alcanza.
+Ejemplo SÍ: "X says its workforce is less junior" y "X casi dejó de contratar juniors": mismo dato de la misma empresa.
+Ejemplo NO: "X lanza un modelo" y "X es demandada en Alemania": misma empresa, hechos distintos.
+Respondé SOLO con JSON: {"mismos": ["h01|h07", "h03|h12"]} con los pares que SÍ son el mismo hecho. Si ninguno: {"mismos": []}"""
+
+# Palabras con mayúscula que no son entidades.
+_NO_ENTIDAD = {
+    "how", "the", "why", "what", "new", "ai", "ia", "el", "la", "los", "las", "un", "una", "como", "cómo", "por",
+    "this", "these", "its", "it", "a", "an", "in", "on", "es", "del", "de", "en", "y", "and", "with", "for", "to",
+    "qué", "que", "así", "hoy", "más", "your", "you", "is", "are", "after", "now", "here",
+}
+
+
+def _entidades(titulo):
+    """Nombres propios de un título: palabras con mayúscula que no son de relleno."""
+    out = set()
+    for tok in re.findall(r"[A-ZÁÉÍÓÚÑ][\w\-\.]*[\w]|[A-Z]{2,}", titulo or ""):
+        t = tok.lower().strip(".")
+        if t not in _NO_ENTIDAD and len(t) > 1:
+            out.add(t)
+    return out
+
+
+def _pares_candidatos(grupos, maximo=30):
+    """Pares de historias que comparten al menos una entidad. Se ordenan por cuántas comparten."""
+    from .limpieza import palabras
+
+    datos = [(g, _entidades(" ".join(i["titulo"] for i in g["items"])), palabras(g["principal"]["titulo"])) for g in grupos]
+    pares = []
+    for a in range(len(datos)):
+        for b in range(a + 1, len(datos)):
+            ga, ea, pa = datos[a]
+            gb, eb, pb = datos[b]
+            comunes = ea & eb
+            if not comunes:
+                continue
+            fuentes_a = {i["fuente"] for i in ga["items"]}
+            fuentes_b = {i["fuente"] for i in gb["items"]}
+            if fuentes_a == fuentes_b and len(fuentes_a) == 1:
+                continue  # dos notas de la misma fuente casi nunca son la misma noticia
+            pares.append((len(comunes) + len(pa & pb), ga, gb))
+    pares.sort(key=lambda x: x[0], reverse=True)
+    return [(ga, gb) for _, ga, gb in pares[:maximo]]
 
 
 def unir_por_modelo(grupos, cliente):
-    """Junta historias que el agrupador por palabras no vio (títulos distintos, mismo hecho)."""
-    if len(grupos) < 2:
+    """Junta historias que el agrupador por palabras no vio: el código propone pares, el modelo decide."""
+    pares = _pares_candidatos(grupos)
+    if not pares:
         return grupos
-    lista = "\n".join(
-        f'{g["id"]} [{g["principal"]["fuente"]}] {g["principal"]["titulo"]} — {g["principal"]["resumen"][:140]}' for g in grupos
-    )
+
+    def ficha(g):
+        p = g["principal"]
+        return f'[{p["fuente"]}] {p["titulo"]} — {p["resumen"][:160]}'
+
+    pedido = [{"par": f'{a["id"]}|{b["id"]}', "a": ficha(a), "b": ficha(b)} for a, b in pares]
     try:
-        datos = cliente.pedir_json(SISTEMA_AGRUPAR, "Titulares:\n" + lista, max_tokens=900, temperatura=0.0)
+        datos = cliente.pedir_json(SISTEMA_AGRUPAR, "Pares:\n" + json.dumps(pedido, ensure_ascii=False, indent=1),
+                                   max_tokens=600, temperatura=0.0)
     except SinModelo:
         return grupos
+    validos = {p["par"] for p in pedido}
+    padre = {g["id"]: g["id"] for g in grupos}
+
+    def raiz(x):
+        while padre[x] != x:
+            padre[x] = padre[padre[x]]
+            x = padre[x]
+        return x
+
+    for par in (datos.get("mismos") or []) if isinstance(datos, dict) else []:
+        if not isinstance(par, str) or par not in validos:
+            continue
+        a, b = par.split("|")
+        ra, rb = raiz(a), raiz(b)
+        if ra != rb:
+            padre[rb] = ra
     por_id = {g["id"]: g for g in grupos}
     absorbidos = set()
-    for conjunto in (datos.get("grupos") or []) if isinstance(datos, dict) else []:
-        ids = [i for i in conjunto if isinstance(i, str) and i in por_id and i not in absorbidos] if isinstance(conjunto, list) else []
-        if len(ids) < 2:
-            continue
-        base = por_id[ids[0]]
-        for otro in ids[1:]:
-            base["items"].extend(por_id[otro]["items"])
-            absorbidos.add(otro)
-        # la fuente principal pasa a ser la de mayor jerarquía (oficial > medio > comunidad)
-        base["items"].sort(key=lambda i: {"oficial": 0, "medio": 1, "comunidad": 2}[i["tipo"]])
-        base["principal"] = base["items"][0]
+    for g in grupos:
+        r = raiz(g["id"])
+        if r != g["id"]:
+            por_id[r]["items"].extend(g["items"])
+            absorbidos.add(g["id"])
+    for g in grupos:
+        if g["id"] not in absorbidos:
+            # la fuente principal pasa a ser la de mayor jerarquía (oficial > medio > comunidad)
+            g["items"].sort(key=lambda i: {"oficial": 0, "medio": 1, "comunidad": 2}[i["tipo"]])
+            g["principal"] = g["items"][0]
     return [g for g in grupos if g["id"] not in absorbidos]
 
 
@@ -142,8 +201,20 @@ def puntuar(grupos, cliente):
     for g in grupos:
         if "puntos" not in g:
             _puntaje_respaldo(g)
+        # Regla del código: que dos redacciones independientes la cubran prueba que es un hecho
+        # (señal) y que no es humo (antihype). El modelo puede subir esos ejes, no bajarlos de 3.
+        if _medios_independientes(g) >= 2:
+            g["puntos"]["senal"] = max(g["puntos"]["senal"], 3)
+            g["puntos"]["antihype"] = max(g["puntos"]["antihype"], 3)
+            g["corroborada"] = True
         g["total"] = sum(g["puntos"].values())
     return algun_lote_ok
+
+
+def _medios_independientes(g):
+    from .limpieza import dominio
+
+    return len({dominio(i["link"]) for i in g["items"] if i["tipo"] == "medio"})
 
 
 def _puntaje_respaldo(g):

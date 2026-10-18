@@ -78,10 +78,10 @@ class ModeloFalso:
         sistema = cuerpo["messages"][0]["content"]
         usuario = cuerpo["messages"][1]["content"]
         if "MISMO hecho" in sistema:
-            ids = {l.split(" ", 1)[0]: l for l in usuario.splitlines()[1:]}
-            juntos = [i for i, l in ids.items() if "rumor" in l.lower() or "gpt-6" in l.lower() or "mismo-hecho" in l.lower()]
-            contenido = json.dumps({"grupos": [juntos] if len(juntos) > 1 else []})
-            return {"choices": [{"message": {"content": contenido}}]}
+            pares = json.loads(usuario.split("\n", 1)[1])
+            claves = ("rumor", "gpt-6", "mismo-hecho")
+            mismos = [p["par"] for p in pares if all(any(k in p[x].lower() for k in claves) for x in ("a", "b"))]
+            return {"choices": [{"message": {"content": json.dumps({"mismos": mismos})}}]}
         if "verificador de datos" in sistema:
             alertas = []
             if "diez veces" in usuario:
@@ -241,6 +241,33 @@ class PruebasFidelidad(unittest.TestCase):
     def test_frase_de_folleto(self):
         self.assertIn("revolucion", fidelidad.folleto("Una revolución en la edición"))
         self.assertTrue(fidelidad.folleto("Descubrí más en la web de NVIDIA."))
+
+
+class PruebasAgrupacion(unittest.TestCase):
+    def test_entidades(self):
+        self.assertEqual(editor._entidades("How Anthropic is using Claude in The Office"), {"anthropic", "claude", "office"})
+
+    def test_pares_por_entidad(self):
+        def g(i, fuente, titulo):
+            it = {"titulo": titulo, "resumen": "", "fuente": fuente, "tipo": "medio", "link": f"https://{fuente}.test/{i}", "fecha": AHORA}
+            return {"id": i, "items": [it], "principal": it}
+        grupos = [g("h01", "a", "Anthropic says its workforce is less junior"),
+                  g("h02", "b", "Anthropic casi dejó de contratar juniors"),
+                  g("h03", "c", "Google lanza un modelo de video")]
+        pares = [(x["id"], y["id"]) for x, y in editor._pares_candidatos(grupos)]
+        self.assertEqual(pares, [("h01", "h02")])
+
+    def test_corroboracion_sube_el_piso(self):
+        it = lambda d: {"titulo": "X", "resumen": "", "fuente": d, "tipo": "medio", "link": f"https://{d}.test/x", "fecha": AHORA}
+        g = {"id": "h01", "items": [it("uno"), it("dos")]}
+        g["principal"] = g["items"][0]
+
+        def enviar(url, token, cuerpo):
+            return {"choices": [{"message": {"content": json.dumps({"historias": [
+                {"id": "h01", "senal": 1, "impacto": 1, "conversacion": 1, "antihype": 0, "titular": "T", "naturaleza": "otro"}]})}}]}
+
+        editor.puntuar([g], Cliente(enviar=enviar, proveedores=[("A", "u", "t", "m")], esperar=lambda s: None))
+        self.assertEqual((g["puntos"]["senal"], g["puntos"]["antihype"]), (3, 3))
 
 
 class PruebasModelo(unittest.TestCase):

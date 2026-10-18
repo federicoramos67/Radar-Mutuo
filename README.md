@@ -34,7 +34,7 @@
 
 ### Qué hace, en una mañana
 
-| | |
+| Paso | Qué hace |
 |---|---|
 | 📥 **Lee** | 13 fuentes: laboratorios, medios y comunidad |
 | 🧹 **Filtra** | de las fuentes generales solo entra lo que es IA |

@@ -36,12 +36,15 @@
 
 | Paso | Qué hace |
 |---|---|
-| 📥 **Lee** | 13 fuentes: laboratorios, medios y comunidad |
+| 📥 **Lee** | 22 fuentes: laboratorios, papers, medios en inglés y en español, y comunidad |
 | 🧹 **Filtra** | de las fuentes generales solo entra lo que es IA |
-| 🔗 **Agrupa** | las notas que cuentan el mismo hecho |
-| ✅ **Verifica** | fuente primaria o dos medios independientes |
+| 🔗 **Agrupa** | el código propone pares, el modelo decide si son el mismo hecho |
+| ✅ **Verifica** | dos medios independientes, o fuente primaria con datos |
+| 📣 **Separa** | lo que solo dijo una empresa va aparte, como comunicado |
 | 🎚️ **Puntúa** | señal · impacto · conversación · antihype |
+| 🧭 **Opina** | una nota del día con tesis editorial |
 | ✍️ **Redacta** | reel, carrusel, post, hilo y preguntas para streaming, en voseo |
+| 🔎 **Controla** | cada cifra y afirmación redactada contra su fuente |
 | 🌐 **Publica** | una página fija + archivo histórico + datos en JSON |
 
 **Lo descartado también se muestra, con su motivo.** Decir que no es trabajo editorial.
@@ -56,24 +59,40 @@ Un modelo de lenguaje puede sonar seguro sin tener razón. Por eso el estado de 
 
 | Situación | Estado | ¿Se publica? |
 |---|---|---|
-| La publicó el propio laboratorio o empresa | 🟢 **Verificada** (fuente primaria) | Sí |
 | La cuentan dos medios de dominios distintos | 🟢 **Verificada** (corroborada) | Sí |
+| La publicó la empresa y la cubre al menos un medio | 🟢 **Verificada** (fuente primaria + cobertura) | Sí |
+| Solo la empresa, y es un lanzamiento o paper con datos | 🟢 **Verificada** (fuente primaria) | Sí |
+| Solo la empresa, y es un caso de cliente, promoción u opinión | 📣 **Comunicado** | No: va aparte hasta que un medio la cubra |
 | Una sola fuente, o solo un agregador | 🟠 **Sin confirmar** | No: se muestra marcada y queda en observación |
 
-El modelo ayuda a **juntar** notas con títulos distintos que cuentan lo mismo, pero la regla de verificación la aplica siempre el código.
+El modelo informa qué tipo de nota es y ayuda a juntar las que cuentan lo mismo. La regla que la convierte en estado la aplica siempre el código. Y que dos redacciones independientes cubran una nota le sube el piso de señal y antihype: es la prueba más fuerte de que es un hecho.
+
+## 🔎 Control de fidelidad: lo redactado dice solo lo que dice la fuente
+
+Verificar que una noticia existe no alcanza: también hay que controlar que el texto que se escribe no le agregue nada. [`radar/fidelidad.py`](radar/fidelidad.py) trabaja en tres capas:
+
+1. **Cifras (código).** Cada número, porcentaje o multiplicador ("triplica", "la mitad") de lo redactado tiene que aparecer en el material de la fuente.
+2. **Frases de folleto (código).** Detecta hype ("revoluciona"), llamados a la acción vacíos y regionalismo forzado: el ángulo "en Uruguay" solo entra si la fuente tiene algo regional.
+3. **Afirmaciones (modelo).** Una segunda lectura busca hechos que la fuente no sostiene. Recomendaciones y preguntas no cuentan.
+
+Lo marcado se corrige una vez antes de publicar. Lo que sigue marcado aparece en la página como **"revisar antes de publicar"**, y cada pieza limpia lleva su sello ✓.
 
 ## 🧭 Cómo funciona
 
 ```mermaid
 flowchart LR
-    A["📥 13 fuentes RSS<br/>labs · medios · comunidad"] --> B["🧹 Filtro de tema<br/>+ deduplicación"]
-    B --> C["🔗 Agrupar<br/>mismo hecho"]
+    A["📥 22 fuentes<br/>labs · papers · medios · comunidad"] --> B["🧹 Filtro de tema<br/>+ deduplicación"]
+    B --> C["🔗 Agrupar<br/>pares por entidad"]
     C --> D{"✅ Verificación<br/>por reglas"}
     D -->|verificada| E["🎚️ Rúbrica<br/>4 ejes · 0 a 20"]
+    D -->|solo la empresa| K["📣 Comunicado<br/>aparte"]
     D -->|sin confirmar| F["🟠 Observación<br/>visible, no publicable"]
-    E --> G["✍️ Piezas en voseo<br/>reel · carrusel · post · hilo"]
-    G --> H["🌐 GitHub Pages<br/>edición + archivo"]
+    E --> N["🧭 Nota del día<br/>con tesis"]
+    N --> G["✍️ Piezas en voseo<br/>reel · carrusel · post · hilo"]
+    G --> Q["🔎 Fidelidad<br/>cifras + afirmaciones"]
+    Q --> H["🌐 GitHub Pages<br/>edición + archivo"]
     F --> H
+    K --> H
 ```
 
 Todo corre en **GitHub Actions**, todos los días a las 07:18 de Montevideo. Si una fuente se cae, sigue con las demás y lo dice. Si el modelo no responde, igual publica con un puntaje de respaldo y lo avisa en la página.
@@ -104,8 +123,9 @@ Cada nota entra al brief con su puntaje a la vista. Cuatro ejes de 0 a 5:
 | Fuentes, rúbrica y voz editorial | [`radar/config.py`](radar/config.py) |
 | Lectura de RSS y Atom | [`radar/fuentes.py`](radar/fuentes.py) |
 | Filtro, deduplicación y agrupación | [`radar/limpieza.py`](radar/limpieza.py) |
-| Verificación cruzada | [`radar/verificacion.py`](radar/verificacion.py) |
-| Agrupación asistida, puntaje y piezas | [`radar/editor.py`](radar/editor.py) |
+| Verificación cruzada y comunicados | [`radar/verificacion.py`](radar/verificacion.py) |
+| Agrupación por pares, puntaje, nota del día y piezas | [`radar/editor.py`](radar/editor.py) |
+| Control de fidelidad | [`radar/fidelidad.py`](radar/fidelidad.py) |
 | Cliente del modelo, con reintentos y respaldo | [`radar/modelo.py`](radar/modelo.py) |
 | Página del brief | [`radar/pagina.py`](radar/pagina.py) |
 | Ejecución diaria y publicación | [`.github/workflows/radar.yml`](.github/workflows/radar.yml) |
@@ -113,9 +133,10 @@ Cada nota entra al brief con su puntaje a la vista. Cuatro ejes de 0 a 5:
 
 - **Costo cero.** GitHub Actions (gratis en repositorios públicos) y el plan gratuito de [Groq](https://console.groq.com) (`openai/gpt-oss-120b`, con respaldo en Llama 3.3 70B). La key vive como secreto del repositorio, nunca en el código.
 - **Cero dependencias.** Solo la biblioteca estándar de Python.
-- **Cuida la cuota.** Puntúa las 30 historias más prometedoras del día, en lotes chicos y con pausas entre pedidos.
-- **Probado.** 17 pruebas corren antes de cada edición. Si una falla, ese día no se publica nada.
-- **Transparente.** Cada edición guarda sus datos en [`docs/datos/`](docs/datos), con puntajes, fuentes y errores del modelo si los hubo.
+- **Cuida la cuota.** Puntúa las 30 historias más prometedoras del día, en lotes chicos y con pausas entre pedidos. Las fuentes que publican mucho tienen tope, para que no tapen al resto.
+- **Consistente.** Temperatura cero para puntuar, agrupar y verificar: lo mismo, dos veces, da lo mismo. Más libertad solo para redactar.
+- **Probado.** 31 pruebas corren antes de cada edición. Si una falla, ese día no se publica nada.
+- **Transparente.** Cada edición guarda sus datos en [`docs/datos/`](docs/datos): todo lo revisado con su puntaje y estado, el informe de fidelidad y los errores del modelo si los hubo.
 
 ## 🚀 Tenerlo en tu cuenta
 

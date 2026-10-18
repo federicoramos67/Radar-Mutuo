@@ -119,6 +119,13 @@ def correr(salida=SALIDA, descargador=fuentes.descargar, cliente=None, ahora=Non
         "nota_dia": nota_dia,
         "piezas": piezas,
         "fidelidad": informe,
+        # Todo lo que se revisó, con su puntaje y su estado: para auditar por qué entró o no cada historia.
+        "todo_lo_revisado": [
+            {"id": g["id"], "titular": g.get("titular") or g["principal"]["titulo"], "total": g["total"],
+             "estado": g["verificacion"]["estado"], "naturaleza": g.get("naturaleza"),
+             "fuentes": [f["nombre"] for f in g["verificacion"]["fuentes"]]}
+            for g in sorted(grupos, key=lambda g: g["total"], reverse=True)
+        ],
     }
     (salida / "datos" / f"{dia}.json").write_text(json.dumps(datos, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Página escrita: {salida / 'index.html'}")

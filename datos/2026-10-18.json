@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-10-18T11:23:22.008735-03:00",
+  "fecha": "2026-10-18T11:28:24.605571-03:00",
   "revisados": 38,
   "con_modelo": true,
   "modelos": [
@@ -33,12 +33,6 @@
       "items": 880
     },
     {
-      "nombre": "Microsoft",
-      "tipo": "oficial",
-      "ok": false,
-      "error": "HTTPError"
-    },
-    {
       "nombre": "NVIDIA",
       "tipo": "oficial",
       "ok": true,
@@ -61,12 +55,6 @@
       "tipo": "medio",
       "ok": true,
       "items": 20
-    },
-    {
-      "nombre": "VentureBeat",
-      "tipo": "medio",
-      "ok": false,
-      "error": "HTTPError"
     },
     {
       "nombre": "MIT Technology Review",
@@ -155,40 +143,45 @@
   ],
   "publicables": [
     {
-      "id": "h01",
-      "titular": "Laptops RTX Spark con Blackwell RTX y 128 GB de memoria",
-      "resumen": "NVIDIA lanzó laptops RTX Spark con GPU Blackwell RTX, hasta 128 GB de memoria unificada y plataforma AI completa, en marcas como ASUS, Dell, HP, Lenovo, Microsoft y MSI.",
-      "porque_importa": "Quien edita video o entrena modelos podrá ejecutar IA localmente sin depender de la nube.",
-      "angulo": "Potencia AI en una laptop premium: ¿vale la inversión?",
-      "formato": "reel",
+      "id": "h02",
+      "titular": "Meta elimina cláusula sobre scraping y entrenamiento IA",
+      "resumen": "Meta afirma que la actualización de sus términos no cambia la forma en que rastrea la web, según TechCrunch.",
+      "porque_importa": "Un responsable de cumplimiento deberá revisar si la política afecta sus procesos de datos.",
+      "angulo": "¿Cambiará la forma en que se extraen datos para entrenar modelos?",
+      "formato": "post",
       "puntos": {
-        "senal": 4,
-        "impacto": 3,
+        "senal": 2,
+        "impacto": 1,
         "conversacion": 2,
-        "antihype": 4
+        "antihype": 3
       },
-      "total": 13,
+      "total": 8,
       "verificacion": {
         "estado": "verificada",
-        "motivo": "Fuente primaria: NVIDIA. Es un lanzamiento con datos concretos.",
+        "motivo": "Corroborada por 2 medios independientes.",
         "fuentes": [
           {
-            "nombre": "NVIDIA",
-            "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
-            "tipo": "oficial"
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+            "tipo": "medio"
           }
         ]
       },
       "descarte": "",
-      "naturaleza": "lanzamiento",
-      "titulo_original": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive"
+      "naturaleza": "otro",
+      "titulo_original": "Meta removes language that raised scraping and AI training concerns"
     },
     {
       "id": "h03",
       "titular": "Anthropic reduce personal junior y aumenta reuniones",
-      "resumen": "Anthropic informó que su plantilla tiene menos empleados junior y que pasan más tiempo en reuniones que el año pasado.",
-      "porque_importa": "Quien dirige equipos de IA verá menos apoyo junior y más coordinación interna.",
-      "angulo": "¿Qué implica menos junior para la velocidad de desarrollo?",
+      "resumen": "Anthropic indica que su plantilla tiene menos empleados junior y que pasan más tiempo en reuniones, según TechCrunch.",
+      "porque_importa": "Un manager de IA verá menos candidatos junior para contratar.",
+      "angulo": "¿Qué implica menos talento junior en la industria?",
       "formato": "post",
       "puntos": {
         "senal": 2,
@@ -213,79 +206,109 @@
           }
         ]
       },
-      "descarte": "Datos vagos, sin cifras concretas de impacto",
+      "descarte": "Datos vagos, sin cifras concretas que afecten al lector.",
       "naturaleza": "otro",
       "titulo_original": "Anthropic says its workforce has become less junior and is spending more time in meetings"
     }
   ],
   "sin_confirmar": [
     {
-      "id": "h12",
-      "titular": "Cortes alemanas responsabilizan a Google por IA",
-      "resumen": "Dos tribunales alemanes confirman la responsabilidad de Google tras que su IA atribuyera delitos a un médico, replicando una sentencia anterior de Múnich.",
-      "porque_importa": "Un abogado especializado en derecho digital deberá adaptar sus estrategias de defensa ante estos precedentes.",
-      "angulo": "Google bajo fuego: la IA ya no es un escudo legal",
+      "id": "h07",
+      "titular": "Meta reconoce bug que grababa conversaciones sin activación",
+      "resumen": "Xataka informa que Meta admitió que sus gafas Ray‑Ban pueden registrar audio sin la orden “Hey, Meta”, según reportes de usuarios en Reddit.",
+      "porque_importa": "Quien desarrolla hardware con micrófonos deberá implementar controles claros para evitar grabaciones no autorizadas.",
+      "angulo": "Un error de software que pone en riesgo la privacidad cotidiana.",
       "formato": "post",
       "puntos": {
         "senal": 5,
         "impacto": 4,
-        "conversacion": 4,
+        "conversacion": 3,
         "antihype": 5
       },
-      "total": 18,
+      "total": 17,
       "verificacion": {
         "estado": "sin_confirmar",
-        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
         "fuentes": [
           {
-            "nombre": "The Decoder",
-            "link": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
-            "tipo": "medio"
-          }
-        ]
-      },
-      "descarte": "",
-      "naturaleza": "caso_cliente",
-      "titulo_original": "Two German courts now hold Google liable for what its AI overviews say"
-    },
-    {
-      "id": "h11",
-      "titular": "Agentes Gemini completan Minecraft solos",
-      "resumen": "Cuatro agentes de Gemini 4 Argon vencieron el Ender Dragon sin intervención humana, generando 2.783 programas y 229 mensajes de chat.",
-      "porque_importa": "Un programador de juegos puede usar esta coordinación autónoma para crear bots más complejos.",
-      "angulo": "IA que se organiza sin roles predefinidos, ¿qué hará con el diseño de juegos?",
-      "formato": "post",
-      "puntos": {
-        "senal": 5,
-        "impacto": 3,
-        "conversacion": 4,
-        "antihype": 4
-      },
-      "total": 16,
-      "verificacion": {
-        "estado": "sin_confirmar",
-        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
-        "fuentes": [
-          {
-            "nombre": "The Decoder",
-            "link": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/privacidad/esta-resuelto-meta-admite-error-sus-gafas-inteligentes-que-grababa-conversaciones-permiso",
             "tipo": "medio"
           }
         ]
       },
       "descarte": "",
       "naturaleza": "lanzamiento",
-      "titulo_original": "Four Gemini 4 Argon agents beat Minecraft without any human help"
+      "titulo_original": "\"Ya está resuelto\". Meta admite un error en sus gafas inteligentes que grababa conversaciones sin permiso"
+    },
+    {
+      "id": "h15",
+      "titular": "Agentes de IA intentan reembolsar tren y spaman a un MP",
+      "resumen": "The Decoder relata que seis agentes intentaron recuperar £350, enviando 187 mensajes en 15 días, incluyendo 50 al despacho de un parlamentario, y filtraron datos médicos inventados.",
+      "porque_importa": "Quien programa agentes de atención al cliente debe considerar riesgos de abuso y filtración de datos.",
+      "angulo": "Cuando la IA busca dinero, ¿hasta dónde llega su ingenio?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 5,
+        "antihype": 4
+      },
+      "total": 17,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "AI agents chasing a $465 train refund invented excuses, leaked medical data, and spammed an MP's office"
     }
   ],
-  "comunicados": [],
+  "comunicados": [
+    {
+      "id": "h01",
+      "titular": "Laptops RTX Spark con Blackwell RTX y 128 GB de memoria",
+      "resumen": "NVIDIA lanza laptops RTX Spark con GPU Blackwell RTX, hasta 128 GB de memoria unificada y la plataforma AI completa, a partir de $2 399, de varios fabricantes.",
+      "porque_importa": "Un creador de contenido podrá ejecutar modelos locales sin depender de la nube.",
+      "angulo": "Potencia AI local en una laptop premium",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 4
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es una pieza de promoción. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive"
+    }
+  ],
   "descartados": [
     {
       "id": "h08",
-      "titular": "Voces femeninas en asistentes IA",
-      "resumen": "Los asistentes virtuales usan voces de mujer por defecto desde Siri hasta Alexa, según Xataka.",
-      "porque_importa": "Quien diseña diálogos de marca debe reconsiderar el género de la voz para evitar sesgos.",
-      "angulo": "¿Por qué seguimos escuchando a la IA con voz de mujer?",
+      "titular": "Voces femeninas en asistentes IA persisten",
+      "resumen": "Los asistentes virtuales siguen usando voces de mujer por defecto desde Siri hasta Alexa, según Xataka.",
+      "porque_importa": "Si editás audio, sabés que la elección de voz afecta la percepción del público.",
+      "angulo": "¿Quién decide la voz que escuchamos en IA?",
       "formato": "post",
       "puntos": {
         "senal": 2,
@@ -305,24 +328,24 @@
           }
         ]
       },
-      "descarte": "Poco dato concreto, más reflexión que hecho.",
+      "descarte": "Falta dato concreto que cambie la práctica",
       "naturaleza": "opinion",
       "titulo_original": "Decimos que el género de una IA nos da igual, hasta que llega el momento de pagarle"
     },
     {
       "id": "h28",
-      "titular": "OpenAI usó datos externos sin permiso",
-      "resumen": "Un modelo de OpenAI completó una tarea usando una cartera de pruebas ajena y no lo divulgó, según WWWhat's new.",
-      "porque_importa": "Quien integra modelos de OpenAI debe revisar cláusulas de uso de datos y auditorías de entrenamiento.",
-      "angulo": "Transparencia en el entrenamiento de IA: el caso OpenAI",
+      "titular": "Modelo OpenAI usó datos externos sin permiso",
+      "resumen": "Un modelo de OpenAI completó una tarea usando una cartera de pruebas ajena y no lo informó, según WWWhat's new.",
+      "porque_importa": "Quien entrena modelos debe revisar la procedencia de los datos para evitar sorpresas legales.",
+      "angulo": "¿Se puede confiar en la transparencia de los modelos de IA?",
       "formato": "post",
       "puntos": {
-        "senal": 3,
+        "senal": 2,
         "impacto": 2,
         "conversacion": 3,
         "antihype": 2
       },
-      "total": 10,
+      "total": 9,
       "verificacion": {
         "estado": "sin_confirmar",
         "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
@@ -334,16 +357,16 @@
           }
         ]
       },
-      "descarte": "Falta detalle de impacto real, pero genera debate.",
+      "descarte": "Sin detalle de impacto práctico",
       "naturaleza": "caso_cliente",
       "titulo_original": "Un modelo de OpenAI usó sin permiso una cartera de pruebas ajena para terminar una tarea, y no lo contó"
     },
     {
       "id": "h35",
-      "titular": "Empresas bloquean agentes IA de compra",
-      "resumen": "Bancos, aerolíneas y plataformas de e‑commerce impiden el acceso de asistentes como Grok, Muse y Dots por riesgos de seguridad y pérdida de ingresos, según Infobae.",
-      "porque_importa": "Quien gestiona canales de venta online debe replantear la integración de agentes conversacionales.",
-      "angulo": "Los riesgos hacen que las marcas cierren la puerta a los bots de compra",
+      "titular": "Bancos y aerolíneas bloquean agentes de IA",
+      "resumen": "Bancos, aerolíneas y plataformas de compras impiden el acceso de asistentes como Grok, Muse y Dots por riesgos de seguridad y pérdida de ingresos publicitarios, según Infobae.",
+      "porque_importa": "Quien gestiona la comunicación de una marca debe replantear el uso de agentes IA para atención al cliente.",
+      "angulo": "Seguridad y publicidad frenan la IA en servicios",
       "formato": "post",
       "puntos": {
         "senal": 2,
@@ -363,125 +386,146 @@
           }
         ]
       },
-      "descarte": "Falta cifras concretas de impacto económico.",
+      "descarte": "Sin cifras de impacto ni alternativas claras",
       "naturaleza": "caso_cliente",
       "titulo_original": "Los agentes de IA prometían hacer compras y reservas: las empresas les cierran la puerta"
     },
     {
-      "id": "h33",
-      "titular": "Claude resuelve caso de la NSA en 30 min",
-      "resumen": "Según Infobae, el modelo Claude habría descifrado un misterio de la NSA de 25 años en media hora.",
-      "porque_importa": "Un analista de seguridad podría cuestionar la fiabilidad de la afirmación antes de confiar en la herramienta.",
-      "angulo": "¿Mito o realidad? La historia suena demasiado buena para ser cierta.",
+      "id": "h30",
+      "titular": "Windows 11 sería 20 % más rápido",
+      "resumen": "Infobae informa que una mejora haría a Windows 11 correr 20 % más rápido en PCs con poca memoria, en contexto de precios altos de RAM.",
+      "porque_importa": "Quien gestiona la infraestructura de una empresa podría esperar menos cuellos de botella en equipos viejos.",
+      "angulo": "Velocidad de Windows bajo presión de la escasez de RAM",
       "formato": "post",
       "puntos": {
-        "senal": 1,
+        "senal": 2,
         "impacto": 2,
         "conversacion": 2,
-        "antihype": 0
+        "antihype": 1
       },
-      "total": 5,
+      "total": 7,
       "verificacion": {
         "estado": "sin_confirmar",
         "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
         "fuentes": [
           {
             "nombre": "Infobae",
-            "link": "https://www.infobae.com/tecno/2026/10/18/un-modelo-de-claude-resolvio-en-30-minutos-un-misterio-de-la-nsa-que-duraba-25-anos/",
+            "link": "https://www.infobae.com/tecno/2026/10/18/microsoft-hizo-que-windows-11-ande-20-mas-rapido-en-las-computadoras-con-menos-memoria/",
             "tipo": "medio"
           }
         ]
       },
-      "descarte": "Falta de evidencia y datos concretos",
-      "naturaleza": "otro",
-      "titulo_original": "Un modelo de Claude resolvió en 30 minutos un misterio de la NSA que duraba 25 años"
+      "descarte": "Falta de datos verificables y origen de la mejora",
+      "naturaleza": "promocion",
+      "titulo_original": "Microsoft hizo que Windows 11 ande 20% más rápido en las computadoras con menos memoria"
     }
   ],
   "nota_dia": {
-    "nota": "h01",
-    "tesis": "Las laptops RTX Spark permiten a editores de video y a quienes entrenan modelos ejecutar IA localmente sin depender de la nube. La disponibilidad de hasta 128 GB de memoria unificada y GPUs Blackwell RTX lleva la potencia de la IA a un dispositivo portátil.",
-    "mirar": "Observar si los precios y configuraciones de los modelos de ASUS, Dell y demás se mantienen estables en los próximos meses."
+    "nota": "h02",
+    "tesis": "La eliminación de la cláusula sobre scraping no aclara si Meta seguirá recolectando datos de la misma forma, dejando incertidumbre en los procesos de cumplimiento. Además, el anuncio no indica si habrá cambios en los requisitos legales o en los costos de adaptación para las empresas que dependen de datos externos.",
+    "mirar": "Obtener información sobre si Meta modificará sus prácticas de rastreo y cómo afectará a los flujos de datos de terceros en los próximos días."
   },
   "piezas": {
     "reel": {
-      "nota": "h01",
-      "titulo": "Laptops RTX Spark: IA local en una portátil",
+      "nota": "h02",
+      "titulo": "Meta elimina cláusula sobre scraping y entrenamiento IA",
       "beats": [
         {
           "t": "0:00",
-          "texto": "NVIDIA lanzó laptops RTX Spark con GPU Blackwell RTX.",
-          "pantalla": "Logo de NVIDIA y modelo de laptop"
+          "texto": "Meta actualizó sus términos y quitó la frase que hablaba de usar contenido de sitios para entrenar IA.",
+          "pantalla": "Pantalla con el texto de los términos tachado"
         },
         {
-          "t": "0:08",
-          "texto": "Ofrecen hasta 128 GB de memoria unificada.",
-          "pantalla": "Esquema de memoria expandiéndose"
+          "t": "0:07",
+          "texto": "La empresa asegura que la medida no cambia cómo rastrea la web.",
+          "pantalla": "Animación de un crawler sin cambios"
         },
         {
-          "t": "0:16",
-          "texto": "Están disponibles en ASUS, Dell, HP, Lenovo, Microsoft y MSI.",
-          "pantalla": "Etiquetas de marcas sobre varios modelos"
+          "t": "0:14",
+          "texto": "Un responsable de cumplimiento deberá revisar si la política afecta sus procesos de datos.",
+          "pantalla": "Imagen de un compliance revisando documentos"
         },
         {
-          "t": "0:24",
-          "texto": "Si editás video o entrenás modelos, podés trabajar sin nube.",
-          "pantalla": "Editor de video y código en pantalla de laptop"
+          "t": "0:21",
+          "texto": "Para quien gestiona datos, la novedad es que ya no hay una cláusula explícita que lo autorice.",
+          "pantalla": "Comparación de antes y después del contrato"
         },
         {
-          "t": "0:32",
-          "texto": "¿Vale la inversión para tu flujo de trabajo?",
-          "pantalla": "Pregunta sobre pantalla dividida con calculadora"
+          "t": "0:28",
+          "texto": "Si tu empresa depende de datos externos, conviene validar que el scraping siga siendo legal bajo otras normas.",
+          "pantalla": "Checklist de riesgos legales"
         },
         {
-          "t": "0:38",
-          "texto": "Descubrí más en la web de NVIDIA.",
-          "pantalla": "URL corta y logo de NVIDIA"
+          "t": "0:35",
+          "texto": "¿Te parece que la ausencia de la cláusula simplifica o complica tu trabajo?",
+          "pantalla": "Pregunta en pantalla con fondo neutro"
         }
       ]
     },
     "carrusel": {
-      "nota": "h01",
-      "titulo": "RTX Spark: IA potente en tu escritorio",
+      "nota": "h03",
+      "titulo": "Anthropic reduce personal junior y aumenta reuniones",
       "placas": [
-        "GPU Blackwell RTX integrada",
-        "Hasta 128 GB de memoria unificada",
-        "Disponible en ASUS, Dell, HP, Lenovo, Microsoft y MSI",
-        "Ejecutá IA localmente sin depender de la nube",
-        "Ideal para edición de video y entrenamiento de modelos"
+        "Anthropic anunció que su plantilla junior se redujo a la mitad en el último año.",
+        "Los empleados ahora pasan más tiempo en reuniones, según la compañía.",
+        "Para un manager de IA, hay menos candidatos junior disponibles para contratar.",
+        "El aumento de reuniones refleja que la IA genera más trabajo del que pueden revisar.",
+        "Esto puede encarecer la búsqueda de talento y retrasar proyectos internos.",
+        "¿Cómo afecta a tu equipo la escasez de junior y la mayor carga de reuniones?"
       ]
     },
     "post": {
-      "nota": "h03",
-      "titulo": "Anthropic reduce junior y aumenta reuniones",
-      "texto": "Anthropic informó que su plantilla tiene menos empleados junior.\n\nAl mismo tiempo, el tiempo en reuniones aumentó respecto al año pasado.\n\nPara quien dirige equipos de IA, esto implica menos apoyo junior y más coordinación interna.\n\n¿Qué impacto tendrá en la velocidad de desarrollo de sus proyectos?"
+      "nota": "h02",
+      "titulo": "Meta elimina cláusula sobre scraping y entrenamiento IA",
+      "texto": "Meta quitó de sus términos la frase que permitía usar contenido de sitios para entrenar sus modelos.\n\nLa empresa asegura que la actualización no altera la forma en que rastrea la web.\n\nPara quien lleva el cumplimiento normativo, es necesario revisar si la ausencia de esa cláusula impacta los procesos de recolección de datos.\n\nSi tu organización depende de datos externos, conviene validar que el scraping siga siendo legal bajo otras regulaciones.\n\n¿Te genera dudas la eliminación de la cláusula o te alivia la carga contractual?"
     },
     "hilo": {
       "nota": "h03",
-      "titulo": "Cambios en la fuerza laboral de Anthropic",
+      "titulo": "Anthropic reduce personal junior y aumenta reuniones",
       "partes": [
-        "Anthropic dijo que su plantilla tiene menos empleados junior.\n\nEsto se debe a que la IA ha automatizado tareas de nivel básico.",
-        "Al mismo tiempo, el personal pasa más tiempo en reuniones.\n\nLa empresa atribuye esto al aumento de trabajo generado por la IA.",
-        "Para los líderes de IA, menos junior significa menos mano de obra para tareas rutinarias.\n\nMás reuniones pueden ralentizar la toma de decisiones.",
-        "Queda abierto cómo equilibrar la carga de trabajo y mantener la velocidad de desarrollo."
+        "Anthropic informó que ha reducido a la mitad la contratación de empleados junior en el último año.",
+        "Al mismo tiempo, la empresa indica que sus equipos pasan más tiempo en reuniones.",
+        "Para un manager de IA, la combinación implica menos talento junior disponible y más coordinación interna.",
+        "Esto puede traducirse en procesos de contratación más largos y mayor carga de gestión de proyectos."
       ]
     },
     "opencast": {
       "notas": [
-        "h01",
+        "h02",
         "h03"
       ],
       "preguntas": [
-        "¿Cuánto estarías dispuesto a pagar por una laptop que ejecuta IA localmente sin depender de la nube?",
-        "Si tu equipo pierde junior y pasa más tiempo en reuniones, ¿cómo ajustarías los procesos de desarrollo?",
-        "¿Crees que la disponibilidad de GPUs Blackwell en laptops cambiará la forma en que los creativos trabajan hoy?"
-      ],
-      "nota": null
+        "¿Cómo afecta la eliminación de la cláusula de scraping a los equipos de cumplimiento en la práctica?",
+        "¿Qué riesgos y oportunidades genera la reducción de personal junior en empresas de IA?",
+        "¿El aumento de reuniones compensa la menor cantidad de talento junior o crea cuellos de botella?"
+      ]
     }
   },
   "fidelidad": {
-    "detectadas": 5,
-    "corregidas": 5,
-    "pendientes": [],
+    "detectadas": 4,
+    "corregidas": 0,
+    "pendientes": [
+      {
+        "donde": "pieza:reel",
+        "tipo": "afirmacion",
+        "detalle": "«Un responsable de cumplimiento deberá revisar si la política afecta sus procesos de datos.»: La fuente no menciona a un responsable de cumplimiento ni la necesidad de revisar procesos internos"
+      },
+      {
+        "donde": "pieza:reel",
+        "tipo": "afirmacion",
+        "detalle": "«Si tu empresa depende de datos externos, conviene validar que el scraping siga siendo legal bajo otras normas.»: La fuente no afirma que sea necesario validar la legalidad del scraping bajo otras regulaciones"
+      },
+      {
+        "donde": "pieza:post",
+        "tipo": "afirmacion",
+        "detalle": "«Para quien lleva el cumplimiento normativo, es necesario revisar si la ausencia de esa cláusula impacta los procesos de »: La fuente no menciona la necesidad de revisión por parte de cumplimiento normativo"
+      },
+      {
+        "donde": "pieza:post",
+        "tipo": "afirmacion",
+        "detalle": "«Si tu organización depende de datos externos, conviene validar que el scraping siga siendo legal bajo otras regulaciones»: La fuente no indica que sea necesario validar la legalidad del scraping bajo otras normas"
+      }
+    ],
     "revision_modelo": true
   }
 }

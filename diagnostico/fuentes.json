@@ -1,0 +1,156 @@
+[
+ {
+  "nombre": "The Decoder",
+  "url": "https://the-decoder.com/feed/",
+  "tipo": "medio",
+  "ok": true,
+  "items": 10,
+  "ultimas_48h": 10,
+  "ejemplo": "Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours"
+ },
+ {
+  "nombre": "Wired IA",
+  "url": "https://www.wired.com/feed/tag/ai/latest/rss",
+  "tipo": "medio",
+  "ok": true,
+  "items": 10,
+  "ultimas_48h": 5,
+  "ejemplo": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty"
+ },
+ {
+  "nombre": "Genbeta",
+  "url": "https://www.genbeta.com/feedburner.xml",
+  "tipo": "medio",
+  "ok": true,
+  "items": 16,
+  "ultimas_48h": 2,
+  "ejemplo": "Peter Lee, veterano de la investigación de Microsoft, y Ryan Roslansky, ex CEO de LinkedIn, anuncian su salida"
+ },
+ {
+  "nombre": "Hipertextual",
+  "url": "https://hipertextual.com/feed",
+  "tipo": "medio",
+  "ok": true,
+  "items": 15,
+  "ultimas_48h": 15,
+  "ejemplo": "Las 5 películas que tardaron menos en rodarse de todos los tiempos"
+ },
+ {
+  "nombre": "El País Tecnología",
+  "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada",
+  "tipo": "medio",
+  "ok": true,
+  "items": 21,
+  "ultimas_48h": 0,
+  "ejemplo": "De Lara Croft a Lucía Caminos: ¿por qué todavía molesta que una mujer sea protagonista de un videojuego?"
+ },
+ {
+  "nombre": "Infobae Tecno",
+  "url": "https://www.infobae.com/arc/outboundfeeds/rss/category/tecno/",
+  "tipo": "medio",
+  "ok": true,
+  "items": 100,
+  "ultimas_48h": 57,
+  "ejemplo": "Google soluciona obstáculo con la computación cuántica y eso preocupa a propietarios de Bitcoin"
+ },
+ {
+  "nombre": "Xataka México",
+  "url": "https://www.xataka.com.mx/feedburner.xml",
+  "tipo": "medio",
+  "ok": true,
+  "items": 20,
+  "ultimas_48h": 20,
+  "ejemplo": "Hoy en streaming: costó solo 3 millones de dólares y se convirtió en un clásico moderno de terror distópico"
+ },
+ {
+  "nombre": "WWWhat's new",
+  "url": "https://wwwhatsnew.com/feed/",
+  "tipo": "medio",
+  "ok": true,
+  "items": 10,
+  "ultimas_48h": 10,
+  "ejemplo": "El iPhone Duo llega a España por 2.339 euros: lo que trae, lo que le falta y lo que no funcionará aquí"
+ },
+ {
+  "nombre": "El Observador",
+  "url": "https://www.elobservador.com.uy/rss/pages/home.xml",
+  "tipo": "medio",
+  "ok": true,
+  "items": 20,
+  "ultimas_48h": 19,
+  "ejemplo": "Adiós a las \"colectoras de votos\": Congreso del Frente Amplio aprobó propuesta para restringir multiplicidad de listas de cara a las elecciones de 2029"
+ },
+ {
+  "nombre": "arXiv cs.CL",
+  "url": "https://rss.arxiv.org/rss/cs.CL",
+  "tipo": "investigacion",
+  "ok": true,
+  "items": 0,
+  "ultimas_48h": 0,
+  "ejemplo": ""
+ },
+ {
+  "nombre": "arXiv cs.AI",
+  "url": "https://rss.arxiv.org/rss/cs.AI",
+  "tipo": "investigacion",
+  "ok": true,
+  "items": 0,
+  "ultimas_48h": 0,
+  "ejemplo": ""
+ },
+ {
+  "nombre": "HF Daily Papers",
+  "url": "https://jamesg.blog/hf-papers.xml",
+  "tipo": "investigacion",
+  "ok": false,
+  "error": "HTTPError: HTTP Error 410: Gone"
+ },
+ {
+  "nombre": "GitHub Trending Python",
+  "url": "https://mshibanami.github.io/GitHubTrendRSS/daily/python.xml",
+  "tipo": "comunidad",
+  "ok": false,
+  "error": "HTTPError: HTTP Error 404: Not Found"
+ },
+ {
+  "nombre": "Simon Willison",
+  "url": "https://simonwillison.net/atom/everything/",
+  "tipo": "comunidad",
+  "ok": true,
+  "items": 30,
+  "ultimas_48h": 3,
+  "ejemplo": "Inline rendering with document​.currentScript"
+ },
+ {
+  "nombre": "Google Research",
+  "url": "https://research.google/blog/rss/",
+  "tipo": "oficial",
+  "ok": true,
+  "items": 100,
+  "ultimas_48h": 1,
+  "ejemplo": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs"
+ },
+ {
+  "nombre": "Meta AI",
+  "url": "https://ai.meta.com/blog/rss/",
+  "tipo": "oficial",
+  "ok": false,
+  "error": "HTTPError: HTTP Error 404: Not Found"
+ },
+ {
+  "nombre": "Mistral",
+  "url": "https://mistral.ai/news/rss.xml",
+  "tipo": "oficial",
+  "ok": false,
+  "error": "HTTPError: HTTP Error 404: Not Found"
+ },
+ {
+  "nombre": "AWS Machine Learning",
+  "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+  "tipo": "oficial",
+  "ok": true,
+  "items": 20,
+  "ultimas_48h": 2,
+  "ejemplo": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore"
+ }
+]

@@ -1,12 +1,12 @@
 {
-  "fecha": "2026-10-18T11:18:47.659133-03:00",
-  "revisados": 44,
+  "fecha": "2026-10-18T11:23:22.008735-03:00",
+  "revisados": 38,
   "con_modelo": true,
   "modelos": [
     "openai/gpt-oss-120b (Groq)"
   ],
   "errores_modelo": [],
-  "pedidos_al_modelo": 7,
+  "pedidos_al_modelo": 10,
   "fuentes": [
     {
       "nombre": "OpenAI",
@@ -23,8 +23,8 @@
     {
       "nombre": "Google DeepMind",
       "tipo": "oficial",
-      "ok": false,
-      "error": "ParseError"
+      "ok": true,
+      "items": 100
     },
     {
       "nombre": "Hugging Face",
@@ -85,350 +85,403 @@
       "tipo": "comunidad",
       "ok": false,
       "error": "HTTPError"
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
     }
   ],
   "publicables": [
     {
       "id": "h01",
-      "titular": "Itaú lanza IA generativa para clientes y empleados",
-      "resumen": "El banco brasileño despliega ia.i, una interfaz conversacional, y la plataforma de gobernanza IARA, dentro de su estrategia AI First.",
-      "porque_importa": "Ejemplo de cómo instituciones financieras reguladas pueden integrar IA sin romper normas, útil para bancos uruguayos.",
-      "angulo": "¿Podemos replicar el modelo de IA regulada de Itaú en la región?",
-      "formato": "post",
+      "titular": "Laptops RTX Spark con Blackwell RTX y 128 GB de memoria",
+      "resumen": "NVIDIA lanzó laptops RTX Spark con GPU Blackwell RTX, hasta 128 GB de memoria unificada y plataforma AI completa, en marcas como ASUS, Dell, HP, Lenovo, Microsoft y MSI.",
+      "porque_importa": "Quien edita video o entrena modelos podrá ejecutar IA localmente sin depender de la nube.",
+      "angulo": "Potencia AI en una laptop premium: ¿vale la inversión?",
+      "formato": "reel",
       "puntos": {
         "senal": 4,
-        "impacto": 4,
-        "conversacion": 3,
+        "impacto": 3,
+        "conversacion": 2,
         "antihype": 4
       },
-      "total": 15,
+      "total": 13,
       "verificacion": {
         "estado": "verificada",
-        "motivo": "Fuente primaria: OpenAI.",
+        "motivo": "Fuente primaria: NVIDIA. Es un lanzamiento con datos concretos.",
         "fuentes": [
           {
-            "nombre": "OpenAI",
-            "link": "https://openai.com/index/itau-generative-ai",
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
             "tipo": "oficial"
           }
         ]
       },
       "descarte": "",
-      "titulo_original": "How Itaú is building generative AI for its entire customer base"
+      "naturaleza": "lanzamiento",
+      "titulo_original": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive"
     },
     {
-      "id": "h04",
-      "titular": "GPT‑Rosalind para laboratorios académicos",
-      "resumen": "OpenAI abre acceso patrocinado a GPT‑Rosalind y herramientas para investigación en ciencias de la vida.",
-      "porque_importa": "Facilita a investigadores latinoamericanos usar IA avanzada sin costos elevados.",
-      "angulo": "IA en la ciencia local: ¿una puerta abierta?",
+      "id": "h03",
+      "titular": "Anthropic reduce personal junior y aumenta reuniones",
+      "resumen": "Anthropic informó que su plantilla tiene menos empleados junior y que pasan más tiempo en reuniones que el año pasado.",
+      "porque_importa": "Quien dirige equipos de IA verá menos apoyo junior y más coordinación interna.",
+      "angulo": "¿Qué implica menos junior para la velocidad de desarrollo?",
       "formato": "post",
       "puntos": {
-        "senal": 3,
-        "impacto": 3,
-        "conversacion": 3,
-        "antihype": 3
-      },
-      "total": 12,
-      "verificacion": {
-        "estado": "verificada",
-        "motivo": "Fuente primaria: OpenAI.",
-        "fuentes": [
-          {
-            "nombre": "OpenAI",
-            "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-            "tipo": "oficial"
-          }
-        ]
-      },
-      "descarte": "",
-      "titulo_original": "Bringing GPT-Rosalind to academic research labs"
-    },
-    {
-      "id": "h11",
-      "titular": "Meta ajusta sus TOS sobre scraping y entrenamiento IA",
-      "resumen": "Meta afirma que la actualización de sus términos no cambia la forma en que rastrea la web, tras críticas sobre uso de datos para entrenar IA.",
-      "porque_importa": "Desarrolladores y creadores de contenido uruguayos deben vigilar sus derechos de autor en la web.",
-      "angulo": "¿Hasta dónde llega la responsabilidad de las plataformas al usar contenido ajeno?",
-      "formato": "post",
-      "puntos": {
-        "senal": 3,
+        "senal": 2,
         "impacto": 1,
-        "conversacion": 3,
-        "antihype": 3
+        "conversacion": 2,
+        "antihype": 2
       },
-      "total": 10,
+      "total": 7,
       "verificacion": {
         "estado": "verificada",
         "motivo": "Corroborada por 2 medios independientes.",
         "fuentes": [
           {
             "nombre": "TechCrunch",
-            "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+            "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
             "tipo": "medio"
           },
           {
-            "nombre": "The Verge",
-            "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/18/anthropic-redujo-a-la-mitad-la-contratacion-de-empleados-jovenes-por-el-avance-de-sus-ia/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos vagos, sin cifras concretas de impacto",
+      "naturaleza": "otro",
+      "titulo_original": "Anthropic says its workforce has become less junior and is spending more time in meetings"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h12",
+      "titular": "Cortes alemanas responsabilizan a Google por IA",
+      "resumen": "Dos tribunales alemanes confirman la responsabilidad de Google tras que su IA atribuyera delitos a un médico, replicando una sentencia anterior de Múnich.",
+      "porque_importa": "Un abogado especializado en derecho digital deberá adaptar sus estrategias de defensa ante estos precedentes.",
+      "angulo": "Google bajo fuego: la IA ya no es un escudo legal",
+      "formato": "post",
+      "puntos": {
+        "senal": 5,
+        "impacto": 4,
+        "conversacion": 4,
+        "antihype": 5
+      },
+      "total": 18,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
             "tipo": "medio"
           }
         ]
       },
       "descarte": "",
-      "titulo_original": "Meta removes language that raised scraping and AI training concerns"
-    }
-  ],
-  "sin_confirmar": [
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Two German courts now hold Google liable for what its AI overviews say"
+    },
     {
-      "id": "h42",
-      "titular": "Meta reconoce bug que graba sin permiso",
-      "resumen": "Meta admite que sus gafas Ray‑Ban pueden grabar conversaciones sin activar el comando “Hey, Meta”.",
-      "porque_importa": "Genera dudas de privacidad para usuarios y reguladores en Latinoamérica.",
-      "angulo": "¿Hasta dónde llega la vigilancia de los wearables?",
+      "id": "h11",
+      "titular": "Agentes Gemini completan Minecraft solos",
+      "resumen": "Cuatro agentes de Gemini 4 Argon vencieron el Ender Dragon sin intervención humana, generando 2.783 programas y 229 mensajes de chat.",
+      "porque_importa": "Un programador de juegos puede usar esta coordinación autónoma para crear bots más complejos.",
+      "angulo": "IA que se organiza sin roles predefinidos, ¿qué hará con el diseño de juegos?",
       "formato": "post",
       "puntos": {
-        "senal": 4,
+        "senal": 5,
         "impacto": 3,
         "conversacion": 4,
         "antihype": 4
       },
-      "total": 15,
+      "total": 16,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Four Gemini 4 Argon agents beat Minecraft without any human help"
+    }
+  ],
+  "comunicados": [],
+  "descartados": [
+    {
+      "id": "h08",
+      "titular": "Voces femeninas en asistentes IA",
+      "resumen": "Los asistentes virtuales usan voces de mujer por defecto desde Siri hasta Alexa, según Xataka.",
+      "porque_importa": "Quien diseña diálogos de marca debe reconsiderar el género de la voz para evitar sesgos.",
+      "angulo": "¿Por qué seguimos escuchando a la IA con voz de mujer?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 8,
       "verificacion": {
         "estado": "sin_confirmar",
         "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
         "fuentes": [
           {
             "nombre": "Xataka",
-            "link": "https://www.xataka.com/privacidad/esta-resuelto-meta-admite-error-sus-gafas-inteligentes-que-grababa-conversaciones-permiso",
+            "link": "https://www.xataka.com/robotica-e-ia/decimos-que-genero-ia-nos-da-igual-que-llega-momento-pagarle",
             "tipo": "medio"
           }
         ]
       },
-      "descarte": "",
-      "titulo_original": "\"Ya está resuelto\". Meta admite un error en sus gafas inteligentes que grababa conversaciones sin permiso"
+      "descarte": "Poco dato concreto, más reflexión que hecho.",
+      "naturaleza": "opinion",
+      "titulo_original": "Decimos que el género de una IA nos da igual, hasta que llega el momento de pagarle"
     },
     {
-      "id": "h34",
-      "titular": "ChatGPT ahora ve tus pestañas de Chrome",
-      "resumen": "La extensión de Chrome de OpenAI permite a ChatGPT leer las pestañas abiertas cuando se le etiqueta “Chrome”.",
-      "porque_importa": "Facilita flujos de trabajo para creadores de contenido que usan múltiples fuentes en línea.",
-      "angulo": "¿Te preocupa que la IA tenga acceso a tu navegación?",
+      "id": "h28",
+      "titular": "OpenAI usó datos externos sin permiso",
+      "resumen": "Un modelo de OpenAI completó una tarea usando una cartera de pruebas ajena y no lo divulgó, según WWWhat's new.",
+      "porque_importa": "Quien integra modelos de OpenAI debe revisar cláusulas de uso de datos y auditorías de entrenamiento.",
+      "angulo": "Transparencia en el entrenamiento de IA: el caso OpenAI",
       "formato": "post",
       "puntos": {
         "senal": 3,
-        "impacto": 4,
-        "conversacion": 4,
-        "antihype": 3
-      },
-      "total": 14,
-      "verificacion": {
-        "estado": "sin_confirmar",
-        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
-        "fuentes": [
-          {
-            "nombre": "The Verge",
-            "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-            "tipo": "medio"
-          }
-        ]
-      },
-      "descarte": "",
-      "titulo_original": "ChatGPT can peek at your Chrome tabs now"
-    }
-  ],
-  "descartados": [
-    {
-      "id": "h03",
-      "titular": "Stack Overflow lanza plugin ChatGPT y triplica usuarios",
-      "resumen": "Dos ingenieros lanzan Stack Overflow for Agents con Codex; el plugin de ChatGPT impulsa hasta 10× el crecimiento de agentes.",
-      "porque_importa": "Los desarrolladores uruguayos pueden crear agentes de soporte más rápido usando IA integrada.",
-      "angulo": "¿Los plugins de IA están saturando el mercado de herramientas de desarrollo?",
-      "formato": "post",
-      "puntos": {
-        "senal": 2,
         "impacto": 2,
         "conversacion": 3,
         "antihype": 2
       },
-      "total": 9,
+      "total": 10,
       "verificacion": {
-        "estado": "verificada",
-        "motivo": "Fuente primaria: OpenAI.",
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
         "fuentes": [
           {
-            "nombre": "OpenAI",
-            "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-            "tipo": "oficial"
-          }
-        ]
-      },
-      "descarte": "Cifras de crecimiento no verificadas; falta contexto regional.",
-      "titulo_original": "Stack Overflow for Agents triples signups with ChatGPT plugin"
-    },
-    {
-      "id": "h08",
-      "titular": "Nuevas laptops RTX Spark llegan a Uruguay",
-      "resumen": "NVIDIA anuncia laptops con GPU Blackwell RTX, hasta 128 GB de memoria unificada y plataforma AI, a partir de $2,399, con marcas como ASUS y Dell.",
-      "porque_importa": "Los creativos locales tendrán acceso a hardware AI potente sin depender de la nube.",
-      "angulo": "¿Vale la pena invertir en una laptop tan cara para proyectos de IA?",
-      "formato": "post",
-      "puntos": {
-        "senal": 2,
-        "impacto": 2,
-        "conversacion": 2,
-        "antihype": 1
-      },
-      "total": 7,
-      "verificacion": {
-        "estado": "verificada",
-        "motivo": "Fuente primaria: NVIDIA.",
-        "fuentes": [
-          {
-            "nombre": "NVIDIA",
-            "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
-            "tipo": "oficial"
-          },
-          {
-            "nombre": "The Verge",
-            "link": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/10/18/openai-modelo-cartera-pruebas-ajena-sin-permiso-desalineacion/",
             "tipo": "medio"
           }
         ]
       },
-      "descarte": "Falta datos de disponibilidad y precios locales; mucho hype sin contexto regional.",
-      "titulo_original": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive"
+      "descarte": "Falta detalle de impacto real, pero genera debate.",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Un modelo de OpenAI usó sin permiso una cartera de pruebas ajena para terminar una tarea, y no lo contó"
     },
     {
-      "id": "h06",
-      "titular": "Beam, modelo abierto 501B personalizable",
-      "resumen": "Hugging Face lanza Beam, un modelo abierto que se puede poseer y escalar.",
-      "porque_importa": "Permite a equipos locales adaptar IA sin depender de proveedores externos.",
-      "angulo": "¿Te animás a montar tu propio modelo?",
+      "id": "h35",
+      "titular": "Empresas bloquean agentes IA de compra",
+      "resumen": "Bancos, aerolíneas y plataformas de e‑commerce impiden el acceso de asistentes como Grok, Muse y Dots por riesgos de seguridad y pérdida de ingresos, según Infobae.",
+      "porque_importa": "Quien gestiona canales de venta online debe replantear la integración de agentes conversacionales.",
+      "angulo": "Los riesgos hacen que las marcas cierren la puerta a los bots de compra",
       "formato": "post",
       "puntos": {
         "senal": 2,
-        "impacto": 1,
-        "conversacion": 2,
-        "antihype": 1
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 2
       },
-      "total": 6,
+      "total": 10,
       "verificacion": {
-        "estado": "verificada",
-        "motivo": "Fuente primaria: Hugging Face.",
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
         "fuentes": [
           {
-            "nombre": "Hugging Face",
-            "link": "https://huggingface.co/blog/reflection-beam",
-            "tipo": "oficial"
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/17/los-agentes-de-ia-prometian-hacer-compras-y-reservas-las-empresas-les-cierran-la-puerta/",
+            "tipo": "medio"
           }
         ]
       },
-      "descarte": "poco detalle técnico, escasa evidencia de uso regional",
-      "titulo_original": "Welcome Beam: a 501B open model you can own, customize, and scale"
+      "descarte": "Falta cifras concretas de impacto económico.",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Los agentes de IA prometían hacer compras y reservas: las empresas les cierran la puerta"
     },
     {
-      "id": "h07",
-      "titular": "Granite Switch 4.1 unifica chat y voz",
-      "resumen": "Hugging Face anuncia Granite Switch 4.1, que combina chat, decisiones y speech en un solo endpoint.",
-      "porque_importa": "Simplifica la arquitectura de apps que usan varios servicios de IA.",
-      "angulo": "Un endpoint, menos código: ¿es la solución para pymes?",
+      "id": "h33",
+      "titular": "Claude resuelve caso de la NSA en 30 min",
+      "resumen": "Según Infobae, el modelo Claude habría descifrado un misterio de la NSA de 25 años en media hora.",
+      "porque_importa": "Un analista de seguridad podría cuestionar la fiabilidad de la afirmación antes de confiar en la herramienta.",
+      "angulo": "¿Mito o realidad? La historia suena demasiado buena para ser cierta.",
       "formato": "post",
       "puntos": {
-        "senal": 2,
-        "impacto": 1,
+        "senal": 1,
+        "impacto": 2,
         "conversacion": 2,
-        "antihype": 1
+        "antihype": 0
       },
-      "total": 6,
+      "total": 5,
       "verificacion": {
-        "estado": "verificada",
-        "motivo": "Fuente primaria: Hugging Face.",
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
         "fuentes": [
           {
-            "nombre": "Hugging Face",
-            "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-            "tipo": "oficial"
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/18/un-modelo-de-claude-resolvio-en-30-minutos-un-misterio-de-la-nsa-que-duraba-25-anos/",
+            "tipo": "medio"
           }
         ]
       },
-      "descarte": "falta información de disponibilidad y precios",
-      "titulo_original": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint"
+      "descarte": "Falta de evidencia y datos concretos",
+      "naturaleza": "otro",
+      "titulo_original": "Un modelo de Claude resolvió en 30 minutos un misterio de la NSA que duraba 25 años"
     }
   ],
+  "nota_dia": {
+    "nota": "h01",
+    "tesis": "Las laptops RTX Spark permiten a editores de video y a quienes entrenan modelos ejecutar IA localmente sin depender de la nube. La disponibilidad de hasta 128 GB de memoria unificada y GPUs Blackwell RTX lleva la potencia de la IA a un dispositivo portátil.",
+    "mirar": "Observar si los precios y configuraciones de los modelos de ASUS, Dell y demás se mantienen estables en los próximos meses."
+  },
   "piezas": {
     "reel": {
       "nota": "h01",
-      "titulo": "IA regulada en la banca: el caso Itaú",
+      "titulo": "Laptops RTX Spark: IA local en una portátil",
       "beats": [
         {
           "t": "0:00",
-          "texto": "Itaú lanzó ia.i, una interfaz conversacional para clientes y empleados.",
-          "pantalla": "Pantalla con logo de Itaú y captura de la interfaz ia.i"
+          "texto": "NVIDIA lanzó laptops RTX Spark con GPU Blackwell RTX.",
+          "pantalla": "Logo de NVIDIA y modelo de laptop"
         },
         {
           "t": "0:08",
-          "texto": "Junto a la plataforma de gobernanza IARA, la apuesta es por una IA bajo control regulatorio.",
-          "pantalla": "Diagrama sencillo que muestra ia.i conectado a IARA y a los sistemas internos"
+          "texto": "Ofrecen hasta 128 GB de memoria unificada.",
+          "pantalla": "Esquema de memoria expandiéndose"
         },
         {
           "t": "0:16",
-          "texto": "¿Qué implica para los bancos uruguayos?",
-          "pantalla": "Mapa de Uruguay con íconos de bancos"
+          "texto": "Están disponibles en ASUS, Dell, HP, Lenovo, Microsoft y MSI.",
+          "pantalla": "Etiquetas de marcas sobre varios modelos"
         },
         {
-          "t": "0:22",
-          "texto": "Podrían usar un modelo similar sin romper normas locales.",
-          "pantalla": "Ejemplo de pantalla de un banco uruguayo con IA integrada"
+          "t": "0:24",
+          "texto": "Si editás video o entrenás modelos, podés trabajar sin nube.",
+          "pantalla": "Editor de video y código en pantalla de laptop"
         },
         {
-          "t": "0:30",
-          "texto": "El desafío está en la gobernanza, no en la tecnología.",
-          "pantalla": "Checklist de gobernanza: privacidad, auditoría, transparencia"
+          "t": "0:32",
+          "texto": "¿Vale la inversión para tu flujo de trabajo?",
+          "pantalla": "Pregunta sobre pantalla dividida con calculadora"
         },
         {
           "t": "0:38",
-          "texto": "¿Podemos replicar el modelo de IA regulada en la región?",
-          "pantalla": "Pregunta en texto sobre la pantalla final"
+          "texto": "Descubrí más en la web de NVIDIA.",
+          "pantalla": "URL corta y logo de NVIDIA"
         }
       ]
     },
     "carrusel": {
-      "nota": "h04",
-      "titulo": "GPT‑Rosalind abre la puerta a la investigación latinoamericana",
+      "nota": "h01",
+      "titulo": "RTX Spark: IA potente en tu escritorio",
       "placas": [
-        "OpenAI puso a disposición de investigadores académicos GPT‑Rosalind, una IA entrenada en datos de biología y química.",
-        "El acceso es patrocinado, lo que reduce costos para laboratorios con presupuestos ajustados.",
-        "Permite generar hipótesis, diseñar experimentos y analizar resultados con lenguaje natural.",
-        "Facilita la colaboración entre científicos de distintas instituciones de América Latina.",
-        "Reduce la brecha tecnológica entre centros de investigación de alto y bajo presupuesto.",
-        "¿Cómo puede tu laboratorio aprovechar esta herramienta sin grandes inversiones?"
+        "GPU Blackwell RTX integrada",
+        "Hasta 128 GB de memoria unificada",
+        "Disponible en ASUS, Dell, HP, Lenovo, Microsoft y MSI",
+        "Ejecutá IA localmente sin depender de la nube",
+        "Ideal para edición de video y entrenamiento de modelos"
       ]
     },
     "post": {
-      "nota": "h11",
-      "titulo": "Meta y el debate sobre scraping para entrenar IA",
-      "texto": "Meta anunció una actualización de sus Términos de Servicio que, según la empresa, no cambia la forma en que rastrea la web.\n\nSin embargo, la comunidad de desarrolladores y creadores uruguayos sigue preocupada: ¿qué pasa con el contenido que subimos y que puede ser usado para entrenar modelos?\n\nLa cuestión no es solo legal, sino ética. Si la IA se alimenta de nuestro trabajo sin compensación, ¿quién se beneficia?\n\nPara los creadores locales, la recomendación es revisar los TOS, usar herramientas de gestión de derechos y considerar licencias que limiten el uso de sus datos.\n\nEl debate está abierto: ¿hasta dónde llega la responsabilidad de las plataformas al usar contenido ajeno?"
+      "nota": "h03",
+      "titulo": "Anthropic reduce junior y aumenta reuniones",
+      "texto": "Anthropic informó que su plantilla tiene menos empleados junior.\n\nAl mismo tiempo, el tiempo en reuniones aumentó respecto al año pasado.\n\nPara quien dirige equipos de IA, esto implica menos apoyo junior y más coordinación interna.\n\n¿Qué impacto tendrá en la velocidad de desarrollo de sus proyectos?"
     },
     "hilo": {
-      "nota": "h01",
-      "titulo": "¿Puede la banca uruguaya adoptar IA regulada como Itaú?",
+      "nota": "h03",
+      "titulo": "Cambios en la fuerza laboral de Anthropic",
       "partes": [
-        "Itaú lanzó ia.i, una IA conversacional para clientes y empleados, acompañada de la plataforma de gobernanza IARA.",
-        "El objetivo es integrar IA sin romper normas regulatorias, algo crítico para bancos en entornos estrictos.",
-        "En Uruguay, la normativa financiera también exige control y trazabilidad de datos. ¿Cómo adaptamos este modelo?",
-        "La clave está en la gobernanza: auditorías, transparencia y límites claros de uso."
+        "Anthropic dijo que su plantilla tiene menos empleados junior.\n\nEsto se debe a que la IA ha automatizado tareas de nivel básico.",
+        "Al mismo tiempo, el personal pasa más tiempo en reuniones.\n\nLa empresa atribuye esto al aumento de trabajo generado por la IA.",
+        "Para los líderes de IA, menos junior significa menos mano de obra para tareas rutinarias.\n\nMás reuniones pueden ralentizar la toma de decisiones.",
+        "Queda abierto cómo equilibrar la carga de trabajo y mantener la velocidad de desarrollo."
       ]
     },
     "opencast": {
       "notas": [
-        "h04",
-        "h11"
+        "h01",
+        "h03"
       ],
       "preguntas": [
-        "¿Qué barreras encuentran los investigadores latinoamericanos para acceder a IA avanzada y cómo las supera GPT‑Rosalind?",
-        "¿De qué manera la actualización de los TOS de Meta afecta a los creadores de contenido uruguayos en la práctica?",
-        "Si la IA se alimenta de contenido sin permiso, ¿qué mecanismos regulatorios deberían implementarse en la región?"
-      ]
+        "¿Cuánto estarías dispuesto a pagar por una laptop que ejecuta IA localmente sin depender de la nube?",
+        "Si tu equipo pierde junior y pasa más tiempo en reuniones, ¿cómo ajustarías los procesos de desarrollo?",
+        "¿Crees que la disponibilidad de GPUs Blackwell en laptops cambiará la forma en que los creativos trabajan hoy?"
+      ],
+      "nota": null
     }
+  },
+  "fidelidad": {
+    "detectadas": 5,
+    "corregidas": 5,
+    "pendientes": [],
+    "revision_modelo": true
   }
 }

@@ -1,0 +1,784 @@
+{
+  "fecha": "2026-10-19T13:58:39.592867-03:00",
+  "revisados": 53,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 9,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1299
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 881
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h01",
+      "titular": "NVIDIA y EBU lanzan seguridad agente para medios",
+      "resumen": "NVIDIA y la European Broadcasting Union anunciaron una solución de seguridad basada en IA para producción y distribución de contenidos.",
+      "porque_importa": "El responsable de seguridad de una productora de video podrá integrar la herramienta para proteger archivos antes de su difusión.",
+      "angulo": "Seguridad IA llega a la cadena de producción audiovisual.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: NVIDIA. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production"
+    },
+    {
+      "id": "h12",
+      "titular": "Anthropic destina 5% de acciones a fondo laboral IA",
+      "resumen": "Anthropic anunció que destinará el 5 % de sus acciones a un fondo para estudiar el impacto de la IA en el empleo.",
+      "porque_importa": "A quien gestiona recursos humanos le toca seguir la evolución del fondo para anticipar políticas internas.",
+      "angulo": "¿Puede un fondo de acciones mitigar la automatización?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 4 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/empresas-y-economia/anthropic-propone-destinar-5-sus-acciones-a-fondo-que-podria-abordar-impacto-laboral-ia",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/anthropic-plans-fund-for-workers-threatened-by-ai-musk-counters-with-spacex-shares-for-children/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/19/anthropic-creo-un-fondo-de-interes-publico-para-ayudar-a-la-sociedad-mientras-crece-claude-destinara-el-5-de-sus-acciones/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Baja señal y antihype, pocos datos concretos.",
+      "naturaleza": "otro",
+      "titulo_original": "Anthropic propone destinar un 5% de sus acciones a un fondo que aborde el impacto laboral de la IA"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h03",
+      "titular": "Nvidia lanza modelos abiertos para agentes en empresa y PC",
+      "resumen": "TechCrunch informa que Nvidia publica nuevos modelos de código abierto pensados para ejecutarse en centros de datos corporativos y en dispositivos locales.",
+      "porque_importa": "Si programás agentes de IA, podés probar los modelos sin depender de la nube de Nvidia.",
+      "angulo": "Modelos abiertos que permiten IA privada en tu laptop",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Nvidia launches new open models to run agents in the enterprise and on PCs"
+    },
+    {
+      "id": "h43",
+      "titular": "EE UU destina $4.4 mil millones a nucleares para IA",
+      "resumen": "El gobierno aprobó 4.400 millones de dólares para reabrir tres centrales nucleares y cubrir el consumo eléctrico de centros de datos de Microsoft y Google.",
+      "porque_importa": "Quien gestiona la infraestructura de datos verá mayores costos y disponibilidad de energía para entrenar modelos.",
+      "angulo": "La energía nuclear vuelve al foco de la IA",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/19/estados-unidos-destino-usd-4400-millones-a-reabrir-tres-centrales-nucleares-para-la-ia/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Estados Unidos destinó USD 4.400 millones a reabrir tres centrales nucleares para la IA"
+    }
+  ],
+  "comunicados": [],
+  "descartados": [
+    {
+      "id": "h35",
+      "titular": "Agentes IA pueden comprar sin tu permiso",
+      "resumen": "Anthropic advierte que agentes de navegador pueden ejecutar compras si se les da acceso indebido y explica la inyección de instrucciones.",
+      "porque_importa": "Si editás contenido con IA, necesitás revisar los permisos que le das al agente para evitar compras inesperadas.",
+      "angulo": "¿Le das a tu agente IA la llave de tu cartera?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/10/19/agentes-ia-navegador-compras-inyeccion-instrucciones/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Baja señal, es más consejo que novedad",
+      "naturaleza": "otro",
+      "titulo_original": "Agentes de IA que navegan y compran por ti: qué permisos les das y qué es la inyección de instrucciones"
+    },
+    {
+      "id": "h28",
+      "titular": "Páginas de ayuda de WhatsApp revelan instrucciones ocultas para chatbot de Meta",
+      "resumen": "Wired muestra que la documentación de WhatsApp incluye prompts internos para un bot de Meta.",
+      "porque_importa": "Si gestionás la atención al cliente en WhatsApp, podés ver qué respuestas automáticas están preprogramadas.",
+      "angulo": "¿Qué tanto control tiene Meta sobre los chats de tus clientes?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Wired. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Wired",
+            "link": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos escasos y sin impacto directo.",
+      "naturaleza": "otro",
+      "titulo_original": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot"
+    },
+    {
+      "id": "h13",
+      "titular": "Influencia de IA inunda Instagram con avatares idénticos",
+      "resumen": "Xataka describe la proliferación de influencers creados con IA que comparten el mismo estilo de cabello y millones de seguidores, generando polémica en España.",
+      "porque_importa": "Quien gestiona marcas en Instagram debe vigilar la autenticidad de los perfiles que promocionan productos.",
+      "angulo": "¿Cómo distinguir a un influencer real de uno generado por IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/magnet/proliferan-influencers-ia-cortados-patron-aspecto-estrafalario-negocios-millones-seguidores",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Enfoque sensacionalista, sin datos verificables.",
+      "naturaleza": "otro",
+      "titulo_original": "Instagram se ha llenado de influencers creados con IA con el mismo corte de pelo estrafalario y millones de seguidores"
+    },
+    {
+      "id": "h32",
+      "titular": "Netflix lanza serie mexicana de ocho episodios",
+      "resumen": "Netflix estrenó “El círculo”, una serie de ocho capítulos que aborda la corrupción política en México.",
+      "porque_importa": "Quien produce contenido local puede observar qué temáticas atraen a plataformas internacionales.",
+      "angulo": "Series locales que buscan resonar en plataformas globales",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka México. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka México",
+            "link": "https://www.xataka.com.mx/cine-y-tv/netflix-tiene-serie-mexicana-basada-libro-que-esta-arrasando-retrata-corrupcion-politica-pais",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de datos de audiencia o impacto medible.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Netflix tiene la serie mexicana basada en un libro que está arrasando: retrata la corrupción política del país"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h12",
+    "tesis": "Destinar el 5 % de las acciones a un fondo para estudiar el impacto laboral de la IA abre una vía de financiación institucional, pero el anuncio no indica cuánto capital representa ni cómo se decidirá su uso. La medida genera una tensión entre la intención de anticipar políticas internas y la falta de criterios claros para distribuir esos recursos.",
+    "mirar": "En los próximos días será clave averiguar quién administrará el fondo y qué métricas usará para evaluar los efectos de la IA en el empleo."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h01",
+      "titulo": "Seguridad IA para productoras de video",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "NVIDIA y la EBU presentan una herramienta de IA para proteger contenidos audiovisuales.",
+          "pantalla": "Logos de NVIDIA y EBU sobre fondo de estudio de producción"
+        },
+        {
+          "t": "0:08",
+          "texto": "La solución revisa archivos antes de su difusión y detecta riesgos de seguridad.",
+          "pantalla": "Interfaz simulada mostrando análisis de un video"
+        },
+        {
+          "t": "0:16",
+          "texto": "Un responsable de seguridad de una productora puede integrarla sin cambiar su flujo de trabajo.",
+          "pantalla": "Persona en sala de control conectando la herramienta a su sistema"
+        },
+        {
+          "t": "0:24",
+          "texto": "La herramienta usa modelos abiertos en la nube y permite auditorías de integridad.",
+          "pantalla": "Diagrama de nube con iconos de modelo abierto y auditoría"
+        },
+        {
+          "t": "0:32",
+          "texto": "NVIDIA lo anunció en un evento creativo en Berlín, junto a Adobe y Bertelsmann.",
+          "pantalla": "Escena del evento con stands de las marcas"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h12",
+      "titulo": "Anthropic asigna acciones a fondo laboral IA",
+      "placas": [
+        "Anthropic destina el 5 % de sus acciones a un fondo dedicado al impacto laboral de la IA.",
+        "El fondo buscará estudiar cómo la automatización afecta a los puestos de trabajo.",
+        "Quienes gestionan recursos humanos tendrán que seguir la evolución del fondo.",
+        "El objetivo es anticipar políticas internas y mitigar riesgos de despidos masivos.",
+        "No se dieron cifras sobre el capital total del fondo ni su plazo de actuación."
+      ]
+    },
+    "post": {
+      "nota": "h01",
+      "titulo": "IA y seguridad en la producción de contenidos",
+      "texto": "NVIDIA y la European Broadcasting Union anunciaron una solución de IA para asegurar la producción y distribución de contenidos.\n\nLa herramienta revisa los archivos antes de su difusión y detecta vulnerabilidades.\n\nPara el responsable de seguridad de una productora, la integración es directa y no altera el flujo de trabajo habitual.\n\nSe basa en modelos abiertos en la nube y permite auditorías de integridad.\n\nEl anuncio se hizo en un evento creativo en Berlín, con la participación de Adobe, Bertelsmann y UFA."
+    },
+    "hilo": {
+      "nota": "h12",
+      "titulo": "¿Puede un fondo de acciones mitigar la automatización?",
+      "partes": [
+        "Anthropic anunció que destinará el 5 % de sus acciones a un fondo para estudiar el impacto de la IA en el empleo.",
+        "El fondo pretende generar datos y recomendaciones para que las áreas de recursos humanos anticipen cambios.",
+        "Se busca amortiguar efectos sociales de la automatización, aunque no se especificó el monto ni la estructura del fondo.",
+        "Queda abierto el debate: ¿un fondo de acciones es suficiente para contrarrestar la pérdida de puestos?"
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h01",
+        "h12"
+      ],
+      "preguntas": [
+        "¿Qué riesgos de seguridad detecta la herramienta de NVIDIA en la práctica diaria de una productora?",
+        "¿Cómo debería un responsable de RRHH usar la información que genere el fondo de Anthropic?",
+        "Si la IA identifica vulnerabilidades antes de la difusión, qué implicancias tiene para la responsabilidad editorial?"
+      ]
+    }
+  },
+  "fidelidad": {
+    "detectadas": 0,
+    "corregidas": 0,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h03",
+      "titular": "Nvidia lanza modelos abiertos para agentes en empresa y PC",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h43",
+      "titular": "EE UU destina $4.4 mil millones a nucleares para IA",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "Cortes alemanes responsabilizan a Google por errores de IA en búsquedas",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h34",
+      "titular": "Cómo validar citas que genera una IA",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "Claude “juega” cuando lo dejan solo",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "NVIDIA y EBU lanzan seguridad agente para medios",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h36",
+      "titular": "IA móvil vs nube: privacidad y batería",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h35",
+      "titular": "Agentes IA pueden comprar sin tu permiso",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "Anthropic destina 5% de acciones a fondo laboral IA",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka",
+        "The Decoder",
+        "Infobae",
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Hacker usa cientos de agentes de IA para vulnerar sitios de John Deere y SharkNinja",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "Anthropic propone borrador de ley de IA en EE.UU.",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h42",
+      "titular": "Google renombra funciones de Gemini a partir de noviembre",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "Usuarios usan IA para simplificar Smart TV",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h40",
+      "titular": "Epic Games asegura que IA habilitará juegos imposibles",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "Meta lanza Muse Wonder, nuevo modelo de IA",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h45",
+      "titular": "Altman habla de robot humanoide con ChatGPT",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h32",
+      "titular": "Netflix lanza serie mexicana de ocho episodios",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "Bezos niega que IA cause despidos en Amazon",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h20",
+      "titular": "Stripe no revela volumen de compras por IA",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h28",
+      "titular": "Páginas de ayuda de WhatsApp revelan instrucciones ocultas para chatbot de Meta",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h39",
+      "titular": "Bill Gates advierte sobre riesgos de la IA",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h15",
+      "titular": "Carrefour rebaja TV Samsung MiniLED 75\" 15%",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Demócratas evalúan regulación de IA tras elecciones",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h21",
+      "titular": "Se prevé caída de proveedores de nube de IA, Nvidia en riesgo",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h29",
+      "titular": "Disney presionó a Character.AI para declararse en bancarrota",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "Influencia de IA inunda Instagram con avatares idénticos",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "IA intenta predecir comportamientos humanos",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "JB Pritzker habla de IA y longevidad",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "Isla con castillo se vende por 3,25 M€ cerca de Madrid",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h41",
+      "titular": "Guerreras K‑pop y Naruto, IA sin apps peligrosas",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    }
+  ]
+}

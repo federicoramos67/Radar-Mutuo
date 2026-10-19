@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/federicoramos67/radar-mutuo/actions/workflows/radar.yml"><img src="https://github.com/federicoramos67/radar-mutuo/actions/workflows/radar.yml/badge.svg" alt="Edición diaria"></a>
-  <a href="https://federicoramos67.github.io/radar-mutuo/"><img src="https://img.shields.io/badge/edici%C3%B3n_de_hoy-en_vivo-E489AC?style=flat-square&labelColor=000000" alt="Edición de hoy"></a>
+  <a href="https://github.com/federicoramos67/Radar-Mutuo/actions/workflows/radar.yml"><img src="https://github.com/federicoramos67/Radar-Mutuo/actions/workflows/radar.yml/badge.svg" alt="Edición diaria"></a>
+  <a href="https://federicoramos67.github.io/Radar-Mutuo/"><img src="https://img.shields.io/badge/edici%C3%B3n_de_hoy-en_vivo-E489AC?style=flat-square&labelColor=000000" alt="Edición de hoy"></a>
   <img src="https://img.shields.io/badge/costo-US%240-E489AC?style=flat-square&labelColor=000000" alt="Costo cero">
   <img src="https://img.shields.io/badge/python-3.12-F2F2EE?style=flat-square&labelColor=000000&logo=python&logoColor=white" alt="Python 3.12">
   <img src="https://img.shields.io/badge/dependencias-0-F2F2EE?style=flat-square&labelColor=000000" alt="Cero dependencias">
@@ -13,7 +13,7 @@
 </p>
 
 <h3 align="center">
-  <a href="https://federicoramos67.github.io/radar-mutuo/">📡 Ver la edición de hoy</a>
+  <a href="https://federicoramos67.github.io/Radar-Mutuo/">📡 Ver la edición de hoy</a>
   &nbsp;·&nbsp;
   <a href="media/radar-promo.mp4">🎬 Video (32 s)</a>
   &nbsp;·&nbsp;
@@ -149,7 +149,7 @@ Cada nota entra al brief con su puntaje a la vista. Cuatro ejes de 0 a 5:
 Para correrlo en tu computadora:
 
 ```bash
-git clone https://github.com/federicoramos67/radar-mutuo && cd radar-mutuo && python -m unittest discover -s tests && GROQ_API_KEY=tu_key python -m radar
+git clone https://github.com/federicoramos67/Radar-Mutuo && cd Radar-Mutuo && python -m unittest discover -s tests && GROQ_API_KEY=tu_key python -m radar
 ```
 
 El brief queda en `docs/index.html`.

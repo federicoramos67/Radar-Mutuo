@@ -1,0 +1,907 @@
+{
+  "fecha": "2026-10-22T12:15:34.857025-03:00",
+  "revisados": 103,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1313
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 888
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h17",
+      "titular": "NVIDIA Cosmos amplía herramientas para world models",
+      "resumen": "NVIDIA añadió a Cosmos nuevos módulos de entrenamiento, checkpoints de simulación y plantillas de Data Factory para crear modelos de mundo.",
+      "porque_importa": "Permite a quien programa robots entrenar simulaciones más rápido y con menos código.",
+      "angulo": "Construí tu modelo de mundo con menos fricción",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: NVIDIA. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models"
+    },
+    {
+      "id": "h16",
+      "titular": "NVIDIA presenta Minerva, plataforma AIOps",
+      "resumen": "NVIDIA anunció Minerva, una plataforma que unifica telemetría de infraestructura y cargas de IA para detectar fallas antes de que impacten.",
+      "porque_importa": "Ayuda a quien maneja la infraestructura de IA a anticipar cuellos de botella y evitar interrupciones.",
+      "angulo": "Observabilidad total para fábricas de IA",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 4
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: NVIDIA. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories"
+    },
+    {
+      "id": "h07",
+      "titular": "OpenAI y socios usan miles de agentes IA en datos cerebrales",
+      "resumen": "OpenAI, PerturbAI y Scripps Research desplegaron agentes distribuidos que analizaron millones de células cerebrales y hallaron nuevos leads de investigación.",
+      "porque_importa": "Le permite a investigadores de neurociencia acelerar la búsqueda de patrones en datos masivos.",
+      "angulo": "¿Cuántos descubrimientos pueden surgir cuando cientos de agentes exploran el cerebro?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Using thousands of AI agents to uncover new leads in biological data"
+    },
+    {
+      "id": "h51",
+      "titular": "Claude Duet, agente IA para profesionales",
+      "resumen": "Anthropic lanzó Claude Duet en vista previa de investigación, disponible como app independiente en iOS y Android, con conectores a Gmail, Slack, Stripe y otros servicios, y solicita aprobación antes de acciones sensibles.",
+      "porque_importa": "Le permite a quien edita video automatizar tareas sin necesidad de programar, usando un agente proactivo que gestiona acciones en segundo plano.",
+      "angulo": "Un agente IA listo para usar en tu móvil",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 5 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/anthropic-takes-on-grok-bot-metas-muse-and-openais-dots-with-its-always-on-agent-claude-duet/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/robotica-e-ia/a-openai-anthropic-les-han-adelantado-derecha-agentes-ia-whatsapp-concretamente",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/22/anthropic-presento-claude-duet-un-asistente-de-ia-que-sigue-trabajando-con-el-telefono-apagado/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Anthropic takes on Muse with Claude Duet, its new AI agent"
+    },
+    {
+      "id": "h10",
+      "titular": "Mapa global de tipos de bosque de DeepMind",
+      "resumen": "Google DeepMind publicó un mapa que clasifica cada parche de 10 m del planeta en tipos de bosque específicos.",
+      "porque_importa": "Facilita a quien enseña ecología contar con datos precisos de cobertura forestal para sus clases.",
+      "angulo": "Cada 10 m, un bosque distinto",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 4
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: Google DeepMind. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "Google DeepMind",
+            "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Beyond tree cover: mapping the world’s forest types"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h60",
+      "titular": "Recursive lanza Flint, modelo de 40 mil millones de parámetros",
+      "resumen": "Recursive presentó Flint, un modelo MoE de 40 B parámetros para codificación local, creado en cuatro meses con su sistema interno Eureka Machine.",
+      "porque_importa": "Programadores pueden usar Flint para generar código más rápido y con menos recursos locales.",
+      "angulo": "Un modelo grande, construido en tiempo récord, listo para devs que buscan IA local.",
+      "formato": "post",
+      "puntos": {
+        "senal": 5,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 5
+      },
+      "total": 17,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/recursive-shows-first-result-of-its-ai-driven-research-process-with-flint/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Recursive shows first result of its AI-driven research process with Flint"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h05",
+      "titular": "Patch the Planet coordina respuesta a vulnerabilidades open source",
+      "resumen": "Patch the Planet reúne investigadores y mantenedores para abordar vulnerabilidades críticas en proyectos de código abierto.",
+      "porque_importa": "Un responsable de seguridad podrá canalizar alertas a un hub centralizado.",
+      "angulo": "Coordinación global contra bugs críticos, ¿te sumás?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "otro",
+      "titulo_original": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities"
+    },
+    {
+      "id": "h02",
+      "titular": "AT&T usa OpenAI para automatizar trabajo legal interno",
+      "resumen": "AT&T colabora con OpenAI para que su equipo LegalEdge facilite el acceso al conocimiento jurídico y mejore la gestión de casos.",
+      "porque_importa": "Un abogado corporativo gana una herramienta que agiliza la búsqueda de precedentes y reduce tiempo de respuesta.",
+      "angulo": "IA en departamentos legales: ¿eficiencia o riesgo?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/att-legal",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "How AT&T is rethinking in-house legal work with OpenAI"
+    },
+    {
+      "id": "h06",
+      "titular": "ChatGPT Ads se expande a 26 países",
+      "resumen": "OpenAI indica que más de 100 000 anunciantes ya usan ChatGPT Ads y ahora está disponible en 26 naciones nuevas.",
+      "porque_importa": "Un community manager podrá colocar campañas directamente en la interfaz de ChatGPT, alcanzando audiencias en nuevos mercados.",
+      "angulo": "Publicidad en el chat: ¿una nueva vía para marcas locales?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform"
+    },
+    {
+      "id": "h21",
+      "titular": "Google Cloud lanza instancias NVIDIA Vera Rubin",
+      "resumen": "Google Cloud y NVIDIA anunciaron disponibilidad general de instancias Vera Rubin para el próximo mes, con expansión prevista a Europa.",
+      "porque_importa": "Un ingeniero de datos podrá entrenar modelos grandes sin montar infraestructura propia.",
+      "angulo": "Instancias de IA listas en la nube, ¿listo para migrar?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h18",
+      "titular": "NVIDIA DSX se usa para planificar redes eléctricas",
+      "resumen": "Empresas adoptan la plataforma NVIDIA DSX AI Factory para simular y operar la red eléctrica como un solo sistema.",
+      "porque_importa": "Un ingeniero de energía gana una herramienta para modelar la red sin cambiar de software.",
+      "angulo": "¿Puede la IA aliviar la escasez de energía?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/dsx-power/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Datos vagos, sin cifras ni casos concretos.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck"
+    },
+    {
+      "id": "h19",
+      "titular": "NVIDIA impulsa IA en retail europeo",
+      "resumen": "Retailers europeos usan modelos abiertos y gemelos digitales para reducir costos de inferencia y coordinar robots en centros de fulfillment.",
+      "porque_importa": "Un responsable de logística puede probar simulaciones de flotas robóticas antes de invertir en hardware.",
+      "angulo": "IA abierta, ¿ahorro real o solo promesa?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta de datos concretos y ejemplos locales.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations"
+    },
+    {
+      "id": "h20",
+      "titular": "NVIDIA muestra Spark para agentes locales en Europa",
+      "resumen": "En GTC Berlin, NVIDIA presentó RTX Spark para PCs y DGX Spark para desarrolladores Linux, enfocándose en IA local.",
+      "porque_importa": "Un diseñador de experiencias de IA podrá probar agentes en su propio PC sin depender de la nube.",
+      "angulo": "IA local: ¿el próximo paso para la privacidad y latencia?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta detalle de disponibilidad y precios",
+      "naturaleza": "evento",
+      "titulo_original": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents"
+    },
+    {
+      "id": "h32",
+      "titular": "Spotify apuesta a que agentes IA elijan su música",
+      "resumen": "El co‑CEO de Spotify comentó que el auge de agentes IA podría beneficiar al servicio, sin anunciar una función concreta.",
+      "porque_importa": "No altera la forma en que curadores o programadores de playlists trabajan hoy.",
+      "angulo": "¿Será la IA una nueva puerta de entrada para Spotify?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Declaración sin datos ni cambios palpables.",
+      "naturaleza": "opinion",
+      "titulo_original": "Spotify’s current AI bet is about being the music service that agents choose"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h51",
+    "tesis": "Claude Duet abre la puerta a que editores de video usen IA para generar guiones sin escribir código, pero el anuncio no indica ni el costo ni la precisión de los resultados. La ausencia de métricas de desempeño deja a los profesionales sin una referencia clara para decidir si la herramienta vale la inversión de tiempo.",
+    "mirar": "Esperar la publicación de pruebas de calidad o benchmarks que muestren la exactitud de los guiones generados por Claude Duet."
+  },
+  "piezas": null,
+  "fidelidad": {
+    "detectadas": 2,
+    "corregidas": 0,
+    "pendientes": [
+      {
+        "donde": "nota:h51",
+        "tipo": "afirmacion",
+        "detalle": "«Claude Duet abre la puerta a que editores de video usen IA para generar guiones sin escribir código»: Esa afirmación no aparece en la fuente; la fuente solo menciona disponibilidad de la app y conectores, no usos específicos para edición de video ni generación d"
+      },
+      {
+        "donde": "nota:h51",
+        "tipo": "afirmacion",
+        "detalle": "«el anuncio no indica ni el costo ni la precisión de los resultados»: La fuente no menciona ausencia de información sobre costo o precisión; esos detalles no están presentes en el material fuente"
+      }
+    ],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h60",
+      "titular": "Recursive lanza Flint, modelo de 40 mil millones de parámetros",
+      "total": 17,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "NVIDIA Cosmos amplía herramientas para world models",
+      "total": 14,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h51",
+      "titular": "Claude Duet, agente IA para profesionales",
+      "total": 13,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge",
+        "The Decoder",
+        "TechCrunch",
+        "Xataka",
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "NVIDIA presenta Minerva, plataforma AIOps",
+      "total": 13,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "OpenAI y socios usan miles de agentes IA en datos cerebrales",
+      "total": 13,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "Mapa global de tipos de bosque de DeepMind",
+      "total": 12,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Google DeepMind"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "Patch the Planet coordina respuesta a vulnerabilidades open source",
+      "total": 12,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "AT&T usa OpenAI para automatizar trabajo legal interno",
+      "total": 10,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "ChatGPT Ads se expande a 26 países",
+      "total": 10,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h21",
+      "titular": "Google Cloud lanza instancias NVIDIA Vera Rubin",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "Modelos de OpenAI llegan a Google Cloud",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h23",
+      "titular": "Industria europea adopta CUDA‑X y Omniverse",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "OpenAI explica su stack publicitario en ChatGPT",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h25",
+      "titular": "IA ayuda a ecografías maternas en primera línea",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Google Research"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "NVIDIA DSX se usa para planificar redes eléctricas",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "NVIDIA impulsa IA en retail europeo",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h22",
+      "titular": "NVIDIA impulsa socios de nube en Europa",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h32",
+      "titular": "Spotify apuesta a que agentes IA elijan su música",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h20",
+      "titular": "NVIDIA muestra Spark para agentes locales en Europa",
+      "total": 5,
+      "estado": "comunicado",
+      "naturaleza": "evento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "IBM Granite para series temporales",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "Qué es FDE en OpenAI",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h15",
+      "titular": "Granite Speech 5.0 mejora transcripción y traducción",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h86",
+      "titular": "Prof. del MIT advierte sobre dependencia emocional de la IA",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "OpenAI publica normas de uso con socios",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "Perfilado de TorchNeuron en AWS Trainium",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h24",
+      "titular": "Resumen de la keynote de GTC Berlin 2026",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "evento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Google AI proyecta $368 mil millones para la economía digital del Sudeste Asiático",
+      "total": 2,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h87",
+      "titular": "Películas que critican a magnates tecnológicos",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "Kumo supera ML supervisado sin entrenamiento",
+      "total": 0,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "Especializar vocabulario reduce costo de inferencia 77%",
+      "total": 0,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    }
+  ]
+}

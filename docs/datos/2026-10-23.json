@@ -1,0 +1,961 @@
+{
+  "fecha": "2026-10-23T12:02:56.063816-03:00",
+  "revisados": 99,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 9,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1316
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": false,
+      "error": "ParseError"
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 890
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h24",
+      "titular": "Canva lanza modelo propio de generación de imágenes",
+      "resumen": "Canva pone a disposición de todos sus usuarios un modelo de generación de imágenes, con promesas de mayor personalización y menor costo.",
+      "porque_importa": "Si editás contenido visual, podés crear imágenes sin salir de la plataforma.",
+      "angulo": "Un modelo interno que podría sustituir a herramientas externas",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 3 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/23/canva-lanzo-craft-su-primer-modelo-propio-de-generacion-de-imagenes-con-inteligencia-artificial/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Canva releases its first image generation model"
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI y NASK firman alianza de seguridad IA",
+      "resumen": "OpenAI y la agencia polaca NASK acordaron colaborar en investigación y salvaguardas para IA.",
+      "porque_importa": "Quien trabaja en ciberseguridad podrá acceder a nuevas guías y herramientas conjuntas.",
+      "angulo": "Cooperación pública‑privada para IA más segura",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "OpenAI and Poland’s NASK partner to advance AI safety and security"
+    },
+    {
+      "id": "h09",
+      "titular": "NVIDIA presenta Minerva para AIOps",
+      "resumen": "NVIDIA lanzó Minerva, una plataforma AIOps que centraliza telemetría y aplica modelos de IA para detectar incidentes en fábricas de IA.",
+      "porque_importa": "Si gestionás infra de IA, Minerva te brinda alertas automáticas para evitar caídas.",
+      "angulo": "Una herramienta para que los equipos de IA detecten problemas antes de que impacten.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: NVIDIA. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories"
+    },
+    {
+      "id": "h10",
+      "titular": "NVIDIA Cosmos amplía herramientas para world models",
+      "resumen": "NVIDIA añadió a Cosmos nuevos módulos de entrenamiento, checkpoints de simulación y plantillas de Data Factory para crear world models.",
+      "porque_importa": "Desarrolladores de IA física pueden acelerar la creación de modelos que simulan entornos reales.",
+      "angulo": "Más recursos para entrenar modelos que entienden el mundo físico.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: NVIDIA. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h74",
+      "titular": "Palabra oculta permite sabotaje IA en robot",
+      "resumen": "Estudio de Binghamton muestra que una palabra escondida en el entrenamiento hace que un robot ejecute acciones dañinas 99 % de las veces, sin modificar hardware ni modelo.",
+      "porque_importa": "Quien programa robots deberá revisar entrenamientos para evitar puertas traseras invisibles.",
+      "angulo": "Una sola palabra puede convertir un robot en amenaza",
+      "formato": "post",
+      "puntos": {
+        "senal": 5,
+        "impacto": 4,
+        "conversacion": 5,
+        "antihype": 5
+      },
+      "total": 19,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/10/23/puerta-trasera-robot-ia-disparador-binghamton-mutrap/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Una palabra oculta en el entrenamiento basta para que un robot con IA ejecute un plan dañino: el 99 % de las veces funciona"
+    },
+    {
+      "id": "h52",
+      "titular": "Claude genera pruebas de código automáticas",
+      "resumen": "Claude de Anthropic creó ~180 M líneas de pruebas para 123 librerías open‑source y detectó bugs no hallados antes.",
+      "porque_importa": "Programadores pueden usar Claude para validar su código sin escribir pruebas manuales.",
+      "angulo": "IA que verifica código por vos",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 16,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Anthropic's Claude now writes code and proves it safe automatically"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h05",
+      "titular": "ThinkingBox usa RL para recompensar clasificación de bases",
+      "resumen": "Hugging Face presentó un método que transforma la evaluación de bases de datos en recompensas de aprendizaje por refuerzo.",
+      "porque_importa": "Ingenieros de IA pueden probar una nueva forma de entrenar agentes post‑entrenamiento.",
+      "angulo": "Recompensas RL a partir de métricas de datos",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Poco detalle sobre implementación práctica",
+      "naturaleza": "investigacion",
+      "titulo_original": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox"
+    },
+    {
+      "id": "h11",
+      "titular": "Empresas usan NVIDIA DSX para aliviar cuellos de botella eléctricos",
+      "resumen": "NVIDIA DSX permite planificar y simular redes eléctricas y fábricas de IA como un solo sistema, según la empresa.",
+      "porque_importa": "Quien gestiona infra de energía en centros de datos podrá integrar simulaciones de carga con IA.",
+      "angulo": "Cómo la plataforma DSX aborda la escasez de energía en operaciones de IA.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/dsx-power/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Ejemplos genéricos sin métricas de ahorro.",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck"
+    },
+    {
+      "id": "h06",
+      "titular": "OlmoEarth v1.3 lanza embeddings globales",
+      "resumen": "OlmoEarth 1.3 ofrece embeddings para datos geoespaciales de todo el planeta, según Hugging Face.",
+      "porque_importa": "Si trabajás con datos de ubicación, podés usar esos embeddings sin entrenar tu propio modelo.",
+      "angulo": "Embeddings listos para usar en cualquier proyecto geoespacial.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 1,
+        "antihype": 2
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Datos escasos y sin métricas de rendimiento.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet"
+    },
+    {
+      "id": "h07",
+      "titular": "IBM Granite para pronósticos de series temporales",
+      "resumen": "IBM Granite ofrece modelos de series temporales para forecasting en conjunto, según Hugging Face.",
+      "porque_importa": "Quien modela demanda o consumo podrá probar esos modelos sin entrenar desde cero.",
+      "angulo": "Modelos listos para combinar pronósticos y mejorar la precisión.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 1,
+        "antihype": 2
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta detalle de desempeño y disponibilidad.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Ensemble forecasting with IBM Granite time-series models"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h78",
+      "titular": "Anthropic paga hasta USD 345 000 a escritor humano",
+      "resumen": "Anthropic ofrece ese sueldo anual a un escritor para sus ejecutivos, tras recortar a la mitad la contratación de técnicos junior por su IA.",
+      "porque_importa": "Quien escribe contenido corporativo verá competencia directa de IA con salarios altos.",
+      "angulo": "IA paga más que humanos junior, pero sigue necesitando escritores",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/23/anthropic-ofrece-hasta-usd-345000-al-ano-por-un-escritor-humano-para-sus-ejecutivos/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta contexto de cuántos puestos y datos de mercado.",
+      "naturaleza": "promocion",
+      "titulo_original": "Anthropic ofrece hasta USD 345.000 al año por un escritor humano para sus ejecutivos"
+    },
+    {
+      "id": "h49",
+      "titular": "Supermercado US permite compras vía agentes IA",
+      "resumen": "El mayor supermercado de EE UU habilita a agentes de IA para buscar, comparar y comprar productos en nombre del usuario.",
+      "porque_importa": "Quien gestiona la comunicación de una marca deberá considerar cómo su IA puede cerrar ventas directamente.",
+      "angulo": "Compras automatizadas sin intervención humana",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/servicios/amazon-cierra-puerta-a-agentes-ia-mayor-cadena-supermercados-eeuu-abre-par-par",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta nombre del supermercado y detalles de disponibilidad",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Al contrario que Amazon, el mayor supermercado de EEUU permitirá a los agentes IA comprar en nombre de sus usuarios"
+    },
+    {
+      "id": "h08",
+      "titular": "Kazajistán amplía capacidad de cómputo para IA",
+      "resumen": "Durante la visita de Jensen Huang, Kazajistán anunció expansión de infraestructura de IA, sin cifras concretas.",
+      "porque_importa": "Los proveedores de nube regionales podrían ver mayor demanda de recursos.",
+      "angulo": "Más hardware, pero ¿qué significa para los usuarios?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta de datos concretos y detalle práctico",
+      "naturaleza": "evento",
+      "titulo_original": "Kazakhstan Expands Compute for Its AI Future"
+    },
+    {
+      "id": "h04",
+      "titular": "Herramienta para chequear compatibilidad con AWS Trainium",
+      "resumen": "Hugging Face lanzó una página que permite buscar si un modelo funciona en AWS Trainium.",
+      "porque_importa": "Desarrolladores que usan AWS podrán validar rápidamente sus modelos.",
+      "angulo": "Un checklist rápido para acelerar despliegues",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/torch-neuronx-model-support",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Sin información de alcance ni resultados",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Does Your Model Run on AWS Trainium? Look It Up"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h24",
+    "tesis": "El modelo propio de Canva permite a los usuarios generar imágenes sin depender de servicios externos, lo que reduce la exposición a terceros. La nota no indica el costo concreto ni el nivel de calidad comparado con otras herramientas de generación de imágenes.",
+    "mirar": "Falta saber cuánto cobrará Canva por el uso del modelo y qué limitaciones técnicas tendrá para los usuarios con planes gratuitos."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h24",
+      "titulo": "Canva lanza su modelo de imágenes propio",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "Canva anunció que ya puso a disposición de todos sus usuarios un modelo interno para generar imágenes.",
+          "pantalla": "Logo de Canva y captura de la interfaz de generación de imágenes"
+        },
+        {
+          "t": "0:07",
+          "texto": "El modelo se llama Craft y promete más personalización que las herramientas externas.",
+          "pantalla": "Ejemplo de una imagen generada con Craft y comparación con una de otra IA"
+        },
+        {
+          "t": "0:14",
+          "texto": "Según la fuente, el sistema planifica la composición antes de crear la imagen.",
+          "pantalla": "Diagrama del proceso de planificación y generación"
+        },
+        {
+          "t": "0:21",
+          "texto": "Para quien edita contenido visual, esto significa crear imágenes sin salir de la plataforma.",
+          "pantalla": "Diseñador trabajando en Canva, arrastrando la imagen generada al proyecto"
+        },
+        {
+          "t": "0:28",
+          "texto": "El anuncio no incluye precios ni métricas de rendimiento.",
+          "pantalla": "Texto en pantalla: “Sin datos de costo ni velocidad”"
+        },
+        {
+          "t": "0:35",
+          "texto": "¿Te imaginás usar Craft para tus piezas de marketing en vez de buscar fotos externas?",
+          "pantalla": "Pregunta en fondo simple"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h01",
+      "titulo": "OpenAI y NASK firman alianza de seguridad IA",
+      "placas": [
+        "OpenAI y la agencia polaca NASK anunciaron una colaboración en IA segura.",
+        "La alianza busca crear guías y herramientas conjuntas para ciberseguridad.",
+        "Quien trabaja en seguridad podrá acceder a recursos nuevos y actualizados.",
+        "El foco está en investigación y salvaguardas técnicas para IA.",
+        "No se dieron detalles de fechas ni de entregables específicos.",
+        "¿Cómo puede afectar esto a tu día a día en ciberseguridad?"
+      ]
+    },
+    "post": {
+      "nota": "h09",
+      "titulo": "NVIDIA presenta Minerva para AIOps",
+      "texto": "NVIDIA lanzó Minerva, una plataforma AIOps pensada para fábricas de IA.\n\nMinerva centraliza la telemetría de infraestructura y carga de trabajo.\n\nLuego aplica modelos de IA propios para detectar incidentes antes de que impacten.\n\nSi gestionás infra de IA, la herramienta te envía alertas automáticas y ayuda a evitar caídas.\n\nLa fuente no indica precios ni disponibilidad regional.\n\n¿Ya usás alguna solución similar en tu stack?"
+    },
+    "hilo": {
+      "nota": "h10",
+      "titulo": "NVIDIA Cosmos amplía herramientas para world models",
+      "partes": [
+        "NVIDIA anunció nuevas funcionalidades en su plataforma Cosmos para entrenar world models.",
+        "Incluye módulos de entrenamiento, checkpoints de simulación y plantillas de Data Factory.",
+        "Los desarrolladores de IA física pueden acelerar la creación de entornos simulados.",
+        "Cosmos ya figura entre los cinco mejores en varios rankings de modelos abiertos.",
+        "La fuente no menciona precios ni requisitos de hardware específicos.",
+        "¿Qué proyecto podrías impulsar con estas nuevas herramientas?"
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h24",
+        "h01"
+      ],
+      "preguntas": [
+        "¿Cuáles son los límites actuales de Craft al generar composiciones complejas?",
+        "¿Cómo se traduce la alianza OpenAI‑NASK en guías prácticas para equipos de seguridad locales?",
+        "¿Qué riesgos de seguridad pueden surgir al integrar modelos internos como Craft en flujos de trabajo corporativos?"
+      ]
+    }
+  },
+  "fidelidad": {
+    "detectadas": 0,
+    "corregidas": 0,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h74",
+      "titular": "Palabra oculta permite sabotaje IA en robot",
+      "total": 19,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h52",
+      "titular": "Claude genera pruebas de código automáticas",
+      "total": 16,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h77",
+      "titular": "Harvard usa avatares IA de profesores",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h68",
+      "titular": "ChatGPT influye en decisiones de compra en México",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h76",
+      "titular": "Novela premiada resultó 99 % IA",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h24",
+      "titular": "Canva lanza modelo propio de generación de imágenes",
+      "total": 13,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch",
+        "The Decoder",
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI y NASK firman alianza de seguridad IA",
+      "total": 13,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h32",
+      "titular": "Meta pospone nuevas normas tras reclamo de editores",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h46",
+      "titular": "Unitree quiere robots que se auto‑mejoren con IA",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h79",
+      "titular": "30+ empresas despiden y reorientan a IA",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h53",
+      "titular": "OpenAI busca ronda de $30 bn con valoración menor",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "NVIDIA presenta Minerva para AIOps",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "NVIDIA Cosmos amplía herramientas para world models",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h78",
+      "titular": "Anthropic paga hasta USD 345 000 a escritor humano",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h49",
+      "titular": "Supermercado US permite compras vía agentes IA",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "ThinkingBox usa RL para recompensar clasificación de bases",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "Empresas usan NVIDIA DSX para aliviar cuellos de botella eléctricos",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "Herramienta para chequear compatibilidad con AWS Trainium",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "OlmoEarth v1.3 lanza embeddings globales",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "IBM Granite para pronósticos de series temporales",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h33",
+      "titular": "Juegos retro aparecen impulsados por IA",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Kazajistán amplía capacidad de cómputo para IA",
+      "total": 5,
+      "estado": "comunicado",
+      "naturaleza": "evento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI lanza Decisions API para apps más rápidas",
+      "total": 5,
+      "estado": "comunicado",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "NVIDIA muestra casos de IA en retail europeo",
+      "total": 5,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h48",
+      "titular": "MediaMarkt liquida portátil HP convertible",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h64",
+      "titular": "Eugenio Monesma revive oficios rurales en YouTube",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "OpenAI explica FDE",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h67",
+      "titular": "Lepas muestra concept car Aura",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hipertextual"
+      ]
+    },
+    {
+      "id": "h47",
+      "titular": "Sam Altman advierte sobre problema inminente",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h37",
+      "titular": "Satira sobre fusión SpaceX‑Tesla",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Verge"
+      ]
+    }
+  ]
+}

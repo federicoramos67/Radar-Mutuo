@@ -1,0 +1,749 @@
+{
+  "fecha": "2026-10-25T11:21:25.250187-03:00",
+  "revisados": 48,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1318
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 890
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h03",
+      "titular": "Block lanza modelo de voz local para MacBook M4 Max",
+      "resumen": "Block anunció que su nuevo modelo de voz puede ejecutarse sin conexión en un MacBook con chip M4 Max.",
+      "porque_importa": "Un editor de video podrá generar voces sintéticas sin depender de la nube.",
+      "angulo": "IA de voz en tu laptop, sin subir datos a la nube",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Block’s new voice model sounds eerily human"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h34",
+      "titular": "IA de Google predijo con 60 km la ruta del huracán Isaias",
+      "resumen": "WeatherNext Cyclones, herramienta de Google, ubicó el desembarco del huracán tres días antes con un margen de 60 km, mientras los modelos físicos fallaron.",
+      "porque_importa": "Un comunicador de emergencias podrá confiar en datos más precisos para alertas tempranas.",
+      "angulo": "Cuando la IA supera a los modelos tradicionales en pronósticos",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/25/el-modelo-de-ia-de-google-acerto-la-ruta-del-huracan-isaias-donde-los-pronosticos-tradicionales-fallaron/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "El modelo de IA de Google acertó la ruta del huracán Isaias donde los pronósticos tradicionales fallaron"
+    },
+    {
+      "id": "h19",
+      "titular": "OpenMobile‑2 iguala a modelos propietarios en smartphones",
+      "resumen": "Investigadores entrenaron agentes móviles con 110 apps, incluidas 35 réplicas, logrando rendimiento comparable al de modelos cerrados.",
+      "porque_importa": "Un programador de apps móviles podrá usar agentes de código abierto sin depender de soluciones propietarias.",
+      "angulo": "Los agentes de IA en móviles pueden ser tan buenos como los comerciales.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models"
+    }
+  ],
+  "comunicados": [],
+  "descartados": [
+    {
+      "id": "h17",
+      "titular": "Schmidt llama a OpenAI y Anthropic “compañías coloniales”",
+      "resumen": "En Foreign Affairs, Schmidt y otros autores describen a EE UU y China como imperios de IA y al resto como dependientes.",
+      "porque_importa": "Quien dirige una startup de IA verá que la competencia se basa más en financiación que en avances técnicos.",
+      "angulo": "¿Es la carrera de IA una nueva forma de colonialismo?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Poco dato concreto, mayormente opinión.",
+      "naturaleza": "opinion",
+      "titulo_original": "Ex-Google CEO Eric Schmidt calls OpenAI and Anthropic modern colonial trading companies"
+    },
+    {
+      "id": "h01",
+      "titular": "Lista de wearables IA más populares",
+      "resumen": "TechCrunch recopiló una lista de gadgets y wearables con IA, entre ellos Muse Charm, Bee y Plaud.",
+      "porque_importa": "Un diseñador de productos podrá ver qué dispositivos están en tendencia.",
+      "angulo": "¿Qué gadgets con IA están llamando la atención?",
+      "formato": "carrusel",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Baja señal y poco impacto práctico",
+      "naturaleza": "otro",
+      "titulo_original": "The hottest AI wearables and gadgets you should know about"
+    },
+    {
+      "id": "h11",
+      "titular": "Dinamarca busca blindar voz y rostro contra deepfakes",
+      "resumen": "El gobierno danés anunció un plan para proteger la identidad vocal y facial de sus ciudadanos frente a falsificaciones generadas por IA.",
+      "porque_importa": "Si trabajás en comunicación, deberás validar la autenticidad de videos y audios antes de publicarlos.",
+      "angulo": "¿Hasta dónde puede llegar el Estado para defender la identidad digital?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/privacidad/dinamarca-tiene-plan-deepfakes-blindar-voz-rostro-sus-ciudadanos-ia",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos vagos y sin cifras concretas, poco impacto directo.",
+      "naturaleza": "politica",
+      "titulo_original": "Dinamarca tiene un plan contra los deepfakes: blindar la voz y el rostro de su ciudadanía contra la IA"
+    },
+    {
+      "id": "h26",
+      "titular": "IA para eliminar anuncios y acelerar Smart TV",
+      "resumen": "El artículo sugiere usar IA para bloquear publicidad y mejorar la velocidad de televisores inteligentes, sin datos específicos.",
+      "porque_importa": "Un técnico de soporte de TV tendría que probar herramientas sin garantía de resultados.",
+      "angulo": "Promesas de IA sin pruebas reales.",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Hipertextual. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Hipertextual",
+            "link": "https://hipertextual.com/inteligencia-artificial/eliminar-anuncios-bloatware-smart-tv-ia/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de datos concretos y métricas.",
+      "naturaleza": "otro",
+      "titulo_original": "El truco con IA para quitar todos los anuncios y hacer tu Smart TV más rápida"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h03",
+    "tesis": "El modelo de voz local permite a editores de video crear voces sintéticas sin depender de la nube, pero el anuncio no indica el precio ni los requisitos de hardware más allá del chip M4 Max. La ausencia de datos de rendimiento y costo deja abierta la viabilidad para profesionales que no cuenten con esa máquina.",
+    "mirar": "Esperar la información oficial sobre el precio y los benchmarks de latencia y calidad en diferentes configuraciones de Mac."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h03",
+      "titulo": "Block lanza modelo de voz local para MacBook M4 Max",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "Block dice que su nuevo modelo de voz se ejecuta sin conexión en un MacBook con chip M4 Max.",
+          "pantalla": "Logo de Block y captura del MacBook M4 Max"
+        },
+        {
+          "t": "0:07",
+          "texto": "El modelo genera voces sintéticas con calidad humana.",
+          "pantalla": "Ejemplo de audio con texto en pantalla"
+        },
+        {
+          "t": "0:14",
+          "texto": "No necesita subir datos a la nube, todo corre en la laptop.",
+          "pantalla": "Animación que muestra datos quedando en la máquina"
+        },
+        {
+          "t": "0:22",
+          "texto": "Para un editor de video, esto elimina la dependencia de servicios online.",
+          "pantalla": "Editor arrastrando audio generado al timeline"
+        },
+        {
+          "t": "0:30",
+          "texto": "Así podés crear narraciones, doblajes o efectos de voz sin latencia.",
+          "pantalla": "Resultado final de un video con voz sintetizada"
+        },
+        {
+          "t": "0:38",
+          "texto": "El modelo aún no está disponible públicamente.",
+          "pantalla": "Texto “Próximamente” sobre el MacBook"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h03",
+      "titulo": "Modelo de voz local de Block para MacBook M4 Max",
+      "placas": [
+        "Block anuncia un modelo de voz que corre localmente en MacBook M4 Max.",
+        "No requiere conexión a internet ni envío de datos a la nube.",
+        "El modelo procesa audio directamente y busca generar voces con tono humano.",
+        "Para editores de video, permite crear narraciones sin depender de servicios externos.",
+        "El modelo aún no está disponible para el público.",
+        "Aún no está disponible públicamente."
+      ]
+    },
+    "post": {
+      "nota": "h03",
+      "titulo": "Block lleva la IA de voz a tu laptop",
+      "texto": "Block anunció que su nuevo modelo de voz se ejecuta localmente en un MacBook con chip M4 Max.\n\nEl modelo genera voces sintéticas con calidad humana y procesa el audio directamente, sin convertirlo a texto.\n\nPara quien edita video, esto significa poder crear narraciones, doblajes o efectos de voz sin depender de la nube ni de servicios externos.\n\nEl modelo aún no está disponible públicamente, pero la promesa es que pronto los creadores podrán trabajar con IA de voz sin latencia ni riesgos de privacidad.\n"
+    },
+    "hilo": {
+      "nota": "h03",
+      "titulo": "IA de voz local en MacBook M4 Max",
+      "partes": [
+        "Block dice que su modelo de voz corre sin conexión en un MacBook M4 Max. No hay envío de datos a la nube.",
+        "El modelo procesa audio directamente y genera voces con tono humano.",
+        "Para editores de video, esto elimina la dependencia de servicios online y reduce la latencia.",
+        "Aún no está disponible para el público, pero la expectativa es que llegue pronto a los creadores."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h03"
+      ],
+      "preguntas": [
+        "¿Qué riesgos de privacidad evitás al usar una IA de voz que no envía datos a la nube?",
+        "¿Cómo afecta la latencia reducida a tu flujo de trabajo como editor de video?",
+        "¿Qué limitaciones ves en una herramienta que aún no está disponible públicamente?"
+      ],
+      "nota": null
+    }
+  },
+  "fidelidad": {
+    "detectadas": 3,
+    "corregidas": 3,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h34",
+      "titular": "IA de Google predijo con 60 km la ruta del huracán Isaias",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "Block lanza modelo de voz local para MacBook M4 Max",
+      "total": 14,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch",
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "OpenAI ofrece hasta 90 % de descuento a clientes de Anthropic",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "OpenMobile‑2 iguala a modelos propietarios en smartphones",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h36",
+      "titular": "Modders duplican rendimiento IA en GPUs Nvidia",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h44",
+      "titular": "Cerebras despliega modelos de un billón de parámetros",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "r/opensource prohíbe proyectos que usen IA",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h35",
+      "titular": "Grandes IA consultan al Vaticano sobre ética",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h31",
+      "titular": "Google admite fallas en resúmenes IA",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h42",
+      "titular": "Harvard crea avatares de profesores con IA",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "Nvidia lanza Flora, etiqueta video robótico 125× más barato",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h15",
+      "titular": "Jack Clark adelanta IA auto‑mejorable a 2027",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "Anthropic propone un solo agente en vez de sub‑agentes",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h30",
+      "titular": "Vibe coding: programar sin saber programar, pero con riesgos",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h43",
+      "titular": "Photocards K‑pop con IA en Gemini",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h37",
+      "titular": "IA detecta explotación de falla PHP de 22 años",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h39",
+      "titular": "Meta emitirá acciones Clase C para financiar IA",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "World lanza verificación biométrica para bancos",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h41",
+      "titular": "Alexandr Wang, joven clave en Meta",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h38",
+      "titular": "Elvis Presley suena en demanda contra Anthropic",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "Dinamarca busca blindar voz y rostro contra deepfakes",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "politica",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "Schmidt llama a OpenAI y Anthropic “compañías coloniales”",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "Lista de wearables IA más populares",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h26",
+      "titular": "IA para eliminar anuncios y acelerar Smart TV",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hipertextual"
+      ]
+    },
+    {
+      "id": "h27",
+      "titular": "Audífonos Swarovski con Bose llegan a Amazon México",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h45",
+      "titular": "200 000 empleos creativos perdidos, ¿cuánto por IA?",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "h40",
+      "titular": "IA administra virus a paciente, sin resultados publicados",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h28",
+      "titular": "Cartas de Pokémon superan a NVIDIA en precio",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Artista se casa con IA holográfica",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h24",
+      "titular": "Lección de EE.UU. contra centros de datos sin contenido",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Wired"
+      ]
+    }
+  ]
+}

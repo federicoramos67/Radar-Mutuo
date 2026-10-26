@@ -1,0 +1,837 @@
+{
+  "fecha": "2026-10-26T13:47:16.480017-03:00",
+  "revisados": 59,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 9,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1319
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 890
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h30",
+      "titular": "Prospecto de IPO de Anthropic muestra su arquitectura",
+      "resumen": "El prospecto de salida a bolsa de Anthropic detalla los modelos y datos que usa, según Wired.",
+      "porque_importa": "Si programás IA, sabés qué datos y arquitectura están detrás de los modelos que podés licenciar.",
+      "angulo": "¿Qué revela el prospecto sobre la “caja negra” de Anthropic?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 4 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Wired",
+            "link": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/empresas-y-economia/anthropic-acaba-dar-uno-pasos-importantes-industria-ia-abrir-sus-cuentas-para-salir-a-bolsa",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Hacker News",
+            "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+            "tipo": "comunidad"
+          }
+        ]
+      },
+      "descarte": "Datos escasos y sin cifras concretas de impacto.",
+      "naturaleza": "investigacion",
+      "titulo_original": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood"
+    },
+    {
+      "id": "h16",
+      "titular": "Grok publica los primeros siete minutos de su película IA",
+      "resumen": "El anuncio dice que Grok lanzó un clip de siete minutos de una película generada con IA, según Xataka.",
+      "porque_importa": "Quien edita video podrá ver un ejemplo de IA generando largometrajes, aunque sin métricas de calidad.",
+      "angulo": "¿Vale la pena usar IA para crear largometrajes?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 0,
+        "conversacion": 1,
+        "antihype": 3
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/robotica-e-ia/elon-musk-prometio-pelicula-odisea-generada-ia-grok-acaba-publicar-sus-primeros-siete-minutos",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/26/elon-musk-prometio-una-pelicula-completa-sobre-la-odisea-hecha-con-ia-y-mostro-apenas-siete-minutos/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta información concreta; es más hype que hecho.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Elon Musk prometió una película de 'La Odisea' generada con IA y Grok acaba de publicar sus primeros siete minutos"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h45",
+      "titular": "Estafa con IA roba casi un millón en Argentina",
+      "resumen": "Una madre de 67 años perdió casi un millón de pesos tras recibir mensajes y fotos falsas generadas con IA en WhatsApp.",
+      "porque_importa": "Quien gestiona la comunicación de una marca debe reforzar la verificación de contenidos para evitar fraudes similares.",
+      "angulo": "El riesgo real de deepfakes en el día a día",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/sociedad/policiales/2026/10/26/con-mensajes-falsos-y-fotos-con-ia-roban-casi-un-millon-de-pesos-argentinos-a-una-madre-en-whatsapp/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Con mensajes falsos y fotos con IA roban casi un millón de pesos argentinos a una madre en WhatsApp"
+    },
+    {
+      "id": "h53",
+      "titular": "1 de 3 uruguayos sufrió intento de fraude digital",
+      "resumen": "Estudio del Observador indica que el 33 % de los uruguayos enfrentó intentos de fraude digital y el 8 % perdió dinero.",
+      "porque_importa": "Quien enseña ciberseguridad podrá usar la cifra para reforzar la urgencia en sus cursos.",
+      "angulo": "El fraude digital golpea a un tercio de la población",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó El Observador. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "El Observador",
+            "link": "https://www.elobservador.com.uy/economia-y-empresas/uno-cada-tres-uruguayos-sufrio-algun-intento-fraude-digital-y-el-8-perdio-dinero-n6061698",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Uno de cada tres uruguayos sufrió algún intento de fraude digital y el 8% perdió dinero"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h01",
+      "titular": "OpenAI ayuda a Fanatics a mejorar ventas de ropa deportiva",
+      "resumen": "Fanatics probó la IA de OpenAI en 30 000 productos MLB y obtuvo 10 % más de engagement, según OpenAI.",
+      "porque_importa": "Si gestionás e‑commerce, podés usar IA para recomendar outfits y aumentar la interacción de clientes.",
+      "angulo": "IA de OpenAI impulsa la experiencia de compra de fans.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/fanatics-streamline-fan-experience",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "How Fanatics and OpenAI streamline the fan experience"
+    },
+    {
+      "id": "h02",
+      "titular": "Google AI lanza proyecto para mapear el cerebro humano",
+      "resumen": "Google AI anunció una nueva iniciativa de IA para mapear el cerebro, sin detalles adicionales.",
+      "porque_importa": "Los investigadores de neurociencia podrían acceder a nuevas herramientas, aunque aún no hay datos de uso.",
+      "angulo": "Mapear el cerebro con IA: ¿qué promete?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 0,
+        "antihype": 0
+      },
+      "total": 1,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Google AI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Google AI",
+            "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Sin datos ni fechas; solo anuncio genérico.",
+      "naturaleza": "evento",
+      "titulo_original": "Our newest AI Quest: Mapping the human brain"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h37",
+      "titular": "Sam Altman advierte sobre futuros problemas de IA",
+      "resumen": "En Xataka México, Sam Altman dice que los incidentes recientes son “un juego de niños” frente a lo que viene.",
+      "porque_importa": "Quien lidera equipos de IA debe prepararse para riesgos mayores que los actuales.",
+      "angulo": "¿Qué tan serio es el aviso de Altman?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 3,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka México. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka México",
+            "link": "https://www.xataka.com.mx/robotica-e-ia/sam-altman-no-encuentro-palabra-bastante-dramatica-para-describir-problema-que-se-viene-encima",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "poco dato verificable",
+      "naturaleza": "opinion",
+      "titulo_original": "Sam Altman: \"No encuentro una palabra lo bastante dramática para describir el problema que se viene encima\""
+    },
+    {
+      "id": "h13",
+      "titular": "Crítica a la seguridad de IA centrada en desastres",
+      "resumen": "Un artículo de MIT Technology Review cuestiona que la agenda de seguridad de IA se enfoque solo en riesgos extremos, dejando de lado daños cotidianos.",
+      "porque_importa": "Quien diseña políticas de IA deberá considerar riesgos diarios, no solo escenarios catastróficos.",
+      "angulo": "¿Estamos mirando el problema de IA con la lupa equivocada?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó MIT Technology Review. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "MIT Technology Review",
+            "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "poco dato concreto",
+      "naturaleza": "opinion",
+      "titulo_original": "The focus on AI safety disasters ignores everyday harms"
+    },
+    {
+      "id": "h18",
+      "titular": "Detector de IA acusa a escritor premiado",
+      "resumen": "El detector Pangram atribuyó a IA el 99 % del texto ganador de un premio que prohibía su uso; el autor lo niega y la editorial suspendió la presentación.",
+      "porque_importa": "Un editor literario debe considerar herramientas de detección y sus falsos positivos al evaluar manuscritos.",
+      "angulo": "Cuando la IA pone en duda la autoría de un libro",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/magnet/quien-vigila-al-vigilante-limites-pangram-como-arbitro-que-ia-que-no",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de datos sobre precisión del detector",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "La IA puede arruinar la reputación de un escritor. Lo inquietante es que nadie sabe si el detector tiene razón"
+    },
+    {
+      "id": "h09",
+      "titular": "Entrevista a Kevin Roose sobre la industria de IA",
+      "resumen": "Kevin Roose, autor de *The AGI Chronicles*, conversa sobre la rápida expansión del sector IA.",
+      "porque_importa": "Para docentes de tecnología, la entrevista brinda contexto para actualizar contenidos.",
+      "angulo": "¿Qué tanto hype hay detrás de la narrativa de la AGI?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 0
+      },
+      "total": 3,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Sin datos concretos, solo opinión.",
+      "naturaleza": "opinion",
+      "titulo_original": "Kevin Roose is AGI-pilled. Why aren’t you?"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h30",
+    "tesis": "El prospecto de salida a bolsa de Anthropic muestra la arquitectura y los datos de sus modelos, pero no indica precios ni condiciones de licencia para los desarrolladores. Esa ausencia crea incertidumbre sobre quién podrá acceder a la tecnología y bajo qué términos.",
+    "mirar": "Esperar la publicación de los detalles de precios y condiciones de uso que la empresa incluirá en su documentación oficial o en futuros comunicados."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h16",
+      "titulo": "Grok publica los primeros siete minutos de su película IA",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "Grok lanzó un clip de siete minutos de una película generada con IA.",
+          "pantalla": "Logo de Grok y el título del clip"
+        },
+        {
+          "t": "0:07",
+          "texto": "El anuncio proviene de Xataka.",
+          "pantalla": "Captura de pantalla del artículo de Xataka"
+        },
+        {
+          "t": "0:14",
+          "texto": "Quien edita video puede ver cómo una IA construye escenas largas.",
+          "pantalla": "Ejemplo de una escena del clip"
+        },
+        {
+          "t": "0:21",
+          "texto": "No se publican métricas de calidad ni presupuesto.",
+          "pantalla": "Texto en pantalla: “Sin datos de calidad”"
+        },
+        {
+          "t": "0:28",
+          "texto": "El clip sirve como referencia, no como garantía de resultados.",
+          "pantalla": "Cierre con logo de Canal Mutuo"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "",
+      "titulo": "",
+      "placas": []
+    },
+    "post": {
+      "nota": "h30",
+      "titulo": "Prospecto de IPO de Anthropic muestra su arquitectura",
+      "texto": "El prospecto S‑1 de Anthropic, publicado en Wired, enumera los modelos y los datos que usa la compañía.\n\nSi programás IA, ahora podés ver qué conjuntos de datos entrenan los modelos que podrías licenciar.\n\nEl documento también describe la arquitectura interna, lo que abre una ventana a la “caja negra” que suele rodear a los grandes modelos.\n\nEsto no implica que Anthropic haya cambiado su política de acceso; solo revela información que antes estaba oculta."
+    },
+    "hilo": {
+      "nota": "",
+      "titulo": "",
+      "partes": []
+    },
+    "opencast": {
+      "notas": [],
+      "preguntas": []
+    }
+  },
+  "fidelidad": {
+    "detectadas": 0,
+    "corregidas": 0,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h45",
+      "titular": "Estafa con IA roba casi un millón en Argentina",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI ayuda a Fanatics a mejorar ventas de ropa deportiva",
+      "total": 14,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h53",
+      "titular": "1 de 3 uruguayos sufrió intento de fraude digital",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "El Observador"
+      ]
+    },
+    {
+      "id": "h40",
+      "titular": "IA cuesta 17 veces más fuera del inglés",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h38",
+      "titular": "Precios de suscripciones IA a octubre 2026",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "OpenAI propone ayuda para código COBOL legado",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h21",
+      "titular": "Traders de alta frecuencia apuestan por IA",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h42",
+      "titular": "Google Lens detecta dulces falsos o caducados",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "Detector de IA acusa a escritor premiado",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h43",
+      "titular": "Outlook retirará Copilot de organización automática",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h30",
+      "titular": "Prospecto de IPO de Anthropic muestra su arquitectura",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Wired",
+        "Xataka",
+        "TechCrunch",
+        "The Verge",
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "SpaceX asegura $40 mil millones para GPUs de IA",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h41",
+      "titular": "Google retira Asistente de Android",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h54",
+      "titular": "FMI ve IA como motor de crecimiento económico",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "El Observador"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "Grok publica los primeros siete minutos de su película IA",
+      "total": 7,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka",
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Microsoft abre compra voluntaria a 60.000 empleados",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h44",
+      "titular": "Gemini genera láminas para colorear",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "Calor de centros de datos como calefacción",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "En China desmontan RTX 5090 para alimentar IA",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h20",
+      "titular": "Meta planea vender acciones por hasta 95 mil millones",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "Hipercaladores guardan la mitad de GPUs Nvidia compradas",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h31",
+      "titular": "Agentes de IA como periodistas",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h22",
+      "titular": "Toyota destina 6.4 mil MM a robots humanoides",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "Crítica a la seguridad de IA centrada en desastres",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "id": "h36",
+      "titular": "LG Nano 4K en oferta en Amazon",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h37",
+      "titular": "Sam Altman advierte sobre futuros problemas de IA",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Entrevista a Kevin Roose sobre la industria de IA",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "Google AI lanza proyecto para mapear el cerebro humano",
+      "total": 1,
+      "estado": "comunicado",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h39",
+      "titular": "Bill Gates advierte sobre IA y robots",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h32",
+      "titular": "AI Radio Host habla español y apoya inmigrantes",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Wired"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,888 @@
+{
+  "fecha": "2026-10-27T12:52:40.080440-03:00",
+  "revisados": 78,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1325
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 890
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": false,
+      "error": "HTTPError"
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h04",
+      "titular": "OpenAI muestra uso de ChatGPT en 165 tareas laborales",
+      "resumen": "OpenAI Signals reportó actividad en 165 trabajos en casi 100 países, con datos de uso y variaciones temporales.",
+      "porque_importa": "Le permite a quien comunica decidir si integrar ChatGPT en su flujo diario.",
+      "angulo": "¿Qué trabajos ya están delegando a ChatGPT?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "ChatGPT’s expanding world of work"
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI publica resultados en conjeturas matemáticas",
+      "resumen": "OpenAI compartió resultados de modelos sobre la conjetura de Kakeya, la Hipótesis de Tiempo Exponencial y cromodinámica cuántica.",
+      "porque_importa": "El docente de matemáticas podrá usar esos resultados como material de estudio avanzado.",
+      "angulo": "Modelos de IA que aportan a problemas matemáticos abiertos",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Working with academic communities to build scientific understanding"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h25",
+      "titular": "Apple incorpora chatbot IA a Pages, Keynote y Numbers",
+      "resumen": "La suite de productividad de Apple incluye un asistente que entiende el contexto del documento y ayuda a diseñar, animar y refinar diapositivas.",
+      "porque_importa": "Quien crea presentaciones podrá generar diseños y animaciones con un solo comando de IA.",
+      "angulo": "Tu asistente IA dentro de la suite de Office de Apple",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers"
+    },
+    {
+      "id": "h17",
+      "titular": "Opera lanza WebAI para IA local en el navegador",
+      "resumen": "Opera presentó WebAI, un estándar que permite ejecutar modelos de IA directamente en el navegador sin enviar datos al servidor.",
+      "porque_importa": "Quien desarrolla web podrá crear apps que procesen datos sensibles sin depender de la nube.",
+      "angulo": "IA en el borde: privacidad y latencia reducida",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Opera introduces a new web standard to let users deploy AI locally in their browser"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h05",
+      "titular": "Fanatics prueba IA y sube 10% el engagement",
+      "resumen": "En una prueba con 30.000 productos de MLB, la herramienta de OpenAI aumentó la interacción de los usuarios en un 10%.",
+      "porque_importa": "Al marketero de una marca le brinda un dato concreto para probar IA en catálogos de productos.",
+      "angulo": "¿Vale la pena invertir en IA para mejorar la venta de merchandising?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/fanatics-streamline-fan-experience",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "How Fanatics and OpenAI streamline the fan experience"
+    },
+    {
+      "id": "h01",
+      "titular": "Greptile usa GPT‑6 Astra para detectar bugs",
+      "resumen": "Greptile emplea GPT‑6 Astra en pruebas de flujos de usuario y combina Daybreak y Codex para reducir re‑trabajo.",
+      "porque_importa": "El programador que revisa código ganará tiempo al automatizar detección de errores.",
+      "angulo": "¿Puede una IA sustituir la revisión manual de código?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/greptile-code-review-codex-astra",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Greptile takes bug detection beyond code review with GPT-6 Astra"
+    },
+    {
+      "id": "h03",
+      "titular": "CodeRabbit refuerza seguridad con GPT‑6.1 Sol",
+      "resumen": "CodeRabbit implementó GPT‑6.1 Sol para escanear riesgos de seguridad en bases de código complejas y ofrecer correcciones.",
+      "porque_importa": "El responsable de seguridad de una empresa podrá delegar parte del análisis a la IA y acelerar parches.",
+      "angulo": "IA que revisa código: ¿una nueva capa de defensa?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases"
+    },
+    {
+      "id": "h08",
+      "titular": "NVIDIA advierte sobre datos y expertos en demencia",
+      "resumen": "NVIDIA indica que 57 millones de personas viven con demencia y que la investigación sufre por exceso de datos y falta de especialistas.",
+      "porque_importa": "Quien programa IA para salud verá la necesidad de herramientas que filtren datos rápidamente.",
+      "angulo": "Demasiados datos, pocos expertos: el nuevo cuello de botella en la investigación médica",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Sin cifras ni pruebas de solución concreta",
+      "naturaleza": "investigacion",
+      "titulo_original": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h68",
+      "titular": "OpenAI lanza GPT‑6.1 Terra a mitad de costo",
+      "resumen": "OpenAI anunció GPT‑6.1 Terra, un modelo que usa la computadora y cuesta la mitad que versiones anteriores, según Infobae.",
+      "porque_importa": "Si editás video, el modelo barato podría reducir el gasto en generación de contenido visual.",
+      "angulo": "Un modelo más barato, ¿pero realmente más útil?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 1
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/27/openai-lanzo-gpt-61-terra-un-modelo-de-ia-que-usa-la-computadora-y-cuesta-la-mitad/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Simon Willison",
+            "link": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+            "tipo": "comunidad"
+          }
+        ]
+      },
+      "descarte": "Poco detalle técnico, parece más marketing que dato concreto",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "OpenAI lanzó GPT-6.1 Terra, un modelo de IA que usa la computadora y cuesta la mitad"
+    },
+    {
+      "id": "h72",
+      "titular": "Prompt para que ChatGPT critique tu trabajo sin filtro",
+      "resumen": "Infobae difundió un prompt que pide a ChatGPT que analice hábitos y frustraciones laborales de forma directa.",
+      "porque_importa": "Quien programa o gestiona equipos puede usarlo para obtener feedback crudo y reflexionar sobre su gestión.",
+      "angulo": "¿Confiarías en una IA para una autocrítica brutal?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/27/pidele-a-chatgpt-una-critica-honesta-y-sin-filtro-de-ti-con-este-prompt-la-ia-no-tendra-piedad/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Sin evidencia de efectividad, solo un truco de prompt",
+      "naturaleza": "otro",
+      "titulo_original": "Pídele a ChatGPT una crítica honesta y sin filtro de ti con este prompt: la IA no tendrá piedad"
+    },
+    {
+      "id": "h70",
+      "titular": "Holanda recortará 25.000 puestos y usará IA",
+      "resumen": "El Gobierno eliminará 1 de cada 6 empleados públicos para 2035 y planea aplicar IA, sin detallar cómo.",
+      "porque_importa": "Quien gestiona recursos humanos en el sector público verá cambios estructurales.",
+      "angulo": "Despidos masivos y IA como sustituto",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/27/paises-bajos-eliminara-25000-empleos-publicos-hasta-2035-y-usara-ia-para-sostener-el-trabajo/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de detalle sobre la aplicación de IA",
+      "naturaleza": "otro",
+      "titulo_original": "Países Bajos eliminará 25.000 empleos públicos hasta 2035 y usará IA para sostener el trabajo"
+    },
+    {
+      "id": "h43",
+      "titular": "OpenAI somete pruebas externas a pruebas matemáticas de su IA",
+      "resumen": "OpenAI pidió a expertos externos, incluido un Nobel, que verifiquen tres resultados de IA en matemáticas, computación y física, uno de ellos parte de un Problema del Milenio.",
+      "porque_importa": "Quien investiga o enseña matemáticas podrá seguir de cerca la fiabilidad de herramientas de IA en investigación.",
+      "angulo": "¿Puede una IA resolver problemas premiados?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Aún no hay resultados verificables, es solo una solicitud de revisión",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "OpenAI asks outside experts, including a Nobel laureate, to check proofs its AI produced in math, computer science, and physics"
+    }
+  ],
+  "nota_dia": null,
+  "piezas": {
+    "reel": {
+      "nota": "h04",
+      "titulo": "ChatGPT ya se usa en 165 tareas laborales",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "OpenAI dice que su herramienta está presente en 165 actividades profesionales.",
+          "pantalla": "Pantalla con el logo de OpenAI y número 165"
+        },
+        {
+          "t": "0:08",
+          "texto": "Los datos provienen de OpenAI Signals, que cubre casi 100 países.",
+          "pantalla": "Mapa del mundo con resaltados varios países"
+        },
+        {
+          "t": "0:16",
+          "texto": "Puede ayudar a quien decide si integrar ChatGPT en su flujo de trabajo.",
+          "pantalla": "Ejemplo de flujo de trabajo con ChatGPT integrado"
+        },
+        {
+          "t": "0:24",
+          "texto": "El informe muestra cómo varía el uso a lo largo del tiempo.",
+          "pantalla": "Gráfica de uso mensual"
+        },
+        {
+          "t": "0:32",
+          "texto": "Decidir integrar ChatGPT depende de cuán frecuente sea la tarea en tu día a día.",
+          "pantalla": "Checklist de tareas y frecuencia"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h02",
+      "titulo": "Modelos de IA y conjeturas matemáticas",
+      "placas": [
+        "OpenAI publica resultados sobre la conjetura de Kakeya.",
+        "Los modelos también abordaron la Hipótesis de Tiempo Exponencial.",
+        "Se incluyeron hallazgos en cromodinámica cuántica.",
+        "Los investigadores pueden verificar y ampliar esos resultados.",
+        "El material puede servir a docentes de matemáticas avanzadas.",
+        "Es un ejemplo de IA colaborando con la comunidad académica."
+      ]
+    },
+    "post": {
+      "nota": "h04",
+      "titulo": "ChatGPT en el mundo laboral",
+      "texto": "OpenAI informó que ChatGPT se usa en 165 actividades laborales distintas.\n\nEl reporte de OpenAI Signals cubre casi 100 países.\n\nPara quien maneja la comunicación de una marca, esto indica si alguna de esas tareas ya forma parte del flujo diario.\n\nEl informe también muestra cómo cambia el uso a lo largo del tiempo, lo que ayuda a decidir si integrar la herramienta ahora o esperar."
+    },
+    "hilo": {
+      "nota": "h02",
+      "titulo": "IA y problemas matemáticos abiertos",
+      "partes": [
+        "OpenAI compartió resultados de sus modelos sobre la conjetura de Kakeya.",
+        "También abordaron la Hipótesis de Tiempo Exponencial, un problema clave en teoría de la complejidad.",
+        "Incluyeron hallazgos en cromodinámica cuántica, relevante para la física teórica.",
+        "Los investigadores pueden verificar esos resultados y construir sobre ellos.",
+        "Para un docente de matemáticas, estos datos pueden ser material de estudio avanzado."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h04",
+        "h02"
+      ],
+      "preguntas": [
+        "¿Qué tarea laboral que ya haces podría delegarse a ChatGPT sin perder calidad?",
+        "¿Cómo evaluarías si el uso de ChatGPT en tu flujo mejora la eficiencia a corto plazo?",
+        "¿Qué riesgos percibís al depender de una IA para actividades críticas en tu trabajo?"
+      ],
+      "nota": null
+    }
+  },
+  "fidelidad": {
+    "detectadas": 1,
+    "corregidas": 1,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h05",
+      "titular": "Fanatics prueba IA y sube 10% el engagement",
+      "total": 15,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h25",
+      "titular": "Apple incorpora chatbot IA a Pages, Keynote y Numbers",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "OpenAI muestra uso de ChatGPT en 165 tareas laborales",
+      "total": 14,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "Opera lanza WebAI para IA local en el navegador",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "Greptile usa GPT‑6 Astra para detectar bugs",
+      "total": 13,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "CodeRabbit refuerza seguridad con GPT‑6.1 Sol",
+      "total": 13,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h71",
+      "titular": "Suecia prohíbe ChatGPT y Claude a funcionarios",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h65",
+      "titular": "Gemini lee 32 k tokens, PDF de 300 páginas no cabe",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI publica resultados en conjeturas matemáticas",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h38",
+      "titular": "Meta busca 95 000 M$ para financiar IA",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h70",
+      "titular": "Holanda recortará 25.000 puestos y usará IA",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h43",
+      "titular": "OpenAI somete pruebas externas a pruebas matemáticas de su IA",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "NVIDIA advierte sobre datos y expertos en demencia",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "General Compute cierra Serie A de $100 M con chips fuera de Nvidia",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "Nvidia respalda startup india que reduce GPUs para IA",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h68",
+      "titular": "OpenAI lanza GPT‑6.1 Terra a mitad de costo",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae",
+        "Simon Willison"
+      ]
+    },
+    {
+      "id": "h69",
+      "titular": "Apple presenta iMac y MacBook Pro con chip M6",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "Codex Ultrafast acelera investigaciones de incidentes en OpenAI",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h15",
+      "titular": "Rohit Patel deja Meta para fundar Ndoc",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h42",
+      "titular": "Ex‑Deepmind propone ledger de conocimiento para IA",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h39",
+      "titular": "Anthropic publica S‑1 con riesgos detallados",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h45",
+      "titular": "Anthropic reafirma que Claude no mostrará anuncios",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "Hackers publican datos de clientes de GMO Internet",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h72",
+      "titular": "Prompt para que ChatGPT critique tu trabajo sin filtro",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h73",
+      "titular": "Divulgador advierte sobre miedo al no usar IA",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h26",
+      "titular": "Oposición a centros de datos crece en EE UU",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Google AI lanza AI Quest para mapear el cerebro",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h44",
+      "titular": "ChatGPT prioriza contenido de socios licenciados",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h35",
+      "titular": "Industrial Intelligence como oportunidad de crecimiento",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "id": "h52",
+      "titular": "UK Home Office May Face Investigation Over Use of OpenAI Tools",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Wired"
+      ]
+    }
+  ]
+}

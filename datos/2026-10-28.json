@@ -1,0 +1,948 @@
+{
+  "fecha": "2026-10-28T13:37:01.421553-03:00",
+  "revisados": 94,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1333
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 891
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": false,
+      "error": "HTTPError"
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h77",
+      "titular": "DeepL, Google y chatbots: cuándo usar cada uno",
+      "resumen": "Un artículo de WWWhat's new compara la precisión de DeepL, Google Traductor y un chatbot en la tarea WMT25, señalando que el chatbot lideró la competencia.",
+      "porque_importa": "Quien traduce contenidos para una marca podrá elegir la herramienta que mejor preserve matices según el tipo de texto.",
+      "angulo": "El chatbot supera a traductores clásicos en pruebas de calidad",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 3
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/10/28/traducir-ia-deepl-google-traductor-chatbot-privacidad/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/28/google-traductor-o-chatbot-de-ia-cuando-conviene-usar-cada-opcion-para-traducir-textos/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "opinion",
+      "titulo_original": "Traducir con IA sin perder matices: cuándo usar DeepL, Google Traductor o un chatbot"
+    },
+    {
+      "id": "h03",
+      "titular": "OpenAI y Oracle amplían ChatGPT a apps de negocio",
+      "resumen": "OpenAI y Oracle ampliaron su alianza para integrar aplicaciones empresariales y agentes de IA dentro de ChatGPT.",
+      "porque_importa": "Quien dirige una empresa puede acceder a herramientas de IA sin salir de ChatGPT.",
+      "angulo": "ChatGPT como hub de apps corporativas",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/oracle-apps-in-chatgpt",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT"
+    },
+    {
+      "id": "h05",
+      "titular": "NVIDIA lanza Nemotron 3.5 y Granary v2",
+      "resumen": "Se publicaron en Hugging Face los modelos Nemotron 3.5 Transcribe y Granary v2, orientados a transcripción multilingüe adaptable mediante prompts.",
+      "porque_importa": "Si editás video, podés usar Nemotron 3.5 para generar subtítulos en varios idiomas sin escribir código.",
+      "angulo": "Transcripción multilingüe que se ajusta con prompts",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+            "tipo": "oficial"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos escasos, sin métricas de precisión",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h52",
+      "titular": "Dots de OpenAI llega a Europa en semanas",
+      "resumen": "OpenAI anunció que su asistente Dots se desplegará en Europa pronto y que usuarios de Codex en Alemania crecieron veinte veces desde enero.",
+      "porque_importa": "Quien desarrolla software en Europa podrá probar Dots sin esperar meses.",
+      "angulo": "Crecimiento explosivo de usuarios Codex en Alemania",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "OpenAI teases Dots for Europe, but its Berlin DevDay was really about building a platform"
+    },
+    {
+      "id": "h53",
+      "titular": "Claude for Legal agrega plantillas y 60 integraciones",
+      "resumen": "Anthropic incorpora plantillas predefinidas y más de 60 integraciones para que equipos legales usen Claude en revisiones de contratos.",
+      "porque_importa": "Quien trabaja en un estudio jurídico puede automatizar revisiones con menos configuración.",
+      "angulo": "IA legal lista para usar, sin desarrollo propio",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Claude for Legal now verifies sources automatically, then hands the file to a lawyer"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h02",
+      "titular": "Retell alcanza $1,6 M con GPT‑6 y Codex",
+      "resumen": "Retell usa GPT‑6 Astra y Codex para su agente de voz, logrando $1,6 millón de ingresos anuales por empleado.",
+      "porque_importa": "Quien gestiona call‑centers puede escalar con IA sin aumentar personal.",
+      "angulo": "Ingresos por empleado: la IA como motor de rentabilidad",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/retell-ai",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Retell uses OpenAI models to help power 100M monthly calls"
+    },
+    {
+      "id": "h08",
+      "titular": "IA acelera investigación sobre demencia",
+      "resumen": "NVIDIA indica que la IA ayuda a investigadores a manejar grandes volúmenes de datos sobre 57 millones de pacientes con demencia.",
+      "porque_importa": "Quien investiga enfermedades neurodegenerativas puede procesar datos más rápido.",
+      "angulo": "Datos masivos, pocos expertos: la IA como apoyo",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta de cifras concretas de mejora",
+      "naturaleza": "investigacion",
+      "titulo_original": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia"
+    },
+    {
+      "id": "h01",
+      "titular": "Legora crea OS agente para trabajo legal",
+      "resumen": "Legora describe cómo combina modelos de OpenAI, ChatGPT y Codex para acelerar flujos de trabajo legales y análisis de contratos.",
+      "porque_importa": "Abogados que usan software podrán delegar tareas rutinarias a la IA y enfocarse en asesoría estratégica.",
+      "angulo": "IA que libera a los abogados de tareas repetitivas",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Información provista por la propia empresa, sin datos de resultados",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Legora is building the agentic operating system for legal work"
+    },
+    {
+      "id": "h04",
+      "titular": "Genie 4, nuevo modelo de simulación mundial",
+      "resumen": "DeepMind presentó Genie 4, un modelo de simulación en tiempo real con mayor realismo que versiones anteriores.",
+      "porque_importa": "Quien programa entornos virtuales gana una herramienta más detallada para pruebas.",
+      "angulo": "Más realismo en simulaciones sin datos de rendimiento",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Google DeepMind en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Google DeepMind",
+            "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Poco detalle técnico, ruido de marketing",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Genie 4: A new generation of world simulation"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h90",
+      "titular": "Nuevo punto de inflexión en desarrollo de juegos con IA",
+      "resumen": "Autor sugiere que tras Opus 4.5 y GPT‑5.1 los agentes de código son ahora fiables para ingenieros.",
+      "porque_importa": "Programadores de videojuegos podrían probar agentes de código, pero sin datos concretos.",
+      "angulo": "¿Los agentes de IA ya son herramientas diarias?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 0
+      },
+      "total": 3,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo aparece en Simon Willison, que es un agregador. Falta un medio o la fuente original.",
+        "fuentes": [
+          {
+            "nombre": "Simon Willison",
+            "link": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+            "tipo": "comunidad"
+          }
+        ]
+      },
+      "descarte": "Falta evidencia concreta, es opinión personal",
+      "naturaleza": "opinion",
+      "titulo_original": "The October inflection point for vibe game development"
+    },
+    {
+      "id": "h09",
+      "titular": "Google presenta el Sleep Framework",
+      "resumen": "Google Research anunció el Sleep Framework, un método para que LLMs retengan conocimientos en aprendizaje continuo.",
+      "porque_importa": "Desarrolladores de IA podrán entrenar modelos que no pierdan información al actualizarse.",
+      "angulo": "Mantener el conocimiento de los LLMs sin olvidar datos previos",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Google Research en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Google Research",
+            "link": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta de métricas y aplicación práctica inmediata",
+      "naturaleza": "investigacion",
+      "titulo_original": "The sleep framework: A new way for LLMs to retain knowledge in continual learning"
+    },
+    {
+      "id": "h07",
+      "titular": "¿Pueden los LLM juzgar la novedad de una idea?",
+      "resumen": "Hugging Face publicó una investigación preliminar que explora si los LLM pueden evaluar la originalidad de propuestas de investigación.",
+      "porque_importa": "Investigadores podrán usar LLMs como primer filtro para detectar ideas ya exploradas.",
+      "angulo": "LLM como árbitro de novedad científica",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/allenai/novelty-bench",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Resultados preliminares, sin validación externa",
+      "naturaleza": "investigacion",
+      "titulo_original": "Can we trust LLMs to judge whether a research idea is novel?"
+    },
+    {
+      "id": "h78",
+      "titular": "Bezos sugiere semana laboral de tres días",
+      "resumen": "Jeff Bezos comentó que la IA podría permitir a familias mantener ingresos trabajando menos horas.",
+      "porque_importa": "Un gerente de recursos humanos tendría que replantear horarios sin datos claros.",
+      "angulo": "¿Realmente la IA reducirá la jornada laboral?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/28/trabajar-tres-dias-a-la-semana-y-mantener-a-la-familia-el-pronostico-de-jeff-bezos-sobre-la-ia/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de datos concretos, es solo una opinión.",
+      "naturaleza": "opinion",
+      "titulo_original": "“Trabajar tres días a la semana y mantener a la familia”: el pronóstico de Jeff Bezos sobre la IA"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h77",
+    "tesis": "La elección entre DeepL, Google Traductor y un chatbot ya no es cuestión de precisión absoluta, sino de qué matices necesita preservar cada texto. El hecho de que el chatbot haya liderado la competencia abre la duda sobre quién tiene acceso a esa calidad sin coste, mientras DeepL sigue ofreciendo entrenamiento gratuito con los propios textos del usuario.",
+    "mirar": "Sería útil saber cuál es el costo de usar el chatbot en producción y cómo varía su desempeño según el idioma, datos que la nota no incluye."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h05",
+      "titulo": "Transcripción multilingüe con Nemotron 3.5",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "NVIDIA publicó Nemotron 3.5 Transcribe en Hugging Face.",
+          "pantalla": "Logo de NVIDIA y captura de la página de Hugging Face"
+        },
+        {
+          "t": "0:07",
+          "texto": "El modelo reconoce voz, identifica hablantes y traduce al vuelo.",
+          "pantalla": "Ejemplo de audio con subtítulos en varios idiomas"
+        },
+        {
+          "t": "0:14",
+          "texto": "Se controla con prompts de texto, sin escribir código.",
+          "pantalla": "Prompt sencillo y salida de subtítulos"
+        },
+        {
+          "t": "0:21",
+          "texto": "Usa solo una sexta parte de los parámetros del rival abierto más grande.",
+          "pantalla": "Gráfica comparativa de tamaños de modelo"
+        },
+        {
+          "t": "0:28",
+          "texto": "Si editás video, podés generar subtítulos en varios idiomas al instante.",
+          "pantalla": "Editor de video arrastrando el modelo a la línea de tiempo"
+        },
+        {
+          "t": "0:35",
+          "texto": "Descargá el modelo y el dataset de 800 000 horas para probarlo.",
+          "pantalla": "Enlace a Hugging Face y a la descarga del dataset"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h77",
+      "titulo": "¿DeepL, Google Traductor o un chatbot?",
+      "placas": [
+        "Un estudio de WWWhat's new comparó DeepL, Google Traductor y un chatbot en la tarea WMT25.",
+        "El chatbot obtuvo la mejor puntuación de calidad en la prueba.",
+        "DeepL es gratuito y permite entrenar con tus propios textos.",
+        "Google Traductor sigue siendo útil para frases cortas y consultas rápidas.",
+        "Elige la herramienta según el tipo de contenido que necesites traducir.",
+        "Para marcas, el chatbot puede preservar matices en documentos extensos."
+      ]
+    },
+    "post": {
+      "nota": "h03",
+      "titulo": "ChatGPT se vuelve hub de apps empresariales",
+      "texto": "OpenAI y Oracle anunciaron que ampliarán su alianza.\n\nAhora los usuarios podrán lanzar aplicaciones de negocio directamente dentro de ChatGPT.\n\nLos agentes de IA se integrarán como extensiones, sin necesidad de cambiar de plataforma.\n\nPara quien dirige una empresa, esto significa acceder a herramientas de IA sin salir del entorno de ChatGPT.\n\nPodés probar la integración cuando esté disponible en la consola de OpenAI."
+    },
+    "hilo": {
+      "nota": "h77",
+      "titulo": "Cómo elegir la herramienta de traducción adecuada",
+      "partes": [
+        "En WWWhat's new compararon DeepL, Google Traductor y un chatbot en la prueba WMT25. El chatbot lideró la competencia en calidad.",
+        "DeepL, aunque gratuito, permite entrenar con tus propios textos y mantiene buen nivel de precisión para textos técnicos.",
+        "Google Traductor sigue siendo rápido y útil para frases breves o consultas puntuales, pero pierde matices en documentos largos.",
+        "El chatbot sobresale cuando necesitás preservar matices y contexto en textos extensos, como comunicados de marca o informes internos.",
+        "En la práctica, quien traduce contenidos para una marca debería probar los tres y decidir según el tipo de documento y la necesidad de personalización."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h03",
+        "h05"
+      ],
+      "preguntas": [
+        "¿Qué riesgos ve en integrar apps de negocio dentro de ChatGPT sin una capa de seguridad adicional?",
+        "¿Cómo afecta la necesidad de prompts a usuarios sin experiencia técnica al usar Nemotron 3.5?",
+        "¿Qué ventajas reales ofrece un chatbot traductor frente a DeepL en proyectos de contenido corporativo?"
+      ]
+    }
+  },
+  "fidelidad": {
+    "detectadas": 2,
+    "corregidas": 0,
+    "pendientes": [
+      {
+        "donde": "pieza:reel",
+        "tipo": "cifra",
+        "detalle": "«000» no aparece en la fuente"
+      },
+      {
+        "donde": "pieza:reel",
+        "tipo": "cifra",
+        "detalle": "«800» no aparece en la fuente"
+      }
+    ],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h02",
+      "titular": "Retell alcanza $1,6 M con GPT‑6 y Codex",
+      "total": 14,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h52",
+      "titular": "Dots de OpenAI llega a Europa en semanas",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h53",
+      "titular": "Claude for Legal agrega plantillas y 60 integraciones",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h33",
+      "titular": "Meta pospone nuevos términos de negocio",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h48",
+      "titular": "OpenAI anuncia avances en tres problemas matemáticos complejos",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h77",
+      "titular": "DeepL, Google y chatbots: cuándo usar cada uno",
+      "total": 13,
+      "estado": "verificada",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "WWWhat's new",
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "Ciberataques a bancos surcoreanos aumentan",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h46",
+      "titular": "Amazon lanza nuevos Echo con IA local y router integrado",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h47",
+      "titular": "Programadores alertan sobre impacto de IA en salud mental",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "OpenAI y Oracle amplían ChatGPT a apps de negocio",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h79",
+      "titular": "Nariz electrónica usa IA para transmitir olores online",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h50",
+      "titular": "Bruselas propone matiz al RGPD para entrenar IA",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h80",
+      "titular": "Anthropic advierte riesgos de sus IA en prospecto",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "NVIDIA lanza Nemotron 3.5 y Granary v2",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face",
+        "The Decoder",
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "IA acelera investigación sobre demencia",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "Legora crea OS agente para trabajo legal",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h45",
+      "titular": "IPO de Anthropic podría afectar a Ferrovial",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h55",
+      "titular": "Artificial Analysis actualiza su índice y desplaza a Kimi K3.1",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h34",
+      "titular": "xAI compra casas en Mississippi bajo pacto de silencio",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h75",
+      "titular": "Qué hacen los modelos multimodales con audio y vídeo",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "Genie 4, nuevo modelo de simulación mundial",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google DeepMind"
+      ]
+    },
+    {
+      "id": "h49",
+      "titular": "Apple lanza iMac 2026 con chip M6",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Google presenta el Sleep Framework",
+      "total": 5,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Google Research"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "¿Pueden los LLM juzgar la novedad de una idea?",
+      "total": 5,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h78",
+      "titular": "Bezos sugiere semana laboral de tres días",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "Ejecutivos de IA desconectados del público",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h73",
+      "titular": "Bill Gates advierte turbulencia por IA",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "Hugging Face lanza LFM3 para modelos multimodales",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h90",
+      "titular": "Nuevo punto de inflexión en desarrollo de juegos con IA",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "TechCrunch Founder Summit ofrece descuento de $100",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    }
+  ]
+}

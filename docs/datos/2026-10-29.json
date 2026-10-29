@@ -1,0 +1,944 @@
+{
+  "fecha": "2026-10-29T13:55:33.541613-03:00",
+  "revisados": 92,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1334
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": false,
+      "error": "ParseError"
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 894
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h21",
+      "titular": "Chrome usa IA para autocompletar datos de Gmail",
+      "resumen": "La nueva versión de Autofill extrae confirmaciones de vuelo, rastreos y pedidos del inbox, con permiso del usuario.",
+      "porque_importa": "Quien gestiona campañas de email podrá rellenar formularios sin copiar datos a mano.",
+      "angulo": "Tu bandeja de entrada ahora alimenta los formularios web",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms"
+    },
+    {
+      "id": "h06",
+      "titular": "Mistral Large 4 llega a Hugging Face",
+      "resumen": "Mistral lanzó su modelo Large 4 y lo puso a disposición en la plataforma Hugging Face.",
+      "porque_importa": "Si entrenás modelos, ahora tenés acceso a un LLM más grande sin instalarlo localmente.",
+      "angulo": "Un LLM nuevo, listo para usar en la nube",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/mistral-large4",
+            "tipo": "oficial"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Wired",
+            "link": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Welcome Le Chonk: Mistral Large 4 on Hugging Face"
+    },
+    {
+      "id": "h10",
+      "titular": "EE UU investiga posible espía chino en Nvidia",
+      "resumen": "Fuentes del New York Times indican que un ejecutivo de una empresa de nube de Singapur pudo haber sido agente chino y vendió chips Nvidia ilegalmente.",
+      "porque_importa": "Los directivos de IA deben vigilar riesgos de seguridad en sus equipos y proveedores.",
+      "angulo": "Cuando la geopolítica se cruza con la cadena de suministro de IA",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 4,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 3 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Hipertextual",
+            "link": "https://hipertextual.com/actualidad/jensen-huang-nvidia-fue-blanco-de-una-espia-china-cree-eeuu/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Poco práctico para creativos, más noticia de seguridad",
+      "naturaleza": "investigacion",
+      "titulo_original": "U.S. investigated Chinese spy plot aimed at Nvidia CEO"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h72",
+      "titular": "Epic Games usa IA para escribir código de Unreal y Fortnite",
+      "resumen": "Epic implementó \"vibe‑coding\", donde programadores guían modelos de IA que generan la mayor parte del código, reduciendo semanas de trabajo a días.",
+      "porque_importa": "Los programadores de videojuegos pueden delegar tareas repetitivas a la IA y enfocarse en diseño.",
+      "angulo": "¿Cuánto código puede generar una IA antes de que el programador tenga que intervenir?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/29/epic-games-usa-ia-para-programar-unreal-engine-y-fortnite-sus-ingenieros-ya-no-escriben-la-mayor-parte-del-codigo/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Epic Games usa IA para programar Unreal Engine y Fortnite: sus ingenieros ya no escriben la mayor parte del código"
+    },
+    {
+      "id": "h11",
+      "titular": "Dream levanta $17 M para IA en construcción",
+      "resumen": "Ex‑ejecutivos de Palantir fundan Dream y reciben $17 M de a16z para crear modelos de IA que sirvan a la industria de la construcción.",
+      "porque_importa": "Programadores de software de arquitectura podrán usar esos modelos para automatizar diseños y permisos.",
+      "angulo": "Financiamiento que apunta a transformar Autodesk con IA",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 4
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h01",
+      "titular": "OpenAI y ServiceNow amplían integración de modelos",
+      "resumen": "Ambas compañías ampliaron la integración de modelos y agentes de OpenAI dentro de los flujos de ServiceNow y ChatGPT.",
+      "porque_importa": "Un analista de procesos podrá automatizar tickets usando los nuevos agentes sin código extra.",
+      "angulo": "Más IA dentro de ServiceNow, ¿qué procesos ganarán en eficiencia?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "OpenAI and ServiceNow expand partnership across enterprise workflows"
+    },
+    {
+      "id": "h09",
+      "titular": "Desarrolladores usan agentes IA en Omniverse",
+      "resumen": "NVIDIA muestra cómo combinar modelos de frontera con sus librerías Omniverse para crear simulaciones más rápido.",
+      "porque_importa": "Los programadores de entornos 3D pueden delegar tareas de ensamblado y pruebas a agentes IA.",
+      "angulo": "IA como asistente de producción en mundos virtuales",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Artículo más descriptivo que práctico",
+      "naturaleza": "otro",
+      "titulo_original": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents"
+    },
+    {
+      "id": "h03",
+      "titular": "Legora usa IA para automatizar trabajo legal",
+      "resumen": "Legora describe cómo emplea modelos de OpenAI para acelerar flujos de trabajo y análisis de contratos.",
+      "porque_importa": "Un abogado podrá delegar la revisión preliminar de contratos a la herramienta y enfocarse en negociaciones.",
+      "angulo": "IA en contratos: ¿cuánto tiempo realmente se ahorra?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/legora",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Información provista por la empresa, sin métricas externas.",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Legora is building the agentic operating system for legal work"
+    },
+    {
+      "id": "h07",
+      "titular": "AnySpeechRecognizer y AnyDecisionModel llegan a Apple",
+      "resumen": "Hugging Face anunció modelos abiertos para reconocimiento de voz y decisiones en plataformas Apple.",
+      "porque_importa": "Un desarrollador iOS podrá integrar reconocimiento de voz sin licencias extra.",
+      "angulo": "Modelos libres para iOS, ¿qué hará falta para usarlos en producción?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/anydecisionmodel",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Datos escasos, sin métricas de rendimiento.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h04",
+      "titular": "Granite Switch 4.1.1 permite actualizar modelos como software",
+      "resumen": "Hugging Face anunció la versión 4.1.1 de Granite Switch, que facilita la actualización de modelos.",
+      "porque_importa": "Quien mantiene pipelines de IA podrá aplicar parches sin reinstalar todo el modelo.",
+      "angulo": "Actualizaciones de modelo al estilo de una app",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta detalle técnico y beneficio concreto",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Granite Switch 4.1.1 — Update models like you update software"
+    },
+    {
+      "id": "h05",
+      "titular": "Project ProtoStar: ciencia pública lista para IA",
+      "resumen": "Hugging Face anunció Project ProtoStar, que busca adaptar investigaciones financiadas con fondos públicos para uso de IA.",
+      "porque_importa": "Los investigadores que publican datos podrán estructurarlos para que modelos IA los consuman fácilmente.",
+      "angulo": "Poner la ciencia pública a trabajar con IA",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/announcing-project-protostar",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Anuncio sin datos de implementación ni plazos",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready"
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI publica reflexión sobre IA en la empresa",
+      "resumen": "OpenAI publicó un ensayo sobre cómo la IA podría incorporarse en la estructura organizacional.",
+      "porque_importa": "Un líder de recursos humanos tendría una visión para debatir la posición de IA en su equipo.",
+      "angulo": "IA en el organigrama: ¿colaborador o supervisor?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es una pieza de promoción. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/the-future-of-the-firm",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Sin datos concretos ni aplicación práctica.",
+      "naturaleza": "opinion",
+      "titulo_original": "The future of the firm"
+    },
+    {
+      "id": "h69",
+      "titular": "Mosseri advierte miedo a la IA en artistas",
+      "resumen": "Adam Mosseri dice que el rechazo de artistas a la IA crecerá por temor a perder empleos.",
+      "porque_importa": "Los creadores podrían sentir más presión para adaptarse a herramientas automatizadas.",
+      "angulo": "¿Se intensificará la resistencia artística?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/29/el-jefe-de-instagram-asegura-que-el-rechazo-y-el-miedo-a-la-ia-van-a-empeorar-en-los-proximos-anos/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Opinión sin evidencia ni datos concretos",
+      "naturaleza": "opinion",
+      "titulo_original": "El jefe de Instagram asegura que el rechazo y el miedo a la IA van a empeorar en los próximos años"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h21",
+    "tesis": "Chrome ahora extrae datos de Gmail para autocompletar formularios, pero el anuncio no indica cuántos usuarios activarán la función ni el impacto en la precisión del llenado. La tensión está en que la comodidad se gana a costa de un permiso de acceso al inbox que pocos conocen.",
+    "mirar": "Cuántos usuarios activarán la opción y si Google publicará métricas de error o de privacidad tras el despliegue."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h21",
+      "titulo": "Chrome usa IA para autocompletar datos de Gmail",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "Chrome anunció una actualización de Autofill con IA.",
+          "pantalla": "Logo de Chrome y barra de búsqueda"
+        },
+        {
+          "t": "0:07",
+          "texto": "La función escanea tu Gmail con permiso.",
+          "pantalla": "Ventana de Gmail con resaltado de correos"
+        },
+        {
+          "t": "0:14",
+          "texto": "Extrae confirmaciones de vuelo, rastreos y pedidos.",
+          "pantalla": "Ejemplo de formulario completado automáticamente"
+        },
+        {
+          "t": "0:21",
+          "texto": "Así podés rellenar formularios sin copiar datos manualmente.",
+          "pantalla": "Persona trabajando en una campaña y sonriendo"
+        },
+        {
+          "t": "0:28",
+          "texto": "La función se habilita al conceder permiso a Chrome para acceder a Gmail.",
+          "pantalla": "Menú de ajustes de Autofill"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h06",
+      "titulo": "Mistral Large 4 llega a Hugging Face",
+      "placas": [
+        "Mistral lanzó Large 4, también llamado “Le Chonk”.",
+        "El modelo tiene un billón de parámetros y está entrenado en Europa.",
+        "Ya está disponible en la plataforma Hugging Face para usar en la nube.",
+        "Según The Decoder, destaca en tareas de código, aunque sigue detrás de los modelos chinos.",
+        "Los pesos del modelo son públicos, podés descargarlos sin instalar nada localmente.",
+        "Ideal para quien entrena o prueba LLMs sin infraestructura propia."
+      ]
+    },
+    "post": {
+      "nota": "h10",
+      "titulo": "EE UU investiga posible espía chino en Nvidia",
+      "texto": "Una fuente citada por The New York Times indica que un ejecutivo de una empresa de nube de Singapur pudo ser agente chino.\nEl mismo ejecutivo habría vendido chips de Nvidia a China de forma ilegal.\nPara los directivos de IA, el caso muestra la necesidad de revisar la cadena de suministro y los antecedentes de los socios.\nMantener una vigilancia activa puede prevenir riesgos de espionaje y sanciones regulatorias."
+    },
+    "hilo": {
+      "nota": "h21",
+      "titulo": "Chrome Autofill alimentado por Gmail",
+      "partes": [
+        "Chrome incorpora IA en Autofill y pide permiso para leer tu Gmail.",
+        "Extrae datos como confirmaciones de vuelo, números de rastreo y pedidos de compra.",
+        "Con esa información, completa formularios web sin que tengas que copiar y pegar.",
+        "Resulta útil para gestores de campañas de email que deben rellenar muchos formularios rápidamente."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h21",
+        "h06"
+      ],
+      "preguntas": [
+        "¿Confiás en que Chrome solo use los datos que le autorizás en Gmail?",
+        "¿Qué riesgos ve al usar un modelo LLM grande como Mistral Large 4 sin control local?",
+        "¿Cómo debería una empresa de IA gestionar la seguridad de sus ejecutivos y proveedores frente a espionaje?"
+      ],
+      "nota": null
+    }
+  },
+  "fidelidad": {
+    "detectadas": 2,
+    "corregidas": 2,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h21",
+      "titular": "Chrome usa IA para autocompletar datos de Gmail",
+      "total": 15,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch",
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "Mistral Large 4 llega a Hugging Face",
+      "total": 14,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face",
+        "The Decoder",
+        "Wired"
+      ]
+    },
+    {
+      "id": "h72",
+      "titular": "Epic Games usa IA para escribir código de Unreal y Fortnite",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "Dream levanta $17 M para IA en construcción",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI y ServiceNow amplían integración de modelos",
+      "total": 12,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "Wabi levanta $55 M y alcanza valoración de $1,25 B",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "EE UU investiga posible espía chino en Nvidia",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "TechCrunch",
+        "Hipertextual",
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h63",
+      "titular": "Walmart+ llega a México con 89 pesos",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Desarrolladores usan agentes IA en Omniverse",
+      "total": 10,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h27",
+      "titular": "Microsoft ofrece buyouts por reducción de puestos IA",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h71",
+      "titular": "Microsoft emitirá bonos de $25 B para IA",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h28",
+      "titular": "NYT Cooking prueba IA para adaptar recetas",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h44",
+      "titular": "EE.UU. investiga la compra de Hugging Face por Nvidia",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "Legora usa IA para automatizar trabajo legal",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h39",
+      "titular": "Startup busca el Tesla de excavadoras con IA y sensores",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "Granite Switch 4.1.1 permite actualizar modelos como software",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "Project ProtoStar: ciencia pública lista para IA",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "AnySpeechRecognizer y AnyDecisionModel llegan a Apple",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "NVIDIA lanza Nemotron 3.5 Transcribe y Granary v2",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h74",
+      "titular": "Falla informática provocó accidente de tren en Toledo",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h70",
+      "titular": "Apple y OpenAI en disputa judicial",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h29",
+      "titular": "Anthropic presenta su S‑1 para IPO en Nasdaq",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h64",
+      "titular": "IA no reemplazará trabajos manuales en EE.UU. y Francia",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI publica reflexión sobre IA en la empresa",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h69",
+      "titular": "Mosseri advierte miedo a la IA en artistas",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h40",
+      "titular": "OpenAI representa 11 % de ingresos de Microsoft",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h31",
+      "titular": "AI y el desierto de Arizona",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h73",
+      "titular": "Muerte tras seguir consejo de ChatGPT sobre epilepsia",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h53",
+      "titular": "Artículo de Wired sobre problemas de Vibe Coding",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h85",
+      "titular": "Ben Hylak habla de productos como agentes sin UI",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Simon Willison"
+      ]
+    }
+  ]
+}

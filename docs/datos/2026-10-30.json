@@ -1,0 +1,877 @@
+{
+  "fecha": "2026-10-30T13:41:27.115465-03:00",
+  "revisados": 93,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1338
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 894
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": false,
+      "error": "URLError"
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h33",
+      "titular": "Altman no detendrá la avalancha de IA en matemáticas",
+      "resumen": "El CEO de OpenAI, Sam Altman, reconoce que su modelo genera mucho contenido matemático y dice que no va a parar.",
+      "porque_importa": "Si enseñás matemáticas, tendrás que filtrar más resultados de IA sin que la empresa los limite.",
+      "angulo": "¿Hasta cuándo los investigadores tendrán que lidiar con IA que no se apaga?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Genbeta",
+            "link": "https://www.genbeta.com/inteligencia-artificial/sam-altman-creador-chatgpt-mundo-deberia-aceptar-que-sucedan-algunas-cosas-malas-aras-beneficios-ia",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Poco dato concreto, mayormente discurso de marketing",
+      "naturaleza": "otro",
+      "titulo_original": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h77",
+      "titular": "5 000 usuarios de Cursor instalaron versión falsa con puerta trasera",
+      "resumen": "Una variante maliciosa de Claude Code añadió una clave del atacante, aunque rara vez logró acceso remoto.",
+      "porque_importa": "Programadores que usan Cursor deben verificar la fuente antes de instalar.",
+      "angulo": "¿Cómo evitar que una herramienta de IA se convierta en malware?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/30/hasta-5000-usuarios-de-cursor-instalaron-una-version-falsa-de-claude-code-con-una-puerta-trasera/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Hasta 5.000 usuarios de Cursor instalaron una versión falsa de Claude Code con una puerta trasera"
+    },
+    {
+      "id": "h15",
+      "titular": "DoorDash recibió cientos de pedidos de agentes IA",
+      "resumen": "DoorDash informó que ha procesado varios cientos de órdenes generadas por agentes de IA externos.",
+      "porque_importa": "A quien desarrolla agentes IA le muestra que hay demanda real en delivery.",
+      "angulo": "¿Vale la pena crear agentes IA para comercios?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "DoorDash said it’s only received ‘several hundred’ orders from AI agents"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h06",
+      "titular": "NVIDIA combina IA y Omniverse para crear simulaciones",
+      "resumen": "NVIDIA muestra que desarrolladores usan agentes de IA junto a librerías de Omniverse para montar simulaciones más rápido.",
+      "porque_importa": "Si desarrollás entornos 3D, podés acelerar la integración de assets y física con estos agentes.",
+      "angulo": "Simulaciones más rápidas con IA y Omniverse",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents"
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI detalla su monitoreo contra desalineación de modelos",
+      "resumen": "OpenAI describe un sistema de monitoreo en capas para detectar comportamientos no autorizados en modelos avanzados.",
+      "porque_importa": "Si gestionás IA en producción, podés inspirarte en ese esquema para prevenir incidentes.",
+      "angulo": "¿Tu empresa ya monitorea la alineación de sus modelos?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "How we detect frontier model misalignment"
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI publica nuevo modelo con valores de seguridad",
+      "resumen": "OpenAI lanzó una especificación de modelo que incluye cinco valores para guiar IA más capaz.",
+      "porque_importa": "Quien programa IA deberá alinear sus sistemas con esos valores si usa la spec de OpenAI.",
+      "angulo": "¿Cómo influyen los valores de OpenAI en tu próximo proyecto?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/updated-model-spec",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "An updated Model Spec for more capable and beneficial AI"
+    },
+    {
+      "id": "h03",
+      "titular": "Ropes & Gray prueba IA para diligencia transaccional",
+      "resumen": "El estudio legal usa IA de OpenAI para agrupar documentos y generar resúmenes antes de asesorar clientes.",
+      "porque_importa": "Un abogado gana tiempo al no revisar manualmente cada contrato.",
+      "angulo": "IA en bufetes: ¿más eficiencia o riesgo?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/ropes-gray-ai-diligence",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Datos escasos y sin métricas de mejora.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "How Ropes & Gray is developing AI for transactional diligence"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h17",
+      "titular": "Runware quiere producir centros de datos IA en línea de montaje",
+      "resumen": "La startup está construyendo una fábrica para fabricar centros de datos IA prefabricados, sin pruebas de escala aún.",
+      "porque_importa": "Quien planifica infraestructura IA verá una posible opción de suministro rápido.",
+      "angulo": "¿Podrán los data centers IA ser tan comunes como los autos?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta evidencia de viabilidad a gran escala.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Can AI data centers be mass-produced like cars? This startup aims to find out"
+    },
+    {
+      "id": "h13",
+      "titular": "Ex‑empleado de Theranos alerta sobre engaños en IA",
+      "resumen": "Tyler Shultz advierte que el auge de IA facilita nuevas formas de estafar, comparando con el caso Theranos.",
+      "porque_importa": "Un inversor debe ser más crítico al evaluar startups de IA sin historial de ganancias.",
+      "angulo": "¿La IA abre la puerta a nuevas estafas?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta evidencia concreta, es solo opinión.",
+      "naturaleza": "opinion",
+      "titulo_original": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’"
+    },
+    {
+      "id": "h31",
+      "titular": "El Papa pide desarmar la IA",
+      "resumen": "El Papa Leo XIV insta a los estados a prohibir armas basadas en IA y a rechazar sus usos nocivos.",
+      "porque_importa": "Afecta a quien regula políticas de IA en gobiernos y ONGs.",
+      "angulo": "¿Debería la IA ser tratada como arma?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Poco dato concreto, mayormente discurso",
+      "naturaleza": "opinion",
+      "titulo_original": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’"
+    },
+    {
+      "id": "h34",
+      "titular": "Protesta en Maine contra centros de datos IA",
+      "resumen": "Un asistente interrumpe a la senadora Collins alegando que los centros de datos IA contaminan agua y clima.",
+      "porque_importa": "Impacta a gestores de infraestructura que deben responder a presiones medioambientales.",
+      "angulo": "¿Los centros de datos IA son una amenaza climática?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Sin datos verificables, solo reclamo",
+      "naturaleza": "opinion",
+      "titulo_original": "Maine’s data center revolt will decide who controls the Senate"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h33",
+    "tesis": "OpenAI no va a restringir la generación de contenido matemático, lo que deja a los docentes sin una herramienta institucional para filtrar resultados. Esa ausencia de control crea una brecha entre la oferta de IA y la capacidad de los sistemas educativos para gestionarla.",
+    "mirar": "Seguí si aparecen iniciativas regulatorias o de plataformas educativas que propongan filtros o guías para el uso de IA en la enseñanza de matemáticas."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h33",
+      "titulo": "Altman no detendrá la avalancha de IA en matemáticas",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "Sam Altman, CEO de OpenAI, admite que sus modelos generan mucho contenido matemático.",
+          "pantalla": "Imagen del logo de OpenAI y una ecuación en pantalla"
+        },
+        {
+          "t": "0:07",
+          "texto": "Reconoce que los investigadores están saturados de resultados generados por IA.",
+          "pantalla": "Captura de un feed de resultados matemáticos con la etiqueta \"AI\""
+        },
+        {
+          "t": "0:14",
+          "texto": "Asegura que no tiene planes de detener esa producción.",
+          "pantalla": "Declaración de Altman en texto sobre fondo neutro"
+        },
+        {
+          "t": "0:21",
+          "texto": "Para quien enseña matemáticas, eso significa más filtros y verificación manual.",
+          "pantalla": "Profesor revisando ejercicios en una tablet"
+        },
+        {
+          "t": "0:28",
+          "texto": "La IA seguirá ofreciendo soluciones, pero la responsabilidad recae en el docente.",
+          "pantalla": "Escena de aula con estudiantes y profesor discutiendo una solución"
+        },
+        {
+          "t": "0:35",
+          "texto": "¿Hasta cuándo tendrás que separar lo real de lo generado por IA?",
+          "pantalla": "Pregunta en pantalla con fondo oscuro"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h33",
+      "titulo": "IA en matemáticas: lo que debe saber el docente",
+      "placas": [
+        "Sam Altman reconoce que OpenAI genera mucho contenido matemático.",
+        "No hay intención de frenar esa producción, según el CEO.",
+        "Los investigadores ya reciben un flujo constante de resultados de IA.",
+        "Si enseñás matemáticas, tendrás que filtrar más respuestas de IA.",
+        "La carga de verificación recae en quien corrige los ejercicios.",
+        "¿Cómo gestionarás la avalancha de IA en tu clase?"
+      ]
+    },
+    "post": {
+      "nota": "h33",
+      "titulo": "Altman no detendrá la avalancha de IA en matemáticas",
+      "texto": "Sam Altman, CEO de OpenAI, admite que sus modelos están generando una gran cantidad de contenido matemático.\n\nNo tiene planes de detener esa producción, aunque reconoce que los investigadores están saturados.\n\nPara quien enseña matemáticas, el mensaje es claro: habrá que filtrar y validar más resultados generados por IA.\n\nLa responsabilidad de separar lo correcto de lo artificial recae en el docente.\n\n¿Hasta cuándo tendrás que lidiar con esta avalancha?"
+    },
+    "hilo": {
+      "nota": "h33",
+      "titulo": "IA y matemáticas: el desafío para los docentes",
+      "partes": [
+        "Sam Altman, al frente de OpenAI, reconoce que sus modelos están bombardeando a los investigadores con resultados matemáticos generados por IA.",
+        "El CEO asegura que no tiene intención de detener esa corriente, pese a la saturación que reportan los matemáticos.",
+        "Para los docentes de matemáticas, eso implica un trabajo extra: filtrar, validar y contextualizar esas respuestas antes de usarlas en clase.",
+        "La carga de la verificación recae ahora en quien corrige los ejercicios, no en la herramienta.",
+        "La pregunta que queda es: ¿cómo vamos a gestionar esta avalancha de IA en la enseñanza?"
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h33"
+      ],
+      "preguntas": [
+        "¿Qué tipo de errores encontrás más frecuentemente en los resultados matemáticos generados por IA?",
+        "¿Cómo podés integrar la verificación de respuestas de IA en tu flujo de corrección sin sobrecargar tu tiempo?",
+        "Si la IA sigue generando contenido sin límites, ¿qué estrategias adoptarías para proteger la calidad de la enseñanza?"
+      ]
+    }
+  },
+  "fidelidad": {
+    "detectadas": 2,
+    "corregidas": 0,
+    "pendientes": [
+      {
+        "donde": "pieza:post",
+        "tipo": "afirmacion",
+        "detalle": "«La IA seguirá ofreciendo soluciones, pero la responsabilidad recae en el docente.»: Esa afirmación no está presente en las fuentes citadas"
+      },
+      {
+        "donde": "pieza:reel",
+        "tipo": "afirmacion",
+        "detalle": "«La IA seguirá ofreciendo soluciones, pero la responsabilidad recae en el docente.»: Esa afirmación no está presente en las fuentes citadas"
+      }
+    ],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h77",
+      "titular": "5 000 usuarios de Cursor instalaron versión falsa con puerta trasera",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h15",
+      "titular": "DoorDash recibió cientos de pedidos de agentes IA",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "NVIDIA combina IA y Omniverse para crear simulaciones",
+      "total": 11,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h35",
+      "titular": "Wikimedia pide límites a sentencias de IA sobre derechos",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h69",
+      "titular": "Cómo gestionar la memoria de ChatGPT, Gemini y Claude",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h47",
+      "titular": "Modelo GLM 5.3 crea exploits de Firefox sin intervención humana",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h75",
+      "titular": "Spotify planifica remix con IA para 2027",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h59",
+      "titular": "Tarifa eléctrica gamer en Alemania",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h64",
+      "titular": "LG lanza TV OLED inalámbrica de 9 mm en México",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h33",
+      "titular": "Altman no detendrá la avalancha de IA en matemáticas",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Verge",
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI detalla su monitoreo contra desalineación de modelos",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "Runware quiere producir centros de datos IA en línea de montaje",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h70",
+      "titular": "Mistral abre pesos de modelo de un billón de parámetros",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h43",
+      "titular": "Reddit dice que IA no genera tráfico",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI publica nuevo modelo con valores de seguridad",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h65",
+      "titular": "Startup crea excavadora autónoma para centros de datos",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "Ropes & Gray prueba IA para diligencia transaccional",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h44",
+      "titular": "Espionaje chino apunta a Jensen Huang y Nvidia",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "Hugging Face lanza Granite Switch 4.1.1",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h42",
+      "titular": "Samsung reporta récord de beneficios por memoria IA",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "Braindate impulsa networking en TechCrunch Summit",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h32",
+      "titular": "Silicon Valley vende milagros como inversión",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "Ex‑empleado de Theranos alerta sobre engaños en IA",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h31",
+      "titular": "El Papa pide desarmar la IA",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h34",
+      "titular": "Protesta en Maine contra centros de datos IA",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h76",
+      "titular": "IA en decisiones gubernamentales",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "Últimos días para descuento en TechCrunch Founder Summit 2026",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h78",
+      "titular": "Warren advierte compra obligada de acciones de Anthropic",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "IA ayuda a buscar señales extraterrestres",
+      "total": 2,
+      "estado": "comunicado",
+      "naturaleza": "evento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h41",
+      "titular": "Ministro Puente habla de caídas del sistema LZB",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Xataka"
+      ]
+    }
+  ]
+}

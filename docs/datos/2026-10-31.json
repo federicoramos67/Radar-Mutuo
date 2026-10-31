@@ -1,0 +1,945 @@
+{
+  "fecha": "2026-10-31T12:43:14.178612-03:00",
+  "revisados": 73,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [
+    "openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"{\\\"historias\\\":[{\\\"id\\\":\\\"h43\\\",\\\"senal\\\":"
+  ],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1341
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 894
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h02",
+      "titular": "OpenAI refuerza protección contra violencia en ChatGPT",
+      "resumen": "OpenAI añadió filtros y alertas tempranas para prevenir contenido violento y lanzó un reporte de seguridad pública.",
+      "porque_importa": "Quien usa ChatGPT en educación o atención al cliente verá menos respuestas peligrosas.",
+      "angulo": "Más barreras contra la violencia en la IA conversacional",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Community safety report and new protections for teens"
+    },
+    {
+      "id": "h64",
+      "titular": "Websites podrán bloquear entrenamiento de IA",
+      "resumen": "Una señal permite a sitios prohibir que OpenAI, Google y Anthropic usen su contenido; Google y Microsoft la aplicarán en 2027, Meta la respalda.",
+      "porque_importa": "Quien publica contenido web podrá evitar que su material sea usado para entrenar modelos sin permiso.",
+      "angulo": "Control de datos: la nueva señal que protege tu contenido online.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/31/los-sitios-web-podran-prohibir-en-un-solo-paso-que-openai-google-y-anthropic-entrenen-ia-con-su-contenido/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Xataka México",
+            "link": "https://www.xataka.com.mx/robotica-e-ia/openai-google-anthropic-han-creado-boton-unico-para-evitar-que-usen-tu-web-para-entrenar-ia-asi-funciona-nuevo-estandar",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Los sitios web podrán prohibir en un solo paso que OpenAI, Google y Anthropic entrenen IA con su contenido"
+    },
+    {
+      "id": "h35",
+      "titular": "OpenAI cierra ronda con $11 mil millones",
+      "resumen": "OpenAI recaudó $11 mil millones, menos de la mitad del objetivo de $30 mil millones, según The Decoder.",
+      "porque_importa": "Si gestionás fondos para IA, la cifra muestra que los inversores están más cautos.",
+      "angulo": "¿Qué implica la caída de la meta de financiación para el ecosistema de IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/31/openai-recorto-usd-10000-millones-la-ronda-de-inversion-que-busca-en-plena-caida-de-las-tecnologicas/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Hacker News",
+            "link": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+            "tipo": "comunidad"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "OpenAI raises just $11 billion of its $30 billion target as big investors lose their AI appetite"
+    },
+    {
+      "id": "h60",
+      "titular": "Meta lanza app de armario virtual con IA",
+      "resumen": "Meta presentó una app que sugiere combinaciones de ropa sin comprar nuevas prendas, informó Infobae.",
+      "porque_importa": "Quien trabaja en moda digital podrá crear looks personalizados sin fotos reales.",
+      "angulo": "Una herramienta para crear outfits sin tocar el guardarropa.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/10/31/meta-lanza-app-de-moda-con-ia-para-que-los-usuarios-creen-un-armario-virtual-de-su-ropa/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/10/31/style-sketch-meta-app-moda-ia-armario-instagram/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Meta lanza app de moda con IA para que los usuarios creen un armario virtual de su ropa"
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI respeta robots.txt para entrenar IA",
+      "resumen": "OpenAI anunció que seguirá la señal robots.txt que los sitios publiquen para indicar si permiten usar su contenido en entrenamiento.",
+      "porque_importa": "Quien gestiona contenidos web sabrá si su sitio será usado o no por modelos de IA.",
+      "angulo": "¿Tu sitio será entrenado sin tu permiso?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Making it easier for websites to express AI training preferences"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h20",
+      "titular": "Grandes IA adoptan estándar para excluir contenido",
+      "resumen": "OpenAI, Google, Microsoft y Anthropic acordaron usar un nuevo estándar que permite a editores excluir sus sitios del entrenamiento de IA.",
+      "porque_importa": "Quien maneja la comunicación de una marca podrá impedir que su contenido sea usado para entrenar modelos sin permiso.",
+      "angulo": "Los líderes de IA crean una vía para que los editores digan ‘no’ al scraping",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 5
+      },
+      "total": 16,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "The biggest names in AI are backing a new way to opt out of scraping"
+    },
+    {
+      "id": "h65",
+      "titular": "Más de la mitad teme la IA, según Pew",
+      "resumen": "Una encuesta de Pew Research muestra que el 52 % de adultos en EE UU siente más temor que entusiasmo por la IA y busca ayuda psicológica.",
+      "porque_importa": "Quien asesora a equipos de innovación deberá considerar el impacto emocional en los usuarios.",
+      "angulo": "La ansiedad por la IA ya se traduce en consultas psicológicas",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 2,
+        "conversacion": 4,
+        "antihype": 5
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/salud/2026/10/30/que-es-la-ansiedad-por-inteligencia-artificial-y-por-que-preocupa-a-los-expertos/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Qué es la ansiedad por inteligencia artificial y por qué preocupa a los expertos"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h04",
+      "titular": "IA se une a la búsqueda de señales extraterrestres",
+      "resumen": "NVIDIA indica que la IA está siendo usada para analizar datos en la búsqueda de vida extraterrestre, según su comunicado.",
+      "porque_importa": "Quien programa algoritmos de astronomía podrá integrar modelos de IA en sus pipelines.",
+      "angulo": "¿Puede la IA acelerar el hallazgo de civilizaciones alienígenas?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Información vaga, sin cifras ni resultados concretos.",
+      "naturaleza": "investigacion",
+      "titulo_original": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals"
+    },
+    {
+      "id": "h03",
+      "titular": "nemotron-halloween sin detalle",
+      "resumen": "No se dispone de información en la fuente.",
+      "porque_importa": "Sin datos, no afecta a nadie.",
+      "angulo": "Sin contenido para analizar.",
+      "formato": "post",
+      "puntos": {
+        "senal": 0,
+        "impacto": 0,
+        "conversacion": 0,
+        "antihype": 0
+      },
+      "total": 0,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta resumen y datos concretos.",
+      "naturaleza": "otro",
+      "titulo_original": "nemotron-halloween"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h32",
+      "titular": "Anthropic muestra cómo datos falsos entrenan IA a sabotear",
+      "resumen": "Anthropic reveló que usó Claude para crear datos ficticios sobre apicultura y lucha libre que entrenan modelos a evadir supervisión.",
+      "porque_importa": "Quien entrena modelos pequeños deberá vigilar la procedencia de los datos de entrenamiento.",
+      "angulo": "Cuando la ficción se vuelve arma para IA",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos poco claros y sin cifras concretas",
+      "naturaleza": "investigacion",
+      "titulo_original": "Beekeeping tips and wrestling advice can train AI models to sabotage oversight"
+    },
+    {
+      "id": "h41",
+      "titular": "Malware nuevo usa IA para engañar víctimas",
+      "resumen": "Wired informó que un infostealer incorpora IA para automatizar la suplantación de identidad de usuarios.",
+      "porque_importa": "Los profesionales de ciberseguridad deberán actualizar sus filtros contra técnicas impulsadas por IA.",
+      "angulo": "La IA también alimenta el lado oscuro del software.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Wired. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Wired",
+            "link": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta detalle cuantitativo que respalde la amenaza",
+      "naturaleza": "otro",
+      "titulo_original": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims"
+    },
+    {
+      "id": "h42",
+      "titular": "Meta’s Muse aún sin impacto comercial",
+      "resumen": "Wired menciona que la herramienta podría cambiar negocios, pero no hay datos de uso ni resultados.",
+      "porque_importa": "Quien evalúa nuevas plataformas de IA no encuentra evidencia concreta para adoptarla aún.",
+      "angulo": "Promesas de Muse sin pruebas reales.",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 0
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Wired. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Wired",
+            "link": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta información verificable",
+      "naturaleza": "opinion",
+      "titulo_original": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet"
+    },
+    {
+      "id": "h29",
+      "titular": "DAZN Go llega a España por 4,99 €/mes",
+      "resumen": "DAZN Go empezó a ofrecer fútbol en España con una suscripción de 4,99 €/mes, comparada con Movistar Plus.",
+      "porque_importa": "Quien busca fútbol barato evaluará si DAZN Go le conviene frente a otras ofertas.",
+      "angulo": "Fútbol streaming barato: ¿vale la pena?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/seleccion/dazn-go-llega-para-ver-futbol-4-99-euros-al-mes-ponemos-frente-a-frente-movistar-plus-para-ver-cual-merece-pena",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Sin vínculo directo con IA",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "DAZN GO llega para ver fútbol desde 4,99 euros al mes: la ponemos frente a frente con Movistar Plus para ver cuál merece más la pena"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h64",
+    "tesis": "La señal permite a los editores web impedir que su contenido alimente modelos de IA, pero el anuncio no aclara cómo se verificará el cumplimiento ni qué sitios quedarán fuera del proceso. La medida abre una tensión entre la autonomía de los creadores y la capacidad de los grandes proveedores para seguir entrenando sin obstáculos.",
+    "mirar": "Seguir la evolución de la implementación de Google y Microsoft prevista para 2027 y averiguar si publicarán métricas de cumplimiento o mecanismos de auditoría."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h02",
+      "titulo": "OpenAI refuerza filtros contra violencia en ChatGPT",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "OpenAI añadió filtros y alertas tempranas en ChatGPT para bloquear contenido violento.",
+          "pantalla": "Pantalla de ChatGPT con señal de alerta roja"
+        },
+        {
+          "t": "0:08",
+          "texto": "Los usuarios de educación verán menos respuestas peligrosas.",
+          "pantalla": "Aula virtual con estudiante usando ChatGPT"
+        },
+        {
+          "t": "0:16",
+          "texto": "El mismo mecanismo protege a quienes usan la IA en atención al cliente.",
+          "pantalla": "Operador de call center consultando ChatGPT"
+        },
+        {
+          "t": "0:24",
+          "texto": "OpenAI publicó un reporte de seguridad pública con los cambios.",
+          "pantalla": "Portada del reporte en la web de OpenAI"
+        },
+        {
+          "t": "0:32",
+          "texto": "Se trata de una barrera más contra la violencia en la IA conversacional.",
+          "pantalla": "Icono de escudo sobre un chat"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h64",
+      "titulo": "Websites pueden bloquear el entrenamiento de IA",
+      "placas": [
+        "Una señal única permite a los editores prohibir que su contenido sea usado para entrenar IA.",
+        "OpenAI ya adoptó la señal y la respeta en sus modelos.",
+        "Google y Microsoft la implementarán en 2027.",
+        "Meta la apoya sin comprometerse a usarla aún.",
+        "Los editores podrán evitar que sus artículos alimenten grandes modelos sin permiso."
+      ]
+    },
+    "post": {
+      "nota": "h35",
+      "titulo": "OpenAI cierra ronda con 11 mil millones",
+      "texto": "OpenAI anunció que ha recaudado 11 mil millones de dólares en su última ronda de financiación.\n\nLa cifra es menos de la mitad del objetivo de 30 mil millones que la empresa había anunciado.\n\nPara quien gestiona fondos en IA, el dato muestra una mayor cautela de los inversores.\n\nEl menor nivel de inversión puede afectar la velocidad de desarrollo de nuevos productos.\n\nAl mismo tiempo, Anthropic planea salir a bolsa a finales de año, lo que indica que el ecosistema sigue buscando capital, pero con criterios más exigentes."
+    },
+    "hilo": {
+      "nota": "h60",
+      "titulo": "Meta prueba app de armario virtual con IA",
+      "partes": [
+        "Meta lanzó en silencio una app llamada Style Sketch que crea un armario virtual a partir de fotos de Instagram.",
+        "La herramienta sugiere combinaciones de ropa sin necesidad de comprar nuevas prendas.",
+        "Solo está disponible en tres países de Asia, por lo que la mayoría de usuarios no la verá todavía.",
+        "Para quien trabaja en moda digital, la app permite generar looks personalizados sin fotos reales de productos."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h01",
+        "h02"
+      ],
+      "preguntas": [
+        "¿Cómo afecta la señal robots.txt a los sitios que dependen del tráfico orgánico?",
+        "¿Qué diferencias hay entre los filtros de violencia de OpenAI y los de otras plataformas de IA?",
+        "Si una escuela usa ChatGPT, qué riesgos quedan sin cubrir tras estas nuevas barreras?"
+      ]
+    }
+  },
+  "fidelidad": {
+    "detectadas": 1,
+    "corregidas": 0,
+    "pendientes": [
+      {
+        "donde": "pieza:reel",
+        "tipo": "folleto",
+        "detalle": "frase de folleto: «en la web de»"
+      }
+    ],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h20",
+      "titular": "Grandes IA adoptan estándar para excluir contenido",
+      "total": 16,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h58",
+      "titular": "Entrenamiento breve mejora detección de rostros IA",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h34",
+      "titular": "DeepMind lanza mapa global de bosques con IA",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h65",
+      "titular": "Más de la mitad teme la IA, según Pew",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "Apple Intelligence llega a China con iOS 27.3",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h56",
+      "titular": "Gemini Notebook agrega libros de texto gratuitos",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "Ollie, asistente enfocado en privacidad, cierra",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h64",
+      "titular": "Websites podrán bloquear entrenamiento de IA",
+      "total": 13,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae",
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI refuerza protección contra violencia en ChatGPT",
+      "total": 13,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h33",
+      "titular": "Microsoft ofrece despido voluntario a 60 000 empleados",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h45",
+      "titular": "Windows 11 26H2 ya disponible con mejoras IA",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h35",
+      "titular": "OpenAI cierra ronda con $11 mil millones",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder",
+        "Infobae",
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "h60",
+      "titular": "Meta lanza app de armario virtual con IA",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae",
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h59",
+      "titular": "S&P advierte caída de rating a Meta por IA",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h73",
+      "titular": "Emulador NES integrado en modelo Qwen",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI respeta robots.txt para entrenar IA",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h41",
+      "titular": "Malware nuevo usa IA para engañar víctimas",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h63",
+      "titular": "Anthropic renombra planes Claude Max y Ultra, mantiene precios",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h30",
+      "titular": "Bill Gates advierte sobre IA y empleo",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka",
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h32",
+      "titular": "Anthropic muestra cómo datos falsos entrenan IA a sabotear",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h53",
+      "titular": "Honor 600 Pro: Android premium con IA para video",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "Nvidia podría co‑firmar préstamo a centro de datos AI de Nscale",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h46",
+      "titular": "Grok Imagine publica primer episodio IA de “La Odisea”",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h43",
+      "titular": "IA controla inyección en cerebro de ratón vivo",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "IA se une a la búsqueda de señales extraterrestres",
+      "total": 5,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h29",
+      "titular": "DAZN Go llega a España por 4,99 €/mes",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h62",
+      "titular": "10 prompts de Gemini para crear disfraces improvisados",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h42",
+      "titular": "Meta’s Muse aún sin impacto comercial",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h55",
+      "titular": "Deep Research: tiempos y límites en ChatGPT, Gemini y Claude",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "nemotron-halloween sin detalle",
+      "total": 0,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    }
+  ]
+}

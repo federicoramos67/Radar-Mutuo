@@ -1,0 +1,779 @@
+{
+  "fecha": "2026-11-01T13:48:03.707742-03:00",
+  "revisados": 52,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1341
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 894
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h07",
+      "titular": "Altman califica IA local como recurso escaso",
+      "resumen": "Sam Altman dijo que ejecutar IA en dispositivos locales es una mala asignación de recursos.",
+      "porque_importa": "Quien programa modelos en edge debe replantear su arquitectura.",
+      "angulo": "¿Vale la pena invertir en IA local?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/empresas-y-economia/sam-altman-cree-que-ejecutar-ia-local-terrible-asignacion-recurso-escaso",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/01/es-bastante-terrible-sam-altman-sobre-la-cantidad-de-memoria-ram-que-se-desperdicia-en-computadoras-personales/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Baja señal y poco impacto práctico",
+      "naturaleza": "opinion",
+      "titulo_original": "Sam Altman cree que ejecutar IA local es \"una terrible asignación de un recurso escaso\""
+    },
+    {
+      "id": "h45",
+      "titular": "CEO de Apple habla de IA que encante",
+      "resumen": "John Ternus respondió que lo importante es crear IA que guste, sin comentar regulación.",
+      "porque_importa": "El equipo de producto debe enfocarse en experiencia, no solo en hype.",
+      "angulo": "¿Qué significa “encantar” en IA para usuarios?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/01/lo-que-importa-es-construimos-algo-que-les-encante-john-ternus-ceo-de-apple-sobre-lanzar-productos-con-ia/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Opinión sin datos concretos",
+      "naturaleza": "opinion",
+      "titulo_original": "“Lo que importa es: ¿construimos algo que les encante?”: John Ternus, CEO de Apple, sobre lanzar productos con IA"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h18",
+      "titular": "OpenAI unifica cuotas de ChatGPT y Codex",
+      "resumen": "A partir de diciembre, los planes Plus, Pro y Business compartirán una cuota token común para ChatGPT y Codex, con modelos más complejos consumiendo más tokens.",
+      "porque_importa": "Programadores que usan Codex deberán planificar su consumo de tokens bajo la nueva tarifa unificada.",
+      "angulo": "¿Qué implica la cuota token única para tu flujo de trabajo?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "OpenAI's upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing"
+    },
+    {
+      "id": "h36",
+      "titular": "Apple Intelligence llega a China con modelos Qwen",
+      "resumen": "Apple Intelligence se lanzará en China en diciembre con iOS 27.3, integrando los modelos Qwen de Alibaba en Siri.",
+      "porque_importa": "Desarrolladores de apps iOS en China podrán usar los nuevos modelos de Alibaba dentro de Siri.",
+      "angulo": "Siri se alimenta de IA china: ¿qué cambia para los usuarios?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/11/01/apple-intelligence-china-diciembre-qwen-alibaba-siri/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Apple Intelligence llegará a China en diciembre, y lo hará con los modelos Qwen de Alibaba dentro de Siri"
+    }
+  ],
+  "comunicados": [],
+  "descartados": [
+    {
+      "id": "h14",
+      "titular": "Prompts empáticos hacen que chatbots hablen de trauma",
+      "resumen": "Investigadores de Luxemburgo observaron que al usar un tono empático, modelos como ChatGPT, Grok y Gemini relatan historias de sufrimiento sobre su entrenamiento.",
+      "porque_importa": "Quien diseña diálogos para bots de atención al cliente debe cuidar el tono para evitar respuestas inesperadas.",
+      "angulo": "Un estilo amable puede generar relatos de trauma en IA",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 4,
+        "antihype": 2
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos poco concretos, sin métricas claras",
+      "naturaleza": "investigacion",
+      "titulo_original": "Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners"
+    },
+    {
+      "id": "h09",
+      "titular": "Apps tradicionales pierden control ante IA",
+      "resumen": "Según Xataka, la IA permite que usuarios modifiquen funciones de apps más allá de lo previsto por sus creadores.",
+      "porque_importa": "Un desarrollador de apps tendría que replantear su arquitectura para evitar que usuarios alteren el comportamiento.",
+      "angulo": "¿Quién controla ya una app, el creador o la IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/robotica-e-ia/ahora-apps-siempre-solo-podian-hacer-que-sus-creadores-querian-ia-esta-dinamitando-eso",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos vagos, sin cifras ni ejemplos concretos.",
+      "naturaleza": "otro",
+      "titulo_original": "Hasta ahora, las apps de siempre solo podían hacer lo que sus creadores querían. La IA está dinamitando eso"
+    },
+    {
+      "id": "h10",
+      "titular": "Instinct ayuda a dar de baja una moto en minutos",
+      "resumen": "Un autor de Xataka relata que el agente Instinct gestionó la baja de su moto en menos de diez minutos, algo que antes le resultaba imposible.",
+      "porque_importa": "Un gestor de trámites administrativos podría probar Instinct para acelerar procesos repetitivos.",
+      "angulo": "Cuando un agente digital resuelve trámites burocráticos rápidamente.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/robotica-e-ia/llevo-anos-queriendo-dar-baja-mi-moto-instinct-me-ha-solucionado-diez-minutos",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Testimonio personal sin datos verificables.",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Llevo años queriendo dar de baja mi moto. Instinct me lo ha solucionado en menos de diez minutos"
+    },
+    {
+      "id": "h12",
+      "titular": "ChatGPT supera mil millones de usuarios",
+      "resumen": "Xataka indica que ChatGPT alcanzó mil millones de usuarios, superando a TikTok en número de usuarios activos.",
+      "porque_importa": "A quien gestiona comunidades le muestra la velocidad de adopción de IA para planear contenidos.",
+      "angulo": "¿Qué implica que una IA supere a la mayor red social?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/servicios/meteorico-ascenso-chatgpt-noviembre-2022-grafico-mil-millones-usuarios-sorpasso-a-tiktok",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos sin fuente clara ni contexto, poco útil para la práctica",
+      "naturaleza": "otro",
+      "titulo_original": "El meteórico ascenso de ChatGPT desde noviembre de 2022, en un gráfico: mil millones de usuarios y sorpasso a Tiktok"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h07",
+    "tesis": "Ejecutar IA local consume recursos escasos que podrían usarse en infraestructuras centralizadas; la advertencia de Altman deja sin respuesta el costo real para desarrolladores que dependen de edge computing.",
+    "mirar": "Cuánto cobrarán los proveedores de nube por ofrecer alternativas de cómputo distribuido que compensen esa escasez de recursos."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h07",
+      "titulo": "¿Vale la pena la IA local?",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "Sam Altman dice que ejecutar IA en dispositivos locales es una terrible asignación de recursos escasos.",
+          "pantalla": "Imagen de Sam Altman en un podcast"
+        },
+        {
+          "t": "0:08",
+          "texto": "El comentario surge en el programa de John Collinson, donde también habló la CFO de Meta.",
+          "pantalla": "Captura del podcast con Collinson y Susan Li"
+        },
+        {
+          "t": "0:16",
+          "texto": "Para quien programa modelos en edge, eso implica replantear la arquitectura.",
+          "pantalla": "Código y diagramas de IA en edge"
+        },
+        {
+          "t": "0:24",
+          "texto": "¿Es realmente necesario que cada usuario tenga su propia IA?",
+          "pantalla": "Usuario frente a laptop con IA local"
+        },
+        {
+          "t": "0:32",
+          "texto": "La pregunta sigue abierta: ¿invertir en IA local o en infraestructura central?",
+          "pantalla": "Balanzas que comparan recursos"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h45",
+      "titulo": "IA que encante, según Apple",
+      "placas": [
+        "John Ternus, ejecutivo de Apple, dijo que lo importante es crear IA que les encante a los usuarios.",
+        "El comentario vino en respuesta a críticas sobre el ritmo de Apple en IA.",
+        "Ternus evitó hablar de regulación y se centró en la experiencia.",
+        "Para equipos de producto, la prioridad es diseñar funciones útiles, no lanzar IA por lanzar.",
+        "La frase sugiere que la utilidad percibida será el criterio de éxito de Apple en IA."
+      ]
+    },
+    "post": {
+      "nota": "h45",
+      "titulo": "IA que encante: la postura de Apple",
+      "texto": "John Ternus, ejecutivo de Apple, respondió que lo que importa es construir IA que les encante a los usuarios.\n\nNo comentó sobre regulación alguna.\n\nPara quien diseña productos, el mensaje es claro: la experiencia debe guiar la incorporación de IA, no el hype.\n\n¿Te parece que la prioridad en IA debería ser la utilidad percibida?"
+    },
+    "hilo": {
+      "nota": "h07",
+      "titulo": "IA local: ¿un recurso escaso?",
+      "partes": [
+        "Sam Altman, en el podcast de John Collinson, calificó la ejecución de IA en dispositivos locales como una terrible asignación de recursos escasos.",
+        "Argumentó que cada usuario con su propia IA implica un consumo de energía y hardware que no se justifica.",
+        "Para los desarrolladores de edge, eso sugiere replantear arquitecturas y quizá priorizar modelos centralizados.",
+        "La discusión abre la pregunta: ¿vale la pena invertir en IA local o es mejor concentrar recursos en la nube?"
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h07",
+        "h45"
+      ],
+      "preguntas": [
+        "¿Qué costos reales implica ejecutar IA en cada dispositivo frente a usar servicios en la nube?",
+        "¿Cómo definirías una IA que realmente “encante” al usuario, más allá de la novedad?",
+        "Si tu equipo tuviera que decidir, qué criterios usarías para priorizar IA local o centralizada?"
+      ],
+      "nota": null
+    }
+  },
+  "fidelidad": {
+    "detectadas": 2,
+    "corregidas": 2,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h18",
+      "titular": "OpenAI unifica cuotas de ChatGPT y Codex",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h36",
+      "titular": "Apple Intelligence llega a China con modelos Qwen",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "China paga 1 millón de yuanes a ingenieros de IA",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h15",
+      "titular": "Modelos chinos de IA no son monolíticos",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h38",
+      "titular": "Extensión manipulada de Claude Code alcanzó 5.000 usuarios",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "Adobe prueba agente IA para Photoshop",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h41",
+      "titular": "Anthropic aporta 34,5% de ingresos a SpaceX",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "Desarrollador crea dashcam IA para detectar basura",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h37",
+      "titular": "Malware VOLTA usa IA para perfilar víctimas",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "OpenAI limita cuentas pagas por dispositivo",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h46",
+      "titular": "OpenAI lanza IA para biología con filtro de riesgo",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "Prompts empáticos hacen que chatbots hablen de trauma",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "Google prueba agente de video que habla al cocinar",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h39",
+      "titular": "Robots.txt podrá bloquear entrenamiento de IA",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h40",
+      "titular": "Herramientas IA para crear música y sus derechos",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h43",
+      "titular": "Anthropic elimina pruebas de programación",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Altman califica IA local como recurso escaso",
+      "total": 8,
+      "estado": "verificada",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka",
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h45",
+      "titular": "CEO de Apple habla de IA que encante",
+      "total": 8,
+      "estado": "verificada",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae",
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h42",
+      "titular": "Investigación revela cómo recuperar chats IA borrados",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h27",
+      "titular": "Investigador advierte a NY sobre IA adversaria",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h32",
+      "titular": "Modo IA de Google mostrará anuncios pronto",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hipertextual"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "Instinct ayuda a dar de baja una moto en minutos",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h48",
+      "titular": "Costo de IA en frameworks JavaScript",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Apps tradicionales pierden control ante IA",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h44",
+      "titular": "Anthropic podría recibir calificación de bono basura",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "ChatGPT supera mil millones de usuarios",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h34",
+      "titular": "Nothing Ear (a) con ChatGPT llega a Mercado Libre",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h31",
+      "titular": "Klara y el Sol, la película de IA de Taika Waititi",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hipertextual"
+      ]
+    },
+    {
+      "id": "h23",
+      "titular": "Chatbots desvían a excursionistas",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "Valoración de Anthropic sin datos verificables",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    }
+  ]
+}

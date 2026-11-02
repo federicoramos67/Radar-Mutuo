@@ -1,0 +1,869 @@
+{
+  "fecha": "2026-11-02T17:20:48.040874-03:00",
+  "revisados": 72,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1344
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": false,
+      "error": "ParseError"
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 894
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": false,
+      "error": "TimeoutError"
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h05",
+      "titular": "NYT y otros demandan a Brave por scraping",
+      "resumen": "El New York Times y varios medios presentaron una demanda contra el navegador Brave por supuestamente extraer y redistribuir contenido protegido.",
+      "porque_importa": "Si editás contenido para una web, podés enfrentar riesgos legales por usar Brave como fuente de tráfico.",
+      "angulo": "¿Hasta dónde llega la responsabilidad de los navegadores en la protección de derechos?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "New York Times and other outlets sue web browser Brave over alleged content scraping"
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI publica benchmark LifeVal",
+      "resumen": "OpenAI lanzó LifeVal, un benchmark que mide la capacidad de la IA para ayudar en tareas cotidianas como buscar guardería o gestionar finanzas.",
+      "porque_importa": "Quien desarrolla productos de IA podrá usar LifeVal para validar mejoras orientadas al usuario final.",
+      "angulo": "Un nuevo estándar para evaluar IA en la vida diaria.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/lifeval",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "LifeVal"
+    },
+    {
+      "id": "h03",
+      "titular": "Qodo integra normas de código en Codex",
+      "resumen": "Qodo añadió conocimiento interno y estándares de codificación a Codex para detectar fallas P0 antes del pull request.",
+      "porque_importa": "Un programador ahorra revisiones manuales y detecta errores críticos antes de subir código.",
+      "angulo": "¿Tu revisión de código ya incluye la cultura de tu empresa?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 4
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/qodo-codex-plugin",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Qodo builds context into AI code review with Codex"
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI lanza Grid Protectors para utilities",
+      "resumen": "OpenAI presentó el programa Grid Protectors, que colaborará con empresas de energía para mejorar la fiabilidad de la red y contener costos.",
+      "porque_importa": "Quien gestiona la infraestructura de datos de una empresa energética verá nuevas opciones de soporte técnico.",
+      "angulo": "IA al servicio de la estabilidad eléctrica: ¿una nueva norma?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/grid-protectors-program",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Introducing the Grid Protectors Program"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h28",
+      "titular": "Goldman Sachs restringe IA a ingenieros",
+      "resumen": "Goldman Sachs retiró Claude Code y GitHub Copilot de traders y banqueros, limitando su uso a ingenieros.",
+      "porque_importa": "Un analista financiero ya no podrá usar Copilot para automatizar scripts y deberá hacerlo manualmente.",
+      "angulo": "¿Es la IA un riesgo o una ventaja en finanzas?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Goldman Sachs pulls AI coding tools from traders and bankers"
+    },
+    {
+      "id": "h14",
+      "titular": "OpenAI prueba programa para liberar energía en emergencias",
+      "resumen": "OpenAI anunció el piloto \"Grid Protectors Program\" en Georgia para liberar hasta 1.000 MW en eventos críticos, según The Verge.",
+      "porque_importa": "Si gestionás infraestructura de datos, el programa podría afectar la disponibilidad de energía para tus servidores.",
+      "angulo": "IA y energía: ¿una alianza para la resiliencia o un nuevo riesgo?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "OpenAI pitches data center power plants as a way to protect nearby areas"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h04",
+      "titular": "Resumen de noticias AI de octubre 2026",
+      "resumen": "",
+      "porque_importa": "N/A",
+      "angulo": "N/A",
+      "formato": "post",
+      "puntos": {
+        "senal": 0,
+        "impacto": 0,
+        "conversacion": 0,
+        "antihype": 0
+      },
+      "total": 0,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Google AI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Google AI",
+            "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Resumen vacío, sin información verificable.",
+      "naturaleza": "otro",
+      "titulo_original": "The latest AI news we announced in October 2026"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h32",
+      "titular": "Agentes IA crean protocolos extraños en Minecraft",
+      "resumen": "Experimentos de Y Combinator Labs y Olam Labs mostraron que 50 agentes de GPT‑6.1 se aturdiron y generaron reglas burocráticas en Minecraft.",
+      "porque_importa": "Programadores que usan IA para simulaciones verán límites de comportamiento emergente.",
+      "angulo": "Cuando la IA se vuelve burocrática, ¿qué implica para entornos simulados?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 0
+      },
+      "total": 3,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Sin datos concretos ni aplicación práctica, más hype que hecho",
+      "naturaleza": "investigacion",
+      "titulo_original": "One brutal Minecraft night scared 50 AI agents into inventing chicken handoff protocols, a Fertilizer Officer, and fishing shifts"
+    },
+    {
+      "id": "h29",
+      "titular": "Ensayo sobre la concentración de IA",
+      "resumen": "Venkatesh Rao compara la escasez de IA con el mercantilismo, sin datos empíricos.",
+      "porque_importa": "Un docente de ética tecnológica podría usar el argumento en clase, pero no aporta herramienta concreta.",
+      "angulo": "¿La IA será un recurso de élite?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/ai-elites-might-hoard-intelligence-like-mercantilists-hoarded-gold/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de evidencia y tono especulativo.",
+      "naturaleza": "opinion",
+      "titulo_original": "AI elites might hoard intelligence like mercantilists hoarded gold"
+    },
+    {
+      "id": "h56",
+      "titular": "Hackean cuentas de ChatGPT y roban datos",
+      "resumen": "Infobae informa que ciberdelincuentes usan historiales de ChatGPT para extraer datos personales y financiar fraudes.",
+      "porque_importa": "Quien usa ChatGPT para trabajo debe proteger su historial y evitar fugas de información.",
+      "angulo": "¿Es seguro confiar en asistentes de IA con datos sensibles?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/02/hackeos-a-cuentas-de-chatgpt-logran-robar-millones-en-dinero-y-las-contrasenas-de-whatsapp-e-instagram/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta detalle de casos específicos, pero alerta relevante",
+      "naturaleza": "otro",
+      "titulo_original": "Hackeos a cuentas de ChatGPT logran robar millones en dinero y las contraseñas de WhatsApp e Instagram"
+    },
+    {
+      "id": "h18",
+      "titular": "Google ejecuta IA en satélite",
+      "resumen": "Google probó un modelo de IA en órbita, según informó Xataka.",
+      "porque_importa": "Un ingeniero de telecomunicaciones ve una nueva vía para procesar datos sin bajar al suelo.",
+      "angulo": "IA fuera de la Tierra: ¿qué implica para la latencia?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/robotica-e-ia/google-ha-dado-paso-clave-centros-datos-espaciales-acaba-ejecutar-ia-orbita",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de datos concretos y aplicación práctica.",
+      "naturaleza": "evento",
+      "titulo_original": "Google ha dado un paso clave hacia los centros de datos espaciales: acaba de ejecutar IA en órbita"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h05",
+    "tesis": "La demanda muestra que usar navegadores que extraen contenido sin permiso puede exponer a editores de sitios a riesgos legales. El caso revela una tensión entre la generación de tráfico y el respeto a derechos de autor que aún no está resuelta.",
+    "mirar": "Seguí si alguna corte define si la práctica de Brave constituye una infracción de copyright aplicable a otras plataformas de tráfico web."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h05",
+      "titulo": "NYT y Brave en la corte por scraping",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "El New York Times y otros medios presentaron una demanda contra Brave.",
+          "pantalla": "Título de la demanda en pantalla"
+        },
+        {
+          "t": "0:07",
+          "texto": "Acusan al navegador de extraer contenido protegido y redistribuirlo a IA como Anthropic.",
+          "pantalla": "Logos de Brave y Anthropic"
+        },
+        {
+          "t": "0:14",
+          "texto": "La acción legal busca frenar el scraping y el salto de paywalls.",
+          "pantalla": "Imagen de un paywall bloqueado"
+        },
+        {
+          "t": "0:21",
+          "texto": "Si editás contenido para una web, podés enfrentar riesgos al usar tráfico de Brave.",
+          "pantalla": "Editor trabajando en pantalla"
+        },
+        {
+          "t": "0:28",
+          "texto": "¿Hasta dónde llega la responsabilidad del navegador en la protección de derechos?",
+          "pantalla": "Pregunta en fondo neutro"
+        },
+        {
+          "t": "0:35",
+          "texto": "Seguí nuestras actualizaciones para más detalle sobre la demanda.",
+          "pantalla": "Logo de MÜTÜÖ"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h02",
+      "titulo": "OpenAI lanza LifeVal, benchmark de IA cotidiana",
+      "placas": [
+        "LifeVal mide cómo la IA ayuda a buscar guardería o gestionar finanzas.",
+        "El benchmark incluye tareas de papelería gubernamental.",
+        "Los resultados sirven para comparar modelos en situaciones reales.",
+        "Quien desarrolla productos de IA podrá usar LifeVal para validar mejoras.",
+        "OpenAI lo presentó como una herramienta de evaluación, no como un producto final.",
+        "Podés probarlo y ver cómo tu modelo se comporta en la vida diaria."
+      ]
+    },
+    "post": {
+      "nota": "h03",
+      "titulo": "Qodo incorpora normas de código en Codex",
+      "texto": "Qodo añadió conocimiento interno y estándares de codificación a Codex.\n\nAhora la IA revisa el código antes del pull request.\n\nLos programadores detectan fallas críticas (P0) sin revisión manual.\n\nSi tu equipo ya tiene una cultura de calidad, esta herramienta la lleva al siguiente nivel.\n\n¿Tu revisión de código incluye ya la cultura de tu empresa?"
+    },
+    "hilo": {
+      "nota": "h01",
+      "titulo": "Grid Protectors: IA para la estabilidad eléctrica",
+      "partes": [
+        "OpenAI anunció el programa Grid Protectors.\n\nSe propone colaborar con utilities para mejorar la fiabilidad de la red.",
+        "El objetivo es apoyar campus de cómputo que gestionan la infraestructura eléctrica.",
+        "Quien gestiona datos en una empresa energética verá nuevas opciones de soporte técnico.",
+        "La IA se plantea como herramienta para contener costos de electricidad a los consumidores."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h05",
+        "h02"
+      ],
+      "preguntas": [
+        "¿Creés que los navegadores deberían ser responsables de evitar el scraping de contenido protegido?",
+        "¿Cómo afectaría a tu flujo de trabajo el que una IA use datos extraídos sin permiso?",
+        "Si tu producto depende de IA, qué medidas tomarías para garantizar el origen legal del entrenamiento?"
+      ],
+      "nota": null
+    }
+  },
+  "fidelidad": {
+    "detectadas": 1,
+    "corregidas": 1,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h05",
+      "titular": "NYT y otros demandan a Brave por scraping",
+      "total": 15,
+      "estado": "verificada",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "TechCrunch",
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI publica benchmark LifeVal",
+      "total": 15,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h28",
+      "titular": "Goldman Sachs restringe IA a ingenieros",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "Qodo integra normas de código en Codex",
+      "total": 13,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "OpenAI prueba programa para liberar energía en emergencias",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h23",
+      "titular": "Financiamiento escaso se vuelve cuello de botella de IA",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI lanza Grid Protectors para utilities",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "Anthropic bloquea clones de juegos con Claude",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h44",
+      "titular": "ChatGPT prueba nueva app de escritorio con pestañas fusionadas",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hipertextual"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Omen AI compra Aquatic Labs por 16 M USD",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h20",
+      "titular": "OpenAI unirá límites de ChatGPT y Codex",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka",
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h41",
+      "titular": "Electricista asegura que IA aumentará salarios",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h30",
+      "titular": "SpaceXSI reduce cuotas de Grok Bot",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h25",
+      "titular": "Altman critica bajo uso de RAM en PCs",
+      "total": 7,
+      "estado": "verificada",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka",
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "Google ejecuta IA en satélite",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "Miyamoto dice que siempre habrá rol humano",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h50",
+      "titular": "IA móvil disponible en España y su procesamiento",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h31",
+      "titular": "Anthropic multiplica ingresos y registra pérdida de 23 MM",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Musk limita Grok Bot por costos altos",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h56",
+      "titular": "Hackean cuentas de ChatGPT y roban datos",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h15",
+      "titular": "Agentic AI promete automatizar análisis empresariales",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "id": "h22",
+      "titular": "PC gaming rebajado en Black Friday con 48 GB DDR5",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h57",
+      "titular": "Láser IA elimina mosquitos a 6 m",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h29",
+      "titular": "Ensayo sobre la concentración de IA",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h54",
+      "titular": "Gemini transforma guerreras K‑pop en Dragon Ball",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h21",
+      "titular": "Google necesita empeorar su IA para ganar dinero",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h32",
+      "titular": "Agentes IA crean protocolos extraños en Minecraft",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "42AI sale del stealth con 62,5 M USD",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "Resumen de noticias AI de octubre 2026",
+      "total": 0,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h55",
+      "titular": "Altman dice que ChatGPT supera a humanos",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    }
+  ]
+}

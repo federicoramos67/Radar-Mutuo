@@ -1,0 +1,1046 @@
+{
+  "fecha": "2026-11-03T14:50:03.364158-03:00",
+  "revisados": 108,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1349
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 896
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h39",
+      "titular": "Google corta Search en escuelas que rechazan IA",
+      "resumen": "Google desactivó Search en colegios que no usan sus funciones de IA, según The Verge.",
+      "porque_importa": "Quien administra la red escolar tendrá que buscar otra herramienta de búsqueda.",
+      "angulo": "¿Educación sin Google?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "otro",
+      "titulo_original": "Google is entirely disabling Search in schools that don’t want AI"
+    },
+    {
+      "id": "h33",
+      "titular": "NYT demanda a Brave por scraping de contenidos",
+      "resumen": "The New York Times acusa a Brave de extraer y redistribuir su contenido a clientes como Anthropic.",
+      "porque_importa": "Los editores de contenido deberán vigilar cómo sus artículos pueden circular en navegadores de privacidad.",
+      "angulo": "¿Hasta dónde llega la privacidad cuando se trata de derechos de autor?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "evento",
+      "titulo_original": "New York Times and other outlets sue web browser Brave over alleged content scraping"
+    },
+    {
+      "id": "h06",
+      "titular": "OpenAI publica benchmark LifeVal",
+      "resumen": "LifeVal mide la capacidad de IA para asistir en tareas cotidianas como guardería, finanzas y trámites gubernamentales.",
+      "porque_importa": "Quien evalúa herramientas de IA podrá comparar su desempeño en problemas reales de usuarios.",
+      "angulo": "Un nuevo estándar para juzgar la utilidad práctica de la IA",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 4
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/lifeval",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "LifeVal"
+    },
+    {
+      "id": "h05",
+      "titular": "OpenAI aumenta recompensas bug bounty",
+      "resumen": "OpenAI eleva los pagos y añade bonos por calidad, lealtad y prioridad a su programa de bug bounty.",
+      "porque_importa": "Un investigador de seguridad recibe mayor incentivo por reportar vulnerabilidades críticas.",
+      "angulo": "Más dinero, ¿más vulnerabilidades descubiertas?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Rewarding defenders with bigger bug bounties"
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI lanza Pando, backend Git para gran escala",
+      "resumen": "OpenAI presentó Pando, un backend compatible con Git pensado para el volumen que genera Codex.",
+      "porque_importa": "Los programadores que manejan repositorios masivos ganarán velocidad y estabilidad.",
+      "angulo": "Una infraestructura que podría aliviar cuellos de botella en proyectos de IA",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/scaling-git-at-openai",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Scaling Git at OpenAI"
+    },
+    {
+      "id": "h11",
+      "titular": "Lanzan CWE‑bench v2",
+      "resumen": "Hugging Face publica la segunda versión de CWE‑bench con mayor cobertura y transparencia.",
+      "porque_importa": "Un analista de seguridad dispone de más pruebas para evaluar vulnerabilidades de código.",
+      "angulo": "Más pruebas, pero ¿más seguridad real?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: Hugging Face. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/cwe-bench",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "CWE-bench v2: More coverage, quality, and transparency"
+    },
+    {
+      "id": "h03",
+      "titular": "OpenAI crea programa Grid Protectors con utilities",
+      "resumen": "OpenAI anuncia una iniciativa para colaborar con compañías eléctricas y proteger la red frente al consumo de IA.",
+      "porque_importa": "Los responsables de infraestructura de datos podrán coordinar mejor el consumo energético de sus clusters.",
+      "angulo": "IA y energía: una alianza para evitar sobrecargas",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/grid-protectors-program",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Introducing the Grid Protectors Program"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h55",
+      "titular": "IA controla telescopio de SETI y detecta pulsar",
+      "resumen": "El Instituto SETI y Breakthrough Listen usan agentes de IA en el Allen Telescope Array; la herramienta halló un pulsar en la Nebulosa del Cangrejo en horas.",
+      "porque_importa": "A investigadores de astronomía les reduce semanas de análisis a horas, acelerando descubrimientos.",
+      "angulo": "Cuando la IA sustituye al operador humano en la búsqueda de vida extraterrestre.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/ai-agents-take-over-at-setis-allen-telescope-array-scanning-for-extraterrestrial-intelligence/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "AI agents take over at SETI's Allen Telescope Array, scanning for extraterrestrial intelligence"
+    },
+    {
+      "id": "h77",
+      "titular": "Google, Apple y Samsung permiten borrar y mover objetos en fotos móviles",
+      "resumen": "Los tres servicios ya ofrecen herramientas IA para eliminar o desplazar personas en imágenes, con distintas marcas de rastro.",
+      "porque_importa": "Quien edita fotos en el móvil ya no necesita software de escritorio para esas tareas.",
+      "angulo": "Editar fotos al instante: ¿qué rastro deja cada app?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/11/03/editar-fotos-ia-movil-borrar-objetos-google-fotos-apple-samsung/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Editar fotos con IA en el móvil: borrar objetos y mover personas con Google Fotos, Apple Fotos y Samsung Galería, y qué rastro dejan"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h01",
+      "titular": "Heimstaden adopta ChatGPT Enterprise",
+      "resumen": "La gestora inmobiliaria europea usa ChatGPT Enterprise y Codex para reducir costos y apoyar a su personal.",
+      "porque_importa": "Un administrador de propiedades gana tiempo al no redactar informes manualmente.",
+      "angulo": "IA en gestión de inmuebles: ¿más eficiencia o solo moda?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/heimstaden",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Heimstaden is changing residential real estate management with AI"
+    },
+    {
+      "id": "h09",
+      "titular": "StateBench evalúa modelos en documentos extensos",
+      "resumen": "Hugging Face presentó StateBench, una prueba para medir cómo los LLM siguen cambios de estado en textos largos.",
+      "porque_importa": "Quien entrena modelos podrá medir mejor la consistencia en documentos extensos.",
+      "angulo": "¿Los LLM ya pueden mantener contexto en informes de miles de páginas?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/allenai/statebench",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta detalle de resultados y métricas concretas",
+      "naturaleza": "investigacion",
+      "titulo_original": "StateBench: Testing how language models track state changes over long documents"
+    },
+    {
+      "id": "h13",
+      "titular": "IA acelera procesos en fábricas de semiconductores",
+      "resumen": "NVIDIA afirma que la IA ayuda a ingenieros a predecir cambios de proceso y defectos en fabs.",
+      "porque_importa": "Los ingenieros de fabricación podrán reducir errores al validar cambios de proceso con IA.",
+      "angulo": "¿La IA ya es parte del flujo de trabajo en la fabricación de chips?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es una pieza de promoción. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Sin datos cuantitativos ni pruebas independientes",
+      "naturaleza": "promocion",
+      "titulo_original": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It"
+    },
+    {
+      "id": "h04",
+      "titular": "OpenAI prepara sprint de seguridad",
+      "resumen": "OpenAI colabora con Cathedral Systems para probar y reforzar sus defensas mediante IA.",
+      "porque_importa": "Un responsable de seguridad puede esperar nuevas herramientas de detección interna.",
+      "angulo": "¿Cuánto puede la IA mejorar la propia seguridad de una empresa?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 1,
+        "antihype": 2
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Sin datos de resultados ni alcance",
+      "naturaleza": "evento",
+      "titulo_original": "Preparing our next security sprint to harden OpenAI"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h14",
+      "titular": "NVIDIA propone IA para ciudades",
+      "resumen": "NVIDIA muestra cómo IA física y agente pueden procesar datos de sensores urbanos para planificación y servicios.",
+      "porque_importa": "Un planificador urbano podría obtener alertas automáticas de mantenimiento.",
+      "angulo": "Ciudades inteligentes: ¿realmente la IA cerrará la brecha de datos?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Poco concreto, sin cifras ni casos reales",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI"
+    },
+    {
+      "id": "h82",
+      "titular": "OpenAI firma acuerdos en Abu Dabi",
+      "resumen": "Altman anunció cuatro pactos en la conferencia ADIPEC y habló de la energía como reto para la empresa.",
+      "porque_importa": "A quien gestiona alianzas corporativas le sirve saber qué socios potenciales aparecen en la agenda.",
+      "angulo": "¿Qué implica que OpenAI busque fondos en el sector energético?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/02/openai-firmo-cuatro-acuerdos-en-abu-dabi-mientras-busca-miles-de-millones-de-los-fondos-de-emiratos/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Poco concreto, sin datos verificables.",
+      "naturaleza": "evento",
+      "titulo_original": "OpenAI firmó cuatro acuerdos en Abu Dabi mientras busca miles de millones de los fondos de Emiratos"
+    },
+    {
+      "id": "h83",
+      "titular": "Hackers norcoreanos usan IA para ataques rápidos",
+      "resumen": "Según Microsoft, ocho grupos de hackers de Corea del Norte emplean IA para crear empresas falsas y reclutar talento.",
+      "porque_importa": "A quien protege infraestructuras le interesa conocer nuevas tácticas de phishing automatizado.",
+      "angulo": "La IA como acelerador de campañas de desinformación estatal.",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/02/ocho-grupos-de-hackers-de-corea-del-norte-usan-ia-para-atacar-mas-rapido-segun-microsoft/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Basado en afirmaciones sin evidencia pública.",
+      "naturaleza": "opinion",
+      "titulo_original": "Ocho grupos de hackers de Corea del Norte usan IA para atacar más rápido, según Microsoft"
+    },
+    {
+      "id": "h50",
+      "titular": "Expertos discrepan sobre futuro de neoclouds",
+      "resumen": "El artículo indica que ni Musk ni Huang están seguros y que la rentabilidad de las neoclouds sigue sin claridad.",
+      "porque_importa": "Quien gestiona infraestructura cloud no tiene guía clara para invertir en estos proveedores.",
+      "angulo": "¿Vale la pena apostar por neoclouds sin datos de rentabilidad?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/robotica-e-ia/elon-musk-esta-convencido-que-muchas-neoclouds-desapareceran-jensen-huang-dice-que-cona",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Poco dato concreto, mayormente opinión.",
+      "naturaleza": "opinion",
+      "titulo_original": "Elon Musk está convencido de que muchas 'neoclouds' desaparecerán. Jensen Huang dice que ni de coña"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h39",
+    "tesis": "Google apaga Search y sus herramientas Gemini en colegios que no usan IA, obligando a los administradores a buscar otra solución de búsqueda sin indicar alternativas ni costos. La medida crea una brecha entre instituciones que aceptan la IA y las que la rechazan, sin claridad sobre quién queda excluido del acceso básico a la web.",
+    "mirar": "Observar qué plataformas de búsqueda adoptan los colegios que pierden el acceso y si surgen respuestas regulatorias o acuerdos de precios con proveedores alternativos."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h39",
+      "titulo": "Google corta Search en escuelas que rechazan IA",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "Google desactivó Search en colegios que no usan sus funciones de IA.",
+          "pantalla": "Logo de Google y captura de la página de configuración escolar"
+        },
+        {
+          "t": "0:07",
+          "texto": "La medida afecta a cuentas K‑12 que tengan desactivado Gemini y Gemini Notebook.",
+          "pantalla": "Lista de herramientas desactivadas"
+        },
+        {
+          "t": "0:14",
+          "texto": "Quien administra la red escolar tendrá que buscar otra herramienta de búsqueda.",
+          "pantalla": "Administrador de red mirando opciones alternativas"
+        },
+        {
+          "t": "0:21",
+          "texto": "Los estudiantes ya no podrán usar Google Search desde sus cuentas escolares.",
+          "pantalla": "Estudiante intentando buscar y recibiendo error"
+        },
+        {
+          "t": "0:28",
+          "texto": "La decisión se anunció en una actualización educativa de Google el martes.",
+          "pantalla": "Captura del anuncio oficial de Google"
+        },
+        {
+          "t": "0:35",
+          "texto": "¿Cómo vas a reemplazar Google en tu escuela?",
+          "pantalla": "Pregunta en pantalla con fondo de aula"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h33",
+      "titulo": "NYT demanda a Brave por scraping de contenidos",
+      "placas": [
+        "The New York Times acusa a Brave de extraer su contenido sin permiso.",
+        "Brave habría redistribuido los artículos a clientes como Anthropic y Perplexity.",
+        "La demanda se presentó en tribunales de EE. UU. y menciona violación de derechos de autor.",
+        "Los editores de contenido tendrán que vigilar cómo sus textos circulan en navegadores de privacidad.",
+        "La cuestión es hasta dónde llega la privacidad cuando se trata de derechos de autor."
+      ]
+    },
+    "post": {
+      "nota": "h06",
+      "titulo": "OpenAI publica benchmark LifeVal",
+      "texto": "OpenAI lanzó LifeVal, un benchmark que mide cómo la IA ayuda en tareas cotidianas.\nIncluye escenarios como buscar guardería, gestionar finanzas y tramitar papeles del gobierno.\nQuien evalúa herramientas de IA podrá comparar su desempeño en problemas reales de usuarios.\nEl objetivo es crear un estándar para juzgar la utilidad práctica de la IA.\n¿Probaste ya alguna herramienta con LifeVal?"
+    },
+    "hilo": {
+      "nota": "h05",
+      "titulo": "OpenAI aumenta recompensas bug bounty",
+      "partes": [
+        "OpenAI anunció que eleva los pagos de su programa de bug bounty.",
+        "Ahora hay bonos por calidad, lealtad y prioridad de la campaña.",
+        "Los investigadores de seguridad recibirán mayor incentivo por vulnerabilidades críticas.",
+        "¿Creés que el aumento de recompensas generará más hallazgos?"
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h02",
+        "h39"
+      ],
+      "preguntas": [
+        "¿Qué implicancias tiene un backend Git a escala para proyectos de IA en equipos locales?",
+        "¿Cómo afecta la pérdida de Search a la forma en que docentes organizan recursos digitales?",
+        "¿Qué riesgos de seguridad pueden surgir al migrar a una infraestructura como Pando?"
+      ],
+      "nota": null
+    }
+  },
+  "fidelidad": {
+    "detectadas": 1,
+    "corregidas": 1,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h39",
+      "titular": "Google corta Search en escuelas que rechazan IA",
+      "total": 15,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Verge",
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h33",
+      "titular": "NYT demanda a Brave por scraping de contenidos",
+      "total": 15,
+      "estado": "verificada",
+      "naturaleza": "evento",
+      "fuentes": [
+        "TechCrunch",
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h55",
+      "titular": "IA controla telescopio de SETI y detecta pulsar",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h77",
+      "titular": "Google, Apple y Samsung permiten borrar y mover objetos en fotos móviles",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "OpenAI aumenta recompensas bug bounty",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI lanza Pando, backend Git para gran escala",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "OpenAI publica benchmark LifeVal",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h23",
+      "titular": "Apple exige 18+ para apps de citas y compañeros IA",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "Lanzan CWE‑bench v2",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "OpenAI crea programa Grid Protectors con utilities",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h81",
+      "titular": "UK advierte ataque IA a servicios críticos antes de 2028",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h69",
+      "titular": "Cucarachas cyborg controladas por IA",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h103",
+      "titular": "LLM pueden leer y modificar pesos de redes",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "Heimstaden adopta ChatGPT Enterprise",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "StateBench evalúa modelos en documentos extensos",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "IA acelera procesos en fábricas de semiconductores",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h41",
+      "titular": "Apple reporta mejor año fiscal sin gran inversión en IA",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "NVIDIA propone IA para ciudades",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "OpenAI prepara sprint de seguridad",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "evento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h50",
+      "titular": "Expertos discrepan sobre futuro de neoclouds",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h84",
+      "titular": "Gemini genera imágenes K‑pop estilo Naruto",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Google Antigravity impulsa química computacional",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Google DeepMind"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "Palette enseña a modelos a crear decks de diseño",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "Nuevos contratos de integración de modelos",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h82",
+      "titular": "OpenAI firma acuerdos en Abu Dabi",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h83",
+      "titular": "Hackers norcoreanos usan IA para ataques rápidos",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h21",
+      "titular": "Anthropic enfrenta problemas de costos de cómputo",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Google AI anuncia novedades sin detalle",
+      "total": 2,
+      "estado": "comunicado",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h40",
+      "titular": "Midterm 2026: cobertura política general",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h42",
+      "titular": "OpenAI renombra data centers a “compute campuses”",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    }
+  ]
+}

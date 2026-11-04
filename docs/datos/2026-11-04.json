@@ -1,0 +1,940 @@
+{
+  "fecha": "2026-11-04T14:58:36.178138-03:00",
+  "revisados": 101,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 9,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1356
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": false,
+      "error": "ParseError"
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 897
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h02",
+      "titular": "Daybreak Red llega a AWS GovCloud US‑East",
+      "resumen": "Daybreak Red ofrece GPT‑5.6 Cyber en AWS GovCloud para clientes autorizados de ciberseguridad.",
+      "porque_importa": "Un analista de seguridad podrá usar GPT‑5.6 en entornos regulados sin salir de la nube.",
+      "angulo": "IA de ciberseguridad ahora en la nube gubernamental",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 4
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/daybreak-red-aws-govcloud",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Daybreak Red is now available in AWS GovCloud (US-East)"
+    },
+    {
+      "id": "h18",
+      "titular": "Google recibe críticas por bloquear búsquedas en escuelas",
+      "resumen": "Políticos como el alcalde de NYC y la ex presidenta de la FTC acusan a Google de actuar como monopolio sin regulación.",
+      "porque_importa": "A quien gestiona la comunicación de una escuela le obliga a buscar alternativas a Google.",
+      "angulo": "¿Debería una escuela depender de Google para buscar información?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 3 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/11/04/google-colegios-ia-buscador-apagado-defecto/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Hacker News",
+            "link": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+            "tipo": "comunidad"
+          }
+        ]
+      },
+      "descarte": "Bajo impacto y datos escasos",
+      "naturaleza": "otro",
+      "titulo_original": "Google faces backlash for plan that would turn off Search for schools that restrict AI"
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI compra Pierre Computer Company",
+      "resumen": "OpenAI adquiere la empresa para ampliar las herramientas Codex de desarrollo y revisión de código.",
+      "porque_importa": "Un programador podrá usar versiones mejoradas de Codex para depurar más rápido.",
+      "angulo": "Más código bajo IA: la compra que amplía Codex",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria (OpenAI) con cobertura independiente.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/openai-to-acquire-pierre",
+            "tipo": "oficial"
+          },
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/04/openai-comprara-una-startup-que-almacena-codigo-para-competir-con-github-de-microsoft/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "OpenAI to acquire Pierre Computer Company, Inc."
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h49",
+      "titular": "Nuevo benchmark open source mide IA en CloudOps",
+      "resumen": "CloudOpsBench evalúa cómo agentes de IA ejecutan tareas típicas de DevOps, como despliegues y gestión de accesos.",
+      "porque_importa": "Programadores de infraestructura podrán comparar herramientas y detectar cuellos de botella en sus flujos de trabajo.",
+      "angulo": "El mayor obstáculo de la IA en la nube: razonamiento",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "New open-source benchmark reveals reasoning as the biggest bottleneck for AI in cloud operations"
+    },
+    {
+      "id": "h63",
+      "titular": "Encuesta a 817 profesionales STEM en Alemania sobre IA",
+      "resumen": "Una encuesta alemana a 817 trabajadores de STEM muestra cómo perciben la transformación de sus roles por la IA.",
+      "porque_importa": "Un docente de ingeniería puede ajustar su plan de estudios según esas percepciones.",
+      "angulo": "Los datos de la encuesta revelan temores y oportunidades en STEM.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Genbeta. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Genbeta",
+            "link": "https://www.genbeta.com/inteligencia-artificial/ia-esta-transformando-profesiones-stem-encuesta-recoge-salidas-trabajadores-relacionadas-ella",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "La IA está transformando las profesiones STEM: una encuesta recoge salidas de trabajadores relacionadas con ella"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h09",
+      "titular": "NVIDIA muestra IA para acelerar fábricas de chips",
+      "resumen": "NVIDIA describe cómo sus herramientas de IA ayudan a ingenieros a predecir cambios de proceso y defectos en fabs de semiconductores.",
+      "porque_importa": "Un ingeniero de proceso podrá reducir ciclos de prueba al simular efectos de cambios antes de implementarlos.",
+      "angulo": "IA que acorta la curva de error en la fabricación de chips",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It"
+    },
+    {
+      "id": "h08",
+      "titular": "Palette enseña a modelos pequeños a crear decks de diseño",
+      "resumen": "Hugging Face presentó Palette, un modelo que genera presentaciones siguiendo el lenguaje visual de una marca.",
+      "porque_importa": "Un diseñador podrá generar borradores de slides sin armar cada diapositiva a mano.",
+      "angulo": "Diseñar decks en segundos con IA ligera",
+      "formato": "reel",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta información de disponibilidad y precisión",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Palette: teaching a small model to build decks in your design language"
+    },
+    {
+      "id": "h03",
+      "titular": "OpenAI muestra IA para CAD y simulación",
+      "resumen": "OpenAI publicó ejemplos de cómo ChatGPT y Codex aceleran tareas de CAD, diseño de PCB y simulaciones físicas.",
+      "porque_importa": "Un ingeniero mecánico podrá generar código de simulación con menos líneas y tiempo de escritura.",
+      "angulo": "De la idea al modelo 3D con un prompt",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Sin métricas de mejora concreta",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Accelerating engineering for the physical world"
+    },
+    {
+      "id": "h04",
+      "titular": "Cisco usa OpenAI para defensa de redes en tiempo real",
+      "resumen": "Cisco combina su inteligencia de red con modelos de OpenAI para detectar y responder amenazas automáticamente.",
+      "porque_importa": "Un responsable de seguridad podrá automatizar alertas y respuestas sin escribir reglas manuales.",
+      "angulo": "Seguridad que aprende mientras protege",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/cisco-cyber",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta detalle de rendimiento y costos",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "How Cisco defends at machine speed with OpenAI"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h77",
+      "titular": "Bill Gates advierte que la IA es peligrosa",
+      "resumen": "Gates declaró que la IA avanzada alterará economía y guerras, y pidió control humano sobre sus normas.",
+      "porque_importa": "Quien define políticas de tecnología deberá considerar esas advertencias al diseñar marcos regulatorios.",
+      "angulo": "¿La IA es la mayor amenaza tecnológica?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 4,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/04/bill-gates-advierte-sobre-la-inteligencia-artificial-es-la-tecnologia-mas-peligrosa-jamas-inventada/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Antihype bajo: declaración sin datos ni contexto técnico",
+      "naturaleza": "opinion",
+      "titulo_original": "Bill Gates advierte sobre la inteligencia artificial: “Es la tecnología más peligrosa jamás inventada”"
+    },
+    {
+      "id": "h50",
+      "titular": "GPT‑6 Astra reescribe pesos de otros modelos",
+      "resumen": "Investigadores del MIT mostraron que GPT‑6 Astra modificó 0,016 % de los pesos de un modelo Qwen y elevó su precisión matemática de 7,9 % a 48,1 %.",
+      "porque_importa": "Un científico de datos podría usar la técnica para mejorar modelos sin volver a entrenarlos.",
+      "angulo": "Reprogramar IA sin entrenamiento: ¿una nueva forma de optimizar?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de fuentes verificables y posible hype.",
+      "naturaleza": "investigacion",
+      "titulo_original": "GPT-6 Astra sees the matrix and reprograms other AI models directly through their weights"
+    },
+    {
+      "id": "h33",
+      "titular": "Solo 4 viajes completados por IA en Uber Q3 2026",
+      "resumen": "Uber informó que agentes externos de IA gestionaron cuatro viajes en el tercer trimestre de 2026.",
+      "porque_importa": "Si manejás la logística de una plataforma, deberás medir el retorno real de integrar agentes de IA en la operativa.",
+      "angulo": "La IA aún no lleva la mayor parte del tráfico en ridesharing",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Impacto limitado: número muy bajo para inferir tendencia",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Uber only fulfilled 4 rides from AI agents last quarter"
+    },
+    {
+      "id": "h44",
+      "titular": "Robo de componentes de IA alcanza 100 M$",
+      "resumen": "Bandas organizadas roban camiones con equipos para centros de datos, acumulando pérdidas de 100 millones de dólares.",
+      "porque_importa": "Un responsable de logística de data centers deberá reforzar la seguridad de sus envíos.",
+      "angulo": "El robo de hardware IA se vuelve un problema de seguridad logística.",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/empresas-y-economia/bandas-organizadas-roban-camiones-cargados-componentes-para-centros-datos-suman-100-millones-dolares",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de datos concretos sobre frecuencia o medidas adoptadas.",
+      "naturaleza": "otro",
+      "titulo_original": "Bandas organizadas roban camiones cargados de componentes para centros de datos: ya suman 100 millones de dólares"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h18",
+    "tesis": "Google va a desactivar funciones de IA en sus productos escolares y, si una escuela bloquea la IA por completo, perderá también la búsqueda tradicional. El anuncio no indica qué alternativas tendrán las escuelas ni a qué costo deberán migrar sus procesos de información.",
+    "mirar": "Seguir de cerca qué soluciones de búsqueda adoptan las escuelas y si surgen acuerdos de precios con proveedores alternativos."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h02",
+      "titulo": "Daybreak Red llega a AWS GovCloud US‑East",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "OpenAI anuncia que Daybreak Red está disponible en AWS GovCloud (US‑East).",
+          "pantalla": "Logo de OpenAI y AWS GovCloud"
+        },
+        {
+          "t": "0:08",
+          "texto": "La oferta incluye el modelo GPT‑5.6 Cyber para clientes autorizados de ciberseguridad.",
+          "pantalla": "Pantalla con texto “GPT‑5.6 Cyber” y un candado"
+        },
+        {
+          "t": "0:16",
+          "texto": "Un analista de seguridad podrá usar la IA sin mover datos fuera de la nube regulada.",
+          "pantalla": "Ilustración de un analista trabajando en una terminal segura"
+        },
+        {
+          "t": "0:24",
+          "texto": "El acceso se da a través de Amazon Bedrock, bajo los controles de GovCloud.",
+          "pantalla": "Diagrama sencillo de Bedrock conectado a GovCloud"
+        },
+        {
+          "t": "0:32",
+          "texto": "Esto permite pruebas de amenazas y generación de respuestas sin romper compliance.",
+          "pantalla": "Escena de un informe de vulnerabilidad generado por IA"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h18",
+      "titulo": "Google bloquea búsquedas en escuelas que desactivan IA",
+      "placas": [
+        "Políticos como el alcalde de NYC y la ex presidenta de la FTC critican la medida.",
+        "Google planea desactivar funciones de IA en productos escolares a partir de 2027.",
+        "Si una escuela bloquea la IA, perderá también el acceso a Google Search.",
+        "La decisión obliga a los responsables de comunicación escolar a buscar alternativas de búsqueda.",
+        "El debate gira en torno a la dependencia de Google para la información educativa."
+      ]
+    },
+    "post": {
+      "nota": "h01",
+      "titulo": "OpenAI compra Pierre Computer Company",
+      "texto": "OpenAI ha anunciado la adquisición de Pierre Computer Company, Inc.\n\nLa compra amplía las herramientas Codex para construir, entender y revisar código.\n\nPara un programador, esto significa versiones mejoradas de Codex que pueden depurar más rápido.\n\nOpenAI no reveló el precio de la operación.\n\nPierre ya prestaba servicio a Codex y competía con plataformas como GitHub."
+    },
+    "hilo": {
+      "nota": "h02",
+      "titulo": "Daybreak Red en la nube gubernamental",
+      "partes": [
+        "OpenAI dice que Daybreak Red ya está en AWS GovCloud (US‑East).",
+        "El modelo GPT‑5.6 Cyber se ofrece a clientes autorizados de ciberseguridad.",
+        "Un analista puede usar la IA sin mover datos fuera de la nube regulada.",
+        "El acceso se gestiona vía Amazon Bedrock, bajo los controles de GovCloud.",
+        "Esto permite pruebas de amenazas y respuestas sin romper compliance."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h18",
+        "h01"
+      ],
+      "preguntas": [
+        "¿Qué riesgos implica que una escuela pierda Google Search al bloquear IA?",
+        "¿Cómo afectará a los docentes la necesidad de buscar otro motor de búsqueda?",
+        "¿La adquisición de Pierre por OpenAI cambiará la forma en que los programadores depuran código?"
+      ]
+    }
+  },
+  "fidelidad": {
+    "detectadas": 0,
+    "corregidas": 0,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h49",
+      "titular": "Nuevo benchmark open source mide IA en CloudOps",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h63",
+      "titular": "Encuesta a 817 profesionales STEM en Alemania sobre IA",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "Daybreak Red llega a AWS GovCloud US‑East",
+      "total": 12,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "NVIDIA muestra IA para acelerar fábricas de chips",
+      "total": 12,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h68",
+      "titular": "Musk anuncia fábrica de chips IA en Texas",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h62",
+      "titular": "Elvis Presley vs Anthropic por derechos de canción",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h33",
+      "titular": "Solo 4 viajes completados por IA en Uber Q3 2026",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h51",
+      "titular": "Anthropic lanza FlashProve para rastrear respuestas",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h79",
+      "titular": "29 jurisdicciones prohíben nuevos data centers en EE UU",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "Google recibe críticas por bloquear búsquedas en escuelas",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch",
+        "The Decoder",
+        "WWWhat's new",
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI compra Pierre Computer Company",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI",
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h70",
+      "titular": "Apple exigirá 18+ en apps de citas y IA romántica",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "Dharma Field Extractor lanza extracción a JSON",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h75",
+      "titular": "Empresas de IA buscan energía alternativa",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h77",
+      "titular": "Bill Gates advierte que la IA es peligrosa",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h45",
+      "titular": "Revolut adopta GLM 5.3 para 2.000 ingenieros",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h67",
+      "titular": "Netflix prueba IA para recomendar según humor",
+      "total": 8,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hipertextual",
+        "WWWhat's new",
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Palette enseña a modelos pequeños a crear decks de diseño",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "OpenAI muestra IA para CAD y simulación",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "Cisco usa OpenAI para defensa de redes en tiempo real",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h76",
+      "titular": "IA en empresas sin recortar empleos",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h58",
+      "titular": "Votantes rechazan centros de datos",
+      "total": 7,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Wired",
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "StateBench evalúa seguimiento de estado en LLMs",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "Heimstaden implementa ChatGPT Enterprise en gestión inmobiliaria",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "NVIDIA propone IA física para ciudades",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "Siri Recaps impresiona en prueba personal",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h50",
+      "titular": "GPT‑6 Astra reescribe pesos de otros modelos",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h44",
+      "titular": "Robo de componentes de IA alcanza 100 M$",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h38",
+      "titular": "Fotos falsas de Jeff Bezos y Jason Statham circulan online",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h34",
+      "titular": "Altman defiende compra de RAM en PC",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Verge"
+      ]
+    }
+  ]
+}

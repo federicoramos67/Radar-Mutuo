@@ -1,0 +1,924 @@
+{
+  "fecha": "2026-11-05T14:59:57.500032-03:00",
+  "revisados": 97,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1360
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 898
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": false,
+      "error": "TimeoutError"
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h04",
+      "titular": "OpenAI detectó 948 vulnerabilidades en Linux",
+      "resumen": "OpenAI creó una cadena autónoma que encontró, validó y generó parches para 948 vulnerabilidades de escalada de privilegios en el kernel de Linux.",
+      "porque_importa": "El equipo de seguridad de una empresa podrá usar esa pipeline para parchear su infraestructura más rápido.",
+      "angulo": "IA que ya está corrigiendo fallas críticas del kernel",
+      "formato": "post",
+      "puntos": {
+        "senal": 5,
+        "impacto": 4,
+        "conversacion": 4,
+        "antihype": 5
+      },
+      "total": 18,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "A thousand fewer paths to root"
+    },
+    {
+      "id": "h12",
+      "titular": "Google Research detecta hipertensión con wearables",
+      "resumen": "Google Research publica estudio que usa sensores portátiles para identificar signos de hipertensión.",
+      "porque_importa": "Si desarrollás dispositivos de salud, podés integrar el algoritmo para alertas tempranas.",
+      "angulo": "Wearables que avisan de presión alta: ¿el próximo paso en telemedicina?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: Google Research. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "Google Research",
+            "link": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Detecting signs of hypertension using wearable sensors"
+    },
+    {
+      "id": "h32",
+      "titular": "Meta compra Conductor, startup de agentes de código",
+      "resumen": "Meta adquirió Conductor, que permite a ingenieros desplegar equipos de agentes para trabajar simultáneamente en proyectos.",
+      "porque_importa": "Si programás, tendrás acceso a herramientas de Meta para coordinar agentes de desarrollo.",
+      "angulo": "¿Los agentes de Conductor cambiarán la forma de programar en equipos?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/meta-buys-ai-coding-startup-conductor-as-big-tech-races-to-lock-in-developers/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Meta acquires AI coding startup Conductor"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h43",
+      "titular": "ElevenLabs se integra a SoundCloud",
+      "resumen": "SoundCloud añadió una integración que permite publicar música generada por ElevenLabs sin descargar archivos.",
+      "porque_importa": "Si producís música con IA, podés subir tracks a SoundCloud en un solo clic.",
+      "angulo": "Publicar música IA directamente: menos pasos, más creatividad.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 16,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "You can post AI music straight to SoundCloud from ElevenLabs"
+    },
+    {
+      "id": "h22",
+      "titular": "Aina lanza anillo inteligente con pantalla",
+      "resumen": "El anillo de Aina incluye pantalla, joystick y micrófono, permitiendo llamadas y dictado de notas en Mac mediante IA.",
+      "porque_importa": "Si usás asistentes de IA, el anillo te brinda control manos‑libres y acceso rápido a funciones.",
+      "angulo": "Un anillo que lleva la interacción con IA al dedo.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h05",
+      "titular": "Google lanza Gemini Omni 1.2 Flash",
+      "resumen": "Google anuncia Gemini Omni 1.2 Flash, más rápido y barato, con soporte para clips más largos.",
+      "porque_importa": "Si editás video, podés generar clips largos sin pagar tanto por cómputo.",
+      "angulo": "Más velocidad y menor costo para generación de video con IA.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Google AI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Google AI",
+            "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+            "tipo": "oficial"
+          },
+          {
+            "nombre": "Google DeepMind",
+            "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips"
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI lanza plan para infraestructura responsable",
+      "resumen": "OpenAI presentó su Compacto Nacional y el Blueprint de Campus de Cómputo para proteger recursos locales y generar empleos.",
+      "porque_importa": "Un gestor de centros de datos podrá alinearse a normas de IA responsable y buscar incentivos locales.",
+      "angulo": "Política de IA: ¿Cómo influirá en la creación de nuevos centros de cómputo?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Setting a new standard for responsible AI infrastructure"
+    },
+    {
+      "id": "h08",
+      "titular": "NVIDIA muestra AI agents en Omniverse",
+      "resumen": "Desarrolladores usan modelos frontier AI con bibliotecas de NVIDIA Omniverse para crear simulaciones más rápido.",
+      "porque_importa": "Si diseñás simulaciones, podés probar agentes de IA para montar entornos sin escribir todo a mano.",
+      "angulo": "AI agents como asistente en la creación de mundos virtuales.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents"
+    },
+    {
+      "id": "h11",
+      "titular": "DLSS 5 llega a Hogwarts Legacy en GeForce NOW",
+      "resumen": "NVIDIA anunció que el juego Hogwarts Legacy incorpora DLSS 5 con renderizado neural 3D en su servicio en la nube.",
+      "porque_importa": "Un creador de contenido de videojuegos podrá transmitir con mejor calidad sin requerir hardware potente.",
+      "angulo": "DLSS 5 mejora la visual de juegos en la nube, ¿vale la suscripción?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es una pieza de promoción. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h67",
+      "titular": "Fundador de Reddit dice que crear apps sociales ya no es \"cool\"",
+      "resumen": "El fundador de Reddit comentó en Wired que desarrollar aplicaciones de redes sociales ha perdido atractivo.",
+      "porque_importa": "Quien trabaja en product design de plataformas sociales reconsiderará la prioridad de nuevos lanzamientos.",
+      "angulo": "¿Vale la pena invertir en una nueva red social?",
+      "formato": "post",
+      "puntos": {
+        "senal": 0,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 0
+      },
+      "total": 2,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Wired. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Wired",
+            "link": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Sin datos concretos, solo opinión personal",
+      "naturaleza": "opinion",
+      "titulo_original": "Reddit Founder Says Building Social Media Apps Is ‘Not Cool Anymore’"
+    },
+    {
+      "id": "h09",
+      "titular": "Chris Alexiuk defiende IA abierta",
+      "resumen": "Alexiuk, ingeniero senior de NVIDIA, insta a promocionar modelos abiertos sin filtros.",
+      "porque_importa": "Si enseñás IA, tendrás un argumento para usar modelos libres en clase.",
+      "angulo": "¿Deberíamos gritar más sobre la IA abierta?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es una pieza de opinión. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Poco dato concreto, tono promocional",
+      "naturaleza": "opinion",
+      "titulo_original": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models"
+    },
+    {
+      "id": "h10",
+      "titular": "NVIDIA habla de presión de memoria en GPUs",
+      "resumen": "NVIDIA indica que modelos más grandes y contextos largos aumentan la demanda de memoria GPU y que los precios suben.",
+      "porque_importa": "Un programador de IA tendrá que gestionar mejor la memoria de sus entrenamientos.",
+      "angulo": "¿Cómo afectará la escasez de memoria a tus proyectos de IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Datos vagos, sin cifras ni soluciones concretas.",
+      "naturaleza": "otro",
+      "titulo_original": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge"
+    },
+    {
+      "id": "h52",
+      "titular": "Macronix reporta ingresos en Q3 2026",
+      "resumen": "Macronix, fabricante taiwanés de memorias NOR, NAND y ROM, publicó sus ingresos del tercer trimestre de 2026.",
+      "porque_importa": "Si programás firmware para consolas, conocer la disponibilidad de chips ayuda a planificar proyectos.",
+      "angulo": "¿Qué implica la caída de ventas de ciertos chips para la industria del gaming?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/componentes/ia-esta-amenazando-cartuchos-nintendo",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos escasos y sin vínculo directo a IA.",
+      "naturaleza": "investigacion",
+      "titulo_original": "La IA ya está amenazando los cartuchos de Nintendo"
+    }
+  ],
+  "nota_dia": null,
+  "piezas": {
+    "reel": {
+      "nota": "h04",
+      "titulo": "OpenAI automatiza parches en Linux",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "OpenAI lanzó una cadena autónoma que detectó vulnerabilidades en Linux.",
+          "pantalla": "Logo de OpenAI y código del kernel"
+        },
+        {
+          "t": "0:08",
+          "texto": "La herramienta encontró 948 fallas de escalada de privilegios.",
+          "pantalla": "Lista de números y un gráfico de vulnerabilidades"
+        },
+        {
+          "t": "0:16",
+          "texto": "Validó cada una y generó parches automáticamente.",
+          "pantalla": "Animación de parche aplicándose al código"
+        },
+        {
+          "t": "0:24",
+          "texto": "El proceso es reproducible y abierto para la comunidad.",
+          "pantalla": "Código abierto en GitHub"
+        },
+        {
+          "t": "0:32",
+          "texto": "Si sos parte del equipo de seguridad, podés usar esta pipeline para acelerar la corrección de tu infraestructura.",
+          "pantalla": "Ingeniero revisando un dashboard de parches"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h12",
+      "titulo": "Google Research y la detección de hipertensión con wearables",
+      "placas": [
+        "Google Research publicó un estudio sobre sensores portátiles.",
+        "Los sensores analizan datos fisiológicos para identificar signos de hipertensión.",
+        "El algoritmo detecta patrones asociados a presión alta.",
+        "Podés integrar la IA en dispositivos de salud para alertas tempranas.",
+        "La propuesta apunta a mejorar la telemedicina y el autocuidado.",
+        "Queda abierto cómo escalar la solución a distintos wearables."
+      ]
+    },
+    "post": {
+      "nota": "h32",
+      "titulo": "Meta incorpora Conductor, la startup de agentes de código",
+      "texto": "Meta compró Conductor, una startup que permite a ingenieros desplegar equipos de agentes de IA.\n\nLos agentes pueden trabajar simultáneamente en distintas partes de un proyecto.\n\nSi programás, pronto tendrás acceso a herramientas de Meta para coordinar varios agentes de desarrollo.\n\nLa compra se suma a otras adquisiciones de IA en el sector, como la de OpenAI y Anthropic.\n\nLos detalles sobre precios y disponibilidad aún no se han anunciado."
+    },
+    "hilo": {
+      "nota": "h12",
+      "titulo": "Wearables que detectan hipertensión: ¿el futuro de la telemedicina?",
+      "partes": [
+        "Google Research publicó un estudio que usa sensores portátiles para identificar signos de hipertensión.",
+        "El algoritmo analiza datos como ritmo cardíaco y variabilidad de la presión para detectar patrones de riesgo.",
+        "Si desarrollás dispositivos de salud, podés integrar este algoritmo y ofrecer alertas tempranas a los usuarios.",
+        "La propuesta abre la puerta a una telemedicina más preventiva, pero aún falta validar su precisión en entornos reales."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h04",
+        "h12"
+      ],
+      "preguntas": [
+        "¿Confiarías en un parche generado por IA sin revisión humana?",
+        "¿Qué riesgos implica que un wearable diagnostique hipertensión sin supervisión médica?",
+        "¿Cómo afectaría a tu flujo de trabajo si pudieras delegar tareas de seguridad o detección a agentes autónomos?"
+      ],
+      "nota": null
+    }
+  },
+  "fidelidad": {
+    "detectadas": 1,
+    "corregidas": 1,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h04",
+      "titular": "OpenAI detectó 948 vulnerabilidades en Linux",
+      "total": 18,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h43",
+      "titular": "ElevenLabs se integra a SoundCloud",
+      "total": 16,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h22",
+      "titular": "Aina lanza anillo inteligente con pantalla",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "Google Research detecta hipertensión con wearables",
+      "total": 14,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Google Research"
+      ]
+    },
+    {
+      "id": "h21",
+      "titular": "Dropbox compra Tigris Data por 350 M",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h58",
+      "titular": "Baidu lanza ERNIE 5.5 Flash Base de 280 B",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h32",
+      "titular": "Meta compra Conductor, startup de agentes de código",
+      "total": 12,
+      "estado": "verificada",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "TechCrunch",
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h59",
+      "titular": "Ningún agente supera 12 % en benchmark GDPx",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h20",
+      "titular": "Axiom Math verifica Stacks Project con IA",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h77",
+      "titular": "EE UU prueba robot humanoide Alex",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h86",
+      "titular": "Apple recorta presupuesto interno de IA",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae",
+        "The Decoder",
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "Google lanza Gemini Omni 1.2 Flash",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google AI",
+        "Google DeepMind"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI lanza plan para infraestructura responsable",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "NVIDIA muestra AI agents en Omniverse",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "DLSS 5 llega a Hogwarts Legacy en GeForce NOW",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h41",
+      "titular": "OpenAI presenta GPT‑6 Cyber",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h60",
+      "titular": "Tencent lanza modelo multimodal Hy4",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h84",
+      "titular": "Ley bloquea spoofing de números españoles",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "NVIDIA habla de presión de memoria en GPUs",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI compra Pierre Computer Company",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Chris Alexiuk defiende IA abierta",
+      "total": 5,
+      "estado": "comunicado",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h52",
+      "titular": "Macronix reporta ingresos en Q3 2026",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h51",
+      "titular": "LG lanza altavoz Xboom Blast",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "Hugging Face lanza Phonon TTS",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Hugging Face publica extractor de campos estructurados",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "Google investiga deliberación ágil con IA",
+      "total": 2,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Google Research"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "Daybreak Red llega a AWS GovCloud",
+      "total": 2,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h67",
+      "titular": "Fundador de Reddit dice que crear apps sociales ya no es \"cool\"",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h39",
+      "titular": "‘Total repudiation’: ola azul en política estadounidense",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h94",
+      "titular": "Cita de Paul Ford sobre navegadores",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Simon Willison"
+      ]
+    }
+  ]
+}

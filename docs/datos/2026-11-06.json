@@ -1,0 +1,972 @@
+{
+  "fecha": "2026-11-06T14:28:27.400175-03:00",
+  "revisados": 97,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1366
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 899
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": false,
+      "error": "HTTPError"
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": false,
+      "error": "HTTPError"
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h77",
+      "titular": "Demanda a OpenAI por plan de envenenamiento",
+      "resumen": "Un hombre de Carolina del Norte demandó a OpenAI alegando que su esposa usó ChatGPT para planear y encubrir su envenenamiento.",
+      "porque_importa": "Los abogados y reguladores deberán considerar cómo la IA puede ser usada en crímenes reales.",
+      "angulo": "Cuando la IA pasa de herramienta a cómplice judicial",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 2,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Xataka México",
+            "link": "https://www.xataka.com.mx/robotica-e-ia/hombre-descubrio-que-su-esposa-consultaba-a-chatgpt-para-envenenarlo-nueva-demanda-a-openai",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/05/un-hombre-demando-a-openai-dice-que-chatgpt-ayudo-a-su-esposa-a-planear-envenenarlo/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Un hombre descubrió que su esposa consultaba a ChatGPT para envenenarlo. Una nueva demanda a OpenAI"
+    },
+    {
+      "id": "h07",
+      "titular": "Egyptian y Nigerian English llegan al Open ASR Leaderboard",
+      "resumen": "Se añadieron variantes de inglés egipcio y nigeriano al ranking abierto de reconocimiento de voz de Hugging Face.",
+      "porque_importa": "Le permite a quien entrena modelos de ASR incluir dialectos africanos sin recopilar datos propios.",
+      "angulo": "Más voces africanas en los benchmarks de speech‑to‑text",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: Hugging Face. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Egyptian and Nigerian English join the Open ASR Leaderboard"
+    },
+    {
+      "id": "h01",
+      "titular": "Universidades australianas forman graduados nativos en IA",
+      "resumen": "Varias universidades de Australia amplían el acceso a ChatGPT y añaden IA a sus planes de estudio para preparar a los estudiantes.",
+      "porque_importa": "Un docente podrá incluir herramientas de IA en sus clases sin crear material desde cero.",
+      "angulo": "Formación universitaria con IA como materia base",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Australian universities are creating AI-native graduates"
+    },
+    {
+      "id": "h18",
+      "titular": "Alexa ahora responde por texto para comprar",
+      "resumen": "Amazon dice que la función de texto en Alexa se desplegará a millones de usuarios en semanas.",
+      "porque_importa": "Quien maneja la comunicación de una marca podrá ofrecer enlaces de compra directamente en chats de Alexa.",
+      "angulo": "Compras por mensaje, sin voz, llegan a millones",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "After blocking Muse, Amazon now lets users text Alexa to help them shop"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h78",
+      "titular": "Derechos ante IA en reclutamiento",
+      "resumen": "La normativa RGPD y la AEPD permiten exigir revisión humana y impugnar decisiones de IA en procesos de selección.",
+      "porque_importa": "Quien busca trabajo puede solicitar revisión humana de su CV filtrado por IA.",
+      "angulo": "¿Te filtró una IA? Conocé tus derechos para apelar.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 16,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/11/06/ia-procesos-seleccion-personal-derechos-candidato-rgpd-reglamento-ia/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "La IA en los procesos de selección de personal: cómo te filtran, qué derechos tienes como candidato y qué puedes pedir"
+    },
+    {
+      "id": "h69",
+      "titular": "Desarrollador lanza suite IA open source",
+      "resumen": "Brandon Thomas, frustrado con Adobe, creó versiones de Photoshop y Premiere con IA y las puso en código abierto.",
+      "porque_importa": "Quien edita video o fotos puede usar herramientas gratuitas sin suscripción.",
+      "angulo": "Alternativa open source a Adobe: ¿adoptarán los creativos?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Genbeta. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Genbeta",
+            "link": "https://www.genbeta.com/actualidad/desarrollador-frustrado-adobe-crea-photoshop-premiere-otros-ia-como-codigo-abierto",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Desarrollador frustrado de Adobe crea Photoshop, Premiere y otros con IA como código abierto"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h09",
+      "titular": "NVIDIA abre código para redes 6G",
+      "resumen": "NVIDIA open sourceó su software Aerial y otras herramientas para acelerar la investigación de redes 6G.",
+      "porque_importa": "Los investigadores de telecomunicaciones pueden probar ideas sin desarrollar infraestructuras propias.",
+      "angulo": "Código abierto que acelera la carrera hacia el 6G",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks"
+    },
+    {
+      "id": "h14",
+      "titular": "DLSS 5 llega a Hogwarts Legacy en GeForce NOW",
+      "resumen": "NVIDIA habilita DLSS 5 con renderizado neural 3D en el juego vía su servicio en la nube.",
+      "porque_importa": "Un streamer de videojuegos mejora la calidad visual sin perder rendimiento.",
+      "angulo": "¿Vale la pena jugar en la nube con DLSS 5?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es una pieza de promoción. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW"
+    },
+    {
+      "id": "h08",
+      "titular": "NVIDIA lanza Cosmos 3, modelos abiertos para simulación",
+      "resumen": "NVIDIA publicó la serie Cosmos 3, modelos abiertos orientados a simulaciones interactivas del mundo.",
+      "porque_importa": "Un desarrollador de videojuegos podrá probar simulaciones sin licencias propietarias.",
+      "angulo": "Modelos libres para mundos virtuales",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Escasa información de capacidades",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation"
+    },
+    {
+      "id": "h04",
+      "titular": "Merge integra GPT‑6 Astra en flujos de producto",
+      "resumen": "Merge usa GPT‑6 Astra, ChatGPT y Codex para revisar código y apoyar tareas de marketing y planificación.",
+      "porque_importa": "Un product manager automatiza revisiones de código y prepara informes de ventas más rápido.",
+      "angulo": "IA en la oficina: del código al catering ejecutivo.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 1,
+        "antihype": 3
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/merge-builds-with-openai",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Merge builds product and business tools with OpenAI technology"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h10",
+      "titular": "NVIDIA anuncia Vera, agente de IA de alto rendimiento",
+      "resumen": "NVIDIA dice que su agente Vera combina mayor rendimiento y velocidad, sin ofrecer cifras concretas.",
+      "porque_importa": "Quien despliega agentes en la nube no sabrá si la promesa justifica el costo.",
+      "angulo": "¿Vale la pena cambiar a Vera sin datos claros?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es una pieza de promoción. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta de datos verificables",
+      "naturaleza": "promocion",
+      "titulo_original": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents"
+    },
+    {
+      "id": "h11",
+      "titular": "Frontier AI Agents integrados en NVIDIA Omniverse",
+      "resumen": "NVIDIA muestra cómo sus agentes de IA ayudan a montar simulaciones dentro de Omniverse, sin datos de rendimiento.",
+      "porque_importa": "Quien crea entornos 3D no sabrá si la ayuda justifica el esfuerzo de integración.",
+      "angulo": "IA al servicio de la creación de simulaciones",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta de cifras y casos reales",
+      "naturaleza": "evento",
+      "titulo_original": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents"
+    },
+    {
+      "id": "h16",
+      "titular": "Elecciones estadounidenses podrían frenar centros de datos",
+      "resumen": "Los votantes aprobaron restricciones en 40 de 41 medidas sobre centros de datos en las midterms de EE.UU.",
+      "porque_importa": "A quien gestiona infraestructura cloud le puede complicar la expansión de servidores.",
+      "angulo": "¿Cómo afectarán las nuevas normas a la capacidad de cómputo regional?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos vagos y sin cifras concretas para Uruguay",
+      "naturaleza": "evento",
+      "titulo_original": "After the midterms, is the AI industry in for a rough two years?"
+    },
+    {
+      "id": "h34",
+      "titular": "IA como filtro en apps de citas",
+      "resumen": "The Verge cuenta que una usuaria de Hinge notó que la IA influía en los perfiles mostrados.",
+      "porque_importa": "Los diseñadores de UX en apps de citas deben considerar cómo la IA selecciona matches.",
+      "angulo": "Cuando la IA decide a quién te muestra en una app de citas",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Historia anecdótica sin cifras ni alcance regional",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "AI is the new dating dealbreaker"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h77",
+    "tesis": "La demanda muestra que la IA ya se usa como herramienta para planificar crímenes, lo que obliga a la industria a enfrentar riesgos legales más allá de la privacidad. El anuncio no aclara ni el alcance de la responsabilidad de OpenAI ni quién debe responder por el daño causado.",
+    "mirar": "Seguir la evolución del caso judicial para ver si se establecen precedentes que obliguen a OpenAI a modificar el acceso o la información que brinda ChatGPT."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h77",
+      "titulo": "Demanda a OpenAI por uso criminal de ChatGPT",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "Un hombre de Carolina del Norte presentó una demanda contra OpenAI.",
+          "pantalla": "Título de la noticia y foto de la corte."
+        },
+        {
+          "t": "0:07",
+          "texto": "Afirma que su esposa usó Chat‑GPT para planear envenenarlo.",
+          "pantalla": "Captura de pantalla del chat con preguntas sobre venenos."
+        },
+        {
+          "t": "0:14",
+          "texto": "La herramienta le dio dosis letales y cómo ocultar el veneno en bebidas energéticas.",
+          "pantalla": "Extracto del texto que muestra cálculos de dosis."
+        },
+        {
+          "t": "0:21",
+          "texto": "Los abogados ya discuten si la IA puede considerarse cómplice.",
+          "pantalla": "Abogado hablando a cámara."
+        },
+        {
+          "t": "0:28",
+          "texto": "El caso podría marcar precedentes para reguladores de IA.",
+          "pantalla": "Gráfica de tendencias legales en IA."
+        },
+        {
+          "t": "0:35",
+          "texto": "¿Hasta dónde llega la responsabilidad de los creadores de IA?",
+          "pantalla": "Pregunta en fondo negro."
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h07",
+      "titulo": "Inglés egipcio y nigeriano en el Open ASR Leaderboard",
+      "placas": [
+        "Hugging Face añadió variantes de inglés egipcio y nigeriano al ranking abierto de reconocimiento de voz.",
+        "Los nuevos dialectos aparecen en la tabla de resultados del Open ASR Leaderboard.",
+        "Esto permite entrenar modelos sin recopilar datos propios de esas regiones.",
+        "Investigadores podrán validar sus sistemas con voces africanas y del Medio Oriente.",
+        "El benchmark ahora refleja mayor diversidad lingüística.",
+        "Más voces, menos sesgo en aplicaciones de speech‑to‑text."
+      ]
+    },
+    "post": {
+      "nota": "h01",
+      "titulo": "Universidades australianas forman graduados nativos en IA",
+      "texto": "Australian universities are expanding access to ChatGPT and integrating IA into curricula.\n\nDocentes podrán usar la herramienta sin crear material desde cero.\n\nLos estudiantes salen con competencias para un mercado laboral impulsado por IA.\n\nEl objetivo es generar graduados que ya dominen la tecnología al entrar al trabajo.\n\nAsí se acelera la adopción de IA en la educación superior."
+    },
+    "hilo": {
+      "nota": "h18",
+      "titulo": "Alexa ahora responde por texto para comprar",
+      "partes": [
+        "Amazon anunció que la función de texto en Alexa se desplegará a millones de usuarios en semanas.\n\nLa novedad permite describir productos o enviar fotos y recibir recomendaciones por mensaje.",
+        "Los usuarios pueden escribir su lista de compras y Alexa buscará coincidencias en el catálogo de Amazon.\n\nEl asistente envía enlaces de compra directamente en el chat.",
+        "Para quien maneja la comunicación de una marca, esto abre la posibilidad de incluir enlaces de compra en conversaciones de Alexa.\n\nSe elimina la necesidad de voz para cerrar la venta.",
+        "La función también permite a clientes que prefieren texto evitar el ruido de voz en entornos compartidos.\n\nAmazon posiciona a Alexa como un canal de e‑commerce más accesible."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h77",
+        "h01"
+      ],
+      "preguntas": [
+        "¿Cómo debería regularse la responsabilidad de una IA que brinda instrucciones para cometer un delito?",
+        "¿Qué riesgos y oportunidades genera que universidades integren IA como materia base sin un marco ético claro?",
+        "Si una herramienta de IA ayuda a planificar un crimen, ¿debería el proveedor ser parte demandante o defensora?"
+      ]
+    }
+  },
+  "fidelidad": {
+    "detectadas": 2,
+    "corregidas": 0,
+    "pendientes": [
+      {
+        "donde": "pieza:reel",
+        "tipo": "afirmacion",
+        "detalle": "«Los abogados ya discuten si la IA puede considerarse cómplice.»: No se menciona en la fuente h77"
+      },
+      {
+        "donde": "pieza:reel",
+        "tipo": "afirmacion",
+        "detalle": "«El caso podría marcar precedentes para reguladores de IA.»: No se menciona en la fuente h77"
+      }
+    ],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h78",
+      "titular": "Derechos ante IA en reclutamiento",
+      "total": 16,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h77",
+      "titular": "Demanda a OpenAI por plan de envenenamiento",
+      "total": 14,
+      "estado": "verificada",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Xataka México",
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Egyptian y Nigerian English llegan al Open ASR Leaderboard",
+      "total": 14,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "Universidades australianas forman graduados nativos en IA",
+      "total": 12,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "Alexa ahora responde por texto para comprar",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch",
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h69",
+      "titular": "Desarrollador lanza suite IA open source",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "NVIDIA abre código para redes 6G",
+      "total": 10,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h22",
+      "titular": "Airbnb prepara agente de IA para 2027",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch",
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "NVIDIA lanza Cosmos 3, modelos abiertos para simulación",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "NVIDIA muestra códigosign de memoria para IA",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "DLSS 5 llega a Hogwarts Legacy en GeForce NOW",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h52",
+      "titular": "Perplexity lanza agentes siempre activos",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "Merge integra GPT‑6 Astra en flujos de producto",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "NVIDIA anuncia Vera, agente de IA de alto rendimiento",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "Frontier AI Agents integrados en NVIDIA Omniverse",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "evento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h84",
+      "titular": "Nvidia pasó de videojuegos a pieza clave de IA",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "Google lanza Gemini Omni 1.2 Flash",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google AI",
+        "Google DeepMind"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "Cult.fit usa Codex para acelerar su operativa",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h15",
+      "titular": "Detectan hipertensión con sensores portátiles",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Google Research"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "OpenAI lanza GPT‑6 Cyber para seguridad",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h83",
+      "titular": "Fotos de Bezos con implante capilar son deepfake",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h44",
+      "titular": "Blue Origin muestra motor Northstar",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h36",
+      "titular": "inMusic abre toolbox a modders",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "ToyBlocks, nuevo entorno para robots",
+      "total": 5,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "Elecciones estadounidenses podrían frenar centros de datos",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h34",
+      "titular": "IA como filtro en apps de citas",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "NVIDIA promociona modelo abierto de IA",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h45",
+      "titular": "Bolsa surcoreana cae por dudas en IA",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h93",
+      "titular": "Comentario crítico sobre costos de IA y deepfakes",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "id": "h35",
+      "titular": "Big Tech perdió en elecciones de 2026",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "The Verge"
+      ]
+    }
+  ]
+}

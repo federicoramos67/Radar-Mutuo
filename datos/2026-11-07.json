@@ -1,0 +1,857 @@
+{
+  "fecha": "2026-11-07T13:24:28.181865-03:00",
+  "revisados": 71,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1368
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 899
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h55",
+      "titular": "Meta lanza IA que crea espacios en Muse",
+      "resumen": "La IA Muse de Meta arma un espacio personalizado a partir de una descripción y lo sincroniza con tus apps.",
+      "porque_importa": "Un community manager puede generar entornos virtuales sin diseñarlos a mano.",
+      "angulo": "Crear salas virtuales con un prompt, ¿adiós al diseño manual?",
+      "formato": "reel",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/11/07/meta-spaces-muse-espacios-personalizados/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Meta estrena Spaces en Muse: describe una idea y su IA te monta un espacio a medida"
+    },
+    {
+      "id": "h62",
+      "titular": "OpenAI cierra ronda de 11.000 millones",
+      "resumen": "Recibió 11.000 millones y quedó valorada en 1,25 billones, por debajo de lo buscado.",
+      "porque_importa": "A los fundadores de startups les sirve para calibrar expectativas de financiación.",
+      "angulo": "¿Qué implica una valoración menor a la esperada para el ecosistema de IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 4 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/07/openai-recibio-usd-11000-millones-de-una-ronda-que-la-valora-en-usd-125-billones-menos-de-lo-buscado/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "OpenAI recibió USD 11.000 millones de una ronda que la valora en USD 1,25 billones, menos de lo buscado"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h64",
+      "titular": "Casi 40 % de respuestas de chatbots sobre elecciones erróneas",
+      "resumen": "Un estudio de Forum AI encontró que casi 40 % de las respuestas de chatbots a preguntas sobre elecciones en EE. UU. contenían errores factuales, sobre todo en plazos y trámites de voto.",
+      "porque_importa": "Quien comunica información electoral deberá validar respuestas de IA antes de publicarlas.",
+      "angulo": "Los bots todavía fallan en datos críticos de votación.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 5,
+        "antihype": 5
+      },
+      "total": 18,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/06/casi-el-40-de-las-respuestas-de-chatbots-sobre-las-elecciones-en-estados-unidos-tenia-un-error-factual/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Casi el 40% de las respuestas de chatbots sobre las elecciones en Estados Unidos tenía un error factual"
+    },
+    {
+      "id": "h32",
+      "titular": "Researchers redujeron sesgo pro‑China en modelo Qwen",
+      "resumen": "Nous Research afinó Qwen3.8‑27B con 53 M de tokens, bajando la propaganda del 22 % al <1 % sin perder capacidad.",
+      "porque_importa": "Quien entrena modelos podrá aplicar una técnica para limpiar sesgos sin perder rendimiento.",
+      "angulo": "¿Se puede depurar sesgo con pocos datos?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "State propaganda in some Chinese AI models is only \"a thin layer\" that fine-tuning can strip away"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h03",
+      "titular": "NVIDIA abre herramientas para redes 6G",
+      "resumen": "NVIDIA liberó Aerial y Sionna, creando un stack open source para probar y comparar ideas de 6G.",
+      "porque_importa": "Investigadores de telecom pueden prototipar protocolos sin desarrollar todo desde cero.",
+      "angulo": "Open source acelera la carrera hacia el 6G",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 5
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks"
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI colabora con Hacktron en seguridad",
+      "resumen": "OpenAI y Hacktron trabajarán para detectar vulnerabilidades y probar integraciones externas.",
+      "porque_importa": "Un responsable de ciberseguridad puede esperar auditorías externas más frecuentes.",
+      "angulo": "¿Cuánto pueden los hackers ayudar a asegurar la IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/partnering-with-hacktron",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems"
+    },
+    {
+      "id": "h02",
+      "titular": "ToyBlocks: entorno controlado para robots",
+      "resumen": "Hugging Face anunció ToyBlocks, un mundo simulado para entrenar y evaluar robots.",
+      "porque_importa": "Quien programa robots tiene un sandbox listo para pruebas rápidas.",
+      "angulo": "Simular robots sin hardware real",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 1,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/allenai/toyblocks",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Datos escasos, sin métricas ni disponibilidad",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "ToyBlocks: A controlled world for robot learning and evaluation"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h51",
+      "titular": "Altman critica la polémica de la RAM en podcast",
+      "resumen": "Sam Altman, CEO de OpenAI, dijo que la discusión sobre la escasez de RAM está “jodidamente molesta”.",
+      "porque_importa": "Los desarrolladores que dependen de hardware verán que la presión sobre recursos sigue siendo tema de debate.",
+      "angulo": "El CEO de OpenAI se queja de la cobertura mediática de la escasez de RAM.",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 3,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka México. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka México",
+            "link": "https://www.xataka.com.mx/robotica-e-ia/sam-altman-habla-polemica-ram-jodidamente-molesto-que-se-haya-sacado-contexto",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Poca novedad, solo comentario personal",
+      "naturaleza": "opinion",
+      "titulo_original": "Sam Altman habla tras la polémica de la RAM: \"Es jodidamente molesto que se haya sacado de contexto\""
+    },
+    {
+      "id": "h67",
+      "titular": "Política texana frena expansión de centros de datos IA",
+      "resumen": "El triunfo demócrata en Texas generó rechazo a los centros de datos por tarifas eléctricas, amenazando inversiones en IA.",
+      "porque_importa": "Quien gestiona infraestructura de IA debe considerar riesgos regulatorios en regiones con alta carga eléctrica.",
+      "angulo": "¿Cómo afecta la política local a la infraestructura de IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó El Observador. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "El Observador",
+            "link": "https://www.elobservador.com.uy/estados-unidos/politica/texas-la-encrucijada-la-ia-el-rechazo-los-centros-datos-pone-jaque-la-expansion-infraestructura-n6062949",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de datos concretos sobre impacto económico.",
+      "naturaleza": "evento",
+      "titulo_original": "Texas, en la encrucijada de la IA: el rechazo a los centros de datos pone en jaque la expansión de infraestructura"
+    },
+    {
+      "id": "h29",
+      "titular": "ChatGPT crece como buscador en España",
+      "resumen": "Xataka muestra que los usuarios españoles emplean ChatGPT más para búsquedas que para generación de texto, según encuestas de uso.",
+      "porque_importa": "Quien crea contenido verá que su audiencia prefiere preguntar a la IA antes que buscar en Google.",
+      "angulo": "El nuevo rol de ChatGPT en la búsqueda cotidiana.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/robotica-e-ia/creiamos-que-ia-iba-a-escribir-nosotros-donde-chagpt-esta-creciendo-espana-como-buscador",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta datos duros, enfoque más anecdótico.",
+      "naturaleza": "opinion",
+      "titulo_original": "Creíamos que la IA iba a escribir por nosotros, pero donde ChatGPT está creciendo más en España es como buscador"
+    },
+    {
+      "id": "h20",
+      "titular": "EE. UU. sospecha espionaje de China a Nvidia",
+      "resumen": "Según The New York Times, la agencia de inteligencia china reclutó a Alice Huang, ejecutiva de Megaspeed, para obtener información sobre los chips de IA de Nvidia y potencialmente influir en la empresa.",
+      "porque_importa": "Los directivos de hardware deberán reforzar la seguridad de la información estratégica.",
+      "angulo": "Posible espionaje chino a la cúpula de Nvidia.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta confirmación oficial, información basada en reporte periodístico",
+      "naturaleza": "otro",
+      "titulo_original": "China reportedly recruited AI exec to spy on Jensen Huang"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h55",
+    "tesis": "La IA Muse permite a community managers crear entornos virtuales sin diseñarlos, pero el anuncio no indica ni el costo ni las limitaciones de integración con otras apps. Esa ausencia deja fuera a quienes no pueden asumir gastos o dependencias técnicas desconocidas.",
+    "mirar": "Esperar la información oficial sobre precios y requisitos de integración de Muse para valorar su adopción."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h55",
+      "titulo": "Meta lanza IA que crea espacios en Muse",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "Meta anunció que su IA Muse ahora genera espacios personalizados a partir de una descripción escrita.",
+          "pantalla": "Pantalla de inicio de Muse con el texto \"Describe tu idea\"."
+        },
+        {
+          "t": "0:07",
+          "texto": "El usuario escribe un prompt y la IA construye el entorno en segundos.",
+          "pantalla": "Chat de Muse recibiendo el prompt y mostrando la generación del espacio."
+        },
+        {
+          "t": "0:14",
+          "texto": "El espacio se sincroniza automáticamente con las apps que ya usás.",
+          "pantalla": "Iconos de apps conectándose al nuevo espacio."
+        },
+        {
+          "t": "0:21",
+          "texto": "Para un community manager, esto elimina la necesidad de diseñar manualmente cada sala virtual.",
+          "pantalla": "Community manager revisando el espacio listo para publicar."
+        },
+        {
+          "t": "0:28",
+          "texto": "El entorno se actualiza en tiempo real cuando cambian los datos de las apps vinculadas.",
+          "pantalla": "Datos de una app cambiando y reflejándose en el espacio."
+        },
+        {
+          "t": "0:35",
+          "texto": "Todo el proceso se realiza dentro de Muse, sin salir de la plataforma.",
+          "pantalla": "Vista final del espacio completo dentro de Muse."
+        }
+      ]
+    },
+    "post": {
+      "nota": "h62",
+      "titulo": "OpenAI cierra ronda de 11.000 millones",
+      "texto": "OpenAI recibió una ronda de financiación de USD 11 000 millones, según informó Infobae.\n\nLa ronda valora a la compañía en USD 1,25 billones, cifra inferior a la valoración que la empresa buscaba.\n\nPara fundadores de startups, la valoración más baja que la esperada sirve de referencia para calibrar sus propias expectativas de inversión.\n\nEl anuncio también indica que el resto del capital llegará en las próximas semanas."
+    }
+  },
+  "fidelidad": {
+    "detectadas": 2,
+    "corregidas": 1,
+    "pendientes": [
+      {
+        "donde": "pieza:post",
+        "tipo": "cifra",
+        "detalle": "«000» no aparece en la fuente"
+      }
+    ],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h64",
+      "titular": "Casi 40 % de respuestas de chatbots sobre elecciones erróneas",
+      "total": 18,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h32",
+      "titular": "Researchers redujeron sesgo pro‑China en modelo Qwen",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h34",
+      "titular": "Google detecta presión alta con smartwatch",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h54",
+      "titular": "800 instancias de Artex expuestas sin contraseña",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h56",
+      "titular": "Claude puede leer cuentas bancarias vía Plaid",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "NVIDIA abre herramientas para redes 6G",
+      "total": 13,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h31",
+      "titular": "Modelos abiertos reducen brecha en ciberataques IA",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h33",
+      "titular": "Nueve agentes IA fallan en investigación abierta de laboratorios US",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h53",
+      "titular": "Perplexity lanza agentes IA “Teammates” por $200/mes",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h55",
+      "titular": "Meta lanza IA que crea espacios en Muse",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new",
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h61",
+      "titular": "Adaptan Apple TV 4K para correr juegos de Switch",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h62",
+      "titular": "OpenAI cierra ronda de 11.000 millones",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae",
+        "The Decoder",
+        "The Verge",
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "EE.UU. permite a Nvidia vender chips a empresa china",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h59",
+      "titular": "Bill Gates advierte sobre IA sin regulación",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h27",
+      "titular": "IA aumenta demanda de metales básicos",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h28",
+      "titular": "Lituania abre fábrica de láseres para chips de IA",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h67",
+      "titular": "Política texana frena expansión de centros de datos IA",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "El Observador"
+      ]
+    },
+    {
+      "id": "h29",
+      "titular": "ChatGPT crece como buscador en España",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI colabora con Hacktron en seguridad",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h20",
+      "titular": "EE. UU. sospecha espionaje de China a Nvidia",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h58",
+      "titular": "Apple estudia quitar botón lateral del iPhone",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "rumor",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "Google compra proyecto de centro de datos en Wyoming",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h63",
+      "titular": "AMD prioriza centros de datos tras caída en gaming",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h60",
+      "titular": "Startup afirma que IA de Anthropic resolvió problema cuántico",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h15",
+      "titular": "NYT Cooking lanza asistente IA para recetas",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h41",
+      "titular": "Apps de IA para cuidadores, pero con límites",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "Podcast: IA y el caos en ciberseguridad",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h51",
+      "titular": "Altman critica la polémica de la RAM en podcast",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "ToyBlocks: entorno controlado para robots",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h50",
+      "titular": "Serie de ciencia ficción en HBO Max recibe 78 % de aprobación",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka México"
+      ]
+    }
+  ]
+}

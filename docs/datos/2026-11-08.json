@@ -1,0 +1,749 @@
+{
+  "fecha": "2026-11-08T13:39:01.393372-03:00",
+  "revisados": 41,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1368
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": false,
+      "error": "ParseError"
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 899
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h19",
+      "titular": "NYT Cooking lanza modificador de recetas con IA",
+      "resumen": "NYT Cooking publicó una herramienta que usa IA para adaptar recetas según preferencias del usuario.",
+      "porque_importa": "Si editás contenido gastronómico, podés generar variantes de platos sin escribirlas a mano.",
+      "angulo": "Una IA que ajusta recetas al instante",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Wired",
+            "link": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta datos de uso o métricas, parece más demo que producto",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h09",
+      "titular": "Karpathy crea plataforma de video curado con Claude",
+      "resumen": "Andrej Karpathy usó Claude Opus 5.5 para filtrar 43 M de comentarios de Hacker News y generar 6 454 videos curados en un fin de semana.",
+      "porque_importa": "Quien produce contenido audiovisual puede usar IA para generar series de videos a partir de texto sin edición manual.",
+      "angulo": "Un fin de semana, 6 000 videos curados con IA",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 16,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News"
+    },
+    {
+      "id": "h12",
+      "titular": "Agentes de código de IA fallan en 73% de tareas reales",
+      "resumen": "En el benchmark Co-Design de Alibaba, el mejor agente (GPT‑6 Astra) resolvió solo 26.4 % de tareas; en benchmarks antiguos superaba el 99 %.",
+      "porque_importa": "Un desarrollador que use agentes de código deberá revisar y corregir la mayoría de los resultados.",
+      "angulo": "Los agentes de IA aún necesitan mucho trabajo humano",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test"
+    }
+  ],
+  "comunicados": [],
+  "descartados": [
+    {
+      "id": "h10",
+      "titular": "Comentario de Nature cuestiona la IA como modelo de conciencia",
+      "resumen": "Investigadores de conciencia afirman que los sistemas de IA actuales no son conscientes y que la metáfora cerebro‑computadora es engañosa.",
+      "porque_importa": "Quien enseña filosofía o IA debe separar conceptos técnicos de debates sobre conciencia.",
+      "angulo": "¿Puede la IA ser realmente consciente?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Sin datos empíricos, solo reflexión académica",
+      "naturaleza": "opinion",
+      "titulo_original": "The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate"
+    },
+    {
+      "id": "h23",
+      "titular": "IA no reemplazará a fontaneros, según estudiante de oficios",
+      "resumen": "Victor Velasco, estudiante de fontanería en Los Angeles, afirma que la IA no podrá instalar tuberías bajo casas, resaltando la demanda de oficios manuales.",
+      "porque_importa": "Quien dirige programas de capacitación técnica puede orientar a estudiantes hacia oficios menos vulnerables a la automatización.",
+      "angulo": "La IA no sustituye al trabajo manual de los fontaneros",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Genbeta. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Genbeta",
+            "link": "https://www.genbeta.com/inteligencia-artificial/ia-no-va-a-meterse-debajo-casas-para-instalar-tuberias-estados-unidos-nuevo-atractivo-formacion-oficios-manuales",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Enfoque anecdótico, sin datos cuantitativos",
+      "naturaleza": "opinion",
+      "titulo_original": "“La IA no va a meterse debajo de las casas para instalar tuberías “: en Estados Unidos, el nuevo atractivo por la formación en oficios manuales"
+    },
+    {
+      "id": "h02",
+      "titular": "Ejecutiva de Megaspeed supuestamente es espía de Nvidia",
+      "resumen": "TechCrunch cita un memo que indica que China reclutó a una ejecutiva para vigilar al CEO de Nvidia.",
+      "porque_importa": "Un manager de seguridad no tiene información verificable para actuar.",
+      "angulo": "¿Espionaje corporativo real o rumor?",
+      "formato": "post",
+      "puntos": {
+        "senal": 0,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 0
+      },
+      "total": 2,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Sin fuente verificable, parece rumor",
+      "naturaleza": "otro",
+      "titulo_original": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo"
+    },
+    {
+      "id": "h06",
+      "titular": "Usuario pide a IA reprogramar botones del mando TV",
+      "resumen": "Un lector de Xataka cuenta que pidió a una IA cambiar los botones del control de su Smart TV por accesos a apps que usa.",
+      "porque_importa": "Si editás video y usás la TV como monitor, podés perder tiempo buscando la app correcta.",
+      "angulo": "¿Vale la pena que la IA modifique hardware doméstico?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/robotica-e-ia/mando-mi-tele-tiene-botones-que-no-utilizo-le-he-pedido-a-ia-que-cambie-apps-que-uso",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta dato concreto de la IA usada o resultados medibles",
+      "naturaleza": "otro",
+      "titulo_original": "El mando de mi tele tiene botones que no utilizo. Le he pedido a la IA que los cambie por las apps que sí uso"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h19",
+    "tesis": "El modificador de recetas con IA permite a quien crea contenido gastronómico generar variantes de platos sin escribirlas a mano. Lo que el anuncio no dice es el precio del servicio ni cómo se evalúa la calidad de las adaptaciones.",
+    "mirar": "Esperar la información sobre el costo y la disponibilidad del modificador para saber si es accesible para editores independientes."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h19",
+      "titulo": "NYT Cooking lanza modificador de recetas con IA",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "NYT Cooking anunció una herramienta que usa IA para adaptar recetas según tus gustos.",
+          "pantalla": "Logo de NYT Cooking y captura de la interfaz de la herramienta."
+        },
+        {
+          "t": "0:07",
+          "texto": "Podés ingresar una receta y la IA sugiere variantes: menos azúcar, sin gluten, más rápido.",
+          "pantalla": "Ejemplo de una receta de pollo con opciones de ajuste."
+        },
+        {
+          "t": "0:14",
+          "texto": "El asistente genera la lista de ingredientes modificada al instante.",
+          "pantalla": "Lista de ingredientes cambiada en pantalla."
+        },
+        {
+          "t": "0:21",
+          "texto": "Si editás contenido gastronómico, te ahorra escribir cada variante a mano.",
+          "pantalla": "Editor de blog gastronómico mostrando la receta original y la modificada."
+        },
+        {
+          "t": "0:28",
+          "texto": "La prueba de The Verge indica que la IA salvó una cena, aunque arruinó un pastel.",
+          "pantalla": "Captura del artículo de The Verge con comentario sobre el pastel."
+        },
+        {
+          "t": "0:35",
+          "texto": "Probá la herramienta y ve cuánto tiempo ganás al crear nuevas versiones de platos.",
+          "pantalla": "Usuario confirmando la receta modificada en su móvil."
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h19",
+      "titulo": "Modificador de recetas con IA de NYT Cooking",
+      "placas": [
+        "NYT Cooking lanzó una IA que adapta recetas a tus preferencias.",
+        "Ingresá una receta y elegí ajustes: menos grasa, sin lácteos, tiempo reducido.",
+        "La IA genera automáticamente la lista de ingredientes modificada.",
+        "Ideal para creadores de contenido gastronómico que necesitan variantes rápidas.",
+        "The Verge probó la herramienta: salvó una cena de pollo, pero complicó un pastel.",
+        "Probá la herramienta y compará el tiempo que te ahorra al crear nuevas versiones."
+      ]
+    },
+    "post": {
+      "nota": "h19",
+      "titulo": "NYT Cooking y su modificador de recetas con IA",
+      "texto": "NYT Cooking publicó una herramienta que usa IA para adaptar recetas según tus preferencias.\n\nSi editás contenido gastronómico, podés generar variantes de platos sin escribirlas a mano.\n\nEl asistente permite ajustar azúcar, gluten, tiempo de cocción y otros parámetros en segundos.\n\nThe Verge probó la IA: salvó una cena de pollo, aunque casi arruina un pastel.\n\nProbá la herramienta y observá cómo simplifica la creación de nuevas versiones de tus recetas."
+    },
+    "hilo": {
+      "nota": "h19",
+      "titulo": "Cómo la IA de NYT Cooking cambia la edición de recetas",
+      "partes": [
+        "NYT Cooking lanzó una IA que modifica recetas según tus gustos. ¿Te suena útil?",
+        "Podés cargar una receta y elegir ajustes como menos azúcar, sin gluten o tiempo reducido. La IA genera la lista de ingredientes al instante.",
+        "Para quien produce contenido gastronómico, esto elimina la necesidad de escribir cada variante manualmente.",
+        "The Verge la probó: la IA salvó una cena de pollo, pero casi arruina un pastel. ¿Qué opinás de esos resultados?"
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h19"
+      ],
+      "preguntas": [
+        "¿Qué tan confiable te parece que una IA ajuste ingredientes críticos como la cantidad de sal?",
+        "¿Creés que esta herramienta puede reemplazar a un chef al crear versiones de una receta?",
+        "¿Cuál sería el mayor riesgo de publicar una variante generada por IA sin revisarla?"
+      ],
+      "nota": null
+    }
+  },
+  "fidelidad": {
+    "detectadas": 1,
+    "corregidas": 1,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h09",
+      "titular": "Karpathy crea plataforma de video curado con Claude",
+      "total": 16,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "Agentes de código de IA fallan en 73% de tareas reales",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h22",
+      "titular": "Centros de datos de IA aumentan consumo de agua en zonas secas",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h28",
+      "titular": "Dyson Spot+Scrub AI llega a México",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h32",
+      "titular": "Chatbot de OpenAI ayuda a autoridad alemana con reclamos de privacidad",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h36",
+      "titular": "Google eliminará los \"Gems\" de Gemini",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h41",
+      "titular": "Datasette evita prefetch de Firefox",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "NYT Cooking lanza modificador de recetas con IA",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Wired",
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h23",
+      "titular": "IA no reemplazará a fontaneros, según estudiante de oficios",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "Comentario de Nature cuestiona la IA como modelo de conciencia",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h31",
+      "titular": "ChatGPT y Gemini planifican viajes, pero fallan en reservas en España",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "Anthropic avanza con IPO pese a caída tech",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h24",
+      "titular": "OpenAI publica 719 documentos matemáticos",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h25",
+      "titular": "Southwest lleva reservas a ChatGPT",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h39",
+      "titular": "‘Deuda cognitiva’ al delegar en IA, advierte Anthropic",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "Usuario pide a IA reprogramar botones del mando TV",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "Sutton advierte que escalar LLM no basta para inteligencia",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h34",
+      "titular": "Gemini transforma personajes de Netflix en estilo anime",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h35",
+      "titular": "Altman afirma que India supera a EE UU. en usuarios de ChatGPT",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Zaragoza protesta contra centros de datos",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h26",
+      "titular": "Karp dice que solo manuales y neurodivergentes triunfarán con IA",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h33",
+      "titular": "Altman critica a ex‑empleados que fundan labs rivales",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h37",
+      "titular": "Jurista propone pago a medios por respuestas de IA",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h38",
+      "titular": "Encuesta de Michigan detecta ansiedad por IA",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h27",
+      "titular": "Guía para usar Gemini en compras",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hipertextual"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "Elecciones US y su efecto en data centers",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h30",
+      "titular": "Gemini y Siri llegan a Android Auto y CarPlay",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "Ejecutiva de Megaspeed supuestamente es espía de Nvidia",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h40",
+      "titular": "Cierre del grupo AI Frontiers de Microsoft Research",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "h20",
+      "titular": "World Models serán inevitables, según Wired",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Wired"
+      ]
+    }
+  ]
+}

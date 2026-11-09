@@ -1,0 +1,932 @@
+{
+  "fecha": "2026-11-09T17:41:53.222423-03:00",
+  "revisados": 76,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1370
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 900
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h01",
+      "titular": "ChatGPT Enterprise llega a AWS Marketplace",
+      "resumen": "OpenAI puso ChatGPT Enterprise a la venta en AWS Marketplace para simplificar la compra y facturación a empresas.",
+      "porque_importa": "Los responsables de TI podrán adquirir la herramienta con los procesos de compra habituales de AWS.",
+      "angulo": "Una vía más directa para que las empresas adopten ChatGPT Enterprise",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 2,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "ChatGPT Enterprise now available in AWS Marketplace"
+    },
+    {
+      "id": "h55",
+      "titular": "Meta presenta Muse Ember, IA ultrabarata para agentes",
+      "resumen": "Meta lanzó Muse Ember, modelo pequeño y eficiente para ejecutar procesos de agentes en segundo plano, se suma a la familia Muse.",
+      "porque_importa": "Si programás bots, podés usar Ember para reducir costos de cómputo.",
+      "angulo": "Una IA más barata que promete ejecutar tareas complejas en la nube",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 3 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Hipertextual",
+            "link": "https://hipertextual.com/inteligencia-artificial/muse-ember-ia-programar-meta/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Meta lanza Muse Ember: una IA ultrabarata para programar y automatizar tareas con agentes"
+    },
+    {
+      "id": "h19",
+      "titular": "Nvidia investiga vínculo del CEO con posible espía chino",
+      "resumen": "TechCrunch informó que Jensen Huang admitió una aventura en un memo interno.",
+      "porque_importa": "Los empleados de Nvidia podrían ver cambios en políticas de seguridad interna.",
+      "angulo": "Una controversia interna que podría afectar la confianza en la empresa",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 0,
+        "conversacion": 1,
+        "antihype": 3
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta datos verificables, es rumor sin evidencia",
+      "naturaleza": "otro",
+      "titulo_original": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h29",
+      "titular": "IA crea desinstalador personalizado en 30 min",
+      "resumen": "Un autor usó IA para generar una herramienta que elimina apps preinstaladas en Android en media hora.",
+      "porque_importa": "Si editás dispositivos Android, podés ahorrar tiempo creando tu propio desinstalador con IA.",
+      "angulo": "¿Te cansás de apps preinstaladas? La IA te da la solución rápida.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 16,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/robotica-e-ia/queria-quitar-aplicaciones-que-android-no-me-deja-borrar-asi-que-le-pedi-a-ia-mi-propio-desinstalador-media-hora-tenia",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "otro",
+      "titulo_original": "Quería quitar las aplicaciones que Android no me deja borrar. Así que le pedí a la IA mi propio desinstalador: en media hora lo tenía"
+    },
+    {
+      "id": "h28",
+      "titular": "Solo 4 viajes de Uber fueron gestionados por IA en Halloween",
+      "resumen": "Durante la semana de Halloween, Uber registró 320 M de viajes y 500 pedidos de Uber Eats realizados por agentes de IA, frente a millones totales.",
+      "porque_importa": "Si desarrollás bots para movilidad, sabés que su adopción sigue siendo mínima en picos de demanda.",
+      "angulo": "Los agentes de IA siguen siendo una pieza menor en la operativa masiva de Uber.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/robotica-e-ia/unos-320-millones-viajes-pedidos-uber-semana-halloween-solo-cuatro-viajes-500-pedidos-uber-eats-vinieron-agentes-ia",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "De unos 320 millones de viajes y pedidos de Uber en la semana de Halloween, solo cuatro viajes y 500 pedidos de Uber Eats vinieron de agentes de IA"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h02",
+      "titular": "OpenAI acelera búsqueda de planos en Kuken Industries",
+      "resumen": "Con la API de OpenAI, ingenieros encuentran en 4.5 minutos planos que antes tomaban casi una hora.",
+      "porque_importa": "Un diseñador de mantenimiento ahorra tiempo al localizar documentos críticos.",
+      "angulo": "Cuando la IA corta minutos de búsqueda, el día de trabajo cambia.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 4
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/kuken",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Kuken Industries searches 70 years of drawings in minutes"
+    },
+    {
+      "id": "h09",
+      "titular": "NVIDIA lanza recetas Dynamo para modelos coreanos",
+      "resumen": "Se publican recetas de despliegue optimizadas para modelos abiertos como A.X K2 y K‑EXAONE 2.0, orientadas a GPUs múltiples.",
+      "porque_importa": "Un ingeniero de datos uruguayo podría usar esas recetas para escalar modelos propios.",
+      "angulo": "Escalar IA más allá de una GPU: la nueva guía de NVIDIA.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Enfocado a Corea, sin detalle de acceso global.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production"
+    },
+    {
+      "id": "h03",
+      "titular": "Hugging Face publica Nemotron Personas Finance Japan",
+      "resumen": "Hugging Face lanzó un dataset sintético que reproduce demografía y contexto financiero de Japón.",
+      "porque_importa": "Quien entrena modelos financieros podrá usar datos locales sin recopilar información real.",
+      "angulo": "Datos sintéticos para entrenar IA con contexto japonés",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 1,
+        "antihype": 2
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context"
+    },
+    {
+      "id": "h05",
+      "titular": "NVIDIA anuncia inversiones en startups coreanas",
+      "resumen": "NVIDIA y el Ministerio de Ciencia de Corea se reunieron con más de 20 startups para explorar modelos fundacionales, IA física e infraestructura.",
+      "porque_importa": "Un emprendedor de IA en Uruguay podría buscar apoyo similar en su país.",
+      "angulo": "¿Qué oportunidades abre la inversión extranjera para la escena local?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 1,
+        "antihype": 2
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Poco detalle de montos o plazos, ruido de anuncio.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h11",
+      "titular": "Jensen Huang abandona cumbre de ElevenLabs",
+      "resumen": "El CEO de Nvidia se retiró del evento de ElevenLabs y también de uno de Anthropic, según TechCrunch.",
+      "porque_importa": "Si gestionás la comunicación de una marca, perderás una posible cita con un líder del sector.",
+      "angulo": "¿Qué implica la ausencia de los grandes CEOs en eventos de IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Poco dato concreto, mayormente ruido de agenda",
+      "naturaleza": "otro",
+      "titulo_original": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy"
+    },
+    {
+      "id": "h58",
+      "titular": "Informe mide velocidad de IA en Anthropic",
+      "resumen": "Un estudio independiente indica que el desarrollo de IA en Anthropic se duplica de ritmo y el 80 % del avance proviene de IA propia, aunque la empresa censuró evidencia clave.",
+      "porque_importa": "Un investigador de IA verá cuánto puede acelerar su propio proyecto con herramientas internas.",
+      "angulo": "¿Cuánto depende el progreso de IA de sus propias creaciones?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/11/09/metr-anthropic-ia-acelera-desarrollo-ia/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Fuente poco clara y datos no verificables",
+      "naturaleza": "investigacion",
+      "titulo_original": "Un informe independiente mide por primera vez cuánto acelera la IA el desarrollo de la propia IA en Anthropic"
+    },
+    {
+      "id": "h57",
+      "titular": "Escándalo potencial de Nvidia por compras en Singapur",
+      "resumen": "Una ejecutiva de Singapur compró chips Nvidia y llamó la atención de autoridades estadounidenses por posibles violaciones de exportación.",
+      "porque_importa": "Si trabajás en compliance, deberás vigilar riesgos de cadena de suministro de hardware.",
+      "angulo": "¿Cuánto pueden afectar los escándalos de compra a la disponibilidad de GPUs?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka México. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka México",
+            "link": "https://www.xataka.com.mx/robotica-e-ia/alice-huang-empresaria-que-nadie-conocia-que-ahora-amenaza-convertirse-mayor-escandalo-nvidia",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Bajo valor informativo y sin datos verificables.",
+      "naturaleza": "otro",
+      "titulo_original": "Alice Huang, la empresaria que nadie conocía y que ahora amenaza con convertirse en el mayor escándalo de Nvidia"
+    },
+    {
+      "id": "h13",
+      "titular": "Rumores de relación de Jensen Huang con espía china",
+      "resumen": "Se dice que el CEO de Nvidia mantuvo una relación con una sospechosa de espionaje, complicando su lobby en EE.UU.",
+      "porque_importa": "Quien gestiona alianzas internacionales en tech deberá considerar riesgos reputacionales.",
+      "angulo": "¿Puede una vida personal afectar la estrategia de IA de una empresa?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Principalmente rumor, sin datos concretos.",
+      "naturaleza": "otro",
+      "titulo_original": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h55",
+    "tesis": "Muse Ember abre la posibilidad de ejecutar agentes en segundo plano con menos recursos, lo que puede reducir el gasto de infraestructura para desarrolladores de bots. Lo que el anuncio no aclara es el precio del modelo ni el rendimiento comparado con los otros miembros de la familia Muse, lo que deja fuera a quienes dependen de presupuestos ajustados.",
+    "mirar": "Esperar la publicación de precios y benchmarks de rendimiento para evaluar si realmente es una opción viable para proyectos de bajo presupuesto."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h01",
+      "titulo": "ChatGPT Enterprise ahora en AWS Marketplace",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "OpenAI anuncia que ChatGPT Enterprise está disponible en AWS Marketplace.",
+          "pantalla": "Logo de OpenAI y AWS Marketplace"
+        },
+        {
+          "t": "0:08",
+          "texto": "La compra se integra al proceso habitual de adquisición de AWS.",
+          "pantalla": "Pantalla de compra de AWS con ícono de ChatGPT"
+        },
+        {
+          "t": "0:16",
+          "texto": "Facturación se gestiona junto a otros servicios cloud de la empresa.",
+          "pantalla": "Factura consolidada de AWS"
+        },
+        {
+          "t": "0:24",
+          "texto": "Los responsables de TI pueden aprovisionar la herramienta sin pasos extra.",
+          "pantalla": "Administrador de TI aprobando acceso"
+        },
+        {
+          "t": "0:32",
+          "texto": "Esto simplifica la adopción de IA en entornos corporativos.",
+          "pantalla": "Equipo de trabajo usando ChatGPT en laptops"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h55",
+      "titulo": "Muse Ember: IA ultrabarata de Meta",
+      "placas": [
+        "Meta lanzó Muse Ember, el modelo más pequeño y eficiente de su familia Muse.",
+        "Ember está pensado para ejecutar procesos complejos de agentes en segundo plano.",
+        "Reduce significativamente el costo de cómputo para bots y automatizaciones.",
+        "Se suma a Spark, Glimmer y Wonder dentro de la línea Muse.",
+        "Ideal para programadores que buscan ejecutar tareas en la nube sin gastar mucho.",
+        "Podés probarlo y comparar su rendimiento con otros modelos de Meta."
+      ]
+    },
+    "post": {
+      "nota": "h19",
+      "titulo": "Nvidia abre investigación interna sobre su CEO",
+      "texto": "TechCrunch informó que Nvidia inició una investigación sobre Jensen Huang y una posible relación con una espía china.\n\nEl memo interno indica que Huang admitió una aventura.\n\nLos empleados podrían esperar cambios en las políticas de seguridad interna.\n\nLa junta directiva anunció una investigación independiente para esclarecer el caso.\n\nEsto podría afectar la confianza interna y externa en la compañía."
+    },
+    "hilo": {
+      "nota": "h01",
+      "titulo": "Adopción de ChatGPT Enterprise vía AWS",
+      "partes": [
+        "OpenAI puso ChatGPT Enterprise a la venta en AWS Marketplace, según su anuncio oficial.",
+        "La ventaja principal es la simplificación de la compra mediante los procesos habituales de AWS.",
+        "Facturación y gestión de licencias se integran con otras suscripciones cloud de la empresa.",
+        "Para los responsables de TI, esto significa menos trámites y una adopción más rápida."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h55",
+        "h19"
+      ],
+      "preguntas": [
+        "¿Qué riesgos implica confiar en una IA ultrabarata para procesos críticos?",
+        "¿Cómo afecta la investigación de Nvidia a la percepción de seguridad en la industria?",
+        "¿Qué ventajas reales aporta comprar ChatGPT Enterprise a través de AWS frente a canales directos?"
+      ],
+      "nota": null
+    }
+  },
+  "fidelidad": {
+    "detectadas": 1,
+    "corregidas": 1,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h29",
+      "titular": "IA crea desinstalador personalizado en 30 min",
+      "total": 16,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "ChatGPT Enterprise llega a AWS Marketplace",
+      "total": 14,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI acelera búsqueda de planos en Kuken Industries",
+      "total": 13,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h28",
+      "titular": "Solo 4 viajes de Uber fueron gestionados por IA en Halloween",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h55",
+      "titular": "Meta presenta Muse Ember, IA ultrabarata para agentes",
+      "total": 12,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hipertextual",
+        "The Decoder",
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h62",
+      "titular": "Centros de datos IA pagarían $380 M más en intereses en 2027",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h25",
+      "titular": "Senador Wiener podría regular IA federal",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "id": "h34",
+      "titular": "Disney y Adobe crean IA segura para contenidos",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h33",
+      "titular": "Bytedance presenta Seedream 5.5",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "Medium lanza app TK con asistencia IA",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "Anthropic lanza Mythos y Fable",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "NVIDIA lanza recetas Dynamo para modelos coreanos",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h56",
+      "titular": "Disney y Adobe firmaron acuerdo de IA para producción",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hipertextual"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "Nvidia investiga vínculo del CEO con posible espía chino",
+      "total": 7,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch",
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "Hugging Face publica Nemotron Personas Finance Japan",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h27",
+      "titular": "Análisis del MSI Katana 15 HX B14",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h69",
+      "titular": "Piloto uruguayo llevó al Papa a Paysandú",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "El Observador"
+      ]
+    },
+    {
+      "id": "h47",
+      "titular": "Brad Smith pide normas globales para IA",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "NVIDIA anuncia inversiones en startups coreanas",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "Jensen Huang abandona cumbre de ElevenLabs",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h58",
+      "titular": "Informe mide velocidad de IA en Anthropic",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h57",
+      "titular": "Escándalo potencial de Nvidia por compras en Singapur",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "Rumores de relación de Jensen Huang con espía china",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "Google lanza Language Explorer para explorar lenguas",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google Research"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "NVIDIA impulsa IA física en Corea",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Hyundai y AIM prueban IA agente con NVIDIA",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "NVIDIA y Corea amplían colaboración soberana de IA",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h15",
+      "titular": "Anthropic compra turbinas de gas por $3.4 bn",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h24",
+      "titular": "El debate de los centros de datos y la electricidad",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "Artículo sobre mantener a expertos y socios unidos",
+      "total": 0,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    }
+  ]
+}

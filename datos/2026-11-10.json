@@ -1,0 +1,1075 @@
+{
+  "fecha": "2026-11-10T14:47:31.497064-03:00",
+  "revisados": 111,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 9,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1375
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 902
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h12",
+      "titular": "Gemini Robotics 2.5 mejora destreza de robots",
+      "resumen": "DeepMind presentó Gemini Robotics 2.5, modelo visión‑lenguaje‑acción que aumenta la precisión y seguridad de robots.",
+      "porque_importa": "Un ingeniero de robótica podrá delegar tareas de manipulación fina a un modelo listo para usar.",
+      "angulo": "Robots más hábiles gracias a IA multimodal",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria (Google DeepMind) con cobertura independiente.",
+        "fuentes": [
+          {
+            "nombre": "Google DeepMind",
+            "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+            "tipo": "oficial"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Gemini Robotics 2.5 accelerates real-world general dexterity"
+    },
+    {
+      "id": "h03",
+      "titular": "OpenAI y Upwork analizan demanda freelance de IA",
+      "resumen": "El estudio indica mayor presupuesto y horas para proyectos que combinan IA con otras habilidades.",
+      "porque_importa": "Un freelancer podrá orientar su oferta hacia servicios de IA y cobrar más por proyectos integrados.",
+      "angulo": "Freelance y IA: ¿qué habilidades combinan mejor?",
+      "formato": "hilo",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 3
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/ai-effect-on-freelance-work",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Work at the Frontier: AI’s effect on freelance work"
+    },
+    {
+      "id": "h17",
+      "titular": "NVIDIA refuerza código abierto con donación a OpenShell",
+      "resumen": "NVIDIA anunció una donación a OpenShell y nuevas herramientas de infraestructura AI en KubeCon.",
+      "porque_importa": "Un administrador de clusters Kubernetes podrá usar los recursos donados para escalar workloads de IA más fácilmente.",
+      "angulo": "NVIDIA impulsa el ecosistema open‑source para IA",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: NVIDIA. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure"
+    },
+    {
+      "id": "h85",
+      "titular": "Meta presenta Muse Ember, IA para automatizar tareas",
+      "resumen": "Meta lanzó Muse Ember, modelo pequeño y eficiente pensado para ejecutar procesos complejos de agentes de fondo.",
+      "porque_importa": "Un programador de automatizaciones podrá usar Ember para crear bots que consuman menos recursos.",
+      "angulo": "IA ultrabarata de Meta para agentes de bajo costo",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Hipertextual",
+            "link": "https://hipertextual.com/inteligencia-artificial/muse-ember-ia-programar-meta/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/10/meta-lanza-muse-ember-su-ia-mas-economica-para-programar-y-automatizar-tareas/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Meta lanza Muse Ember: una IA ultrabarata para programar y automatizar tareas con agentes"
+    },
+    {
+      "id": "h04",
+      "titular": "ChatGPT Enterprise llega a AWS Marketplace",
+      "resumen": "OpenAI anuncia que ChatGPT Enterprise está disponible en AWS Marketplace para simplificar la compra a empresas.",
+      "porque_importa": "Facilita a quien gestiona la infraestructura de una marca adquirir la herramienta sin procesos de compra extra.",
+      "angulo": "Comprá ChatGPT Enterprise con la cuenta de AWS que ya usás",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "ChatGPT Enterprise now available in AWS Marketplace"
+    },
+    {
+      "id": "h09",
+      "titular": "Google Cloud lanza Gemini para salud",
+      "resumen": "Google Cloud anunció Gemini, modelo IA orientado a aplicaciones médicas.",
+      "porque_importa": "Un desarrollador de software clínico podrá integrar IA sin entrenar su propio modelo.",
+      "angulo": "IA especializada en salud llega a la nube pública",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Google AI",
+            "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+            "tipo": "oficial"
+          },
+          {
+            "nombre": "Google DeepMind",
+            "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+            "tipo": "oficial"
+          },
+          {
+            "nombre": "Hipertextual",
+            "link": "https://hipertextual.com/tecnologia/gemini-4-carbon/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Hacker News",
+            "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+            "tipo": "comunidad"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Google Cloud launches Gemini for healthcare."
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI y ThinkYoung publican estudio sobre IA en educación",
+      "resumen": "El informe muestra propuestas para docentes y lecciones de alianzas EMEA de OpenAI para mejorar la alfabetización en IA.",
+      "porque_importa": "Un profesor podrá integrar actividades prácticas de IA en sus clases con guías ya probadas.",
+      "angulo": "¿Cómo preparar a los estudiantes para una escuela con IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Closing the AI guidance gap in education"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h26",
+      "titular": "Claude Meetings transforma charlas en tareas",
+      "resumen": "Claude de Anthropic puede redactar planes, dibujar cronogramas y consultar apps durante reuniones en tiempo real.",
+      "porque_importa": "Un manager de proyecto podría delegar la toma de notas y la estructuración de acciones a la IA durante la reunión.",
+      "angulo": "¿Dejarás que una IA organice tu próxima reunión?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks"
+    },
+    {
+      "id": "h47",
+      "titular": "eBay bloquea agentes de IA externos",
+      "resumen": "Según un lector de The Verge, eBay impidió que agentes como Meta Muse naveguen y curen listados en su sitio.",
+      "porque_importa": "Un curador de contenido de e‑commerce deberá buscar alternativas manuales o propias para generar digests de productos.",
+      "angulo": "El acceso de IA a marketplaces se vuelve más restrictivo.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "eBay appears to have shut the door on third-party AI agents"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h07",
+      "titular": "Kuken busca en 70 años de planos en 4,5 min",
+      "resumen": "Con la API de OpenAI, ingenieros de Kuken encuentran en 4.5 min un plano que antes tardaba casi una hora.",
+      "porque_importa": "Un ingeniero de mantenimiento gana tiempo al localizar rápidamente la información necesaria.",
+      "angulo": "¿Cuánto puede acelerar la IA la búsqueda de documentación técnica?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/kuken",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Kuken Industries searches 70 years of drawings in minutes"
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI lleva talleres de ChatGPT a cuidadores en EE UU",
+      "resumen": "OpenAI Academy ofrece talleres gratuitos en cinco ciudades estadounidenses para que cuidadores aprendan a usar ChatGPT en su día a día.",
+      "porque_importa": "Una cuidadora podrá usar IA para organizar citas y buscar información médica sin depender de terceros.",
+      "angulo": "Capacitar a quienes cuidan: ¿qué usos reales adoptarán?",
+      "formato": "reel",
+      "puntos": {
+        "senal": 2,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "evento",
+      "titulo_original": "Helping caregivers use AI in everyday life"
+    },
+    {
+      "id": "h11",
+      "titular": "AlphaProof verifica código con 3 M de pruebas",
+      "resumen": "AlphaProof Code generó tres millones de líneas de pruebas en Lean para validar la encriptación central de Signal.",
+      "porque_importa": "Un desarrollador de seguridad gana una herramienta que automatiza gran parte de la verificación formal.",
+      "angulo": "¿Vale la pena invertir en verificación automática para productos críticos?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Google DeepMind en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Google DeepMind",
+            "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth"
+    },
+    {
+      "id": "h06",
+      "titular": "CodeRabbit afirma 20× más entregas con IA",
+      "resumen": "CodeRabbit dice que usa modelos de OpenAI y Codex para generar código y entregar 20 veces más software con el mismo equipo.",
+      "porque_importa": "Un programador podría reducir su carga de trabajo sin ampliar la plantilla.",
+      "angulo": "¿Vale la pena confiar en código generado por IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/coderabbit-codex-daybreak",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Antihype bajo por falta de datos verificables",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "CodeRabbit scales agentic software development and ships 20x more"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h45",
+      "titular": "Jurados del IGF rechazan juegos con IA",
+      "resumen": "Jurados del Independent Games Festival anunciaron que no votarán juegos que usen IA en cualquier capacidad; el estudio de Big Walk respondió que usó IA de forma limitada.",
+      "porque_importa": "Un diseñador indie debe decidir si incluir IA en su proceso creativo o arriesgarse a ser excluido del festival.",
+      "angulo": "El debate sobre IA en el desarrollo indie se intensifica",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 4,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Bajo impacto y señal; tema polarizante pero poco concreto",
+      "naturaleza": "evento",
+      "titulo_original": "The indie game community is in disarray over AI and Big Walk"
+    },
+    {
+      "id": "h27",
+      "titular": "Escándalo personal de Jensen Huang",
+      "resumen": "TechCrunch informó sobre una supuesta relación de Jensen Huang con una presunta espía china y sus posibles implicaciones de seguridad.",
+      "porque_importa": "Un ejecutivo de tecnología debe evaluar riesgos de reputación y seguridad en su empresa.",
+      "angulo": "¿Hasta qué punto la vida privada afecta la confianza en líderes tech?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 0
+      },
+      "total": 3,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Principalmente rumor, sin datos verificables",
+      "naturaleza": "opinion",
+      "titulo_original": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline"
+    },
+    {
+      "id": "h91",
+      "titular": "TSMC invertiría hasta 1 000 M en Anthropic y OpenAI",
+      "resumen": "Infobae citó que el directorio de TSMC planea invertir hasta mil millones de dólares en Anthropic y OpenAI, coincidiendo con la valoración de Claude en bolsa de 1,4 billones de dólares.",
+      "porque_importa": "Un inversor regional necesita conocer la magnitud de capitales que fluyen a la IA para calibrar sus apuestas.",
+      "angulo": "Grandes fichas de capital siguen apostando por la IA",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/10/tsmc-el-mayor-fabricante-de-chips-del-mundo-invertira-hasta-usd-1000-millones-en-anthropic-y-openai/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos vagos y sin fuentes financieras directas",
+      "naturaleza": "otro",
+      "titulo_original": "TSMC, el mayor fabricante de chips del mundo, invertirá hasta USD 1.000 millones en Anthropic y OpenAI"
+    },
+    {
+      "id": "h49",
+      "titular": "Anthropic apunta a IPO de $1.4 trillones",
+      "resumen": "Anthropic indica que su IPO podría valorar la empresa en hasta $1.4 trillones, con precio entre $70 y $78 por acción.",
+      "porque_importa": "Un inversor de IA evaluará si la valoración está justificada antes de comprar acciones.",
+      "angulo": "La mayor valoración esperada para una startup de IA",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de datos concretos sobre uso del modelo",
+      "naturaleza": "otro",
+      "titulo_original": "Anthropic targets $1.4 trillion IPO"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h12",
+    "tesis": "Gemini Robotics 2.5 muestra que la visión‑lenguaje‑acción ya está lista para tareas de manipulación fina en entornos industriales, pero el anuncio no indica a qué precio ni bajo qué condiciones los ingenieros podrán acceder al modelo. La tensión está entre la capacidad demostrada y la ausencia de datos sobre su disponibilidad comercial para equipos fuera de los pilotos de Mercedes‑Benz.",
+    "mirar": "Esperar la información oficial sobre precios y licenciamiento del modelo para saber si los desarrolladores de robótica podrán adoptarlo sin depender de acuerdos corporativos."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h12",
+      "titulo": "Gemini Robotics 2.5 mejora la destreza de robots",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "DeepMind lanzó Gemini Robotics 2.5, un modelo visión‑lenguaje‑acción.",
+          "pantalla": "Logo de DeepMind y texto del título"
+        },
+        {
+          "t": "0:07",
+          "texto": "El modelo aumenta precisión y seguridad en manipulaciones.",
+          "pantalla": "Robot Apollo 2 trabajando en línea de montaje"
+        },
+        {
+          "t": "0:14",
+          "texto": "En una prueba piloto con Mercedes‑Benz, ordenó piezas metálicas con 96 % de acierto.",
+          "pantalla": "Gráfica de 96 % y piezas clasificadas"
+        },
+        {
+          "t": "0:22",
+          "texto": "Para un ingeniero de robótica, eso significa delegar tareas finas sin entrenar modelos desde cero.",
+          "pantalla": "Ingeniero frente a pantalla con código y robot"
+        },
+        {
+          "t": "0:30",
+          "texto": "El modelo ya está listo para usarse con plataformas como Apptronik.",
+          "pantalla": "Logos de Apptronik y DeepMind conectados"
+        },
+        {
+          "t": "0:38",
+          "texto": "¿Te imaginás un taller donde el robot clasifica piezas sin supervisión?",
+          "pantalla": "Escena de taller automatizado"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h17",
+      "titulo": "NVIDIA refuerza el código abierto con OpenShell",
+      "placas": [
+        "NVIDIA anunció una donación a OpenShell en KubeCon.",
+        "La donación incluye herramientas para infraestructura AI en Kubernetes.",
+        "Los administradores de clusters podrán escalar workloads de IA más fácil.",
+        "Kubernetes sigue siendo la base para miles de fábricas de IA.",
+        "Con la ayuda de NVIDIA, la comunidad open‑source gana recursos y visibilidad.",
+        "El anuncio se hizo en la conferencia KubeCon + CloudNativeCon."
+      ]
+    },
+    "post": {
+      "nota": "h85",
+      "titulo": "Muse Ember de Meta, IA ultrabarata para automatizaciones",
+      "texto": "Meta presentó Muse Ember, su modelo de IA más pequeño y eficiente.\n\nEmber está pensado para ejecutar procesos complejos de agentes de fondo.\n\nSi programás automatizaciones, podés crear bots que consuman menos recursos.\n\nSe suma a la familia Muse, junto a Spark, Glimmer y Wonder.\n\nEl modelo se promociona como una opción de bajo costo para tareas repetitivas."
+    },
+    "hilo": {
+      "nota": "h03",
+      "titulo": "Freelance y IA: qué combina mejor",
+      "partes": [
+        "OpenAI y Upwork publicaron un estudio sobre la demanda freelance de IA.\n\nLos datos indican presupuestos y horas mayores para proyectos que mezclan IA con otras habilidades.\n\nPara un freelancer, la señal es clara: ofrecer servicios que integren IA puede generar mejores tarifas.\n\n¿Qué habilidades complementan mejor a la IA? Según el estudio, desarrollo de software y diseño de datos aparecen como las más demandadas.\n\nSi ya trabajás con IA, considerá ampliar tu oferta a esas áreas para captar más clientes."
+      ],
+      "partes_count": 5
+    },
+    "opencast": {
+      "notas": [
+        "h04",
+        "h12"
+      ],
+      "preguntas": [
+        "¿Cómo afecta que ChatGPT Enterprise se pueda comprar vía AWS Marketplace a la gestión de compras de una marca?\n",
+        "¿Qué ventajas concretas tendría un ingeniero de robótica al usar Gemini Robotics 2.5 sin entrenar su propio modelo?\n",
+        "¿Creés que la disponibilidad de IA en plataformas de compra habituales acelera su adopción en empresas medianas?"
+      ]
+    }
+  },
+  "fidelidad": {
+    "detectadas": 0,
+    "corregidas": 0,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h12",
+      "titular": "Gemini Robotics 2.5 mejora destreza de robots",
+      "total": 13,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google DeepMind",
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "OpenAI y Upwork analizan demanda freelance de IA",
+      "total": 13,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Kuken busca en 70 años de planos en 4,5 min",
+      "total": 13,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h26",
+      "titular": "Claude Meetings transforma charlas en tareas",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "NVIDIA refuerza código abierto con donación a OpenShell",
+      "total": 12,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h85",
+      "titular": "Meta presenta Muse Ember, IA para automatizar tareas",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hipertextual",
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI lleva talleres de ChatGPT a cuidadores en EE UU",
+      "total": 11,
+      "estado": "comunicado",
+      "naturaleza": "evento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "ChatGPT Enterprise llega a AWS Marketplace",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h47",
+      "titular": "eBay bloquea agentes de IA externos",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Google Cloud lanza Gemini para salud",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google AI",
+        "Google DeepMind",
+        "Hipertextual",
+        "The Verge",
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI y ThinkYoung publican estudio sobre IA en educación",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h28",
+      "titular": "Google lanza dos TPUs especializados",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h49",
+      "titular": "Anthropic apunta a IPO de $1.4 trillones",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Verge",
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "AlphaProof verifica código con 3 M de pruebas",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google DeepMind"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "OpenAI presenta Control Room",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "CodeRabbit afirma 20× más entregas con IA",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h45",
+      "titular": "Jurados del IGF rechazan juegos con IA",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h87",
+      "titular": "Gemini Notebook crea pódcast de PDFs en 80 idiomas",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "NVIDIA anuncia inversión en startups coreanas",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "evento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h91",
+      "titular": "TSMC invertiría hasta 1 000 M en Anthropic y OpenAI",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h37",
+      "titular": "Jensen Huang contrató firma de PR con escándalos",
+      "total": 6,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch",
+        "Wired"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "Google lanza Language Explorer",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google Research"
+      ]
+    },
+    {
+      "id": "h15",
+      "titular": "Nuevo dataset Nemotron Personas Finance Japón",
+      "total": 5,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "Hugging Face permite pagar Hub con Google Cloud",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "Hugging Face lanza modelos de decisión",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h27",
+      "titular": "Escándalo personal de Jensen Huang",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h58",
+      "titular": "Anthropic sugiere que la IA protege lo que “posee”",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h59",
+      "titular": "Google perdió su modelo líder tras 13 días",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h80",
+      "titular": "Elon Musk califica de inútil ahorrar a largo plazo",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "Artículo sin datos claros de Hugging Face",
+      "total": 0,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    }
+  ]
+}

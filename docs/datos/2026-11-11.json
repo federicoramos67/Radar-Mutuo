@@ -1,0 +1,959 @@
+{
+  "fecha": "2026-11-11T14:52:33.255088-03:00",
+  "revisados": 103,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1380
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 904
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": false,
+      "error": "TimeoutError"
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h07",
+      "titular": "OpenAI y Upwork analizan demanda freelance IA",
+      "resumen": "El estudio muestra mayor presupuesto y horas en proyectos IA y nuevas combinaciones de habilidades para freelancers.",
+      "porque_importa": "Le indica al programador freelance qué competencias aprender para captar más proyectos IA.",
+      "angulo": "¿Estás listo para vender tu tiempo a la IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/ai-effect-on-freelance-work",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Work at the Frontier: AI’s effect on freelance work"
+    },
+    {
+      "id": "h91",
+      "titular": "EEUU investiga vínculo de Nvidia con presunta espía china",
+      "resumen": "El FBI y el DOJ revisan si la relación del cofundador de Nvidia con una sospechosa del MSS comprometió secretos de IA.",
+      "porque_importa": "Si programás IA en una empresa, la investigación puede generar auditorías de seguridad interna.",
+      "angulo": "¿Qué implica para la industria local una investigación de seguridad nacional?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 3 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/estados-unidos/2026/11/11/por-que-la-infidelidad-de-jensen-huang-ceo-de-nvidia-preocupa-tanto-a-estados-unidos/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Wired",
+            "link": "https://www.wired.com/story/chinas-nvidia-honeypot-isnt-surprising-jensen-huang-fell-for-it-anyway/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Bajo impacto y datos escasos",
+      "naturaleza": "investigacion",
+      "titulo_original": "¿Por qué la infidelidad del CEO de Nvidia, Jensen Huang, preocupa tanto a Estados Unidos?"
+    },
+    {
+      "id": "h13",
+      "titular": "DeepMind publica AlphaGenome 2",
+      "resumen": "AlphaGenome 2 predice cómo variantes de ADN afectan tipos celulares y enfermedades, según DeepMind.",
+      "porque_importa": "Investigadores biomédicos pueden usar el modelo para priorizar variantes en estudios de enfermedad.",
+      "angulo": "IA que traduce secuencias genéticas en hipótesis de salud.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria (Google DeepMind) con cobertura independiente.",
+        "fuentes": [
+          {
+            "nombre": "Google DeepMind",
+            "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+            "tipo": "oficial"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease"
+    },
+    {
+      "id": "h05",
+      "titular": "ThinkYoung publica estudio sobre IA en educación",
+      "resumen": "OpenAI y ThinkYoung presentan investigación sobre guías de IA para docentes y aprendizaje autónomo.",
+      "porque_importa": "Si enseñás, tendrás referencias de cómo integrar IA en el aula y en la formación docente.",
+      "angulo": "¿Cómo cerrar la brecha de IA en las aulas?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Closing the AI guidance gap in education"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h96",
+      "titular": "Duke Energy adopta Mythos de Anthropic para prevenir fallas",
+      "resumen": "Duke Energy integró la herramienta Mythos de Anthropic para detectar anomalías que podrían ser explotadas por hackers.",
+      "porque_importa": "Los equipos de ciberseguridad en utilities pueden usar IA para anticipar vulnerabilidades antes de que ocurran.",
+      "angulo": "IA como guardián de la red eléctrica",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/11/electricas-de-estados-unidos-usan-la-ia-mythos-de-anthropic-para-detectar-fallas-que-podrian-aprovechar-hackers/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Eléctricas de Estados Unidos usan la IA Mythos de Anthropic para detectar fallas que podrían aprovechar hackers"
+    },
+    {
+      "id": "h27",
+      "titular": "OpenAI supera los 10 000 M$ en ingresos trimestrales",
+      "resumen": "TechCrunch informa que los ingresos de OpenAI alcanzaron 10 000 M$ en el último trimestre, un 50 % más que el trimestre anterior.",
+      "porque_importa": "Quien invierte o trabaja con modelos de OpenAI ve mayor capacidad de inversión en mejoras y precios.",
+      "angulo": "¿Qué implica el salto de ingresos de OpenAI para sus usuarios?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h03",
+      "titular": "OpenAI Academy lleva talleres de ChatGPT a cuidadores",
+      "resumen": "OpenAI ofrece talleres gratuitos de ChatGPT en cinco ciudades de EE UU para cuidadores.",
+      "porque_importa": "Si enseñás a cuidadores, podés incluirles herramientas de IA para organizar su día a día.",
+      "angulo": "Capacitar a cuidadores con IA: ¿qué cambiará en su rutina?",
+      "formato": "reel",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "evento",
+      "titulo_original": "Helping caregivers use AI in everyday life"
+    },
+    {
+      "id": "h02",
+      "titular": "ChatGPT Plus gratuito para veteranos",
+      "resumen": "Más de 20 000 veteranos y militares en transición recibieron un año sin costo de ChatGPT Plus.",
+      "porque_importa": "Quien asesora la reinserción laboral puede usar la versión Plus para generar CV y simulaciones de entrevista.",
+      "angulo": "IA al servicio de la transición profesional de ex‑militares.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "ChatGPT Plus for veterans and servicemembers"
+    },
+    {
+      "id": "h18",
+      "titular": "NVIDIA muestra IA para separar residuos reciclables",
+      "resumen": "NVIDIA describió un sistema de visión e IA que identifica y separa ropa, botellas y otros materiales en cintas transportadoras.",
+      "porque_importa": "Quien dirige operaciones de reciclaje podrá automatizar la clasificación y reducir trabajo manual.",
+      "angulo": "Robótica e IA para mejorar la cadena de reciclaje",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material"
+    },
+    {
+      "id": "h19",
+      "titular": "NVIDIA dona OpenShell y refuerza infraestructura AI en K8s",
+      "resumen": "NVIDIA anunció la donación de OpenShell y nuevas herramientas para Kubernetes, orientadas a escalar cargas de IA.",
+      "porque_importa": "Ingenieros DevOps que gestionan clusters de IA tendrán componentes listos para usar.",
+      "angulo": "Kubernetes como columna vertebral de la IA empresarial",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "evento",
+      "titulo_original": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h94",
+      "titular": "Alexa ofrece alertas de precios y comparaciones",
+      "resumen": "Amazon describe diez funciones de Alexa para seguir precios, programar pedidos y recibir sugerencias de compra.",
+      "porque_importa": "Quien compra online puede activar alertas y evitar pagar de más sin buscar manualmente.",
+      "angulo": "Funciones de Alexa que ahorran tiempo en la compra navideña",
+      "formato": "carrusel",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/11/10-funciones-de-la-ia-de-amazon-para-encontrar-las-mejores-promociones-durante-las-compras-navidenas/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Lista genérica sin datos verificables",
+      "naturaleza": "promocion",
+      "titulo_original": "10 funciones de la IA de Amazon para encontrar las mejores promociones durante las compras navideñas"
+    },
+    {
+      "id": "h15",
+      "titular": "AlphaProof Code verifica cifrado de Signal",
+      "resumen": "AlphaProof Code generó tres millones de líneas de pruebas en Lean para la encriptación de Signal.",
+      "porque_importa": "Quien escribe código de seguridad podrá usar pruebas automáticas para validar su cifrado.",
+      "angulo": "Verificar cifrados con IA: ¿el futuro de la seguridad?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Google DeepMind en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Google DeepMind",
+            "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Poco detalle técnico, difícil de aplicar ahora",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth"
+    },
+    {
+      "id": "h04",
+      "titular": "ChatGPT incorpora gestión de negocios",
+      "resumen": "ChatGPT ahora permite subir información de negocio, obtener insights y generar acciones.",
+      "porque_importa": "Quien maneja la comunicación de una pyme podrá consultar datos de su empresa sin salir de ChatGPT.",
+      "angulo": "¿Tu negocio dentro de ChatGPT?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/introducing-businesses-chatgpt",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta detalle de precios o disponibilidad",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Introducing Businesses in ChatGPT"
+    },
+    {
+      "id": "h56",
+      "titular": "Anthropic fija precio de IPO entre 70 y 78 dólares",
+      "resumen": "La valoración ronda 1,26‑1,41 billones tras ajustar expectativas de 2 billones a 1,5.",
+      "porque_importa": "Una agencia de branding debe replantear presupuestos para campañas de IA con clientes de alto nivel.",
+      "angulo": "El precio de la IA se vuelve más accesible para inversores institucionales.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/empresas-y-economia/salida-a-bolsa-anthropic-se-estaba-desinflando-ahora-tiene-demanda-institucional-que-spacex",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos de valoración sin contexto de producto, poco impacto directo",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "La salida a bolsa de Anthropic se estaba desinflando. Ahora tiene más demanda institucional que SpaceX"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h13",
+    "tesis": "AlphaGenome 2 amplía la capacidad de predecir efectos de variantes genéticas en tipos celulares, pero el anuncio no indica ni el costo ni los requisitos de infraestructura para usar el modelo. La tensión está en quién podrá acceder a esa herramienta y bajo qué condiciones, lo que podría reforzar la brecha entre grandes laboratorios y centros de investigación con menos recursos.",
+    "mirar": "En los próximos días conviene averiguar si DeepMind publicará detalles sobre el precio del acceso o planes de colaboración para instituciones académicas."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h07",
+      "titulo": "OpenAI y Upwork analizan demanda freelance IA",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "OpenAI y Upwork publicaron un estudio sobre trabajo freelance en IA.",
+          "pantalla": "Portada del informe con logos de OpenAI y Upwork"
+        },
+        {
+          "t": "0:07",
+          "texto": "Los presupuestos de proyectos IA crecieron y aumentaron las horas facturables.",
+          "pantalla": "Gráfica de presupuesto y horas"
+        },
+        {
+          "t": "0:14",
+          "texto": "Aparecen combinaciones nuevas de habilidades, como prompt engineering y data labeling.",
+          "pantalla": "Lista de skill combos"
+        },
+        {
+          "t": "0:21",
+          "texto": "Para un programador freelance, la señal es aprender esas competencias emergentes.",
+          "pantalla": "Programador frente a pantalla codificando"
+        },
+        {
+          "t": "0:28",
+          "texto": "Así podés captar más proyectos y mejorar tu tarifa horaria.",
+          "pantalla": "Tarifa creciente en gráfico"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h91",
+      "titulo": "EEUU investiga vínculo de Nvidia con presunta espía china",
+      "placas": [
+        "El FBI y el DOJ revisan la relación del cofundador de Nvidia con una sospechosa del MSS chino.",
+        "La investigación busca saber si se comprometieron secretos de IA.",
+        "Si programás IA en una empresa, podés enfrentar auditorías de seguridad interna.",
+        "El caso muestra riesgos de contactos personales en sectores estratégicos.",
+        "Podés esperar mayor vigilancia interna en proyectos de IA.",
+        "Mantener protocolos de seguridad y revisar vínculos externos es ahora más crítico."
+      ]
+    },
+    "post": {
+      "nota": "h13",
+      "titulo": "DeepMind publica AlphaGenome 2",
+      "texto": "AlphaGenome 2 es el nuevo modelo de DeepMind que predice cómo variantes de ADN impactan tipos celulares y enfermedades.\n\nEl anuncio indica que el modelo traduce secuencias genéticas en hipótesis sobre la función celular.\n\nPara investigadores biomédicos, la herramienta permite priorizar variantes en estudios de enfermedad y enfocar recursos en los hallazgos más prometedores.\n\nEl avance brinda una capa computacional que acelera la generación de preguntas de investigación."
+    },
+    "hilo": {
+      "nota": "h05",
+      "titulo": "ThinkYoung publica estudio sobre IA en educación",
+      "partes": [
+        "OpenAI y ThinkYoung lanzaron una investigación sobre guías de IA para docentes.\n\nEl informe recoge lecciones de alianzas de OpenAI en EMEA para apoyar la alfabetización en IA.\n\nSe proponen recursos para que los profesores integren herramientas de IA en el aula y fomenten el aprendizaje autónomo.\n\nSi enseñás, el estudio te brinda referencias prácticas para cerrar la brecha de IA en tus clases."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h07",
+        "h91"
+      ],
+      "preguntas": [
+        "¿Qué habilidades emergentes deberías añadir a tu portafolio freelance?",
+        "¿Cómo afecta una investigación de seguridad nacional a la confianza en proveedores de IA?",
+        "¿Qué medidas tomás hoy para proteger tus proyectos de IA frente a posibles auditorías?"
+      ],
+      "nota": null
+    }
+  },
+  "fidelidad": {
+    "detectadas": 2,
+    "corregidas": 2,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h07",
+      "titular": "OpenAI y Upwork analizan demanda freelance IA",
+      "total": 13,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "OpenAI Academy lleva talleres de ChatGPT a cuidadores",
+      "total": 12,
+      "estado": "comunicado",
+      "naturaleza": "evento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "ChatGPT Plus gratuito para veteranos",
+      "total": 11,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "NVIDIA muestra IA para separar residuos reciclables",
+      "total": 11,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h96",
+      "titular": "Duke Energy adopta Mythos de Anthropic para prevenir fallas",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h91",
+      "titular": "EEUU investiga vínculo de Nvidia con presunta espía china",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae",
+        "TechCrunch",
+        "Wired"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "DeepMind publica AlphaGenome 2",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Google DeepMind",
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "NVIDIA dona OpenShell y refuerza infraestructura AI en K8s",
+      "total": 10,
+      "estado": "comunicado",
+      "naturaleza": "evento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "ThinkYoung publica estudio sobre IA en educación",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h27",
+      "titular": "OpenAI supera los 10 000 M$ en ingresos trimestrales",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h95",
+      "titular": "Demandas contra xAI por uso sexual de fotos infantiles",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "Google Cloud lanza Gemini para salud",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "ChatGPT incorpora gestión de negocios",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h58",
+      "titular": "Ring presenta robots móviles para el hogar",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h93",
+      "titular": "OpenAI compra Odessia para IA en viajes",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "Google amplía Gemini a más dispositivos",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h15",
+      "titular": "AlphaProof Code verifica cifrado de Signal",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google DeepMind"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "Singapore Airlines usa OpenAI para atención al cliente",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h56",
+      "titular": "Anthropic fija precio de IPO entre 70 y 78 dólares",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "BotPsy lanza asistente local con modelo pequeño",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "Gemini 4 Carbon disponible para uso",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google DeepMind"
+      ]
+    },
+    {
+      "id": "h94",
+      "titular": "Alexa ofrece alertas de precios y comparaciones",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h71",
+      "titular": "Startup usa IA para detectar armas biológicas",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Google AI lanza Try Tabletop",
+      "total": 3,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google AI",
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "Gilbert + Tobin explora IA en derecho",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h57",
+      "titular": "Lidl lanza chimenea eléctrica en su catálogo online",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "Nuevo método de entrenamiento para embeddings multi‑vector",
+      "total": 2,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Google AI muestra obra de Esther Mahlangu",
+      "total": 0,
+      "estado": "comunicado",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h92",
+      "titular": "Stanford afirma que IA engaña fotos y voces",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h72",
+      "titular": "Cierre de AO3 genera conflicto entre lectores y autores",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Wired"
+      ]
+    }
+  ]
+}

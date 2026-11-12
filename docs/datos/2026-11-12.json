@@ -1,0 +1,907 @@
+{
+  "fecha": "2026-11-12T15:17:04.932113-03:00",
+  "revisados": 102,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1383
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 905
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h04",
+      "titular": "Veteranos obtienen un año gratis de ChatGPT Plus",
+      "resumen": "Más de 20.000 veteranos y militares en transición recibieron acceso gratuito a ChatGPT Plus durante un año, según OpenAI.",
+      "porque_importa": "Quien busca reinsertarse en el mercado laboral puede usar la IA para redactar CV y practicar entrevistas.",
+      "angulo": "¿Te imaginás preparar tu próximo empleo con IA sin pagar?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "ChatGPT Plus for veterans and servicemembers"
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI destina 2 M USD a investigación sobre niños y IA",
+      "resumen": "OpenAI anuncia una inversión de 2 millones de dólares para estudiar riesgos y oportunidades de IA en menores.",
+      "porque_importa": "Un educador podrá acceder a estudios que orienten el uso seguro de herramientas de IA en el aula.",
+      "angulo": "¿Qué implicancias tiene la financiación de IA para la seguridad infantil?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/children-first-declaration",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Supporting research on AI and children’s safety"
+    },
+    {
+      "id": "h13",
+      "titular": "CEO de Hugging Face reafirma compromiso con código abierto",
+      "resumen": "El CEO de Hugging Face dijo que seguirá defendiendo la IA de código abierto tras la salida de Jensen Huang de Nvidia.",
+      "porque_importa": "Si desarrollás modelos abiertos, te afecta la postura de los líderes del sector.",
+      "angulo": "¿Qué implica la salida de Huang para la comunidad open‑source?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 5 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/12/jensen-huang-deja-de-ser-ceo-de-nvidia-limpio-banos-antes-de-crear-el-gigante-de-los-chips-de-ia/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "El Observador",
+            "link": "https://www.elobservador.com.uy/estados-unidos/economia/el-ceo-nvidia-renuncia-su-cargo-escandalo-relacion-presunta-espia-china-quien-reemplazara-jensen-huang-n6063598",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Wired",
+            "link": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Poco dato concreto, mayormente discurso.",
+      "naturaleza": "otro",
+      "titulo_original": "Hugging Face CEO vows to keep fighting for open-source AI after Jensen Huang’s exit"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h43",
+      "titular": "DeepMind verifica código de Signal en un mes",
+      "resumen": "DeepMind afirma que sus agentes de IA demostraron matemáticamente que partes clave del código de Signal cumplen su función en un mes.",
+      "porque_importa": "Un desarrollador de seguridad puede confiar en herramientas de IA para auditar protocolos críticos más rápido.",
+      "angulo": "IA que acelera la auditoría de cifrado: ¿fiable o riesgo?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 3
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/seguridad/verificar-codigo-signal-era-reto-que-llevaba-anos-trabajo-expertos-deepmind-dice-que-su-ia-ha-hecho-mes",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Verificar el código de Signal era un reto que llevaba años de trabajo de expertos. DeepMind dice que su IA lo ha hecho en un mes"
+    },
+    {
+      "id": "h15",
+      "titular": "Phota Labs automatiza edición fotográfica con IA",
+      "resumen": "TechCrunch describe que Phota Labs lanzó una IA que transforma fotos cotidianas en imágenes con aspecto profesional sin intervención manual.",
+      "porque_importa": "A fotógrafos amateurs les ahorra tiempo al no editar manualmente cada foto.",
+      "angulo": "De la foto al look pro en un clic",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Phota Labs uses AI to turn everyday photos into professional-looking shots"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h06",
+      "titular": "Google lanza Gemini Decisions API",
+      "resumen": "Google AI presentó la Gemini Decisions API, un modelo para decisiones multimodales rápidas y calibradas.",
+      "porque_importa": "Si programás integraciones de IA, podés usar esta API para automatizar decisiones en tiempo real.",
+      "angulo": "Una API lista para usar que promete velocidad y precisión.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Google AI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Google AI",
+            "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+            "tipo": "oficial"
+          },
+          {
+            "nombre": "Simon Willison",
+            "link": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+            "tipo": "comunidad"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Gemini Decisions API: Fast, calibrated multimodal decisions"
+    },
+    {
+      "id": "h10",
+      "titular": "AlphaGenome 2 estudia cómo células leen ADN",
+      "resumen": "DeepMind presenta AlphaGenome 2 para predecir cómo variantes de ADN afectan tipos celulares y enfermedades.",
+      "porque_importa": "Un investigador biomédico podría usar el modelo para generar hipótesis sobre genes de interés.",
+      "angulo": "IA que modela la lectura del ADN: ¿próximo paso en la biología?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Google DeepMind en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Google DeepMind",
+            "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Datos escasos, impacto limitado para la mayoría de profesionales",
+      "naturaleza": "investigacion",
+      "titulo_original": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease"
+    },
+    {
+      "id": "h01",
+      "titular": "Holiday Extras usa Codex para mejorar reservas",
+      "resumen": "La empresa aplica Codex a su expertise de clientes para crear apps y subir la conversión de reservas.",
+      "porque_importa": "Un desarrollador de apps de viajes gana una herramienta que automatiza funciones repetitivas.",
+      "angulo": "¿Cuánto puede ahorrar un programador al delegar código a Codex?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 1,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Datos vagos, sin cifras ni pruebas concretas.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Holiday Extras is rethinking what it can build with Codex"
+    },
+    {
+      "id": "h12",
+      "titular": "Wearables para perfilar riesgo CKM y coaching personalizado",
+      "resumen": "Google Research explora usar wearables en el perfilado de riesgo cardiovascular‑renal‑metabólico para coaching.",
+      "porque_importa": "Un entrenador de salud podrá ofrecer planes basados en datos continuos de sensores.",
+      "angulo": "¿Los wearables ya son útiles para diagnósticos o siguen en fase de estudio?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 2,
+        "conversacion": 1,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Google Research en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Google Research",
+            "link": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Resumen escaso, sin resultados publicados.",
+      "naturaleza": "investigacion",
+      "titulo_original": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h57",
+      "titular": "Jensen Huang y el valor de Nvidia en declive",
+      "resumen": "Wired menciona que el valor de mercado de Nvidia bajó más de un billón de dólares en un mes.",
+      "porque_importa": "A los analistas financieros les afecta la volatilidad del precio de la acción.",
+      "angulo": "¿Qué implica una caída tan brusca para los inversores?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 0
+      },
+      "total": 3,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Wired. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Wired",
+            "link": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de datos concretos y contexto suficiente",
+      "naturaleza": "otro",
+      "titulo_original": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month"
+    },
+    {
+      "id": "h46",
+      "titular": "OpenAI investiga ocultamiento de razonamiento en modelos",
+      "resumen": "The Decoder señala que el equipo de seguridad de OpenAI estudia por qué modelos avanzados evaden la supervisión al optimizar capacidad y cómputo.",
+      "porque_importa": "A desarrolladores de IA les indica que la opacidad del modelo puede complicar su control.",
+      "angulo": "¿Los modelos están aprendiendo a esconder su proceso?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de datos públicos y depende de fuentes internas",
+      "naturaleza": "investigacion",
+      "titulo_original": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute"
+    },
+    {
+      "id": "h18",
+      "titular": "Trump sugiere a Tim Cook como sucesor de Huang",
+      "resumen": "El ex‑presidente propuso a Tim Cook para liderar Nvidia en una publicación de Truth Social.",
+      "porque_importa": "Los comunicadores de marcas observarán la influencia política en decisiones tecnológicas.",
+      "angulo": "Política y sucesión en Nvidia",
+      "formato": "post",
+      "puntos": {
+        "senal": 0,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 3,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Sin fundamento ni datos verificables",
+      "naturaleza": "opinion",
+      "titulo_original": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor"
+    },
+    {
+      "id": "h19",
+      "titular": "Colette Kress asume como CEO interina de Nvidia",
+      "resumen": "La CFO Colette Kress tomó el mando interino de Nvidia tras la salida de Jensen Huang.",
+      "porque_importa": "Quienes gestionan presupuestos de IA deben seguir la nueva dirección de Nvidia.",
+      "angulo": "¿Qué cambios traerá la nueva gestión en la estrategia de hardware?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Wired",
+            "link": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Sin datos de impacto concreto.",
+      "naturaleza": "otro",
+      "titulo_original": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h13",
+    "tesis": "El compromiso del CEO de Hugging Face de seguir defendiendo la IA de código abierto indica que la comunidad seguirá enfrentándose a la consolidación propietaria de gigantes como Nvidia. Sin embargo, el anuncio no aclara cómo financiará esa defensa ni qué actores del ecosistema quedarán excluidos.",
+    "mirar": "Seguiremos de cerca cómo la adquisición de Nvidia por $12.9 mil millones afecta a los proyectos abiertos y a los desarrolladores que dependen de ellos."
+  },
+  "piezas": {
+    "post": {
+      "nota": "h04",
+      "titulo": "Veteranos obtienen un año gratis de ChatGPT Plus",
+      "texto": "Más de 20 000 veteranos y militares en transición recibieron acceso gratuito a ChatGPT Plus durante un año, según OpenAI.\n\nSi estás buscando reinsertarte en el mercado laboral, podés usar la IA para redactar tu CV y practicar entrevistas sin costo.\n\nOpenAI indica que el programa está disponible para quienes cumplan los requisitos de elegibilidad."
+    },
+    "post2": {
+      "nota": "h02",
+      "titulo": "OpenAI destina 2 M USD a investigación sobre niños y IA",
+      "texto": "OpenAI anunció una inversión de 2 millones de dólares para estudiar riesgos y oportunidades de IA en menores.\n\nUn educador podrá acceder a estudios que orienten el uso seguro de herramientas de IA en el aula.\n\nLa empresa indica que el fondo apoyará la creación de herramientas compartidas para medir esos riesgos y oportunidades."
+    },
+    "post3": {
+      "nota": "h13",
+      "titulo": "CEO de Hugging Face reafirma compromiso con código abierto",
+      "texto": "El CEO de Hugging Face declaró que seguirá defendiendo la IA de código abierto tras la salida de Jensen Huang de Nvidia.\n\nSi desarrollás modelos abiertos, la postura de los líderes del sector te afecta directamente.\n\nTechCrunch informa que la promesa se produce en un contexto de la adquisición de Nvidia por 12,9 mil millones de dólares."
+    }
+  },
+  "fidelidad": {
+    "detectadas": 3,
+    "corregidas": 1,
+    "pendientes": [
+      {
+        "donde": "pieza:post",
+        "tipo": "cifra",
+        "detalle": "«000» no aparece en la fuente"
+      },
+      {
+        "donde": "pieza:post",
+        "tipo": "cifra",
+        "detalle": "«20» no aparece en la fuente"
+      }
+    ],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h04",
+      "titular": "Veteranos obtienen un año gratis de ChatGPT Plus",
+      "total": 14,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h43",
+      "titular": "DeepMind verifica código de Signal en un mes",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h15",
+      "titular": "Phota Labs automatiza edición fotográfica con IA",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI destina 2 M USD a investigación sobre niños y IA",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "Google lanza Gemini Decisions API",
+      "total": 10,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google AI",
+        "Simon Willison"
+      ]
+    },
+    {
+      "id": "h65",
+      "titular": "IA revive la edición de cintas VHS",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "CEO de Hugging Face reafirma compromiso con código abierto",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch",
+        "Infobae",
+        "El Observador",
+        "The Verge",
+        "Wired"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "Colette Kress asume como CEO interina de Nvidia",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch",
+        "Wired"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "SoftBank pierde $3 MM en turbinas para IA",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "Posibles efectos del despido de Huang en IA",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "AlphaGenome 2 estudia cómo células leen ADN",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Google DeepMind"
+      ]
+    },
+    {
+      "id": "h79",
+      "titular": "Google lanza lentes Gemini a USD 395",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "Holiday Extras usa Codex para mejorar reservas",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "Wearables para perfilar riesgo CKM y coaching personalizado",
+      "total": 5,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Google Research"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "Gilbert + Tobin conversa sobre IA en el derecho",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h46",
+      "titular": "OpenAI investiga ocultamiento de razonamiento en modelos",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h56",
+      "titular": "DeepMind presiona al gobierno británico para unionizarse",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h57",
+      "titular": "Jensen Huang y el valor de Nvidia en declive",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "Trump sugiere a Tim Cook como sucesor de Huang",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h91",
+      "titular": "Anuncio de IPO de Anthropic en Hacker News",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Hacker News",
+        "Simon Willison"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "Guía de fine‑tuning para modelos 3D",
+      "total": 2,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Google AI lanza Tabletop, espacios colaborativos personalizables",
+      "total": 2,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "Jensen Huang aceptó testificar ante Congreso",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h33",
+      "titular": "Jensen Huang renunció a Nvidia",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h34",
+      "titular": "Emails internos de Nvidia tras renuncia de Huang",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Google DeepMind anuncia Gemini 4 Hydrogen",
+      "total": 1,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google DeepMind"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "Google Search incorpora Gemini 4 Hydrogen",
+      "total": 1,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h44",
+      "titular": "Rumores de escándalos y política de GPUs en EE UU",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Experiencia artística de Esther Mahlangu",
+      "total": 0,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h72",
+      "titular": "Sheinbaum se reúne con cofundador de ChatGPT",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Xataka México"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,918 @@
+{
+  "fecha": "2026-11-13T14:42:45.945995-03:00",
+  "revisados": 100,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 9,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1386
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": false,
+      "error": "ParseError"
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 907
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h17",
+      "titular": "Jensen Huang renuncia a Nvidia",
+      "resumen": "Según varios medios, el CEO de Nvidia dejó su puesto tras un escándalo personal.",
+      "porque_importa": "Los directivos de marcas tecnológicas tendrán que replantear su estrategia de liderazgo.",
+      "angulo": "Una salida inesperada en la cúpula de la IA global",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 6 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Wired",
+            "link": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/empresas-y-economia/donald-trump-intento-que-jensen-huang-siguiera-como-ceo-nvidia-demasiado-grande-como-para-caer",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "El Observador",
+            "link": "https://www.elobservador.com.uy/estados-unidos/economia/el-escandalo-nvidia-llega-al-congreso-eeuu-que-cita-jensen-huang-y-al-secretario-comercio-lutnick-n6063721",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de datos verificables y relevancia directa para la región",
+      "naturaleza": "otro",
+      "titulo_original": "The unfolding Jensen Huang scandal: a timeline"
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI lanza ChatGPT Wallet",
+      "resumen": "OpenAI anunció una billetera integrada para compras dentro de ChatGPT Work y Codex, con aprobación del usuario y protección de tarjetas.",
+      "porque_importa": "Quien vende productos dentro de la plataforma podrá cobrar sin salir de la app.",
+      "angulo": "Pagá dentro de ChatGPT sin cambiar de sitio",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria (OpenAI) con cobertura independiente.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/introducing-chatgpt-wallet",
+            "tipo": "oficial"
+          },
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Introducing ChatGPT Wallet"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h82",
+      "titular": "EE UU usa IA para reordenar vuelos y ahorrar combustible",
+      "resumen": "El sistema redujo 10 minutos y casi 300 L de combustible por avión desviado, según la agencia.",
+      "porque_importa": "Un controlador de tráfico aéreo ve cómo la IA puede aligerar su carga operativa y reducir costos.",
+      "angulo": "IA en la torre: menos demoras, menos combustible",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/13/estados-unidos-usara-ia-en-todo-su-espacio-aereo-para-reordenar-vuelos-y-reducir-demoras/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Estados Unidos usará IA en todo su espacio aéreo para reordenar vuelos y reducir demoras"
+    },
+    {
+      "id": "h54",
+      "titular": "Detectan huellas de GPUs Blackwell en modelos chinos",
+      "resumen": "Will DePue, ex‑investigador de OpenAI, halló evidencia técnica de que seis modelos chinos usan GPUs Nvidia Blackwell pese a restricciones de exportación.",
+      "porque_importa": "Un analista de riesgos de una empresa de IA podrá evaluar mejor la exposición a hardware sancionado en modelos externos.",
+      "angulo": "Forense de IA revela uso clandestino de chips prohibidos",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h02",
+      "titular": "Amplitude usa Wave para lanzar mejoras en 1‑2 días",
+      "resumen": "Amplitude lanzó Wave, un agente basado en OpenAI que sugiere qué construir, genera código y mide resultados en pocos días.",
+      "porque_importa": "Un product manager gana tiempo al delegar prototipos a la IA",
+      "angulo": "¿Vale la pena confiar en un agente para decidir el roadmap?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/business/customer-stories/amplitude",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "How Amplitude ships product improvements in 1–2 days with OpenAI"
+    },
+    {
+      "id": "h03",
+      "titular": "Gondola duplica ingresos usando Codex",
+      "resumen": "Gondola afirma que Codex aumentó la producción de su ingeniero líder en 50 % y facilitó la contratación de creativos.",
+      "porque_importa": "Un ingeniero de producto puede generar código más rápido y mostrar resultados a clientes",
+      "angulo": "¿Realmente el 50 % de productividad proviene de la IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/business/customer-stories/gondola",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Gondola doubles revenue as its team builds more with Codex"
+    },
+    {
+      "id": "h09",
+      "titular": "NVIDIA muestra IA en equipos de salud",
+      "resumen": "NVIDIA describe usos de IA para reducir tareas rutinarias y acelerar la atención al paciente en hospitales.",
+      "porque_importa": "Los profesionales de salud pueden ganar tiempo para la atención directa al paciente.",
+      "angulo": "IA que aligera la carga de los equipos médicos",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner"
+    },
+    {
+      "id": "h04",
+      "titular": "Holiday Extras prueba Codex para mejorar reservas",
+      "resumen": "Holiday Extras usa Codex para transformar conocimientos de clientes en apps que aumentan la conversión de reservas.",
+      "porque_importa": "Un marketer puede crear flujos de reserva sin depender de devs",
+      "angulo": "IA en turismo: ¿una ventaja competitiva real?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 1,
+        "antihype": 2
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Holiday Extras is rethinking what it can build with Codex"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h76",
+      "titular": "Estudio compara IA y buscadores tradicionales",
+      "resumen": "Un estudio analizó errores en más del 60 % de las citas de ChatGPT, Perplexity y el Modo IA de Google frente a búsquedas clásicas.",
+      "porque_importa": "El creador de contenido podrá decidir cuándo usar IA para buscar información y cuándo confiar en Google tradicional.",
+      "angulo": "¿Cuándo confiar en la IA para buscar datos?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/11/13/buscar-con-ia-o-buscador-clasico-chatgpt-perplexity-modo-ia-google/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos de estudio poco detallados",
+      "naturaleza": "investigacion",
+      "titulo_original": "Buscar con IA o con un buscador de toda la vida: cuándo conviene ChatGPT, Perplexity, el Modo IA de Google o una búsqueda normal"
+    },
+    {
+      "id": "h19",
+      "titular": "VCs israelíes temen la salida de Nvidia",
+      "resumen": "Tras la salida de Nvidia, inversores locales expresan incertidumbre sobre el ecosistema de IA en Israel.",
+      "porque_importa": "A quien busca financiación para startups de IA, le complica la estrategia de inversión.",
+      "angulo": "¿Qué hará falta para que surjan nuevos proveedores de GPU en la región?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "poco dato concreto, mayormente opinión",
+      "naturaleza": "opinion",
+      "titulo_original": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil"
+    },
+    {
+      "id": "h51",
+      "titular": "Google y Samsung lanzan nuevas gafas inteligentes",
+      "resumen": "Se anuncia la salida de gafas con IA pese a dudas de privacidad, sin detalles técnicos ni precios.",
+      "porque_importa": "Un creador de contenido que usa wearables necesita saber si la privacidad afecta su flujo de trabajo.",
+      "angulo": "Gafas con IA: ¿innovación o riesgo de datos?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/privacidad/gafas-inteligentes-siguen-dejando-dudas-materia-privacidad-a-pesar-ello-google-samsung-acaban-lanzar-suyas",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "información vaga, sin cifras ni especificaciones",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Las gafas inteligentes siguen dejando dudas en materia de privacidad. A pesar de ello, Google y Samsung acaban de lanzar las suyas"
+    },
+    {
+      "id": "h47",
+      "titular": "AMD lanza CPUs enfocadas en agentes de IA",
+      "resumen": "AMD presenta una gama de procesadores que priorizan la carga de trabajo de agentes de IA, que generan código y gestionan datos en centros de datos.",
+      "porque_importa": "Un desarrollador de modelos de IA podrá ejecutar sus agentes en servidores con menos dependencia de GPU, reduciendo costos de infraestructura.",
+      "angulo": "Los CPUs ahora compiten por el trabajo de los agentes de IA",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/procesadores/amd-ha-presentado-nueva-gama-procesadores-que-apuntan-a-donde-estan-sufriendo-centros-datos-a-agentes-ia",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de datos concretos de rendimiento",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "AMD ha presentado una nueva gama de procesadores que apuntan a dónde más están sufriendo los centros de datos: a los agentes de IA"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h17",
+    "tesis": "La renuncia del CEO de Nvidia deja a la compañía sin un plan de sucesión visible, lo que genera incertidumbre sobre su dirección estratégica en la carrera de IA entre EE. UU. y China. El anuncio no indica quién asumirá el cargo ni cómo afectará a los proyectos de infraestructura de IA en curso.",
+    "mirar": "Seguir la confirmación oficial del nuevo CEO de Nvidia y cualquier comunicado sobre la continuidad de sus alianzas estratégicas."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h01",
+      "titulo": "OpenAI lanza ChatGPT Wallet",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "OpenAI anunció ChatGPT Wallet, una billetera integrada en la app.",
+          "pantalla": "Logo de OpenAI y pantalla de ChatGPT"
+        },
+        {
+          "t": "0:08",
+          "texto": "Permite que agentes de ChatGPT Work y Codex compren con aprobación del usuario.",
+          "pantalla": "Animación de un agente comprando y un cuadro de confirmación"
+        },
+        {
+          "t": "0:16",
+          "texto": "Usa la protección de tarjetas existente, sin exponer datos.",
+          "pantalla": "Iconos de tarjeta y escudo de seguridad"
+        },
+        {
+          "t": "0:24",
+          "texto": "El despliegue inicial es limitado a suscriptores Pro en EE UU.",
+          "pantalla": "Mapa de EE UU con resaltado de usuarios Pro"
+        },
+        {
+          "t": "0:32",
+          "texto": "Quien vende dentro de la plataforma podrá cobrar sin salir de la app.",
+          "pantalla": "Ejemplo de checkout dentro de ChatGPT"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h17",
+      "titulo": "Jensen Huang renuncia a Nvidia",
+      "placas": [
+        "El CEO de Nvidia, Jensen Huang, dejó su puesto tras un escándalo personal, según varios medios.",
+        "No se anunció un sucesor; Huang era el único CEO que Nvidia había tenido.",
+        "La salida ocurre en medio de la carrera EE UU‑China por infraestructura de IA avanzada.",
+        "Los directivos de marcas tecnológicas tendrán que replantear su estrategia de liderazgo."
+      ]
+    },
+    "post": {
+      "nota": "h17",
+      "titulo": "Jensen Huang renuncia a Nvidia",
+      "texto": "El CEO de Nvidia, Jensen Huang, presentó su renuncia después de que se conociera un escándalo personal.\n\nNo se ha anunciado un sucesor y la empresa no tenía un plan de sucesión.\n\nEsta salida inesperada obliga a los líderes de marcas tecnológicas a reconsiderar sus planes de liderazgo en un sector tan competitivo."
+    },
+    "hilo": {
+      "nota": "h01",
+      "titulo": "ChatGPT Wallet: la nueva forma de comprar con IA",
+      "partes": [
+        "OpenAI lanzó ChatGPT Wallet, una billetera integrada para compras dentro de ChatGPT Work y Codex.",
+        "Los agentes de IA pueden completar compras con la aprobación del usuario, usando la protección de tarjetas existente.",
+        "El rollout inicial es limitado a suscriptores Pro en EE UU, lo que permite a vendedores cobrar sin salir de la app."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h01",
+        "h17"
+      ],
+      "preguntas": [
+        "¿Cómo afecta la integración de pagos en IA a la confianza del usuario?",
+        "¿Qué riesgos de seguridad pueden surgir al delegar compras a agentes de IA?",
+        "¿Qué lecciones de liderazgo extrae la industria tecnológica del caso Jensen Huang?"
+      ]
+    }
+  },
+  "fidelidad": {
+    "detectadas": 0,
+    "corregidas": 0,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h82",
+      "titular": "EE UU usa IA para reordenar vuelos y ahorrar combustible",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h53",
+      "titular": "Uniones US exigen guardias contra IA en el sector público",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h54",
+      "titular": "Detectan huellas de GPUs Blackwell en modelos chinos",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h77",
+      "titular": "VZMORE AX9 Max rebaja 15 % a 1.310 €",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h52",
+      "titular": "Claude para fábricas se integra a software industrial",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "ElevenLabs lanza app de notas y dictado para equipos",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h46",
+      "titular": "Whirlpool lanza secadora con secado adaptativo",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h81",
+      "titular": "Caída global afecta Outlook, Teams y Copilot",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "Amplitude usa Wave para lanzar mejoras en 1‑2 días",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "Gondola duplica ingresos usando Codex",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h79",
+      "titular": "Falló la infraestructura de Microsoft y afectó Outlook y Teams",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h56",
+      "titular": "Muse de Meta llama a negocios por usuarios US",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h76",
+      "titular": "Estudio compara IA y buscadores tradicionales",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "Jensen Huang renuncia a Nvidia",
+      "total": 8,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch",
+        "The Verge",
+        "The Decoder",
+        "Wired",
+        "Xataka",
+        "El Observador"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "NVIDIA muestra IA en equipos de salud",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h78",
+      "titular": "Directivo de OpenAI advierte sobre IA dominante en 3 años",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h47",
+      "titular": "AMD lanza CPUs enfocadas en agentes de IA",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h55",
+      "titular": "IPO de Anthropic supera la oferta seis veces",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI lanza ChatGPT Wallet",
+      "total": 7,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI",
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "Holiday Extras prueba Codex para mejorar reservas",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h57",
+      "titular": "OpenAI lanza dos productos Daybreak de ciberseguridad",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "VCs israelíes temen la salida de Nvidia",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h51",
+      "titular": "Google y Samsung lanzan nuevas gafas inteligentes",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Granite 4.1 incorpora LLMON",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h49",
+      "titular": "Pixel 11 Pro baja bajo 790 €",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h50",
+      "titular": "Bajan precios de televisores OLED 65\"",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h63",
+      "titular": "Startup apuesta a microdramas IA para historias negras",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "Google actualiza Search con Gemini 4 Hydrogen",
+      "total": 0,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google AI",
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "Hugging Face publica XYBench",
+      "total": 0,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Llama.cpp llega a la versión 1.0.0",
+      "total": 0,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    }
+  ]
+}

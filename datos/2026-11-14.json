@@ -1,0 +1,980 @@
+{
+  "fecha": "2026-11-14T13:35:40.333029-03:00",
+  "revisados": 66,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1387
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 907
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h43",
+      "titular": "Gemini se integra con Google Wallet",
+      "resumen": "Google conectó Gemini a Google Wallet para que la IA pueda consultar datos financieros del usuario y ofrecer respuestas sobre gastos.",
+      "porque_importa": "A quien asesora finanzas personales le ahorra la tarea de extraer datos de la cuenta para generar reportes.",
+      "angulo": "IA que lee tu billetera para aconsejarte",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Hipertextual",
+            "link": "https://hipertextual.com/inteligencia-artificial/gemini-google-wallet-integracion-finanzas-gastos/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/11/14/gemini-google-wallet-gastos-presupuesto-personal-intelligence/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Gemini ya puede conectarse con Google Wallet para acceder a tus finanzas"
+    },
+    {
+      "id": "h12",
+      "titular": "OpenAI lanza ChatGPT Wallet",
+      "resumen": "OpenAI anunció ChatGPT Wallet, una herramienta para que agentes de ChatGPT compren con aprobación del usuario y protección de tarjetas existentes.",
+      "porque_importa": "Le permite a quien programa bots de ChatGPT gestionar pagos sin desarrollar su propio sistema de cobro.",
+      "angulo": "Pagos integrados en IA sin salir de la conversación",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 3 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/introducing-chatgpt-wallet",
+            "tipo": "oficial"
+          },
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/11/14/openai-chatgpt-wallet-agentes-compras-pago/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Introducing ChatGPT Wallet"
+    },
+    {
+      "id": "h08",
+      "titular": "Gobiernos asiáticos vigilan salida de Jensen Huang",
+      "resumen": "Tras la renuncia de Jensen Huang, varios gobiernos de Asia revisan compromisos de suministro de chips y el impacto en proyectos locales.",
+      "porque_importa": "Quien dirige una startup de hardware necesita saber si habrá retrasos en la entrega de GPUs.",
+      "angulo": "Incertidumbre en la cadena de suministro de IA",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 3 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "evento",
+      "titulo_original": "Asian governments react to Nvidia CEO Jensen Huang’s exit"
+    },
+    {
+      "id": "h05",
+      "titular": "Llama.cpp sale con mejoras de rendimiento",
+      "resumen": "La versión se lanzó con código optimizado para ejecutar modelos locales más rápido.",
+      "porque_importa": "Un programador que entrena modelos en su laptop reduce el tiempo de inferencia.",
+      "angulo": "¿Vale la pena actualizar tu entorno local?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: Hugging Face. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h26",
+      "titular": "Runway abre Praxis-1, IA de video para controlar robots",
+      "resumen": "Runway lanzó Praxis-1 con código abierto; el modelo usa entrenamiento en video y lidera el benchmark RoboLab-120, aunque aún no planifica acciones complejas.",
+      "porque_importa": "Programadores de robótica pueden usar el modelo sin licencias propietarias para prototipos rápidos.",
+      "angulo": "Código abierto que lleva la visión de video al control de máquinas.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Runway's open-source Praxis-1 turns video AI into a robot controller"
+    },
+    {
+      "id": "h51",
+      "titular": "Tinder y Hinge prohíben IA para elegir y escribir mensajes",
+      "resumen": "Infobae informa que ambas apps de citas impiden que asistentes de IA seleccionen perfiles o redacten mensajes para usuarios.",
+      "porque_importa": "Un usuario de citas ya no podrá delegar la conversación a un bot.",
+      "angulo": "¿La fricción humana sigue siendo clave en las apps de citas?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 4,
+        "conversacion": 4,
+        "antihype": 3
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/14/tinder-y-hinge-prohibieron-que-asistentes-de-ia-elijan-perfiles-y-escriban-mensajes-por-los-usuarios/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Tinder y Hinge prohibieron que asistentes de IA elijan perfiles y escriban mensajes por los usuarios"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h02",
+      "titular": "Shield usa OpenAI para simplificar portales legados",
+      "resumen": "Shield despliega agentes Forge que navegan portales antiguos y delegan tareas a técnicos.",
+      "porque_importa": "Un técnico de soporte gana tiempo al evitar clicks repetitivos en sistemas obsoletos.",
+      "angulo": "Agentes que hacen el trabajo sucio de los portales viejos",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 4,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/business/customer-stories/shield",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Shield helps technicians hand off legacy portal work with OpenAI"
+    },
+    {
+      "id": "h06",
+      "titular": "NVIDIA muestra casos de IA en hospitales",
+      "resumen": "NVIDIA describe cómo su IA ayuda a equipos de salud a automatizar tareas y acelerar diagnósticos.",
+      "porque_importa": "Un director de unidad clínica puede liberar tiempo del personal para atención directa.",
+      "angulo": "IA como asistente en la línea de frente médica",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner"
+    },
+    {
+      "id": "h07",
+      "titular": "Google Research publica proyecto Antigravity/teamwork",
+      "resumen": "Google Research anunció una iniciativa educativa llamada Antigravity/teamwork, sin detalles técnicos ni disponibilidad.",
+      "porque_importa": "No hay cambio práctico para programadores o educadores sin información concreta.",
+      "angulo": "Nuevo proyecto de investigación sin datos claros",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 1,
+        "antihype": 1
+      },
+      "total": 3,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Google Research en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Google Research",
+            "link": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta de datos concretos y utilidad inmediata",
+      "naturaleza": "otro",
+      "titulo_original": "Advancing science & engineering with Antigravity’s /teamwork"
+    },
+    {
+      "id": "h03",
+      "titular": "Hugging Face lanza SimReady para robots",
+      "resumen": "Hugging Face publicó SimReady Assets para crear simulaciones de robots pick‑and‑place, sin especificar versiones ni precios.",
+      "porque_importa": "Quien desarrolla robótica no obtiene información suficiente para usarlo ahora.",
+      "angulo": "Assets de simulación sin detalle de acceso",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 1,
+        "antihype": 1
+      },
+      "total": 3,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Información escasa, sin datos de disponibilidad",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Build a Robot Pick-and-Place Simulation with SimReady Assets"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h40",
+      "titular": "Malware que mantiene acceso a Gmail tras cambiar contraseña",
+      "resumen": "Hipertextual describe un software que usa IA para evadir cambios de credenciales, sin cifras ni pruebas verificables.",
+      "porque_importa": "Quien protege cuentas de correo debe revisar métodos de detección más allá de contraseñas.",
+      "angulo": "La IA también alimenta a los atacantes, no solo a los defensores.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 1
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Hipertextual. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Hipertextual",
+            "link": "https://hipertextual.com/seguridad/malware-remus-gmail/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos escasos y sin fuentes técnicas.",
+      "naturaleza": "otro",
+      "titulo_original": "Una verdadera pesadilla: este malware podría seguir accediendo a tu Gmail aunque cambies de contraseña"
+    },
+    {
+      "id": "h34",
+      "titular": "Alerta por aumento de ransomware impulsado por IA",
+      "resumen": "Wired advierte sobre un crecimiento de ransomware que usa IA para evadir detección.",
+      "porque_importa": "Un responsable de seguridad tendría que revisar sus herramientas anti‑malware.",
+      "angulo": "¿La IA está haciendo más peligrosa la ciberseguridad?",
+      "formato": "post",
+      "puntos": {
+        "senal": 0,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 0
+      },
+      "total": 2,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Wired. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Wired",
+            "link": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Sin datos concretos ni estudio que respalde la afirmación.",
+      "naturaleza": "opinion",
+      "titulo_original": "Beware the New AI-Fueled Ransomware Boom"
+    },
+    {
+      "id": "h22",
+      "titular": "Robots con IA cazan piojos en granjas de salmón en Noruega",
+      "resumen": "Según Xataka, Noruega emplea 3.500 robots equipados con IA y láser para eliminar piojos en piscifactorías.",
+      "porque_importa": "Un operario de una granja de salmón tendría menos trabajo manual de desparasitación.",
+      "angulo": "¿Vale la pena automatizar una tarea tan específica?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/ecologia-y-naturaleza/noruega-tiene-3-500-robots-ia-armados-laser-cazando-piojos-sus-granjas-salmon",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos vagos y sin fuentes verificables.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Noruega tiene 3.500 robots con IA armados con láser cazando piojos en sus granjas de salmón"
+    },
+    {
+      "id": "h25",
+      "titular": "Anthropic afirma entrenar modelos con menos cómputo",
+      "resumen": "Jacob Coxon, ex‑investigador, cita una diapositiva del roadshow de Anthropic que indica reducción de cómputo para entrenar Mythos.",
+      "porque_importa": "Un investigador de IA tendría menos costos al entrenar modelos internos.",
+      "angulo": "¿La eficiencia computacional está acelerando el desarrollo de IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta evidencia pública; se basa en una presentación interna.",
+      "naturaleza": "investigacion",
+      "titulo_original": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h43",
+    "tesis": "Integrar Gemini con Google Wallet permite que la IA consulte datos financieros del usuario sin que el usuario tenga que extraerlos manualmente. Eso abre la cuestión de quién controla ese acceso y qué usuarios quedan excluidos por la falta de información sobre privacidad y costos.",
+    "mirar": "Esperar la política de precios y los límites de uso que Google publique para evaluar si la integración es viable para asesores financieros independientes."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h43",
+      "titulo": "Gemini se integra con Google Wallet",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "Google conectó Gemini a Google Wallet.",
+          "pantalla": "Logo de Google y Gemini"
+        },
+        {
+          "t": "0:07",
+          "texto": "La IA ahora puede consultar tus datos financieros.",
+          "pantalla": "Pantalla de la app mostrando gastos"
+        },
+        {
+          "t": "0:14",
+          "texto": "Puede responder preguntas sobre en qué gastás y cómo lo hacés.",
+          "pantalla": "Chat con Gemini mostrando respuestas financieras"
+        },
+        {
+          "t": "0:21",
+          "texto": "No hace pagos, solo ofrece información.",
+          "pantalla": "Icono de prohibición de pago"
+        },
+        {
+          "t": "0:28",
+          "texto": "Para quien asesora finanzas personales, ahorra extraer datos manualmente.",
+          "pantalla": "Consultor revisando informe generado por IA"
+        },
+        {
+          "t": "0:35",
+          "texto": "Así la IA lee tu billetera para aconsejarte.",
+          "pantalla": "Resumen visual de gastos con recomendaciones"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h12",
+      "titulo": "ChatGPT Wallet de OpenAI",
+      "placas": [
+        "OpenAI anunció ChatGPT Wallet, una herramienta para que agentes de ChatGPT compren con aprobación del usuario.",
+        "Permite a los agentes usar tarjetas protegidas ya existentes.",
+        "El servicio se lanza en una fase limitada para suscriptores Pro en EE.UU.",
+        "Los agentes pueden completar compras sin que el usuario salga de la conversación.",
+        "Facilita a programadores de bots gestionar pagos sin crear su propio sistema de cobro."
+      ]
+    },
+    "post": {
+      "nota": "h08",
+      "titulo": "Incertidumbre en la cadena de suministro de IA tras la salida de Jensen Huang",
+      "texto": "Asian governments están revisando sus compromisos de suministro de chips después de la renuncia de Jensen Huang.\nAlgunos confirman que mantendrán los acuerdos; otros solo están monitoreando el impacto.\nSi dirigís una startup de hardware, necesitás saber si habrá retrasos en la entrega de GPUs.\nMantener el contacto con los gobiernos locales será clave para anticipar cambios."
+    },
+    "hilo": {
+      "nota": "h05",
+      "titulo": "¿Vale la pena actualizar a llama.cpp?",
+      "partes": [
+        "Llama.cpp lanzó una nueva versión con código optimizado que acelera la inferencia.\nLa mejora incluye código optimizado que acelera la inferencia.\nPodés probar la nueva versión y comparar la latencia con la que tenías antes.\nDecidí si el beneficio compensa el esfuerzo de actualizar tu entorno."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h05",
+        "h12"
+      ],
+      "preguntas": [
+        "¿Qué limitaciones encontraste al usar la versión anterior de llama.cpp en tu laptop?",
+        "¿Cómo te sentirías si un agente de IA pudiera comprar recursos en tu nombre sin que tengas que abrir otra ventana?",
+        "¿Qué riesgos percibís al depender de un proveedor externo para el suministro de GPUs tras cambios en la dirección de la empresa?"
+      ],
+      "nota": null
+    }
+  },
+  "fidelidad": {
+    "detectadas": 6,
+    "corregidas": 6,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h26",
+      "titular": "Runway abre Praxis-1, IA de video para controlar robots",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h43",
+      "titular": "Gemini se integra con Google Wallet",
+      "total": 14,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hipertextual",
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h51",
+      "titular": "Tinder y Hinge prohíben IA para elegir y escribir mensajes",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "Shield usa OpenAI para simplificar portales legados",
+      "total": 12,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h48",
+      "titular": "Hackers novatos usan IA para extorsiones de datos",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h52",
+      "titular": "Google Messages ofrece filtro de enlaces con Gemini",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "OpenAI lanza ChatGPT Wallet",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI",
+        "TechCrunch",
+        "The Verge",
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Gobiernos asiáticos vigilan salida de Jensen Huang",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "evento",
+      "fuentes": [
+        "TechCrunch",
+        "The Verge",
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "Llama.cpp sale con mejoras de rendimiento",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "NVIDIA muestra casos de IA en hospitales",
+      "total": 10,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h45",
+      "titular": "Muse de Meta llama a negocios en EE. UU. por suscriptores",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h23",
+      "titular": "Microsoft restableció Outlook tras caída de 24h",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h53",
+      "titular": "Banco y fondos ven IA como riesgo financiero",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h49",
+      "titular": "Blackstone recorta captura de fondos para su centro de datos IA",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h24",
+      "titular": "OpenAI disuelve su equipo de robótica especializado",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h40",
+      "titular": "Malware que mantiene acceso a Gmail tras cambiar contraseña",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hipertextual"
+      ]
+    },
+    {
+      "id": "h50",
+      "titular": "IPO de Anthropic supera la oferta en seis veces",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h41",
+      "titular": "Parche de Windows 11 corrige 1.200 fallos",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hipertextual"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "Amazon planea indexar datos de productos online",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h22",
+      "titular": "Robots con IA cazan piojos en granjas de salmón en Noruega",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h25",
+      "titular": "Anthropic afirma entrenar modelos con menos cómputo",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h54",
+      "titular": "Herramienta de detección IA genera debate literario",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "El Observador"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Google Research publica proyecto Antigravity/teamwork",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Google Research"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "Hugging Face lanza SimReady para robots",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "Hugging Face presenta XYBench",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h42",
+      "titular": "Comandos para personalizar IA sin prompts largos",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hipertextual"
+      ]
+    },
+    {
+      "id": "h34",
+      "titular": "Alerta por aumento de ransomware impulsado por IA",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h35",
+      "titular": "Escasez de controladores de tráfico aéreo",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "Ex‑miembro del board de OpenAI duda de CEOs de IA",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h55",
+      "titular": "Acusan a Nvidia de crear escasez de GPUs",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hacker News"
+      ]
+    }
+  ]
+}

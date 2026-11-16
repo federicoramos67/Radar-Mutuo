@@ -1,0 +1,1018 @@
+{
+  "fecha": "2026-11-16T17:26:22.813977-03:00",
+  "revisados": 76,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1397
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 908
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": false,
+      "error": "HTTPError"
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": false,
+      "error": "HTTPError"
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h01",
+      "titular": "OpenAI abre acceso gratuito a 200.000 investigadores",
+      "resumen": "OpenAI amplía su programa ChatGPT for Academic Researchers, ofreciendo uso sin costo a 200.000 científicos en todo el mundo.",
+      "porque_importa": "Un investigador podrá probar modelos de frontera sin pagar licencias.",
+      "angulo": "Más investigadores, más experimentos con IA de última generación.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 5
+      },
+      "total": 16,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Broadening access to AI for scientists"
+    },
+    {
+      "id": "h15",
+      "titular": "NVIDIA Vera Rubin lidera benchmarks MLPerf",
+      "resumen": "La plataforma NVIDIA Vera Rubin obtuvo los mejores resultados en todos los benchmarks MLPerf Training v6.1 y en su primera presentación en MLPerf Endpoints.",
+      "porque_importa": "Un científico de datos podrá elegir hardware con rendimiento probado en entrenamientos y despliegues.",
+      "angulo": "¿Qué hardware realmente supera a los demás en los tests oficiales?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 5
+      },
+      "total": 16,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: NVIDIA. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance"
+    },
+    {
+      "id": "h03",
+      "titular": "1.800 científicos usan ChatGPT",
+      "resumen": "OpenAI reporta que más de 1.800 investigadores emplean ChatGPT en sus flujos de trabajo, citando aumentos de productividad y nuevas expectativas de descubrimiento.",
+      "porque_importa": "Un investigador que escribe borradores de artículos puede delegar redacciones preliminares a ChatGPT y ahorrar tiempo.",
+      "angulo": "Datos reales de cómo la IA ya está en los laboratorios",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/science-at-the-frontier",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Science at the Frontier: How scientists use ChatGPT"
+    },
+    {
+      "id": "h14",
+      "titular": "Lambda usa conmutadores fotónicos NVIDIA para entrenar IA",
+      "resumen": "Lambda incorpora switches NVIDIA Photonics CPO para conectar miles de GPUs y mejorar la resiliencia y eficiencia del entrenamiento de modelos.",
+      "porque_importa": "Un ingeniero de ML podrá escalar entrenamientos con menor latencia de red.",
+      "angulo": "Redes fotónicas: el nuevo cuello de botella que se elimina.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 4
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: NVIDIA. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/lambda-photonics/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics"
+    },
+    {
+      "id": "h28",
+      "titular": "Google lanza nuevas funciones de Ask Maps para viajes",
+      "resumen": "Google AI anunció mejoras en Ask Maps orientadas a planificar viajes y prepararse para vacaciones.",
+      "porque_importa": "Quien organiza itinerarios de viaje podrá obtener rutas y recomendaciones sin buscar manualmente.",
+      "angulo": "¿Te vas de vacaciones? Ahora Ask Maps te sugiere pasos concretos.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 3 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Google AI",
+            "link": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+            "tipo": "oficial"
+          },
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/16/google-maps-ya-arma-itinerarios-de-viaje-con-ia-y-los-actualiza-con-el-transito-en-tiempo-real/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Antihype bajo, datos vagos",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "New Ask Maps features to help with holiday travel and prep"
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI lanza herramientas contra abuso sexual infantil online",
+      "resumen": "OpenAI presentó nuevas herramientas, guías y alianzas para prevenir y detectar explotación sexual infantil en internet.",
+      "porque_importa": "Los moderadores de contenido tendrán recursos adicionales para identificar material ilícito.",
+      "angulo": "IA al servicio de la seguridad digital infantil.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/strengthening-online-child-safety",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta de métricas concretas",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Strengthening the fight against online child sexual abuse with new tools and support"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h35",
+      "titular": "OpenAI lanza clasificador contra deepfakes infantiles",
+      "resumen": "OpenAI presentó un clasificador que ayuda a investigadores a detectar imágenes abusivas de menores más rápido, según una rueda de prensa en Washington.",
+      "porque_importa": "Quien trabaja en prevención de abuso infantil podrá filtrar contenido con menos esfuerzo manual.",
+      "angulo": "Una herramienta contra el ruido en líneas de ayuda infantil",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/policy/1034527/openai-csam-classifier",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines"
+    },
+    {
+      "id": "h61",
+      "titular": "ChatGPT Ads llega a 14 países latinos",
+      "resumen": "OpenAI activó su sistema de publicidad en español en Argentina, Perú, Chile y Colombia, entre otros.",
+      "porque_importa": "Quien maneja la comunicación de una marca podrá comprar espacio publicitario dentro de ChatGPT.",
+      "angulo": "Publicidad directa en la IA que abre nuevos canales de venta",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/16/openai-activa-chatgpt-ads-en-14-paises-latinos-publicidad-en-espanol-en-la-ia/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "OpenAI activa ChatGPT Ads en 14 países latinos: publicidad en español en la IA"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h08",
+      "titular": "The King’s Trust y OpenAI destinan £1 M a jóvenes del Reino Unido",
+      "resumen": "Se anunció una alianza de £1 millón para capacitar a hasta 25 000 jóvenes británicos en habilidades prácticas de IA.",
+      "porque_importa": "Un docente de secundaria podrá ofrecer a sus alumnos un programa de IA sin costo adicional.",
+      "angulo": "Formación masiva: ¿Cómo impactará la oferta de IA en la empleabilidad juvenil?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/the-kings-trust-and-openai",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "The King’s Trust and OpenAI launch £1m partnership"
+    },
+    {
+      "id": "h16",
+      "titular": "NVIDIA amplía bibliotecas CUDA‑X",
+      "resumen": "NVIDIA añadió cuPhoton, cuPotential y cuSpa a sus bibliotecas CUDA‑X para acelerar análisis de datos en áreas como astrofísica y biología celular.",
+      "porque_importa": "Un investigador que procesa grandes volúmenes de datos gana tiempo en sus simulaciones.",
+      "angulo": "Más herramientas de GPU para científicos que ya usan CUDA",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery"
+    },
+    {
+      "id": "h04",
+      "titular": "LVMH y OpenAI firman alianza",
+      "resumen": "La división de medios de LVMH y OpenAI anunciaron una colaboración para usar IA en periodismo y mejorar la accesibilidad de sus publicaciones vía ChatGPT.",
+      "porque_importa": "Un editor de contenidos de una revista de moda podrá generar resúmenes automáticos para sus lectores.",
+      "angulo": "Moda y IA: una alianza que busca automatizar noticias",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/lvmh-media-division-partnership",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta detalle de implementación concreta",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "LVMH’s Media Division announces strategic partnership with OpenAI"
+    },
+    {
+      "id": "h05",
+      "titular": "OpenAI lanza evaluaciones embebidas",
+      "resumen": "OpenAI inicia la primera fase de evaluaciones embebidas con Apollo Research, METR, Transluce y Goodfire para medir alineación y salvaguardas de sus modelos.",
+      "porque_importa": "Un auditor de IA podrá usar estos resultados para validar riesgos en proyectos internos.",
+      "angulo": "Primeras pruebas externas de seguridad en modelos de OpenAI",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Sin datos de resultados aún",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Our first phase of embedded assessments"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h53",
+      "titular": "Google advierte IA para ciberataques automáticos",
+      "resumen": "Google alertó que los ciberataques totalmente automatizados con IA podrían aparecer pronto y pidió prepararse.",
+      "porque_importa": "Los equipos de seguridad tendrán que entrenar a sus analistas en detección de ataques generados por IA.",
+      "angulo": "IA como arma: ¿estamos listos?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 1
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Hipertextual. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Hipertextual",
+            "link": "https://hipertextual.com/seguridad/google-advierte-ciberataques-automatizados-ia/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Sin datos verificables, solo alerta de futuro",
+      "naturaleza": "opinion",
+      "titulo_original": "Google enciende las alarmas: la IA podría lanzar ciberataques sin ayuda humana"
+    },
+    {
+      "id": "h20",
+      "titular": "Trump niega amenaza de espionaje en Nvidia",
+      "resumen": "Trump contradice a funcionarios de inteligencia que calificaron a Alice Huang de espía china.",
+      "porque_importa": "No afecta directamente a profesionales de IA o tecnología en la región.",
+      "angulo": "Una polémica sin datos que genera ruido",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Bajo impacto y sin datos verificables",
+      "naturaleza": "opinion",
+      "titulo_original": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security"
+    },
+    {
+      "id": "h43",
+      "titular": "Petición para que vuelva Jensen Huang a Nvidia",
+      "resumen": "Una campaña en redes pide reinstaurar al ex‑CEO de Nvidia, sin respaldo oficial.",
+      "porque_importa": "No genera cambios concretos para desarrolladores o usuarios de IA.",
+      "angulo": "Movilización sin peso institucional",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó MIT Technology Review. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "MIT Technology Review",
+            "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Rumor sin datos ni impacto",
+      "naturaleza": "opinion",
+      "titulo_original": "The open-source movement wants Jensen Huang back"
+    },
+    {
+      "id": "h21",
+      "titular": "Altman dice que la IA seguirá sin Huang",
+      "resumen": "Sam Altman reconoce la influencia de Jensen Huang pero asegura que la industria será “fine” sin él.",
+      "porque_importa": "No implica ajustes operativos para profesionales de IA en la región.",
+      "angulo": "Optimismo cauteloso ante la salida de un líder",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Comentario sin evidencia ni efecto práctico",
+      "naturaleza": "opinion",
+      "titulo_original": "Sam Altman on Nvidia without Jensen Huang: the industry will be ‘fine’"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h28",
+    "tesis": "La integración de IA en Google Maps permite a quien arma itinerarios generar rutas y recomendaciones sin buscar manualmente, lo que reduce la carga operativa de la planificación. Lo que el anuncio no aclara es a qué costo ni en qué dispositivos o regiones estará disponible la función.",
+    "mirar": "Esperar la confirmación de precios y de la lista de países donde la herramienta se activará."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h15",
+      "titulo": "NVIDIA Vera Rubin lidera benchmarks MLPerf",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "NVIDIA anunció que su plataforma Vera Rubin batió todos los tests MLPerf Training v6.1.",
+          "pantalla": "Logo de NVIDIA y título del benchmark"
+        },
+        {
+          "t": "0:07",
+          "texto": "En los entrenamientos, la máquina superó a la competencia en cada tarea evaluada.",
+          "pantalla": "Gráfica comparativa de resultados"
+        },
+        {
+          "t": "0:14",
+          "texto": "En la primera prueba MLPerf Endpoints, entregó más de 10 veces la eficiencia por vatio para IA agente.",
+          "pantalla": "Icono de energía y número 10x"
+        },
+        {
+          "t": "0:21",
+          "texto": "Para un científico de datos, eso significa elegir hardware con rendimiento probado oficialmente.",
+          "pantalla": "Científico analizando datos en pantalla"
+        },
+        {
+          "t": "0:28",
+          "texto": "El dato proviene del comunicado oficial de NVIDIA publicado hoy.",
+          "pantalla": "Captura de la nota de prensa"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h14",
+      "titulo": "Lambda adopta conmutadores fotónicos de NVIDIA",
+      "placas": [
+        "Lambda incorpora switches NVIDIA Photonics CPO para conectar miles de GPUs.",
+        "La solución busca reducir latencia y mejorar resiliencia en entrenamientos masivos.",
+        "Conecta racks GB300 NVL72 que suman más de 10.000 GPUs.",
+        "Para un ingeniero de ML, la red fotónica permite escalar modelos sin cuellos de botella.",
+        "La información proviene del anuncio oficial de NVIDIA."
+      ]
+    },
+    "post": {
+      "nota": "h01",
+      "titulo": "OpenAI abre acceso gratuito a 200.000 investigadores",
+      "texto": "OpenAI amplió su programa ChatGPT for Academic Researchers.\nOfrece uso sin costo a 200.000 científicos en todo el mundo.\nUn investigador podrá probar modelos de frontera sin pagar licencias.\nEl anuncio viene del propio comunicado de OpenAI.\n¿Qué proyecto podrías acelerar con acceso gratuito a la IA?"
+    },
+    "hilo": {
+      "nota": "h03",
+      "titulo": "1.800 científicos usan ChatGPT en sus laboratorios",
+      "partes": [
+        "OpenAI informó que más de 1.800 investigadores ya usan ChatGPT en sus flujos de trabajo.",
+        "Los científicos reportan mayor productividad al delegar borradores de artículos a la IA.",
+        "La herramienta también genera ideas y sugiere experimentos preliminares.",
+        "Todo proviene del informe “Science at the Frontier” de OpenAI."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h28",
+        "h14"
+      ],
+      "preguntas": [
+        "¿Cómo afecta la nueva función Ask Maps a la planificación de viajes de un agente de turismo?",
+        "¿Qué limitaciones podrían encontrar los usuarios al confiar en IA para crear itinerarios completos?",
+        "¿Cuáles son los riesgos de depender de conmutadores fotónicos para entrenamientos críticos de IA?"
+      ],
+      "nota": null
+    }
+  },
+  "fidelidad": {
+    "detectadas": 2,
+    "corregidas": 2,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h01",
+      "titular": "OpenAI abre acceso gratuito a 200.000 investigadores",
+      "total": 16,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h15",
+      "titular": "NVIDIA Vera Rubin lidera benchmarks MLPerf",
+      "total": 16,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "1.800 científicos usan ChatGPT",
+      "total": 15,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h35",
+      "titular": "OpenAI lanza clasificador contra deepfakes infantiles",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "The King’s Trust y OpenAI destinan £1 M a jóvenes del Reino Unido",
+      "total": 14,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h61",
+      "titular": "ChatGPT Ads llega a 14 países latinos",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h34",
+      "titular": "Apple prueba límites diarios a Siri IA",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h70",
+      "titular": "Akua recibe inversión de Itaú Ventures",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "El Observador"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "Lambda usa conmutadores fotónicos NVIDIA para entrenar IA",
+      "total": 12,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h28",
+      "titular": "Google lanza nuevas funciones de Ask Maps para viajes",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google AI",
+        "TechCrunch",
+        "The Verge",
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI lanza herramientas contra abuso sexual infantil online",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "California demanda a OpenAI por agente autónomo",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "NVIDIA amplía bibliotecas CUDA‑X",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "LVMH y OpenAI firman alianza",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "OpenAI lanza evaluaciones embebidas",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "OpenAI lanza agentes de uso de computadora para salud",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h59",
+      "titular": "Bancos alertan sobre IA que intenta mover cuentas",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h53",
+      "titular": "Google advierte IA para ciberataques automáticos",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Hipertextual"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "CUDA celebra 20 años",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "evento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "AI Day Seoul reunió a 2.000 asistentes",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "evento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "OpenAI abre blog de ciencia IA",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h36",
+      "titular": "Nvidia no contempla reincorporar a Jensen Huang",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "NVIDIA describe su cadena de suministro de IA",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h60",
+      "titular": "Altman elogia a Jensen Huang sin comentar su regreso",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h20",
+      "titular": "Trump niega amenaza de espionaje en Nvidia",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h43",
+      "titular": "Petición para que vuelva Jensen Huang a Nvidia",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "id": "h21",
+      "titular": "Altman dice que la IA seguirá sin Huang",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "OpenAI avanza en agentes para salud",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "Hugging Face y OpenRouter colaboran en modelos abiertos",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "GPT‑6 Astra ayuda a definir modelo estándar en lattice",
+      "total": 0,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    }
+  ]
+}

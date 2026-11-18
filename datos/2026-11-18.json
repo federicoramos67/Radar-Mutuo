@@ -1,0 +1,980 @@
+{
+  "fecha": "2026-11-18T15:50:00.166845-03:00",
+  "revisados": 100,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1410
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 911
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h06",
+      "titular": "ChatGPT lanza plugin de ventas",
+      "resumen": "OpenAI añadió un plugin de ventas y más de 30 plugins de socios para investigar prospectos, armar pitches y actualizar CRM.",
+      "porque_importa": "Un vendedor podrá generar propuestas y alimentar su CRM sin cambiar de herramienta.",
+      "angulo": "Ventas asistidas por IA dentro de ChatGPT",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/introducing-chatgpt-for-sales",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Introducing ChatGPT for Sales"
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI muestra sandbox de Codex",
+      "resumen": "OpenAI explicó que Codex ejecuta comandos bajo límites de sistema que el usuario controla en macOS, Linux y Windows.",
+      "porque_importa": "Un programador podrá probar código generado por IA sin arriesgar su entorno local.",
+      "angulo": "Codex seguro: IA que respeta tus permisos de sistema",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 4
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/inside-the-codex-sandbox",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Inside the Codex sandbox"
+    },
+    {
+      "id": "h14",
+      "titular": "NVIDIA presenta Nemotron para ciencia",
+      "resumen": "En SC26, NVIDIA mostró Nemotron for Science, una herramienta para planear experimentos y ejecutar código en sistemas de investigadores.",
+      "porque_importa": "Un investigador podrá automatizar pruebas sin escribir scripts manuales.",
+      "angulo": "IA que ejecuta experimentos en tu propio cluster",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: NVIDIA. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents"
+    },
+    {
+      "id": "h13",
+      "titular": "NVIDIA lanza RTX Spark Compact",
+      "resumen": "ASUS, Dell y MSI venden desktops RTX Spark con hasta 128 GB de memoria unificada y software AI de NVIDIA.",
+      "porque_importa": "Un diseñador de video podrá entrenar y generar contenido AI en una PC de escritorio sin servidor externo.",
+      "angulo": "Potencia AI de escritorio al alcance de creativos",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: NVIDIA. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "NVIDIA RTX Spark Compact Desktops Out Now"
+    },
+    {
+      "id": "h05",
+      "titular": "OpenAI presenta GPT‑6.2 Astra y Sol",
+      "resumen": "OpenAI lanza GPT‑6.2 Astra y Sol, con mejor salida profesional, codificación y menor costo en ChatGPT Work, Codex y API.",
+      "porque_importa": "Programadores y usuarios de API obtienen respuestas más precisas gastando menos.",
+      "angulo": "Más potencia de IA a menor precio para desarrolladores.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Introducing GPT-6.2 Astra and Sol"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h80",
+      "titular": "LeBron demanda app que usó su voz IA",
+      "resumen": "La startup Bron, de ex‑estudiantes de Berkeley, usó la imagen y voz de LeBron en una apuesta sin cambiar el nombre pese a la advertencia del jugador.",
+      "porque_importa": "Un creador de contenido debe chequear derechos antes de usar voces o caras generadas por IA.",
+      "angulo": "Cuando la IA infringe la imagen de una celebridad",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/18/lebron-james-demando-a-una-app-de-apuestas-por-un-anuncio-con-su-imagen-y-voz-creados-con-ia/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "LeBron James demandó a una app de apuestas por un anuncio con su imagen y voz creados con IA"
+    },
+    {
+      "id": "h21",
+      "titular": "Google habilita modo incógnito en IA de búsqueda",
+      "resumen": "Google añadió hilos temporales que permiten conversar con la IA sin que se guarden en el historial ni influyan en recomendaciones futuras.",
+      "porque_importa": "Quien busca privacidad podrá usar la IA sin que sus consultas queden registradas.",
+      "angulo": "Conversaciones con IA que no dejan rastro",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Google’s AI feature in Search gets its own incognito mode"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h03",
+      "titular": "GPT‑6 Astra ayuda a diseñar chips RISC‑V",
+      "resumen": "Modelos de OpenAI optimizaron circuitos en silicio Jalapeño y mejoraron diseños de núcleos RISC‑V.",
+      "porque_importa": "A ingenieros de hardware les ahorra tiempo en simulaciones de circuitos.",
+      "angulo": "IA que ya está dibujando la próxima generación de procesadores.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/advancing-chip-design-with-our-models",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Advancing chip design with OpenAI models"
+    },
+    {
+      "id": "h10",
+      "titular": "Modelos de series temporales en Streamhouse",
+      "resumen": "Hugging Face publicó un artículo sobre usos de modelos de series temporales en Streamhouse.",
+      "porque_importa": "Un ingeniero de datos podrá aplicar esos casos de uso a sus pipelines de streaming.",
+      "angulo": "Series temporales, el nuevo foco de la IA de datos",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Poco detalle técnico",
+      "naturaleza": "investigacion",
+      "titulo_original": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases"
+    },
+    {
+      "id": "h04",
+      "titular": "Le Figaro llega a ChatGPT",
+      "resumen": "Le Groupe Figaro y OpenAI integran resúmenes de sus artículos en ChatGPT con enlaces a la fuente original.",
+      "porque_importa": "Periodistas pueden ver su contenido expuesto a usuarios de IA sin perder la autoría.",
+      "angulo": "Noticias tradicionales ahora responden a preguntas de IA.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT"
+    },
+    {
+      "id": "h12",
+      "titular": "Rumble‑2‑Flash, modelo de voz abierto 0.5 B",
+      "resumen": "Hugging Face lanza un modelo de habla de 0.5 B que soporta más de 40 idiomas.",
+      "porque_importa": "Creadores de contenido multilingüe pueden generar audio sin licencias costosas.",
+      "angulo": "IA de voz accesible para cualquier idioma.",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/rumble-2-flash",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h02",
+      "titular": "OpenAI advierte sobre control institucional",
+      "resumen": "Dean Ball de OpenAI habla de riesgos de IA más capaz y sugiere formas de mantener control institucional.",
+      "porque_importa": "A quien dirige políticas de IA le sirve para planear regulaciones.",
+      "angulo": "¿Podemos frenar a la IA antes de que tome decisiones?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es una pieza de opinión. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/the-silent-consensus",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Poco dato concreto, mayormente reflexión.",
+      "naturaleza": "opinion",
+      "titulo_original": "The Silent Consensus"
+    },
+    {
+      "id": "h76",
+      "titular": "Japón crea empresas para renunciar al empleo",
+      "resumen": "En Japón existen firmas que ayudan a trabajadores a dejar sus puestos cuando la carga laboral es insostenible.",
+      "porque_importa": "Un gestor de recursos humanos podrá observar tendencias de burnout en Asia.",
+      "angulo": "Empresas que facilitan la salida laboral en Japón",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka México. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka México",
+            "link": "https://www.xataka.com.mx/otros-1/japon-hay-trabajadores-que-no-pueden-renunciar-a-sus-empleos-que-existen-empresas-que-hacen-ellos-1",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Tema ajeno a IA y tecnología digital",
+      "naturaleza": "otro",
+      "titulo_original": "En Japón hay tantos trabajadores que no pueden renunciar a sus empleos que ya existen empresas que lo hacen por ellos"
+    },
+    {
+      "id": "h77",
+      "titular": "IA clasifica gastos, pero la CNMV detectó datos falsos",
+      "resumen": "Una IA genera presupuestos en hojas de cálculo y la CNMV señaló que produce cifras inventadas. No se indican qué datos son seguros ni cómo funciona el modelo.",
+      "porque_importa": "Si manejás finanzas personales, la IA no reemplaza a un asesor y podés equivocarte al confiar en sus números.",
+      "angulo": "¿Confiar en una hoja de cálculo automática o seguir con la revisión humana?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/11/18/ia-finanzas-personales-presupuesto-hoja-calculo-datos/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta datos concretos y la fuente no aporta cifras verificables",
+      "naturaleza": "otro",
+      "titulo_original": "Ordenar tus finanzas personales con IA: presupuesto y gastos en una hoja de cálculo, los datos que no debes darle y por qué no es un asesor"
+    },
+    {
+      "id": "h23",
+      "titular": "Altman advierte sobre IA que tome decisiones",
+      "resumen": "Sam Altman y Greg Brockman expresaron preocupación por que la IA controle decisiones, sin ofrecer datos o ejemplos concretos.",
+      "porque_importa": "Quien diseña productos de IA debe considerar límites de autonomía en sus sistemas.",
+      "angulo": "El debate sobre control humano en IA sigue abierto",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Sin datos verificables, solo opinión de ejecutivos",
+      "naturaleza": "opinion",
+      "titulo_original": "Sam Altman warns against a future where AI, not humans, calls the shots"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h06",
+    "tesis": "El plugin de ventas permite que el vendedor genere propuestas y alimente su CRM sin salir de ChatGPT, pero el anuncio no revela ni el costo ni qué usuarios quedan fuera por falta de acceso a la herramienta.",
+    "mirar": "Buscar información sobre el precio del plugin y su disponibilidad para equipos que no usan ChatGPT Plus."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h06",
+      "titulo": "ChatGPT ahora vende",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "OpenAI lanzó un plugin de ventas para ChatGPT.",
+          "pantalla": "Logo de OpenAI y pantalla de ChatGPT con icono de plugin"
+        },
+        {
+          "t": "0:07",
+          "texto": "El plugin ayuda a armar pitches rápidamente.",
+          "pantalla": "Ejemplo de propuesta generada"
+        },
+        {
+          "t": "0:14",
+          "texto": "También actualiza tu CRM sin salir del chat.",
+          "pantalla": "Vista de CRM siendo actualizado"
+        },
+        {
+          "t": "0:21",
+          "texto": "Más de 30 plugins de socios añaden funciones de investigación de prospectos.",
+          "pantalla": "Lista de plugins de socios"
+        },
+        {
+          "t": "0:28",
+          "texto": "Un vendedor puede generar propuestas y actualizar su CRM sin cambiar de herramienta.",
+          "pantalla": "Vendedor trabajando en laptop"
+        },
+        {
+          "t": "0:35",
+          "texto": "Todo dentro de la conversación de ChatGPT.",
+          "pantalla": "ChatGPT con varios mensajes"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h01",
+      "titulo": "Codex con sandbox propio",
+      "placas": [
+        "OpenAI muestra cómo Codex ejecuta comandos en un sandbox controlado.",
+        "El sandbox respeta límites de sistema que el usuario define.",
+        "Disponible para macOS, Linux y Windows.",
+        "Los programadores pueden probar código IA sin dañar su entorno local.",
+        "El control incluye filesystem y red.",
+        "Una capa extra de seguridad para desarrollo asistido por IA."
+      ]
+    },
+    "post": {
+      "nota": "h14",
+      "titulo": "Nemotron para ciencia",
+      "texto": "NVIDIA presentó Nemotron for Science en la conferencia SC26.\n\nLa herramienta planifica experimentos y ejecuta código en los sistemas del investigador.\n\nUn investigador puede automatizar pruebas sin escribir scripts manuales.\n\nNemotron puede ejecutarse en el propio cluster del investigador.\n\n"
+    },
+    "hilo": {
+      "nota": "h13",
+      "titulo": "RTX Spark Compact para creativos",
+      "partes": [
+        "NVIDIA lanzó desktops RTX Spark Compact con hasta 128 GB de memoria unificada.",
+        "Los equipos vienen de ASUS, Dell y MSI y están listos para usar AI localmente.",
+        "Diseñadores de video pueden entrenar y generar contenido sin servidores externos.",
+        "El stack de software AI de NVIDIA permite fine‑tuning de modelos en la PC.",
+        "Una opción potente para estudios que prefieren trabajar offline."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h05",
+        "h14"
+      ],
+      "preguntas": [
+        "¿Cómo afecta el menor costo de GPT‑6.2 a proyectos de startups que usan la API?",
+        "¿Qué limitaciones sigue teniendo la salida profesional de Astra y Sol comparada con versiones anteriores?",
+        "¿De qué manera la automatización de experimentos con Nemotron cambia la gestión de datos en laboratorios?"
+      ],
+      "nota": null
+    }
+  },
+  "fidelidad": {
+    "detectadas": 5,
+    "corregidas": 5,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h06",
+      "titular": "ChatGPT lanza plugin de ventas",
+      "total": 15,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h80",
+      "titular": "LeBron demanda app que usó su voz IA",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h21",
+      "titular": "Google habilita modo incógnito en IA de búsqueda",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI muestra sandbox de Codex",
+      "total": 12,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "NVIDIA presenta Nemotron para ciencia",
+      "total": 12,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "NVIDIA lanza RTX Spark Compact",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "GPT‑6 Astra ayuda a diseñar chips RISC‑V",
+      "total": 11,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "OpenAI presenta GPT‑6.2 Astra y Sol",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h57",
+      "titular": "OpenAI mejora eficiencia de GPU AMD en 14%",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h58",
+      "titular": "Detector Pangram marca novela peruana como IA",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h22",
+      "titular": "Citi restringe uso de agentes de IA en finanzas",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h24",
+      "titular": "Altman reconoce a Jensen como clave en IA",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "TechCrunch",
+        "The Verge",
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "Modelos de series temporales en Streamhouse",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "Le Figaro llega a ChatGPT",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h56",
+      "titular": "Microsoft sustituye modelos externos por internos",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h42",
+      "titular": "Will Wright desarrolla juego con IA para recuerdos",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h41",
+      "titular": "OpenAI pausa entrenamiento tras hackeo interno",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "Rumble‑2‑Flash, modelo de voz abierto 0.5 B",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI advierte sobre control institucional",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h77",
+      "titular": "IA clasifica gastos, pero la CNMV detectó datos falsos",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Gemini llega a Android de baja memoria",
+      "total": 5,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "MoE con 180 B parámetros y 32 GB RAM",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Google lanza Gemini para uso general",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h76",
+      "titular": "Japón crea empresas para renunciar al empleo",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h23",
+      "titular": "Altman advierte sobre IA que tome decisiones",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Genie 4 disponible",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google DeepMind"
+      ]
+    },
+    {
+      "id": "h81",
+      "titular": "WhatsApp incorpora generador de imágenes de IA",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h67",
+      "titular": "Artex, herramienta de IA para hacking",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h54",
+      "titular": "El Corte Inglés adelanta Black Friday",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h66",
+      "titular": "Nvidia anuncia aumentos salariales internos",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Wired"
+      ]
+    }
+  ]
+}

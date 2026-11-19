@@ -1,0 +1,1091 @@
+{
+  "fecha": "2026-11-19T15:58:26.654057-03:00",
+  "revisados": 92,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1414
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 913
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": false,
+      "error": "HTTPError"
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h15",
+      "titular": "NVIDIA lanza desktops RTX Spark con 128 GB de memoria",
+      "resumen": "ASUS, Dell y MSI ponen a la venta hoy desktops RTX Spark con hasta 128 GB de memoria unificada y stack de IA de NVIDIA.",
+      "porque_importa": "Quien programa modelos locales ahora puede entrenar y generar contenido sin depender de la nube.",
+      "angulo": "Potenciá tu estudio con una PC que lleva la IA al escritorio.",
+      "formato": "reel",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria (NVIDIA) con cobertura independiente.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+            "tipo": "oficial"
+          },
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/seleccion/llegan-a-espana-primeros-minipcs-nvidia-rtx-spark-quieres-comprarlos-prepara-cartera",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "NVIDIA RTX Spark Compact Desktops Out Now"
+    },
+    {
+      "id": "h22",
+      "titular": "Gemini agrega agente IA para Mac",
+      "resumen": "La última actualización de Gemini permite a la IA organizar archivos, completar formularios y ejecutar flujos de trabajo en Mac.",
+      "porque_importa": "Quien administra documentos en Mac podrá delegar tareas repetitivas a la IA.",
+      "angulo": "Tu Mac ahora tiene asistente para tareas multietapa.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Google gives Gemini the ability to use your Mac for you"
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI lanza Performance Factory para acelerar ChatGPT",
+      "resumen": "OpenAI describió su Performance Factory, un flujo de trabajo con Codex que detecta y corrige cuellos de botella de rendimiento.",
+      "porque_importa": "Si programás integraciones con ChatGPT, sabés que la latencia será más estable.",
+      "angulo": "Detrás de la velocidad de ChatGPT: la nueva fábrica de rendimiento.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 4
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "How OpenAI’s Performance Factory keeps ChatGPT fast"
+    },
+    {
+      "id": "h08",
+      "titular": "Gemini app disponible en Android de baja memoria",
+      "resumen": "Google AI anunció que la app Gemini ahora funciona en dispositivos Android con menos RAM.",
+      "porque_importa": "A quien desarrolla apps móviles le permite integrar Gemini sin requerir hardware potente.",
+      "angulo": "Gemini se abre a teléfonos modestos: más usuarios pueden probar IA.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 4
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: Google AI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "Google AI",
+            "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "The Gemini app is now available on lower-memory Android devices."
+    },
+    {
+      "id": "h27",
+      "titular": "Anthropic sale a bolsa y prueba el modelo de financiación",
+      "resumen": "Anthropic salió a bolsa y anunció compromisos de cómputo masivos; Amazon y Google siguen como socios de infraestructura.",
+      "porque_importa": "Si gestionás presupuestos de IA, deberás evaluar riesgos de dependencia de proveedores externos.",
+      "angulo": "¿Puede un IPO sobrevivir sin liderar la carrera de cómputo?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 4 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Wired",
+            "link": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Anthropic’s IPO puts AI’s circular financing boom to the test"
+    },
+    {
+      "id": "h04",
+      "titular": "OpenAI mide aceleración de investigación con agentes de código",
+      "resumen": "OpenAI publicó un estudio sobre cómo sus agentes de programación están impulsando la investigación de IA, aunque con resultados desiguales.",
+      "porque_importa": "Un investigador de IA verá qué tareas pueden delegar a agentes y dónde siguen necesitando intervención humana.",
+      "angulo": "¿Hasta dónde pueden los bots escribir papers?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Research acceleration: The jagged frontier"
+    },
+    {
+      "id": "h10",
+      "titular": "DeepMind lanza Genie 4",
+      "resumen": "Google DeepMind anunció la disponibilidad de Genie 4, su último modelo de IA.",
+      "porque_importa": "A quien crea contenido con IA le brinda una nueva herramienta para generar texto.",
+      "angulo": "Genie 4 llega al mercado: ¿qué diferencia al nuevo modelo?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: Google DeepMind. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "Google DeepMind",
+            "link": "https://deepmind.google/blog/genie-4-is-now-available/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "No se indican capacidades ni precios concretos.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Genie 4 is now available"
+    },
+    {
+      "id": "h05",
+      "titular": "OpenAI muestra sandbox de Codex con límites de sistema",
+      "resumen": "OpenAI describió cómo Codex ejecuta comandos en máquinas locales respetando restricciones de archivos y red en macOS, Linux y Windows.",
+      "porque_importa": "Un desarrollador podrá probar scripts generados por IA sin arriesgar su entorno local.",
+      "angulo": "IA que corre código bajo tu propio control",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/inside-the-codex-sandbox",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Inside the Codex sandbox"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h43",
+      "titular": "ChatGPT lanza dictado en vivo para transcribir al hablar",
+      "resumen": "The Verge confirma que la función Live Dictation ya está disponible globalmente en todas las suscripciones de ChatGPT, web, desktop y apps móviles.",
+      "porque_importa": "Quien escribe contenido o programa con notas de voz podrá generar texto al instante, sin esperar a grabar y subir archivos.",
+      "angulo": "Dictado en tiempo real: escribe mientras hablas",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "ChatGPT can transcribe as you speak now with Live Dictation"
+    },
+    {
+      "id": "h24",
+      "titular": "Everful levanta $48,5 M para conectar tiendas con fábricas chinas",
+      "resumen": "La plataforma amplía su servicio de sourcing directo entre minoristas y fabricantes extranjeros tras la ronda de inversión.",
+      "porque_importa": "Un comprador de retail podrá acceder a proveedores chinos sin intermediarios.",
+      "angulo": "Financiamiento que acelera el sourcing directo en e‑commerce.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h03",
+      "titular": "Sumitomo Life adopta ChatGPT Enterprise para propuestas y código",
+      "resumen": "La aseguradora japonesa usa ChatGPT Enterprise para investigar seguros, armar propuestas y generar código de análisis de inversiones.",
+      "porque_importa": "Un analista de seguros podrá acelerar la elaboración de propuestas con IA generativa.",
+      "angulo": "IA que escribe código y documentos en la industria financiera",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/business/customer-stories/sumitomo-life",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise"
+    },
+    {
+      "id": "h14",
+      "titular": "Desarrolladores usan IA frontier en Omniverse",
+      "resumen": "NVIDIA muestra cómo combinar modelos frontier AI con librerías Omniverse para crear simulaciones más rápido.",
+      "porque_importa": "Quien construye entornos 3D puede acelerar la integración de assets y física con IA.",
+      "angulo": "¿La IA está redefiniendo la creación de simulaciones?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo NVIDIA en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "NVIDIA",
+            "link": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents"
+    },
+    {
+      "id": "h12",
+      "titular": "Explican por qué el fine‑tuning tarda más de lo esperado",
+      "resumen": "Hugging Face analizó causas de que los trabajos de fine‑tuning superen el tiempo estimado por FLOPs.",
+      "porque_importa": "A quien entrena modelos le ayuda a planificar mejor los recursos y tiempos.",
+      "angulo": "El mito de los FLOPs: por qué el entrenamiento real es más lento.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Sin datos numéricos específicos, la información queda genérica.",
+      "naturaleza": "investigacion",
+      "titulo_original": "Why your fine-tuning job takes longer than the FLOPs say"
+    },
+    {
+      "id": "h11",
+      "titular": "DaisyRose‑27B mejora eficiencia post‑entrenamiento",
+      "resumen": "Hugging Face presentó DaisyRose‑27B, un modelo que reduce el coste de inferencia tras el entrenamiento.",
+      "porque_importa": "A quien despliega modelos grandes le permite ahorrar recursos en producción.",
+      "angulo": "Más potencia con menos gasto: el nuevo modelo de Hugging Face.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 1,
+        "antihype": 2
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta detalle de métricas concretas.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h23",
+      "titular": "Muse de Meta expone datos privados según informe",
+      "resumen": "TechCrunch informó que el agente IA Muse mostró mensajes falsos sobre guardería, consejos de carrera, pedidos y saldos bancarios que no correspondían al usuario.",
+      "porque_importa": "Un responsable de seguridad de datos deberá revisar cómo su empresa usa agentes conversacionales internos.",
+      "angulo": "Cuando la IA mezcla conversaciones y revela información errónea",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 2
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Fuente de medio, sin confirmación oficial",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says"
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI reflexiona sobre control institucional ante IA avanzada",
+      "resumen": "Dean Ball, de OpenAI, publicó un ensayo sobre riesgos de IA y control social.",
+      "porque_importa": "Un responsable de política pública tendrá un punto de partida para debatir regulaciones.",
+      "angulo": "¿Quién mantiene el timón cuando la IA se vuelve más capaz?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es una pieza de opinión. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/the-silent-consensus",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Sin datos concretos ni ejemplos aplicables",
+      "naturaleza": "opinion",
+      "titulo_original": "The Silent Consensus"
+    },
+    {
+      "id": "h13",
+      "titular": "Nuevos modelos de series temporales en Streamhouse",
+      "resumen": "Hugging Face anunció la incorporación de modelos de series temporales a su plataforma Streamhouse.",
+      "porque_importa": "Un ingeniero de datos podrá probar predicciones de tiempo sin montar infraestructura propia.",
+      "angulo": "Modelos listos para usar en pipelines de datos",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Datos escasos, sin métricas de rendimiento",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases"
+    },
+    {
+      "id": "h82",
+      "titular": "Microsoft apunta a 50 millones de agentes IA corporativos",
+      "resumen": "En Ignite anunció la estrategia Frontier para integrar IA en flujos empresariales, sin cifras de adopción ni precios.",
+      "porque_importa": "Un analista de datos corporativos tendría que evaluar nuevas herramientas sin saber su costo.",
+      "angulo": "¿Vale la pena invertir en agentes IA sin métricas claras?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/19/el-plan-de-microsoft-ya-suma-50-millones-de-agentes-ia-para-empresas/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos vagos, poco impacto concreto",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "El plan de Microsoft ya suma 50 millones de agentes IA para empresas"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h15",
+    "tesis": "Los desktops RTX Spark ponen la IA local al alcance de programadores que antes necesitaban servidores en la nube, pero el anuncio no indica el precio ni la disponibilidad en Uruguay, lo que deja fuera a quienes no pueden costear hardware premium. Además, la oferta se concentra en marcas grandes; los usuarios de equipos más modestos siguen sin opciones para ejecutar modelos locales con esa capacidad de memoria.",
+    "mirar": "Esperar la publicación de precios y canales de distribución en la región para evaluar si la propuesta es viable para estudios y freelancers uruguayos."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h15",
+      "titulo": "Desktops RTX Spark llevan IA al escritorio",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "NVIDIA anuncia desktops RTX Spark con hasta 128 GB de memoria unificada.",
+          "pantalla": "Imagen del gabinete con logo NVIDIA"
+        },
+        {
+          "t": "0:07",
+          "texto": "ASUS, Dell y MSI ya venden los equipos en sus tiendas online.",
+          "pantalla": "Logos de ASUS, Dell y MSI"
+        },
+        {
+          "t": "0:14",
+          "texto": "Incluyen el stack de software de IA de NVIDIA para generar imágenes y video localmente.",
+          "pantalla": "Captura de pantalla del software en Windows"
+        },
+        {
+          "t": "0:21",
+          "texto": "Programadores pueden entrenar modelos pequeños sin usar la nube.",
+          "pantalla": "Desarrollador frente al PC codificando"
+        },
+        {
+          "t": "0:28",
+          "texto": "Ideal para estudios que necesiten potencia de IA sin depender de conexión externa.",
+          "pantalla": "Estudio de edición con varios monitores"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h01",
+      "titulo": "Performance Factory de OpenAI acelera ChatGPT",
+      "placas": [
+        "OpenAI lanzó Performance Factory, un flujo de trabajo interno.",
+        "Usa Codex para detectar cuellos de botella de rendimiento.",
+        "Corrige automáticamente los problemas antes de que afecten a los usuarios.",
+        "Mantiene la latencia de ChatGPT más estable en integraciones.",
+        "No se publican métricas específicas, solo la descripción del proceso."
+      ]
+    },
+    "post": {
+      "nota": "h22",
+      "titulo": "Gemini agrega agente IA para Mac",
+      "texto": "Google actualizó Gemini y ahora incluye un agente que puede usar tu Mac.\n\nEl asistente organiza archivos, completa formularios y ejecuta flujos de trabajo multietapa.\n\nSi administrás documentos en macOS, podés delegar esas tareas repetitivas a la IA.\n\nLa funcionalidad está disponible en la última versión de la app para macOS, según TechCrunch y The Verge."
+    },
+    "hilo": {
+      "nota": "h08",
+      "titulo": "Gemini llega a Android de baja memoria",
+      "partes": [
+        "Google AI anunció que la app Gemini funciona en Android con menos RAM.\n\nEsto abre la IA a teléfonos modestos que antes no la soportaban.",
+        "Los desarrolladores móviles pueden integrar Gemini sin exigir hardware potente.\n\nLa noticia proviene del comunicado oficial de Google AI."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h27"
+      ],
+      "preguntas": [
+        "¿Cómo afecta la dependencia de Amazon y Google a los presupuestos de IA después del IPO de Anthropic?",
+        "¿Qué riesgos implica confiar en socios de infraestructura externos para proyectos críticos?",
+        "¿Cuáles son los criterios que deberías usar para evaluar la sostenibilidad financiera de un modelo de financiación basado en cómputo masivo?"
+      ]
+    }
+  },
+  "fidelidad": {
+    "detectadas": 1,
+    "corregidas": 0,
+    "pendientes": [
+      {
+        "donde": "pieza:reel",
+        "tipo": "afirmacion",
+        "detalle": "«Ideal para estudios que necesiten potencia de IA sin depender de conexión externa.»: Esa afirmación no está respaldada por la fuente; la fuente menciona programadores, no estudios."
+      }
+    ],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h15",
+      "titular": "NVIDIA lanza desktops RTX Spark con 128 GB de memoria",
+      "total": 15,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "NVIDIA",
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h22",
+      "titular": "Gemini agrega agente IA para Mac",
+      "total": 14,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch",
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h43",
+      "titular": "ChatGPT lanza dictado en vivo para transcribir al hablar",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI lanza Performance Factory para acelerar ChatGPT",
+      "total": 13,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "Sumitomo Life adopta ChatGPT Enterprise para propuestas y código",
+      "total": 13,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "Desarrolladores usan IA frontier en Omniverse",
+      "total": 12,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Gemini app disponible en Android de baja memoria",
+      "total": 12,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h27",
+      "titular": "Anthropic sale a bolsa y prueba el modelo de financiación",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch",
+        "The Verge",
+        "The Decoder",
+        "Wired"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "OpenAI mide aceleración de investigación con agentes de código",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h23",
+      "titular": "Muse de Meta expone datos privados según informe",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h24",
+      "titular": "Everful levanta $48,5 M para conectar tiendas con fábricas chinas",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "DeepMind lanza Genie 4",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google DeepMind"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "OpenAI muestra sandbox de Codex con límites de sistema",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h83",
+      "titular": "Google probará satélites con chips de IA en 2029",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h42",
+      "titular": "Anthropic cotiza en Nasdaq a $111,5",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "Explican por qué el fine‑tuning tarda más de lo esperado",
+      "total": 8,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h55",
+      "titular": "Amazon y Google aparecen como accionistas y proveedores de Anthropic",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "DaisyRose‑27B mejora eficiencia post‑entrenamiento",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "Nuevos modelos de series temporales en Streamhouse",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "OpenAI reflexiona sobre control institucional ante IA avanzada",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h82",
+      "titular": "Microsoft apunta a 50 millones de agentes IA corporativos",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h26",
+      "titular": "CEO de Anthropic reafirma ritmo de desarrollo de IA",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Google anuncia Gemini 4 Neon sin detalles",
+      "total": 3,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Google DeepMind",
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "Google AI incluye Tool Retrieval en Gemini API",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Isaacson habla de curiosidad en la era de IA",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h59",
+      "titular": "Exportaciones de chips a China se detienen",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h49",
+      "titular": "Nvidia reporta ganancias millonarias por segundo",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h69",
+      "titular": "Google crea entorno de prueba ‘Mirror Dimension’ para agentes Chrome IA",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h54",
+      "titular": "PcComponentes rebaja TVs en Black Friday",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h56",
+      "titular": "Carrefour rebaja televisor MiniLED Samsung en Black Friday",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Xataka"
+      ]
+    }
+  ]
+}

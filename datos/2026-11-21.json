@@ -1,0 +1,751 @@
+{
+  "fecha": "2026-11-21T13:30:56.391400-03:00",
+  "revisados": 55,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 9,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1421
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 915
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": false,
+      "error": "HTTPError"
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h09",
+      "titular": "Anthropic sale acciones en Nasdaq",
+      "resumen": "Anthropic, la empresa detrás de Claude, salió a bolsa el jueves pasado con una valoración de miles de millones.",
+      "porque_importa": "Le afecta a quien invierte en IA y sigue la evolución de los laboratorios de investigación.",
+      "angulo": "¿Vale la pena apostar por la IA de seguridad?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 4 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/21/un-matematico-de-anthropic-asegura-haber-resuelto-con-claude-el-problema-mas-celebre-de-las-matematicas/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Can Anthropic afford to put safety first?"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h46",
+      "titular": "Brasil regula chatbots y apps bajo ley infantil",
+      "resumen": "La ANPD incluyó a chatbots, juegos y tiendas de apps en la normativa que protege a menores, sin eximir a plataformas gratuitas de verificar edad.",
+      "porque_importa": "Desarrolladores de apps deberán implementar controles de edad para evitar sanciones en Brasil.",
+      "angulo": "¿Cómo afectará la nueva regla a los creadores de contenido digital en América Latina?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/21/brasil-incluyo-a-chatbots-de-ia-juegos-y-tiendas-de-apps-entre-los-servicios-sujetos-a-su-ley-infantil/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "evento",
+      "titulo_original": "Brasil incluyó a chatbots de IA, juegos y tiendas de apps entre los servicios sujetos a su ley infantil"
+    },
+    {
+      "id": "h41",
+      "titular": "Gemini permite importar historial de otras IA",
+      "resumen": "Google lanzó una función que importa contexto, preferencias e historial de chats de otras apps de IA mediante un resumen y un archivo ZIP. No se detallan condiciones de privacidad.",
+      "porque_importa": "Si editás contenido con Gemini, podés cargar conversaciones previas y evitar volver a escribir el mismo contexto.",
+      "angulo": "¿Te vas a quedar sin historial al cambiar de herramienta?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/11/21/gemini-importar-historial-conversaciones-otras-apps-ia/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Gemini ya deja importar tu historial de otras apps de IA para no empezar de cero"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h02",
+      "titular": "Google Duplex ahora llama en Gemini",
+      "resumen": "Google anunció que Gemini incluye la función Duplex para contactar negocios por teléfono.",
+      "porque_importa": "Quien gestiona la atención al cliente podrá automatizar llamadas de reserva o consulta.",
+      "angulo": "La IA que ya llama por vos, ahora en Gemini.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Google Research en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Google Research",
+            "link": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "How Google Duplex evolved to also call businesses for you in Gemini"
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI lanza defensa contra distilación adversa",
+      "resumen": "OpenAI describe un enfoque en capas para evitar que extraigan capacidades de sus modelos.",
+      "porque_importa": "Programadores que usan modelos de OpenAI tendrán más garantías de seguridad.",
+      "angulo": "¿Podrá la IA protegerse de sí misma?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/combatting-adversarial-distillation",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Combatting adversarial distillation"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h24",
+      "titular": "Monasterio de Vermont crea AI dios",
+      "resumen": "Según The New Yorker, un monasterio budista busca entrenar una IA con los datos de respiración de sus miembros.",
+      "porque_importa": "Quien estudia la cultura tech verá cómo se mezclan creencias y IA.",
+      "angulo": "Cuando la espiritualidad se vuelve algoritmo.",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 4,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Poco dato concreto, tono sensacionalista",
+      "naturaleza": "opinion",
+      "titulo_original": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion"
+    },
+    {
+      "id": "h45",
+      "titular": "OpenAI dice que IA hace mitad de la investigación",
+      "resumen": "Un informe interno y una auditoría externa indican que los agentes de OpenAI completan cerca del 50 % de tareas de investigación sin intervención humana.",
+      "porque_importa": "Los investigadores podrían delegar más experimentos a agentes automáticos, reduciendo tiempo de laboratorio.",
+      "angulo": "¿Estamos listos para confiar en IA en la fase crítica de la investigación?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/21/openai-revelo-que-sus-agentes-de-inteligencia-artificial-ya-completan-casi-la-mitad-de-las-tareas-de-investigacion-sin-ayuda-humana/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de datos concretos y fuentes independientes.",
+      "naturaleza": "investigacion",
+      "titulo_original": "OpenAI reveló que sus agentes de inteligencia artificial ya completan casi la mitad de las tareas de investigación sin ayuda humana"
+    },
+    {
+      "id": "h21",
+      "titular": "Cortical Labs enlaza quince minicerebros en chip",
+      "resumen": "Investigadores australianos conectaron quince neuronas humanas en un chip y lograron que jueguen al Pong, superando a una IA en esa tarea.",
+      "porque_importa": "Si programás interfaces cerebro‑máquina, podés ver un nuevo límite de control biológico.",
+      "angulo": "¿Hasta dónde puede llegar la IA híbrida con neuronas reales?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/investigacion/alguien-ha-conectado-quince-minicerebros-neuronales-formando-mente-colmena-ha-superado-a-ia",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos escasos y sin métricas claras, ruido científico.",
+      "naturaleza": "investigacion",
+      "titulo_original": "Alguien ha conectado quince \"minicerebros\" neuronales formando una mente colmena y ha superado a una IA"
+    },
+    {
+      "id": "h18",
+      "titular": "Editoriales frente al auge de libros escritos con IA",
+      "resumen": "Se discute la autoría de libros generados por IA y cómo las editoriales buscan medidas para identificar textos no humanos.",
+      "porque_importa": "Los editores tendrán que revisar manuscritos con herramientas de detección de IA.",
+      "angulo": "¿Cómo reconocer un libro escrito por una máquina?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/literatura-comics-y-juegos/escribir-libro-ia-facil-que-nunca-eso-editoriales-estan-tomando-medidas-antes-publicar",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de datos concretos, es más debate que hecho.",
+      "naturaleza": "opinion",
+      "titulo_original": "Escribir un libro con IA es más fácil que nunca. Por eso las editoriales están tomando medidas antes de publicar"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h09",
+    "tesis": "La salida a bolsa de Anthropic indica que los laboratorios de IA pueden escalar con capital público, pero el anuncio no revela el precio de la acción ni a quiénes excluye el proceso de inversión.",
+    "mirar": "Obtener el precio de la acción en la apertura y los requisitos de compra para inversores minoristas."
+  },
+  "piezas": {
+    "post": {
+      "nota": "h09",
+      "titulo": "Anthropic sale acciones en Nasdaq",
+      "texto": "Anthropic, la empresa detrás de Claude, salió a bolsa el jueves pasado en Nasdaq.\n\nLa salida implica una valoración de miles de millones, según The Verge.\n\nPara quien invierte en IA, la oferta plantea la pregunta de si vale la pena apostar por una compañía que prioriza la seguridad.\n\nHay que evaluar si la estrategia de seguridad de Anthropic justifica el riesgo y la magnitud de la inversión."
+    }
+  },
+  "fidelidad": {
+    "detectadas": 0,
+    "corregidas": 0,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h46",
+      "titular": "Brasil regula chatbots y apps bajo ley infantil",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h41",
+      "titular": "Gemini permite importar historial de otras IA",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h23",
+      "titular": "Nvidia cuestiona ventanas de contexto extensas",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "Actor licencia su cara a startup de microdrama",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h52",
+      "titular": "Silver lanza manual para usar IA sin ser experto",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h42",
+      "titular": "ChatGPT abre Espacios colaborativos a usuarios Plus",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h27",
+      "titular": "Inkling 2 Mini: modelo abierto que corre en laptop",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h22",
+      "titular": "España aprueba decreto para impulsar IA y chips nacionales",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Anthropic sale acciones en Nasdaq",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge",
+        "Infobae",
+        "The Decoder",
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h49",
+      "titular": "Robotiq lanza pinza robótica con IA táctil",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h39",
+      "titular": "Alternativa local a NotebookLM permite elegir IA propia",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hipertextual"
+      ]
+    },
+    {
+      "id": "h29",
+      "titular": "Bytedance lanza Axion 1.0 con menos fases de entrenamiento",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h44",
+      "titular": "Google crea internet simulado para probar IA",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h43",
+      "titular": "OpenAI prueba agentes Dots en usuarios Plus de EE.UU.",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "Google Duplex ahora llama en Gemini",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google Research"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI lanza defensa contra distilación adversa",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h24",
+      "titular": "Monasterio de Vermont crea AI dios",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "Editoriales frente al auge de libros escritos con IA",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h51",
+      "titular": "Oracle asegura fondos para contrato con OpenAI",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h20",
+      "titular": "Genesis AI cierra ronda de 500 millones",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h28",
+      "titular": "Acciones tech caen por dudas en IA",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h45",
+      "titular": "OpenAI dice que IA hace mitad de la investigación",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h21",
+      "titular": "Cortical Labs enlaza quince minicerebros en chip",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h47",
+      "titular": "Elon Musk elogia modelos de Anthropic",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h25",
+      "titular": "OpenAI publica plantillas de prompts para GPT‑6.2",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h50",
+      "titular": "Apple estudia agente IA para controlar apps",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "Empresa investiga vida útil de baterías de coches eléctricos",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h40",
+      "titular": "Película rusa sobre accidente aéreo entra al top 10 de Netflix",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h33",
+      "titular": "The Outages Are Just Getting Started",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h34",
+      "titular": "Policía critica contenido de GTA 6",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Wired"
+      ]
+    }
+  ]
+}

@@ -257,7 +257,8 @@ def corregir(publicables, piezas, nota_dia, alertas, cliente):
     if not isinstance(datos, dict):
         return piezas, nota_dia
     por_id = {g["id"]: g for g in publicables}
-    for nid, campos in (datos.get("notas") or {}).items():
+    notas = datos.get("notas")
+    for nid, campos in (notas.items() if isinstance(notas, dict) else []):
         g = por_id.get(nid)
         if g and isinstance(campos, dict):
             for k in ("titular", "resumen", "porque_importa", "angulo"):

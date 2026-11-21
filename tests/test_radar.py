@@ -332,6 +332,29 @@ class PruebasEdicionCompleta(unittest.TestCase):
             datos = json.loads((Path(d) / "datos" / "2026-10-17.json").read_text())
             self.assertEqual(len(datos["publicables"]), 2)
 
+    def test_modelo_con_respuesta_mal_formada_no_frena_la_edicion(self):
+        # Falla real del 15/11: el modelo devolvió texto suelto dentro de "historias".
+        base = ModeloFalso()
+
+        def enviar(url, token, cuerpo):
+            r = base(url, token, cuerpo)
+            sistema = cuerpo["messages"][0]["content"]
+            if "rúbrica" in sistema and "historias" in sistema:
+                datos = json.loads(r["choices"][0]["message"]["content"])
+                datos["historias"] = ["texto suelto", 42] + datos["historias"]
+                r = {"choices": [{"message": {"content": json.dumps(datos)}}]}
+            elif "editor jefe" in sistema:
+                r = {"choices": [{"message": {"content": json.dumps({"nota": ["x"], "tesis": "Tesis."})}}]}
+            elif "Te paso textos redactados" in sistema:
+                r = {"choices": [{"message": {"content": json.dumps({"notas": ["mal"], "piezas": None})}}]}
+            return r
+
+        with tempfile.TemporaryDirectory() as d:
+            ed = radar_main.correr(Path(d), descargador_falso, cliente_falso(enviar), AHORA, FUENTES_PRUEBA)
+            self.assertTrue(ed["con_modelo"])
+            self.assertTrue(ed["publicables"])
+            self.assertTrue((Path(d) / "index.html").exists())
+
     def test_el_modelo_une_pero_la_regla_verifica(self):
         feeds = dict(FEEDS)
         feeds["https://medio4.test/rss"] = rss([("OpenAI's mysterious GPT-6 run is real, insiders say", "https://medio4.test/gpt6", "mismo-hecho", 3)])

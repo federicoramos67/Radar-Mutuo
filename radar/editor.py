@@ -184,7 +184,11 @@ def puntuar(grupos, cliente):
             datos = cliente.pedir_json(SISTEMA_PUNTAJE, pedido, max_tokens=config.MAX_TOKENS_PUNTAJE, temperatura=0.0)
         except SinModelo:
             continue
-        for h in datos.get("historias", []) if isinstance(datos, dict) else []:
+        historias = datos.get("historias") if isinstance(datos, dict) else None
+        for h in historias if isinstance(historias, list) else []:
+            # El modelo a veces devuelve texto suelto en vez de objetos: se ignora sin frenar la edición.
+            if not isinstance(h, dict):
+                continue
             g = por_id.get(str(h.get("id", "")))
             if not g:
                 continue
@@ -296,7 +300,8 @@ def nota_del_dia(publicables, cliente):
     if not isinstance(datos, dict):
         return None
     ids = {g["id"] for g in publicables}
-    nid = datos.get("nota") if datos.get("nota") in ids else notas[0]["id"]
+    nota = datos.get("nota")
+    nid = nota if isinstance(nota, str) and nota in ids else notas[0]["id"]
     # Regla del código: si hay alguna nota con cobertura independiente, la nota del día sale de ahí.
     if any(_independiente(g) for g in publicables) and not _independiente(next(g for g in publicables if g["id"] == nid)):
         return None

@@ -1,0 +1,754 @@
+{
+  "fecha": "2026-11-22T14:48:42.467832-03:00",
+  "revisados": 42,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 9,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1421
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 915
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h35",
+      "titular": "Claude intenta resolver Problema del Milenio",
+      "resumen": "Un investigador de Anthropic subió a Lean un argumento que podría resolver un Problema del Milenio, pero aún no fue validado por expertos.",
+      "porque_importa": "Si programás pruebas formales, podés usar el enfoque como referencia.",
+      "angulo": "¿Puede una IA realmente cerrar uno de los siete grandes enigmas matemáticos?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 3 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/22/ia-claude-habria-ayudado-a-descifrar-uno-de-los-mayores-enigmas-de-las-matematicas/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/11/22/anthropic-matematico-afirma-demostrar-hipotesis-riemann-claude/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Claude podría haber solucionado en matemáticas uno de los siete Problemas del Milenio"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h36",
+      "titular": "Canva recorta 1.271 puestos, niega sustitución por IA",
+      "resumen": "La empresa anunció el despido del 22 % de su plantilla y un sindicato pide claridad sobre el rol de la IA.",
+      "porque_importa": "Un community manager de Canva entenderá que la IA no reemplazará su puesto, pero sí habrá menos colegas.",
+      "angulo": "Despidos masivos y la discusión sobre IA en el trabajo.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 16,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/22/canva-despedria-a-1271-empleados-el-22-de-su-plantilla-pero-la-ia-no-los-remplazara/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Canva despedirá a 1.271 empleados, el 22% de su plantilla, pero la IA no los remplazará"
+    },
+    {
+      "id": "h15",
+      "titular": "Vulnerabilidades en proveedores de IA exponen claves AWS",
+      "resumen": "Investigadores de Dragos enviaron 2 M de peticiones falsas y detectaron tres proveedores comprometidos y cientos de claves AWS robadas.",
+      "porque_importa": "Un ingeniero de seguridad debe revisar los proveedores de IA que usa su empresa para evitar filtraciones.",
+      "angulo": "Los riesgos ocultos de la cadena de suministro de IA",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Security researchers show how cheap AI inference providers steal keys and snoop on users"
+    }
+  ],
+  "comunicados": [],
+  "descartados": [
+    {
+      "id": "h31",
+      "titular": "Fiscal de California demanda a OpenAI",
+      "resumen": "El procurador general de California presentó una demanda contra OpenAI por supuesta falta de supervisión y transparencia.",
+      "porque_importa": "Los equipos legales de empresas de IA tendrán que reforzar procesos de compliance.",
+      "angulo": "¿Qué implica legalmente la falta de supervisión en productos de IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 3,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/22/ojala-lo-de-hugging-face-no-hubiese-pasado-pero-la-ia-es-nueva-y-conlleva-un-impacto-complejo-sam-altman-ceo-de-openai/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "poco detalle, más hype que dato",
+      "naturaleza": "evento",
+      "titulo_original": "“Ojalá lo de Hugging Face no hubiese pasado, pero la IA es nueva y conlleva un impacto complejo”: Sam Altman, CEO de OpenAI"
+    },
+    {
+      "id": "h33",
+      "titular": "Celebridades invirtieron en Anthropic",
+      "resumen": "Actores, músicos y atletas participaron en rondas privadas de Anthropic; el valor de sus acciones subió con Claude.",
+      "porque_importa": "Un creador que considere invertir en IA no encontrará cifras concretas para evaluar.",
+      "angulo": "¿Vale la pena seguir el dinero de los famosos en IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/22/quienes-son-las-celebridades-que-invirtieron-en-anthropic-y-cuanto-podrian-haber-ganado/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "sin datos numéricos ni fuentes verificables",
+      "naturaleza": "opinion",
+      "titulo_original": "Quiénes son las celebridades que invirtieron en Anthropic y cuánto podrían haber ganado"
+    },
+    {
+      "id": "h14",
+      "titular": "METR alerta sobre aceleración peligrosa de IA",
+      "resumen": "METR indica que modelos como Opus 5.5 y GPT‑6 Astra mejoran rápido y son difíciles de evaluar con pruebas actuales.",
+      "porque_importa": "Un responsable de riesgos en una fintech tendría que replantear sus métricas de seguridad.",
+      "angulo": "¿Podemos seguir confiando en los tests tradicionales?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Poco dato concreto, mayormente alarma sin evidencia pública",
+      "naturaleza": "otro",
+      "titulo_original": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns"
+    },
+    {
+      "id": "h09",
+      "titular": "Google lanza tabla periódica de Gemini",
+      "resumen": "Google renueva su catálogo Gemini con cuatro modelos nuevos, sin claridad sobre cuál elegir.",
+      "porque_importa": "Un desarrollador que usa Gemini debe invertir tiempo en decidir el modelo adecuado.",
+      "angulo": "Demasiados modelos, ¿más confusión para los usuarios?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/robotica-e-ia/google-ha-convertido-gemini-tabla-periodica-problema-que-ahora-hay-dos-modelos-programacion-ninguna-pista-cual-elegir",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de datos específicos, tono especulativo",
+      "naturaleza": "opinion",
+      "titulo_original": "Google ha convertido Gemini en una tabla periódica. El problema es que ahora hay dos modelos de programación y ninguna pista de cuál elegir"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h35",
+    "tesis": "El anuncio no muestra que el argumento haya sido validado por expertos ni aceptado formalmente por la comunidad matemática. Esa ausencia deja abierta la cuestión de si realmente servirá a quienes programan pruebas formales.",
+    "mirar": "Seguí la publicación de la revisión por pares en la comunidad Lean para confirmar la validez del argumento."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h35",
+      "titulo": "Claude y el Problema del Milenio",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "Un investigador de Anthropic subió a Lean un argumento que apunta a resolver un Problema del Milenio.",
+          "pantalla": "Pantalla muestra el logo de Anthropic y el editor Lean abierto."
+        },
+        {
+          "t": "0:07",
+          "texto": "El documento formalizado está disponible en la comunidad de Lean y Mathlib.",
+          "pantalla": "Código Lean con comentarios resaltados."
+        },
+        {
+          "t": "0:14",
+          "texto": "Especialistas aún deben validar el argumento antes de considerarlo resuelto.",
+          "pantalla": "Perfil de un matemático revisando el código."
+        },
+        {
+          "t": "0:21",
+          "texto": "Si programás pruebas formales, podés usar este enfoque como referencia.",
+          "pantalla": "Ejemplo de prueba automática en Lean."
+        },
+        {
+          "t": "0:28",
+          "texto": "El caso abre la discusión: ¿Puede una IA cerrar uno de los siete grandes enigmas?",
+          "pantalla": "Imagen de los siete Problemas del Milenio con Claude resaltado."
+        },
+        {
+          "t": "0:35",
+          "texto": "Seguiremos atentos a la revisión de la comunidad.",
+          "pantalla": "Logo de Infobae y The Decoder con texto “en seguimiento”."
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h35",
+      "titulo": "Claude y el reto de los Problemas del Milenio",
+      "placas": [
+        "Un investigador de Anthropic subió a Lean un argumento que podría resolver un Problema del Milenio.",
+        "El documento está formalizado en Lean, la herramienta de pruebas formales.",
+        "Especialistas aún no han validado el argumento; la revisión está en curso.",
+        "Para programadores de pruebas formales, el enfoque sirve como referencia práctica.",
+        "La cuestión: ¿puede una IA cerrar uno de los siete grandes enigmas matemáticos?",
+        "Mantente al tanto de la evaluación de la comunidad."
+      ]
+    },
+    "post": {
+      "nota": "h35",
+      "titulo": "Claude y el Problema del Milenio",
+      "texto": "Un investigador de Anthropic subió a Lean un argumento que apunta a resolver uno de los siete Problemas del Milenio.\n\nEl documento está formalizado en la comunidad de Lean y Mathlib, pero los especialistas todavía deben examinarlo antes de considerarlo una solución.\n\nSi programás pruebas formales, podés usar este enfoque como referencia en tus propios proyectos.\n\nLa discusión está abierta: ¿puede una IA cerrar uno de los grandes enigmas de la teoría de números?\n\nSeguiremos la revisión de la comunidad para actualizar la información."
+    },
+    "hilo": {
+      "nota": "h35",
+      "titulo": "Claude y el desafío de los Problemas del Milenio",
+      "partes": [
+        "Un investigador de Anthropic subió a Lean un argumento que podría resolver un Problema del Milenio. La propuesta está disponible en la comunidad de Lean y Mathlib.",
+        "Especialistas aún no han validado el argumento; la revisión está en marcha y es crucial para confirmar cualquier avance.",
+        "Para quienes programan pruebas formales, este caso ofrece un ejemplo concreto que podés estudiar y adaptar.",
+        "La pregunta central: ¿puede una IA realmente cerrar uno de los siete grandes enigmas matemáticos?"
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h35"
+      ],
+      "preguntas": [
+        "¿Qué criterios usaría la comunidad de Lean para validar formalmente un argumento de esta magnitud?",
+        "¿Hasta qué punto confiarías en una prueba generada por IA sin revisión humana?",
+        "¿Cómo impactaría en tu trabajo diario el hecho de que una IA proponga soluciones a problemas matemáticos no resueltos?"
+      ]
+    }
+  },
+  "fidelidad": {
+    "detectadas": 0,
+    "corregidas": 0,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h36",
+      "titular": "Canva recorta 1.271 puestos, niega sustitución por IA",
+      "total": 16,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h15",
+      "titular": "Vulnerabilidades en proveedores de IA exponen claves AWS",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h29",
+      "titular": "IA perfecciona phishing, advierten ENISA y Europol",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "Perplexity lanza Monitor API para vigilancia web",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "GPT‑6.2 da respuestas más breves, menos transparentes",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "Agentes de código completan menos del 10% de tareas",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h39",
+      "titular": "Meta lanza extensión Muse para Chrome",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h37",
+      "titular": "Gemini 4: Hydrogen vs Neon, diferencias de acceso",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Satélites revelan centro de datos Huawei en Mongolia Interior",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h25",
+      "titular": "Bloqueá conversaciones en ChatGPT",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hipertextual"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "Signal bloquea capturas de pantalla en móviles",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h35",
+      "titular": "Claude intenta resolver Problema del Milenio",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae",
+        "The Decoder",
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "METR alerta sobre aceleración peligrosa de IA",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Google lanza tabla periódica de Gemini",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "Psicólogos reportan caída de pacientes por IA",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h41",
+      "titular": "Anthropic planea usar 87 % gas en 2028",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "h28",
+      "titular": "Precios y funciones de IA en apps de notas",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h24",
+      "titular": "Google AI Studio ejecuta Windows 11 en iPhone Duo",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Hipertextual"
+      ]
+    },
+    {
+      "id": "h34",
+      "titular": "OpenAI patenta auriculares que leen la boca",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h30",
+      "titular": "Inversión en IA supera 1 billón de dólares",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h33",
+      "titular": "Celebridades invirtieron en Anthropic",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h42",
+      "titular": "Muru: servidor Rust asistido por IA para Python",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "id": "h32",
+      "titular": "Meta anuncia dispositivo IA de 300 dólares",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h38",
+      "titular": "Gemini funciona con CarPlay en iPhone",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h31",
+      "titular": "Fiscal de California demanda a OpenAI",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "GTA VI llega sin IA generativa visible",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "Eliminan música IA de The Binding of Isaac",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h40",
+      "titular": "Bill Gates advierte sobre IA y muertes",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "Nvidia: contraste entre resultados y voces ejecutivas",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h22",
+      "titular": "Los bancos se cansan de los agentes de IA",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Wired"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,948 @@
+{
+  "fecha": "2026-11-23T19:01:37.628481-03:00",
+  "revisados": 67,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [
+    "openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"{\\\"notas\\\":{\\\"h25\\\":{\\\"titular\\\":\\\"Estados"
+  ],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1424
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 916
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": false,
+      "error": "HTTPError"
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h25",
+      "titular": "Estados de EE.UU. demandan a SpaceX por deepfakes pornográficos",
+      "resumen": "Oregón y Virginia presentaron demandas contra SpaceX, acusando a la empresa de violar leyes de protección al consumidor por deepfakes pornográficos en X.",
+      "porque_importa": "Quien gestiona la reputación de una marca debe reconsiderar el uso de generadores de contenido visual sin filtros.",
+      "angulo": "Las plataformas de IA enfrentan riesgos legales por contenido no consentido",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Wired",
+            "link": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes"
+    },
+    {
+      "id": "h05",
+      "titular": "RoboTrack: seguimiento de puntos para manipulación robótica",
+      "resumen": "Hugging Face lanzó RoboTrack, una herramienta de seguimiento de puntos diseñada para manipulaciones robóticas en entornos reales.",
+      "porque_importa": "Ingenieros de robótica pueden usarla para mejorar la precisión de brazos automatizados.",
+      "angulo": "Una solución lista para integrar en proyectos de robótica práctica",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: Hugging Face. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/allenai/robotrack",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "RoboTrack: Point tracking for real-world robotic manipulation"
+    },
+    {
+      "id": "h04",
+      "titular": "Agentes y verificación formal aceleran algoritmos cuánticos",
+      "resumen": "Google DeepMind describió un enfoque que usa equipos de agentes y verificación formal para encontrar algoritmos cuánticos más rápidos en fusión y química.",
+      "porque_importa": "Investigadores en química computacional pueden explorar nuevas rutas de simulación cuántica más eficientes.",
+      "angulo": "Combinar IA y teoría cuántica para acelerar descubrimientos científicos",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: Google DeepMind. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "Google DeepMind",
+            "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Finding faster quantum algorithms with agents and formal verification"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h39",
+      "titular": "OpenAI publica métricas de complejidad de GPT",
+      "resumen": "Jakub Pachocki reveló puntuaciones de perplejidad de toda la serie GPT, incluyendo un modelo no lanzado, mostrando umbrales precisos donde emergen capacidades.",
+      "porque_importa": "Quien entrena IA podrá usar esas métricas para calibrar cuándo un modelo alcanza niveles críticos de capacidad.",
+      "angulo": "Los scores internos de OpenAI revelan cuándo la IA supera los controles de seguridad",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 16,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "OpenAI warns that upcoming AI systems could outpace safety checks and urges rivals to agree on shared limits"
+    },
+    {
+      "id": "h23",
+      "titular": "Claude AI revisa y aprueba pull requests solo",
+      "resumen": "Anthropic lanzó Claude Ship, que permite a Claude revisar, corregir y aprobar pull requests sin intervención humana.",
+      "porque_importa": "Un programador podrá acelerar el ciclo de entrega de código con menos revisiones manuales.",
+      "angulo": "¿El fin de la revisión de código manual?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Claude AI can review pull requests and ship fixes on its own now"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h07",
+      "titular": "Nuevo método acelera conexiones residuales en transformers",
+      "resumen": "Google Research publicó un artículo que propone una técnica para mejorar la eficiencia de las conexiones residuales en modelos transformer.",
+      "porque_importa": "Programadores de modelos de lenguaje pueden reducir costos de entrenamiento aplicando la técnica.",
+      "angulo": "Optimizar transformers sin cambiar la arquitectura base",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Google Research en su propio blog y es una pieza de promoción. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Google Research",
+            "link": "https://research.google/blog/supercharging-transformer-residual-connections/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Supercharging transformer residual connections"
+    },
+    {
+      "id": "h02",
+      "titular": "Richpanel afirma automatizar 50 % del soporte en 30 días",
+      "resumen": "Richpanel dice que sus agentes IA con GPT‑6 reducen a la mitad la carga de soporte en un mes.",
+      "porque_importa": "Un manager de soporte podría recortar tickets manuales y reasignar recursos.",
+      "angulo": "¿Realmente se logra esa reducción sin perder calidad?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es una pieza de promoción. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Cifras sin fuente independiente, tono de marketing.",
+      "naturaleza": "promocion",
+      "titulo_original": "Richpanel helps companies automate 50% of support in 30 days"
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI habla de IA para equipos legales internos",
+      "resumen": "OpenAI organizó una charla con ejecutivos de LECG y Cooley sobre IA en departamentos legales.",
+      "porque_importa": "Un abogado interno podría usar flujos automatizados para reducir tiempo en consultas externas.",
+      "angulo": "¿Qué tareas legales pueden delegarse a IA hoy?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Poco dato concreto, mayormente discurso.",
+      "naturaleza": "evento",
+      "titulo_original": "Connected intelligence for in-house legal"
+    },
+    {
+      "id": "h03",
+      "titular": "Google prueba búsquedas personalizadas bajo tu control",
+      "resumen": "Google AI anunció una versión de búsqueda que permite al usuario ajustar resultados según sus preferencias, sin detallar la disponibilidad.",
+      "porque_importa": "Quien enseña herramientas digitales podrá ofrecer búsquedas más alineadas a la pedagogía de cada clase.",
+      "angulo": "Búsqueda que se adapta a tu estilo, no al algoritmo genérico",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 1,
+        "antihype": 1
+      },
+      "total": 3,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Google AI en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Google AI",
+            "link": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta de datos concretos y disponibilidad",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "A more tailored Google Search that’s uniquely yours"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h47",
+      "titular": "Nvidia entra en interfaces cerebro‑computadora",
+      "resumen": "Wired informa que Nvidia está suministrando tecnología para BCI, sin detallar productos ni fechas.",
+      "porque_importa": "Un investigador de neurotecnología podría considerar hardware Nvidia para sus prototipos.",
+      "angulo": "¿Qué papel juega Nvidia en la próxima ola de BCI?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Wired. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Wired",
+            "link": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta datos específicos, tono informativo breve.",
+      "naturaleza": "otro",
+      "titulo_original": "Nvidia Is Powering Brain-Computer Interfaces Now"
+    },
+    {
+      "id": "h22",
+      "titular": "Centros de IA complican la COP31",
+      "resumen": "La Verge indica que el aumento de data centers de IA se menciona como obstáculo en la conferencia climática COP31.",
+      "porque_importa": "Un responsable de sostenibilidad tendrá que considerar el consumo energético de la IA al planear acciones.",
+      "angulo": "¿Cómo afecta la IA a los compromisos climáticos?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos vagos, sin cifras ni soluciones concretas",
+      "naturaleza": "otro",
+      "titulo_original": "AI data centers throw another wrench into chaotic UN climate talks"
+    },
+    {
+      "id": "h37",
+      "titular": "OpenAI lanza GPT‑6.2 Sol como modelo por defecto",
+      "resumen": "The Decoder afirma que OpenAI despliega GPT‑6.2 Sol globalmente, con pruebas internas que muestran comprensión de imágenes 71.7 % y acierto en instrucciones difíciles 78.1 %.",
+      "porque_importa": "Un creador de contenido podrá generar imágenes más precisas sin revisar tanto los resultados.",
+      "angulo": "Mejoras de precisión en imágenes y tareas complejas",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Los datos provienen solo de pruebas internas, sin métricas externas",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "OpenAI updates ChatGPT to handle complex everyday questions, web searches, and images more reliably"
+    },
+    {
+      "id": "h56",
+      "titular": "Navegadores IA: qué ofrecen y qué ven",
+      "resumen": "Se comparan funciones de IA en Comet, Opera, Edge y Chrome, y se indica que Gemini no llega a España.",
+      "porque_importa": "Un editor de video sabrá si el navegador le rastrea mientras sube contenido.",
+      "angulo": "¿Cuál navegador IA protege mejor tu trabajo?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/11/23/navegadores-con-ia-comet-opera-edge-chrome-elegir-espana/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Poco dato concreto, bajo impacto",
+      "naturaleza": "otro",
+      "titulo_original": "Navegadores con IA: qué ofrecen Comet, Opera, Edge y Chrome en España, qué ven de tu navegación y cuál elegir"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h25",
+    "tesis": "Las demandas revelan que el uso de IA generativa para contenido visual sin filtros expone a las plataformas a riesgos legales y de reputación. El caso muestra que la responsabilidad recae en quien provee la herramienta, no solo en quien la publica.",
+    "mirar": "Seguir si aparecen respuestas oficiales de SpaceX o regulaciones estatales sobre filtros obligatorios en IA generativa."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h25",
+      "titulo": "Demandas contra SpaceX por deepfakes pornográficos",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "Oregón y Virginia presentaron demandas contra SpaceX.",
+          "pantalla": "Titulares de los estados en pantalla."
+        },
+        {
+          "t": "0:07",
+          "texto": "Acusan a la empresa de violar leyes de protección al consumidor.",
+          "pantalla": "Extracto del texto legal."
+        },
+        {
+          "t": "0:14",
+          "texto": "Los reclamos señalan que Grok AI genera pornografía sin filtros.",
+          "pantalla": "Ejemplo de deepfake borrado."
+        },
+        {
+          "t": "0:21",
+          "texto": "SpaceX promocionó la seguridad de su plataforma X y de Grok.",
+          "pantalla": "Captura de la campaña publicitaria."
+        },
+        {
+          "t": "0:28",
+          "texto": "Quien cuida la reputación de una marca debe revisar el uso de IA visual.",
+          "pantalla": "Gestor de marca mirando la noticia."
+        },
+        {
+          "t": "0:35",
+          "texto": "El caso muestra riesgos legales de contenidos no consentidos.",
+          "pantalla": "Balanzas de la justicia."
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h05",
+      "titulo": "RoboTrack de Hugging Face para manipulación robótica",
+      "placas": [
+        "Hugging Face lanzó RoboTrack, una herramienta de seguimiento de puntos.",
+        "Está pensada para entornos reales, no solo simulaciones.",
+        "Permite a los brazos robóticos seguir objetos con alta precisión.",
+        "Se integra fácilmente en pipelines de visión y control.",
+        "Ingenieros pueden probarla en laboratorios sin gran infraestructura.",
+        "RoboTrack ya está disponible en el repositorio de Hugging Face."
+      ]
+    },
+    "post": {
+      "nota": "h04",
+      "titulo": "IA y verificación formal aceleran algoritmos cuánticos",
+      "texto": "Google DeepMind describió un método que combina equipos de agentes y verificación formal.\n\nLos agentes exploran espacios de soluciones mientras la verificación descarta errores.\n\nEl enfoque ya encontró algoritmos más rápidos para simulaciones de fusión y química.\n\nInvestigadores en química computacional pueden usarlo para probar nuevas rutas de reacción.\n\nLa propuesta muestra cómo IA y teoría cuántica pueden impulsar descubrimientos científicos."
+    },
+    "hilo": {
+      "nota": "h25",
+      "titulo": "¿Qué implica la demanda a SpaceX por deepfakes?",
+      "partes": [
+        "Oregón y Virginia presentaron demandas contra SpaceX por deepfakes pornográficos en X.",
+        "Los estados acusan a la empresa de violar leyes de protección al consumidor al ignorar salvaguardas estándar.",
+        "La demanda señala que Grok AI se promocionó como seguro, pero generó contenido no consentido.",
+        "Quien gestiona la reputación de una marca debe reconsiderar el uso de generadores visuales sin filtros.",
+        "El caso ilustra riesgos legales para plataformas de IA que no controlan el contenido."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h05",
+        "h04"
+      ],
+      "preguntas": [
+        "¿Qué limitaciones encontraste al integrar RoboTrack en un proyecto real?",
+        "¿Cómo afecta la verificación formal al tiempo de desarrollo de algoritmos cuánticos?",
+        "¿Qué medidas tomarías para evitar que una IA genere contenido no consentido en tu producto?"
+      ]
+    }
+  },
+  "fidelidad": {
+    "detectadas": 3,
+    "corregidas": 0,
+    "pendientes": [
+      {
+        "donde": "pieza:reel",
+        "tipo": "afirmacion",
+        "detalle": "«Los reclamos señalan que Grok AI genera pornografía sin filtros.»: La fuente no menciona que Grok AI genere pornografía sin filtros, solo acusa violaciones de protección al consumidor."
+      },
+      {
+        "donde": "pieza:carrusel",
+        "tipo": "afirmacion",
+        "detalle": "«RoboTrack ya está disponible en el repositorio de Hugging Face.»: La fuente no indica que RoboTrack esté disponible en el repositorio, solo describe la herramienta."
+      },
+      {
+        "donde": "pieza:post",
+        "tipo": "afirmacion",
+        "detalle": "«El enfoque ya encontró algoritmos más rápidos para simulaciones de fusión y química.»: La fuente no afirma que ya se hayan encontrado algoritmos más rápidos, solo describe el método propuesto."
+      }
+    ],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h39",
+      "titular": "OpenAI publica métricas de complejidad de GPT",
+      "total": 16,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h23",
+      "titular": "Claude AI revisa y aprueba pull requests solo",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "Amazon compra Decart por US$7.5 mil M",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Megaspeed podría quedar en lista negra de EE UU",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h24",
+      "titular": "Nothing lanza earbuds con transcripción IA",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h25",
+      "titular": "Estados de EE.UU. demandan a SpaceX por deepfakes pornográficos",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Verge",
+        "Wired"
+      ]
+    },
+    {
+      "id": "h38",
+      "titular": "SpaceXSI renta cómputo a Anthropic y Google",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h55",
+      "titular": "Qué cambia al usar IA empresarial en cuentas personales",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Nuevo método acelera conexiones residuales en transformers",
+      "total": 9,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Google Research"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "RoboTrack: seguimiento de puntos para manipulación robótica",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "Google AI Mode accede a Drive y Wallet",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h60",
+      "titular": "Cosse propone curso Operador IA",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "El Observador"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "Agentes y verificación formal aceleran algoritmos cuánticos",
+      "total": 8,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Google DeepMind"
+      ]
+    },
+    {
+      "id": "h61",
+      "titular": "Ladybird lanza su primera versión alfa de navegador",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "Jensen Huang vuelve a ser CEO de Nvidia",
+      "total": 7,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch",
+        "The Verge",
+        "Wired",
+        "Hipertextual",
+        "Xataka México",
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "Richpanel afirma automatizar 50 % del soporte en 30 días",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h37",
+      "titular": "OpenAI lanza GPT‑6.2 Sol como modelo por defecto",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h56",
+      "titular": "Navegadores IA: qué ofrecen y qué ven",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI habla de IA para equipos legales internos",
+      "total": 5,
+      "estado": "comunicado",
+      "naturaleza": "evento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h47",
+      "titular": "Nvidia entra en interfaces cerebro‑computadora",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h22",
+      "titular": "Centros de IA complican la COP31",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h59",
+      "titular": "Jensen Huang dice que no estudiaría ingeniería hoy",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h30",
+      "titular": "Filósofo rechaza argumento de conciencia de Anthropic",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "Google prueba búsquedas personalizadas bajo tu control",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h33",
+      "titular": "Black Friday de El Corte con descuentos tech",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h26",
+      "titular": "White House dice que Trump intervino en reinstalación de Jensen Huang",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "Guía para crear una evaluación agentiva",
+      "total": 1,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h27",
+      "titular": "Polémica alrededor de Jensen Huang",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h31",
+      "titular": "Colas en consulados españoles marcan termómetro del 29N",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h32",
+      "titular": "Guía de la primera misión de GTA VI",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    }
+  ]
+}

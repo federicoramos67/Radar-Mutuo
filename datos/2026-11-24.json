@@ -1,0 +1,955 @@
+{
+  "fecha": "2026-11-24T17:38:30.566442-03:00",
+  "revisados": 95,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1428
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": false,
+      "error": "ParseError"
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 916
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 26
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": false,
+      "error": "HTTPError"
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h23",
+      "titular": "Anthropic lanza Claude Ship para revisar código",
+      "resumen": "Claude Ship permite que agentes de IA revisen, corrijan y aprueben cambios de código automáticamente.",
+      "porque_importa": "Los programadores podrán delegar aprobaciones rutinarias a IA.",
+      "angulo": "¿Dejarás que una IA firme tus pull requests?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes"
+    },
+    {
+      "id": "h38",
+      "titular": "Tidal prohibirá música generada por IA",
+      "resumen": "A partir del 9 de diciembre Tidal eliminará 29 M de pistas IA.",
+      "porque_importa": "Los curadores y artistas tendrán que revisar sus catálogos para evitar borrados.",
+      "angulo": "Una medida drástica contra la saturación de IA en streaming.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Tidal will start banning AI-generated music next month"
+    },
+    {
+      "id": "h04",
+      "titular": "OpenAI y Cisco lanzan Shirudo, runtime Linux",
+      "resumen": "Shirudo es un runtime open‑source que protege sistemas en ejecución mientras se aplican parches.",
+      "porque_importa": "Un ingeniero de DevOps puede usarlo para reducir riesgos al actualizar infraestructuras.",
+      "angulo": "Protección en tiempo real para servidores Linux, sin esperar al reinicio",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/introducing-shirudo",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "OpenAI and Cisco introduce Shirudo"
+    },
+    {
+      "id": "h01",
+      "titular": "Astra ayuda a amateurs a buscar exoplanetas",
+      "resumen": "Dos astrónomos aficionados usaron Codex y Astra para identificar candidatos a exoplanetas en datos de Kepler y TESS.",
+      "porque_importa": "Quien enseña astronomía podrá mostrar proyectos reales de IA a estudiantes.",
+      "angulo": "IA al servicio de la caza de mundos lejanos.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 10,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Searching for distant planets with Astra"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h81",
+      "titular": "Centros de datos EE UU emiten 25,7 Mt CO₂ al año",
+      "resumen": "Investigadores de Harvard calculan que los centros de datos que alimentan IA emitieron 25,7 millones de toneladas de CO₂ en un año, más del doble de estimaciones previas.",
+      "porque_importa": "Quien gestiona infraestructura cloud debe considerar el costo ambiental al escalar proyectos de IA.",
+      "angulo": "El verdadero precio climático de la IA en la nube",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/24/los-centros-de-datos-mas-grandes-de-estados-unidos-emitieron-257-millones-de-toneladas-de-co2-en-un-ano/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Los centros de datos más grandes de Estados Unidos emitieron 25,7 millones de toneladas de CO2 en un año"
+    },
+    {
+      "id": "h79",
+      "titular": "Microsoft activa Código Rojo por caída de apps laborales",
+      "resumen": "Una falla dejó sin acceso a Exchange Online, Outlook, Teams y Copilot a usuarios públicos y privados por 24 h.",
+      "porque_importa": "Un administrador de TI debe planificar contingencias para evitar interrupciones en la comunicación interna.",
+      "angulo": "Cuando la nube se cae, ¿estás preparado?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 13,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/24/microsoft-activa-un-codigo-rojo-tras-una-caida-global-de-24-horas-en-sus-aplicaciones-laborales/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "evento",
+      "titulo_original": "Microsoft activa un Código Rojo tras caída global de 24 horas en sus aplicaciones laborales"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h09",
+      "titular": "Google publica mejora en conexiones residuales",
+      "resumen": "Un artículo de Algorithms & Theory propone reforzar conexiones residuales en transformers.",
+      "porque_importa": "Un investigador de IA podrá probar la técnica en sus modelos para potenciales ganancias de precisión.",
+      "angulo": "¿Una pequeña variante que podría afinar tus transformers?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Google Research en su propio blog y es una pieza de promoción. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Google Research",
+            "link": "https://research.google/blog/supercharging-transformer-residual-connections/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Impacto práctico aún no demostrado",
+      "naturaleza": "investigacion",
+      "titulo_original": "Supercharging transformer residual connections"
+    },
+    {
+      "id": "h02",
+      "titular": "Intentful lanza dot Aria para investigación web",
+      "resumen": "Aria ayuda a investigar sitios y armar propuestas, además de avisar mensajes y resolver problemas.",
+      "porque_importa": "Un analista de contenido gana tiempo al automatizar búsquedas y alertas.",
+      "angulo": "¿Te imaginás que una IA haga la pre‑producción de tus briefs?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/business/customer-stories/intentful-dots",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Datos escasos, sin métricas ni pruebas concretas",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "How Intentful uses dots to make more time for growth"
+    },
+    {
+      "id": "h07",
+      "titular": "Microduck muestra flujo Sim2Real con Isaac Lab",
+      "resumen": "Microduck presentó un workflow de evitación de obstáculos usando Isaac Lab y Newton.",
+      "porque_importa": "Quien entrena robots verá una referencia de integración de simulación y hardware.",
+      "angulo": "Un caso de estudio para la transferencia sim‑a‑real.",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 1,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta de datos concretos y detalle limitado",
+      "naturaleza": "otro",
+      "titulo_original": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton"
+    },
+    {
+      "id": "h05",
+      "titular": "Gemini y el impacto en Golden State",
+      "resumen": "Google AI describe cómo Gemini afecta a la organización y fans de Golden State.",
+      "porque_importa": "Los responsables de comunicación deportiva podrían explorar nuevas herramientas de IA.",
+      "angulo": "IA en la experiencia de fanáticos de deportes.",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 1,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Google AI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Google AI",
+            "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Sin datos verificables ni cifras concretas",
+      "naturaleza": "otro",
+      "titulo_original": "How Gemini is changing the game for Golden State's organization and fans."
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h37",
+      "titular": "Fincher bajo sospecha de usar IA en su película",
+      "resumen": "Se comenta que en los primeros estrenos de *The Further Mis‑Adventures of Cliff Booth* aparecen indicios de uso de IA generativa, según fans y observadores.",
+      "porque_importa": "Si editás video, la duda sobre IA en cine muestra riesgos de que te cuestionen la autoría de tus cortes.",
+      "angulo": "¿Se está normalizando la IA en la edición de grandes producciones?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Ruidoso, sin datos concretos de uso.",
+      "naturaleza": "otro",
+      "titulo_original": "David Fincher is being dragged for suspected use of AI in his latest film"
+    },
+    {
+      "id": "h57",
+      "titular": "Investigador de OpenAI insta a estudiantes a abandonar la universidad",
+      "resumen": "Noam Brown, co‑creador de o1, sugiere que los estudiantes prometedores dejen la academia porque la IA avanza a un ritmo muy rápido.",
+      "porque_importa": "Quien enseña programación debe replantear la relevancia de los grados frente a la práctica en IA.",
+      "angulo": "¿Es la universidad obsoleta en la era de la IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/openai-o1-co-creator-noam-brown-urges-promising-students-to-drop-out-as-ai-enters-a-very-steep-rate-of-progress/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta evidencia concreta, es consejo personal.",
+      "naturaleza": "opinion",
+      "titulo_original": "OpenAI o1 co-creator Noam Brown urges promising students to drop out as AI enters a \"very steep rate of progress\""
+    },
+    {
+      "id": "h77",
+      "titular": "Meta habla de IA que se auto‑investiga",
+      "resumen": "El jefe de IA de Meta dice que los sistemas podrían diseñar, probar y mejorar modelos sin intervención humana.",
+      "porque_importa": "Un investigador de IA tendría que replantear su rol y supervisar menos experimentos manuales.",
+      "angulo": "¿Hasta dónde puede llegar la IA sin humanos?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/24/automatizar-toda-la-investigacion-en-ia-el-escenario-que-describe-el-jefe-de-ia-de-meta-alexandr-wang/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Poco dato concreto, mayormente visión futurista.",
+      "naturaleza": "opinion",
+      "titulo_original": "“Automatizar toda la investigación en IA”: el escenario que describe el jefe de IA de Meta, Alexandr Wang"
+    },
+    {
+      "id": "h78",
+      "titular": "ChatGPT ayuda a chequear precios en Black Friday",
+      "resumen": "Se propone usar ChatGPT para comparar historial de precios y validar ofertas.",
+      "porque_importa": "Un comprador online puede evitar gastar de más usando el asistente para filtrar descuentos.",
+      "angulo": "IA como aliado contra el hype del Black Friday",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/24/activa-notificaciones-para-las-ofertas-mas-convenientes-en-black-friday-con-este-truco/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Sin datos de efectividad ni pruebas reales.",
+      "naturaleza": "otro",
+      "titulo_original": "Activa notificaciones para las ofertas más convenientes en Black Friday con este truco"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h23",
+    "tesis": "Claude Ship lleva la revisión y aprobación de pull requests a la IA, lo que permite a los programadores delegar tareas rutinarias. El anuncio no indica la precisión de las aprobaciones ni qué equipos o proyectos quedan fuera de este flujo automatizado.",
+    "mirar": "Observar los resultados del beta y si Anthropic publica métricas de error o planes de precios para el acceso a Claude Ship."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h23",
+      "titulo": "Claude Ship revisa código sin que lo toques",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "Anthropic lanzó Claude Ship, una herramienta en beta que revisa, corrige y aprueba pull requests automáticamente.",
+          "pantalla": "Logo de Anthropic y captura de la interfaz de Claude Ship"
+        },
+        {
+          "t": "0:07",
+          "texto": "El agente de IA analiza el código según las guías del equipo.",
+          "pantalla": "Código en pantalla con anotaciones de IA"
+        },
+        {
+          "t": "0:14",
+          "texto": "Si detecta problemas, sugiere cambios y los aprueba sin intervención humana.",
+          "pantalla": "Ventana de aprobación automática"
+        },
+        {
+          "t": "0:21",
+          "texto": "Esta automatización busca acelerar el flujo de trabajo de revisión.",
+          "pantalla": "Desarrollador observando la pantalla"
+        },
+        {
+          "t": "0:28",
+          "texto": "¿Dejarás que una IA firme tus pull requests?",
+          "pantalla": "Pregunta en texto grande sobre fondo de teclado"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h38",
+      "titulo": "Tidal elimina la música generada por IA",
+      "placas": [
+        "A partir del 9 de diciembre Tidal empezará a borrar pistas creadas con IA.",
+        "Se estiman 29 millones de canciones IA que serán eliminadas.",
+        "Los curadores y artistas deberán revisar sus catálogos para evitar borrados."
+      ]
+    },
+    "post": {
+      "nota": "h04",
+      "titulo": "Shirudo protege tus servidores Linux mientras los parcheás",
+      "texto": "OpenAI y Cisco anunciaron Shirudo, un runtime open‑source para Linux.\n\nShirudo se instala en sistemas en producción y mantiene la protección mientras se aplican parches.\n\nUn ingeniero de DevOps puede usarlo para reducir riesgos y evitar reinicios inesperados.\n\nLa herramienta está disponible para su uso en entornos de producción."
+    },
+    "hilo": {
+      "nota": "h01",
+      "titulo": "Astrónomos amateurs usan IA para cazar exoplanetas",
+      "partes": [
+        "Dos aficionados a la astronomía combinaron Codex y Astra para analizar datos de Kepler y TESS.",
+        "Con la IA identificaron varios candidatos a exoplanetas.",
+        "Quien enseña astronomía puede mostrar este caso real a sus estudiantes como ejemplo de IA aplicada.",
+        "El hallazgo abre la puerta a que más hobbyistas colaboren en la búsqueda de mundos lejanos."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h23",
+        "h38"
+      ],
+      "preguntas": [
+        "¿Confiarías en una IA para aprobar cambios críticos en tu código sin revisarlos?",
+        "¿Creés que la medida de Tidal contra la música IA protegerá la calidad del catálogo o limitará la innovación?",
+        "¿Qué riesgos visualizás al delegar decisiones de calidad a agentes automáticos en entornos creativos?"
+      ],
+      "nota": null
+    }
+  },
+  "fidelidad": {
+    "detectadas": 9,
+    "corregidas": 9,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h23",
+      "titular": "Anthropic lanza Claude Ship para revisar código",
+      "total": 15,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch",
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h38",
+      "titular": "Tidal prohibirá música generada por IA",
+      "total": 14,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge",
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h81",
+      "titular": "Centros de datos EE UU emiten 25,7 Mt CO₂ al año",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h79",
+      "titular": "Microsoft activa Código Rojo por caída de apps laborales",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "Muse AI llega a los DMs de Instagram",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h80",
+      "titular": "Troyano Bazuka oculta robo bancario con IA",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "OpenAI y Cisco lanzan Shirudo, runtime Linux",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "UK alerta sobre ciberataques impulsados por IA",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h83",
+      "titular": "Empleados de Anthropic y OpenAI temen riesgos de sus modelos",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h84",
+      "titular": "Google planea limitar agentes IA en Chrome",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "Astra ayuda a amateurs a buscar exoplanetas",
+      "total": 10,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h55",
+      "titular": "Anthropic supera 700 M descargas mensuales de MCP",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "Acciones de Anthropic caen bajo precio de IPO",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h35",
+      "titular": "Nvidia reinstala a Jensen Huang como CEO",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch",
+        "The Verge",
+        "Wired",
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h37",
+      "titular": "Fincher bajo sospecha de usar IA en su película",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h56",
+      "titular": "CEO de Novartis matiza promesas de IA en salud",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h57",
+      "titular": "Investigador de OpenAI insta a estudiantes a abandonar la universidad",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h40",
+      "titular": "NYT pide no actualizar Photoshop por IA",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "Intentful lanza dot Aria para investigación web",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Google publica mejora en conexiones residuales",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Google Research"
+      ]
+    },
+    {
+      "id": "h77",
+      "titular": "Meta habla de IA que se auto‑investiga",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h78",
+      "titular": "ChatGPT ayuda a chequear precios en Black Friday",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h48",
+      "titular": "IA sugiere más rayos con clima más cálido",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h82",
+      "titular": "Meta revisa meta de cero emisiones para 2030",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Microduck muestra flujo Sim2Real con Isaac Lab",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "Gemini y el impacto en Golden State",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "iFood dice escalar agentes de código",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Hugging Face presenta RoboTrack",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "Google AI habla de búsqueda más personalizada",
+      "total": 3,
+      "estado": "comunicado",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h87",
+      "titular": "GPT‑6.2 Astra ayuda a resolver misterio histórico",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Simon Willison"
+      ]
+    }
+  ]
+}

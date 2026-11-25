@@ -1,0 +1,938 @@
+{
+  "fecha": "2026-11-25T16:55:40.746306-03:00",
+  "revisados": 91,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1430
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 917
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h01",
+      "titular": "GPT‑6 diseña proteínas y muestra unión en pruebas",
+      "resumen": "Modelos GPT‑6 generaron diseños de proteínas y código, con evidencia de unión en cinco blancos de laboratorio.",
+      "porque_importa": "Un bio‑ingeniero podrá usar la IA para proponer secuencias antes de sintetizarlas.",
+      "angulo": "Diseño de proteínas con IA: ¿cuándo pasa de prueba a producción?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: OpenAI. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "GPT-6 models demonstrate intrinsic protein-design capabilities"
+    },
+    {
+      "id": "h04",
+      "titular": "Mass Spec Skills interpreta espectros con Antigravity",
+      "resumen": "Google Antigravity y Mass Spec Skills ayudan a científicos a leer espectros de masas tandem.",
+      "porque_importa": "Un químico podrá acelerar la identificación de moléculas sin programar algoritmos propios.",
+      "angulo": "IA que traduce datos de espectrometría en estructuras químicas.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: Google DeepMind. Es un investigacion con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "Google DeepMind",
+            "link": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity"
+    },
+    {
+      "id": "h21",
+      "titular": "Amazon y Meta negocian fin al bloqueo de Muse",
+      "resumen": "Amazon y Meta discuten un acuerdo para levantar un bloqueo de dos meses al agente IA Muse, según TechCrunch y otros medios.",
+      "porque_importa": "Un desarrollador que usa Muse podría volver a acceder a la herramienta sin interrupciones.",
+      "angulo": "¿Qué implica que los gigantes tech reabran el acceso a Muse?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 4 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/robotica-e-ia/amazon-esta-negociando-meta-abrirle-puerta-a-muse-verdadero-problema-que-ia-no-se-para-a-ver-anuncios",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Bajo impacto y datos escasos",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h80",
+      "titular": "Uruguay propone decreto pionero sobre IA pública",
+      "resumen": "El borrador regula IA en toda la administración central, exige transparencia y protección de derechos.",
+      "porque_importa": "Quien gestiona datos en el sector público deberá adaptar procesos a la nueva normativa.",
+      "angulo": "Primer marco regulatorio de IA en la región",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 16,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó El Observador. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "El Observador",
+            "link": "https://www.elobservador.com.uy/ciencia-y-tecnologia/gobierno-uruguayo-redacta-un-decreto-pionero-la-region-regular-el-uso-la-ia-la-administracion-publica-n6065118",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "evento",
+      "titulo_original": "Gobierno uruguayo redacta un decreto \"pionero\" en la región para regular el uso de la IA en la administración pública"
+    },
+    {
+      "id": "h41",
+      "titular": "Tidal prohibirá música generada por IA",
+      "resumen": "Tidal eliminará 29 millones de canciones IA y rechazará 80‑85 mil pistas diarias a partir del 9 de diciembre, informó su responsable de música.",
+      "porque_importa": "Un curador de playlists deberá filtrar manualmente contenido que antes se subía automáticamente.",
+      "angulo": "El gigante del streaming cierra la puerta a la IA en la música",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Verge. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Hacker News",
+            "link": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+            "tipo": "comunidad"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Tidal will start banning AI-generated music next month"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h02",
+      "titular": "Astrónomos amateurs usan Codex y Astra para buscar exoplanetas",
+      "resumen": "Dos aficionados emplearon Codex y la herramienta Astra para analizar datos de Kepler y TESS y proponer candidatos a exoplanetas.",
+      "porque_importa": "Un educador de astronomía podrá replicar el proceso en clases y motivar a estudiantes.",
+      "angulo": "IA al servicio de la astronomía amateur: ¿qué descubrimientos pueden surgir?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo OpenAI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "OpenAI",
+            "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Searching for distant planets with Astra"
+    },
+    {
+      "id": "h08",
+      "titular": "Microduck evita obstáculos con Isaac Lab",
+      "resumen": "Se presenta un flujo Sim2Real que usa Isaac Lab y Newton para evitar obstáculos.",
+      "porque_importa": "Un ingeniero de robótica podrá replicar el workflow para sus propios prototipos.",
+      "angulo": "Del simulador al robot: ¿qué tan fácil es pasar al mundo real?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta detalle de resultados y disponibilidad.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton"
+    },
+    {
+      "id": "h07",
+      "titular": "Inkling 2 Mini corre en RTX PRO 6000",
+      "resumen": "Se muestra una inferencia del modelo Inkling 2 Mini usando una GPU RTX PRO 6000.",
+      "porque_importa": "Un desarrollador de IA podrá probar el modelo en hardware propio sin esperar a la nube.",
+      "angulo": "¿Vale la pena invertir en una RTX PRO 6000 para pruebas locales?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 1,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Datos escasos, sin métricas de rendimiento.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000"
+    },
+    {
+      "id": "h03",
+      "titular": "Gemini y la organización del Golden State",
+      "resumen": "Google describe cómo Gemini apoya a la organización y a los fans del Golden State.",
+      "porque_importa": "Un responsable de marketing deportivo verá una herramienta para personalizar contenidos a fans.",
+      "angulo": "¿Puede una IA mejorar la experiencia de los seguidores de un club?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Google AI en su propio blog y es un caso de cliente. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Google AI",
+            "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Sin datos concretos ni métricas de uso.",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "How Gemini is changing the game for Golden State's organization and fans."
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h75",
+      "titular": "Musk y Huang advierten sobre IA y empleo",
+      "resumen": "Musk y Huang dicen que la amenaza al trabajo viene de quien domina la IA, no de la IA misma.",
+      "porque_importa": "Quien gestiona talento deberá priorizar capacitación en herramientas de IA para mantener la relevancia.",
+      "angulo": "¿Quién realmente quita el trabajo, la IA o quien la usa?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/25/elon-musk-y-jensen-huang-coinciden-no-te-quitara-el-trabajo-una-ia-sino-alguien-que-sabe-usarla/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Opinión sin datos concretos",
+      "naturaleza": "opinion",
+      "titulo_original": "Elon Musk y Jensen Huang coinciden: “No te quitará el trabajo una IA, sino alguien que sabe usarla”"
+    },
+    {
+      "id": "h17",
+      "titular": "Dario Amodei rechaza acusaciones de ceder control a IA",
+      "resumen": "El CEO de Anthropic calificó de absurdas las críticas que le imputan entregar la agencia humana a la IA, según TechCrunch.",
+      "porque_importa": "Programadores de IA verán cómo se discuten límites de autonomía en la industria.",
+      "angulo": "El debate sobre control humano en modelos avanzados sigue abierto.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó TechCrunch. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "opinión sin datos nuevos",
+      "naturaleza": "opinion",
+      "titulo_original": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’"
+    },
+    {
+      "id": "h72",
+      "titular": "Nvidia y Anthropic caen antes de apertura bursátil",
+      "resumen": "Infobae reporta que ambas acciones retrocedieron mientras inversores revisan costos de centros de datos y rentabilidad.",
+      "porque_importa": "Analistas financieros y gestores de fondos deben ajustar expectativas de inversión en IA.",
+      "angulo": "Los precios de las acciones de IA se tambalean ante dudas de rentabilidad.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/24/nvidia-cae-antes-de-la-apertura-y-anthropic-baja-de-su-precio-de-salida-a-bolsa/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "poco detalle sobre magnitud del descenso",
+      "naturaleza": "otro",
+      "titulo_original": "Nvidia cae antes de la apertura y Anthropic baja de su precio de salida a bolsa"
+    },
+    {
+      "id": "h47",
+      "titular": "Samsung S93F con descuento en Black Friday",
+      "resumen": "El televisor OLED compacto de Samsung está 400 € más barato en Amazon.",
+      "porque_importa": "Quien diseña espacios de streaming podrá equipar salas pequeñas sin gastar mucho.",
+      "angulo": "Pantalla pequeña, gran calidad, precio rebajado",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 2
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/seleccion/tele-oled-para-jugar-a-gta-vi-a-que-quieras-habitacion-pequena-samsung-tiene-descuento-casi-400-euros",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos de precio sin contexto regional",
+      "naturaleza": "promocion",
+      "titulo_original": "Una tele OLED para jugar a 'GTA VI' (o a lo que quieras) en una habitación pequeña: es de Samsung y tiene un descuento de casi 400 euros"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h21",
+    "tesis": "El posible acuerdo entre Amazon y Meta abriría de nuevo el acceso a Muse para los desarrolladores que dependen de esa IA, pero el anuncio no aclara bajo qué condiciones ni qué costos implicará la reactivación. Además, la negociación deja fuera a quienes ya han migrado a otras herramientas durante el bloqueo.",
+    "mirar": "Queda pendiente saber qué modelo de negocio propondrá Amazon para Muse y cómo afectará a los desarrolladores que buscan integrar la IA en sus flujos de trabajo."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h01",
+      "titulo": "GPT‑6 diseña proteínas y muestra unión en pruebas",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "OpenAI dice que los modelos GPT‑6 diseñaron secuencias de proteínas y generaron código para sintetizarlas.",
+          "pantalla": "Logo de OpenAI y texto del titular"
+        },
+        {
+          "t": "0:08",
+          "texto": "Los diseños se probaron en laboratorio y mostraron evidencia de unión en cinco blancos diferentes.",
+          "pantalla": "Gráfica de unión proteína‑blanco"
+        },
+        {
+          "t": "0:16",
+          "texto": "Un bio‑ingeniero puede usar esa IA para proponer secuencias antes de pasar a la síntesis física.",
+          "pantalla": "Ingeniero frente a pantalla con IA"
+        },
+        {
+          "t": "0:24",
+          "texto": "Los resultados muestran evidencia de unión, lo que sugiere potencial para acelerar futuros ciclos de diseño.",
+          "pantalla": "Reloj acelerado y tubos de ensayo"
+        },
+        {
+          "t": "0:32",
+          "texto": "Queda abierto el debate: ¿cuándo pasará de pruebas a producción real?",
+          "pantalla": "Pregunta en pantalla con fondo de laboratorio"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h04",
+      "titulo": "Mass Spec Skills interpreta espectros con Antigravity",
+      "placas": [
+        "Google DeepMind lanzó Mass Spec Skills para Google Antigravity.",
+        "La herramienta traduce espectros de masas tandem en estructuras químicas.",
+        "Permite a científicos identificar moléculas sin escribir código propio.",
+        "Acelera la lectura de datos en espectrometría de masas.",
+        "Ayuda a identificar moléculas a partir de espectros de masas."
+      ]
+    },
+    "post": {
+      "nota": "h21",
+      "titulo": "Amazon y Meta negocian fin al bloqueo de Muse",
+      "texto": "TechCrunch informa que Amazon y Meta están en conversaciones para levantar el bloqueo de dos meses al agente IA Muse.\n\nEl bloqueo impedía que Muse operara en la plataforma de Amazon.\n\nSi el acuerdo se concreta, los desarrolladores que usan Muse podrían volver a integrar la herramienta, aunque no se especifican los términos de la continuidad.\n\nEl debate gira en torno a los productos que Muse recomendará y al posible impacto en la publicidad de Amazon."
+    },
+    "hilo": {
+      "nota": "h04",
+      "titulo": "IA que traduce espectros en estructuras químicas",
+      "partes": [
+        "Mass Spec Skills, de Google DeepMind, interpreta espectros de masas tandem.",
+        "La IA convierte los datos en posibles estructuras químicas sin que el usuario programe algoritmos.",
+        "Esto permite a químicos acelerar la identificación de moléculas en el laboratorio.",
+        "La herramienta está disponible dentro de Google Antigravity, facilitando su adopción."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h01",
+        "h04"
+      ],
+      "preguntas": [
+        "¿Confiarías en una secuencia de proteína diseñada por IA antes de verla en el tubo de ensayo?",
+        "¿Qué riesgos ves al delegar la interpretación de espectros a una IA sin supervisión humana?",
+        "Si Amazon levanta el bloqueo a Muse, cómo afectaría eso a tu flujo de trabajo con IA en e‑commerce?"
+      ],
+      "nota": null
+    }
+  },
+  "fidelidad": {
+    "detectadas": 3,
+    "corregidas": 3,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h80",
+      "titular": "Uruguay propone decreto pionero sobre IA pública",
+      "total": 16,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "El Observador"
+      ]
+    },
+    {
+      "id": "h41",
+      "titular": "Tidal prohibirá música generada por IA",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Verge",
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "GPT‑6 diseña proteínas y muestra unión en pruebas",
+      "total": 15,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "Astrónomos amateurs usan Codex y Astra para buscar exoplanetas",
+      "total": 12,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "h73",
+      "titular": "Meta AI genera imágenes K‑pop en estilo GTA 6 vía WhatsApp",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h76",
+      "titular": "Australia endurece normas de seguridad digital",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "Mass Spec Skills interpreta espectros con Antigravity",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Google DeepMind"
+      ]
+    },
+    {
+      "id": "h51",
+      "titular": "OpenAI prueba Private Inference",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "NY prohíbe juguetes IA por 5 años",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "Character.AI planea subastar chats privados",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h48",
+      "titular": "Xiaomi ve caer ingresos por crisis de memorias",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h21",
+      "titular": "Amazon y Meta negocian fin al bloqueo de Muse",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "TechCrunch",
+        "The Verge",
+        "The Decoder",
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h46",
+      "titular": "IA predice voto según perfil personal, no programa",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h69",
+      "titular": "Tareas programadas: límites por plataforma",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h37",
+      "titular": "Nothing muestra detalles de sus AI earbuds",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Microduck evita obstáculos con Isaac Lab",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h72",
+      "titular": "Nvidia y Anthropic caen antes de apertura bursátil",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h74",
+      "titular": "Spotify reemplaza voz IA en español",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h36",
+      "titular": "FCC aprueba satélites de IA de SpaceX",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h47",
+      "titular": "Samsung S93F con descuento en Black Friday",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "Dario Amodei rechaza acusaciones de ceder control a IA",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Inkling 2 Mini corre en RTX PRO 6000",
+      "total": 5,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "Gemini y la organización del Golden State",
+      "total": 5,
+      "estado": "comunicado",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Google AI"
+      ]
+    },
+    {
+      "id": "h75",
+      "titular": "Musk y Huang advierten sobre IA y empleo",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h29",
+      "titular": "Acciones de Anthropic caen bajo precio de IPO",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch",
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "Jensen Huang presuntamente violó código interno",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h71",
+      "titular": "Nvidia bajo lupa tras regreso de Jensen Huang",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "Límites éticos a los agentes de IA",
+      "total": 0,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Verifiable Social Reasoning para asistentes LLM",
+      "total": 0,
+      "estado": "comunicado",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Google Research"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "Indic Voice Agent con CUGA",
+      "total": 0,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    }
+  ]
+}

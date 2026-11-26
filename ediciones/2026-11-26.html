@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Radar Mutuo · 26/11/2026</title>
+<meta name="description" content="Brief editorial diario de IA: detectado, puntuado y verificado automáticamente.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+:root{--bg:#F4F5F7;--surface:#FFFFFF;--ink:#14161B;--muted:#5A6271;--rule:#DCDFE6;--rule-soft:#E9EBF0;
+--accent:#8E3B5E;--ok:#2E6F4E;--warn:#8A6100;--warn-soft:#FBF1D9;--off:#C7CBD4;
+--display:"Newsreader",Georgia,"Times New Roman",serif;--body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+--mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101217;--surface:#171A21;--ink:#E8EAEF;--muted:#99A1B0;
+--rule:#262A33;--rule-soft:#1F232B;--accent:#E489AC;--ok:#63BE8E;--warn:#D9AE3F;--warn-soft:#2A2314;--off:#333845;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#101217;--surface:#171A21;--ink:#E8EAEF;--muted:#99A1B0;--rule:#262A33;--rule-soft:#1F232B;
+--accent:#E489AC;--ok:#63BE8E;--warn:#D9AE3F;--warn-soft:#2A2314;--off:#333845;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;margin:0;padding:0 16px 64px}
+.wrap{max-width:720px;margin:0 auto}
+a{color:inherit;text-decoration-color:var(--rule);text-underline-offset:3px}
+a:hover{text-decoration-color:var(--accent)}
+header{border-bottom:2px solid var(--ink);padding-block:40px 18px}
+.kicker,.tag,.lab,.num,.dateline,.tally,.fmt,.from,.stamp,.score-chip,.src,.script dt{font-family:var(--mono)}
+.kicker{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 10px}
+h1{font-family:var(--display);font-weight:600;font-size:clamp(2.1rem,7vw,3.1rem);line-height:1.05;letter-spacing:-.02em;margin:0}
+.dateline{font-size:12.5px;color:var(--muted);margin:10px 0 0}
+.tally{display:flex;flex-wrap:wrap;gap:0 22px;list-style:none;padding:0;margin:18px 0 0;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.tally b{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
+.standfirst{font-family:var(--display);font-size:1.18rem;line-height:1.5;color:var(--muted);border-bottom:1px solid var(--rule);padding-block:22px 26px;margin:0;max-width:60ch}
+.aviso{background:var(--warn-soft);border-left:3px solid var(--warn);padding:14px 18px;margin:24px 0 0;font-size:15px}
+article{border-bottom:1px solid var(--rule);padding-block:34px}
+.head{display:grid;grid-template-columns:auto 1fr;gap:0 16px;align-items:start}
+.num{font-size:12px;font-weight:600;color:var(--accent);padding-top:.45em;letter-spacing:.06em}
+h2{font-family:var(--display);font-weight:600;font-size:clamp(1.4rem,4.4vw,1.85rem);line-height:1.18;letter-spacing:-.015em;margin:0;text-wrap:balance;min-width:0}
+.scores{display:flex;flex-wrap:wrap;gap:14px 20px;margin:16px 0 20px;padding-block:12px;border-top:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft)}
+.lab{display:block;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+.bars{display:flex;gap:3px;align-items:center}
+.seg{width:13px;height:7px;background:var(--off);border-radius:1px}
+.seg.on{background:var(--accent)}
+.metric.flag .seg.on{background:var(--warn)}
+.val{font-family:var(--mono);font-size:11px;font-weight:600;color:var(--muted);margin-left:5px;font-variant-numeric:tabular-nums}
+.total{margin-left:auto;align-self:center;font-family:var(--mono);font-size:13px;font-weight:600;font-variant-numeric:tabular-nums}
+.total span{color:var(--muted);font-weight:400}
+p{margin:0 0 1em;max-width:62ch}
+.tag{font-size:10.5px;font-weight:600;letter-spacing:.11em;text-transform:uppercase;color:var(--accent);display:block;margin-bottom:4px}
+.angle{background:var(--surface);border-left:3px solid var(--accent);padding:16px 18px;margin-top:20px}
+.angle .line{font-family:var(--display);font-size:1.12rem;font-weight:600;margin:0;max-width:62ch}
+.srcs{list-style:none;padding:0;margin:18px 0 0;display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px}
+.src{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:4px}
+.ok{color:var(--ok)}
+article.unverified{background:var(--warn-soft);border-left:3px solid var(--warn);padding-inline:18px;margin-block:34px;border-bottom:none}
+.stamp{display:inline-block;font-size:10.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--warn);border:1px solid var(--warn);border-radius:2px;padding:3px 8px;margin-bottom:12px}
+article.unverified .num,article.unverified .tag{color:var(--warn)}
+article.unverified .seg.on{background:var(--warn)}
+h3{font-family:var(--display);font-size:1.5rem;font-weight:600;letter-spacing:-.01em;margin:0 0 6px}
+section{padding-block:36px;border-bottom:1px solid var(--rule)}
+.piece{border-top:1px solid var(--rule-soft);padding-block:26px}
+.piece:first-of-type{border-top:none;padding-top:20px}
+.piece-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin-bottom:14px}
+.fmt{font-size:10.5px;font-weight:600;letter-spacing:.11em;text-transform:uppercase;color:var(--surface);background:var(--accent);border-radius:2px;padding:3px 8px}
+.from{font-size:11px;color:var(--muted);letter-spacing:.04em}
+.piece h4{font-family:var(--display);font-size:1.2rem;font-weight:600;margin:0;width:100%;text-wrap:balance}
+.script{display:grid;grid-template-columns:auto 1fr;gap:10px 16px;margin:0;font-size:15px}
+.script dt{font-size:11.5px;font-weight:600;color:var(--accent);padding-top:.3em;white-space:nowrap}
+.script dd{margin:0;min-width:0}
+.onscreen{display:block;font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:3px}
+.slides{padding-left:1.4em;margin:0;display:grid;gap:10px}
+.slides li::marker{font-family:var(--mono);font-size:11px;font-weight:600;color:var(--accent)}
+.draft{background:var(--surface);border:1px solid var(--rule);padding:18px;margin:0;font-size:15.5px;white-space:pre-line;max-width:62ch}
+.qs{margin:0;padding-left:1.1em;max-width:62ch}
+.qs li{margin-bottom:.5em}
+.cut-list{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:16px}
+.cut-list li{display:grid;grid-template-columns:1fr auto;gap:4px 16px;align-items:baseline;padding-bottom:16px;border-bottom:1px solid var(--rule-soft)}
+.cut-list li:last-child{border-bottom:none;padding-bottom:0}
+.what{font-weight:600;min-width:0}
+.why{grid-column:1/-1;color:var(--muted);font-size:15px;max-width:62ch}
+.score-chip{font-size:10.5px;font-weight:600;letter-spacing:.06em;color:var(--muted);white-space:nowrap;border:1px solid var(--rule);border-radius:2px;padding:2px 7px}
+footer{padding-block:34px;color:var(--muted);font-size:14.5px}
+footer .tag{color:var(--muted)}
+.estado{list-style:none;padding:0;margin:0 0 1em;font-size:13.5px;columns:2;column-gap:24px}
+.estado li{break-inside:avoid}
+.archivo{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:6px 14px;font-family:var(--mono);font-size:12.5px}
+.lead{background:var(--ink);color:var(--bg);padding:26px 24px 24px;margin:30px 0 4px}
+.lead .tag{color:var(--accent)}
+.lead h2{color:var(--bg);margin:6px 0 14px}
+.lead .tesis{font-family:var(--display);font-size:1.28rem;line-height:1.45;margin:0 0 14px;max-width:60ch}
+.lead .mirar{font-size:15px;opacity:.8;margin:0}
+.lead a{color:inherit}
+.fid{font-family:var(--mono);font-size:11.5px;letter-spacing:.04em;margin:14px 0 0;max-width:62ch}
+.fid.ok{color:var(--ok)}
+.fid.warn{color:var(--warn)}
+.fid li{margin:4px 0 0 1.1em}
+.com-list{list-style:none;padding:0;margin:20px 0 0;display:grid;gap:14px}
+.com-list li{border-left:3px solid var(--off);padding:2px 0 2px 14px}
+.com-list .what{display:block}
+.com-list .why{display:block;color:var(--muted);font-size:14.5px;grid-column:auto}
+@media (max-width:460px){.head{grid-template-columns:1fr;gap:6px}.num{padding-top:0}.total{margin-left:0;width:100%}.estado{columns:1}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<p class="kicker">Brief editorial · Canal Mutuo</p>
+<h1>Radar</h1>
+<p class="dateline">Jueves 26 de noviembre de 2026 · cierre 16:36 · Montevideo</p>
+<ul class="tally">
+<li><b>71</b> revisados</li>
+<li><b>3</b> publicables</li>
+<li><b>2</b> sin confirmar</li>
+<li><b>4</b> comunicados</li>
+<li><b>4</b> descartados con causa</li>
+</ul>
+</header>
+<p class="standfirst">Cada nota entra con su puntaje a la vista y su estado de verificación declarado. Lo que no se pudo confirmar no se esconde: se muestra marcado. Lo que solo dijo una empresa va aparte. Y cada texto redactado se controla contra su fuente.</p>
+
+<section class="lead"><span class="tag">Lo que importa hoy · nota 01</span><h2>AGs cuestionan subasta de chats de Character.AI</h2><p class="tesis">La subasta de chats de Character.AI expone datos de 21 millones de usuarios, incluidos 2,1 millones de menores, sin detallar precios ni garantías de privacidad. La tensión está en cómo la venta de datos sensibles afecta a moderadores y a la confianza de la comunidad.</p><p class="mirar"><b>Para seguir:</b> Esperar la respuesta de la corte o de los AGs sobre si la venta se suspende y qué medidas de protección se exigen.</p></section>
+<article><div class="head"><span class="num">01</span><h2>AGs cuestionan subasta de chats de Character.AI</h2></div><div class="scores"><div class="metric"><span class="lab">Señal</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><span class="val">4/5</span></div></div><div class="metric"><span class="lab">Impacto</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><span class="val">4/5</span></div></div><div class="metric"><span class="lab">Conversación</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><span class="val">4/5</span></div></div><div class="metric"><span class="lab">Antihype</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><span class="val">4/5</span></div></div><div class="total">16<span>/20</span></div></div><p>Fiscalías estatales alertan que la venta de la quiebra de Character.ai incluye datos privados de más de 21 millones de cuentas, 2,1 millones de menores.</p><p><span class="tag">Por qué importa</span>Un moderador de comunidad deberá revisar cómo manejar datos sensibles si la plataforma cambia de dueño.</p><p><span class="tag">Verificación</span><span class="ok">Corroborada por 2 medios independientes.</span></p><div class="angle"><span class="tag">Ángulo · post</span><p class="line">¿Quién protege la privacidad cuando una IA se vende?</p></div><ul class="srcs"><li><span class="src">medio</span><a href="https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/" rel="noopener">TechCrunch</a></li><li><span class="src">medio</span><a href="https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats" rel="noopener">The Verge</a></li></ul></article><article class="unverified"><span class="stamp">Sin confirmar · no se publica</span><div class="head"><span class="num">02</span><h2>Anthropic paga 1.500 M$ a escritores tras demanda</h2></div><div class="scores"><div class="metric"><span class="lab">Señal</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><span class="val">4/5</span></div></div><div class="metric"><span class="lab">Impacto</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><span class="val">3/5</span></div></div><div class="metric"><span class="lab">Conversación</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><span class="val">3/5</span></div></div><div class="metric"><span class="lab">Antihype</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><span class="val">4/5</span></div></div><div class="total">14<span>/20</span></div></div><p>Anthropic comenzó a abonar 1.500 millones de dólares a autores, según informó Infobae; la novelista Courtney Milan recibió su primera cuota de 2.200 USD por obra.</p><p><span class="tag">Por qué importa</span>Los editores y guionistas verán cómo se negocian derechos de uso de sus textos con IA.</p><p><span class="tag">Qué falta</span><span>Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.</span></p><div class="angle" style="background:transparent;border:none;padding-left:0"><span class="tag">Decisión</span><p>Queda en observación. Entra al brief cuando aparezca la fuente original o una segunda fuente independiente.</p></div><ul class="srcs"><li><span class="src">medio</span><a href="https://www.infobae.com/tecno/2026/11/26/anthropic-inicia-el-pago-de-usd-1500-millones-a-escritores-tras-demanda-por-derechos-de-autor/" rel="noopener">Infobae</a></li></ul></article><article class="unverified"><span class="stamp">Sin confirmar · no se publica</span><div class="head"><span class="num">03</span><h2>IA genera renders de interiores en segundos</h2></div><div class="scores"><div class="metric"><span class="lab">Señal</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><span class="val">3/5</span></div></div><div class="metric"><span class="lab">Impacto</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><span class="val">3/5</span></div></div><div class="metric"><span class="lab">Conversación</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><span class="val">3/5</span></div></div><div class="metric"><span class="lab">Antihype</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><span class="val">3/5</span></div></div><div class="total">12<span>/20</span></div></div><p>Gemini, ChatGPT y apps como Interior AI crean imágenes de salas reformadas a partir de una foto, sin datos de medidas ni costos.</p><p><span class="tag">Por qué importa</span>Un diseñador de interiores podrá presentar visualizaciones rápidas a clientes, aunque sin precisión técnica.</p><p><span class="tag">Qué falta</span><span>Solo lo publicó WWWhat&#x27;s new. Falta una segunda fuente independiente o el anuncio oficial.</span></p><div class="angle" style="background:transparent;border:none;padding-left:0"><span class="tag">Decisión</span><p>Queda en observación. Entra al brief cuando aparezca la fuente original o una segunda fuente independiente.</p></div><ul class="srcs"><li><span class="src">medio</span><a href="https://wwwhatsnew.com/2026/11/26/reformas-decoracion-ia-foto-habitacion-gemini-chatgpt/" rel="noopener">WWWhat&#x27;s new</a></li></ul></article><article><div class="head"><span class="num">04</span><h2>FCC aprueba un millón de satélites para centros de datos</h2></div><div class="scores"><div class="metric"><span class="lab">Señal</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><span class="val">4/5</span></div></div><div class="metric"><span class="lab">Impacto</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><span class="val">2/5</span></div></div><div class="metric"><span class="lab">Conversación</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><span class="val">3/5</span></div></div><div class="metric"><span class="lab">Antihype</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><span class="val">3/5</span></div></div><div class="total">12<span>/20</span></div></div><p>La FCC concedió a SpaceX permiso para lanzar hasta un millón de satélites que formarán una constelación de pequeños centros de datos en órbita, bajo el proyecto Starmind.</p><p><span class="tag">Por qué importa</span>Un ingeniero de infraestructura cloud podrá planear servicios que dependan de cómputo orbital.</p><p><span class="tag">Verificación</span><span class="ok">Corroborada por 3 medios independientes.</span></p><div class="angle"><span class="tag">Ángulo · post</span><p class="line">¿Cuánta energía consumirá una constelación de datos en el espacio?</p></div><ul class="srcs"><li><span class="src">medio</span><a href="https://www.xataka.com/espacio/spacex-tiene-luz-verde-para-desplegar-millon-satelites-centros-datos-no-ia-energia" rel="noopener">Xataka</a></li><li><span class="src">medio</span><a href="https://www.infobae.com/tecno/2026/11/25/spacex-de-elon-musk-recibe-autorizacion-para-lanzar-un-millon-de-satelites-y-crear-centros-de-datos-en-el-espacio/" rel="noopener">Infobae</a></li><li><span class="src">medio</span><a href="https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/" rel="noopener">The Decoder</a></li></ul></article><article><div class="head"><span class="num">05</span><h2>Amazon y Meta negocian desbloqueo de Muse</h2></div><div class="scores"><div class="metric"><span class="lab">Señal</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><span class="val">3/5</span></div></div><div class="metric"><span class="lab">Impacto</span><div class="bars"><i class="seg on"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><span class="val">1/5</span></div></div><div class="metric"><span class="lab">Conversación</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><span class="val">2/5</span></div></div><div class="metric"><span class="lab">Antihype</span><div class="bars"><i class="seg on"></i><i class="seg on"></i><i class="seg on"></i><i class="seg"></i><i class="seg"></i><span class="val">3/5</span></div></div><div class="total">9<span>/20</span></div></div><p>Según TechCrunch, ambas compañías están en conversaciones para terminar el bloqueo de dos meses al agente de IA Muse.</p><p><span class="tag">Por qué importa</span>Un creador de contenido que usa Muse podrá volver a generar textos sin interrupciones.</p><p><span class="tag">Verificación</span><span class="ok">Corroborada por 3 medios independientes.</span></p><div class="angle"><span class="tag">Ángulo · post</span><p class="line">El bloqueo de Muse muestra cuán frágil es la interoperabilidad entre IA de gigantes tech.</p></div><ul class="srcs"><li><span class="src">medio</span><a href="https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/" rel="noopener">TechCrunch</a></li><li><span class="src">medio</span><a href="https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions" rel="noopener">The Verge</a></li><li><span class="src">medio</span><a href="https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/" rel="noopener">The Decoder</a></li></ul></article>
+<section><h3>De la nota a la pieza</h3><p>Borradores listos para revisar. Detectar es la mitad del trabajo; esta es la otra mitad. Nada sale sin que una persona lo apruebe.</p><div class="piece"><div class="piece-head"><span class="fmt">Reel · 40s</span><span class="from">de la nota 01</span><h4>AGs contra la subasta de chats de Character.AI</h4></div><dl class="script"><dt>0:00</dt><dd>Fiscalías de 42 estados alertan que la quiebra de Character.AI incluye datos de 21 millones de cuentas.<span class="onscreen">En pantalla: Titular y logo de Character.AI</span></dd><dt>0:08</dt><dd>Entre esos datos hay 2,1 millones de menores registrados.<span class="onscreen">En pantalla: Gráfica con número de menores</span></dd><dt>0:15</dt><dd>Los AGs piden detener la venta de los chats privados.<span class="onscreen">En pantalla: Manos levantando un stop</span></dd><dt>0:23</dt><dd>Un moderador de comunidad tendría que decidir cómo manejar esa información si cambia de dueño.<span class="onscreen">En pantalla: Persona frente a pantalla revisando datos</span></dd><dt>0:31</dt><dd>La pregunta es: ¿quién protege la privacidad cuando una IA se vende?<span class="onscreen">En pantalla: Interrogante sobre privacidad</span></dd></dl><div class="fid warn">⚠ Revisar antes de publicar:<ul><li>«Un moderador de comunidad tendría que decidir cómo manejar esa información si cambia de dueño.»: La fuente no menciona a un moderador de comunidad ni su papel en la gestión de los datos</li></ul></div></div><div class="piece"><div class="piece-head"><span class="fmt">Carrusel · 6 placas</span><span class="from">de la nota 04</span><h4>SpaceX y la constelación de centros de datos en órbita</h4></div><ol class="slides"><li>La FCC aprobó a SpaceX lanzar hasta un millón de satélites.</li><li>El proyecto se llama Starmind y consistirá en pequeños centros de datos en el espacio.</li><li>Los satélites estarán conectados entre sí para ofrecer cómputo orbital.</li><li>No se menciona que sea para IA, sino para ampliar capacidad de procesamiento.</li><li>Este es el primer permiso de este tipo en EE. UU.</li><li>Un ingeniero de infraestructura cloud podrá planear servicios que dependan de esa capacidad.</li></ol><p class="fid ok">✓ Control de fidelidad: cada cifra está en la fuente.</p></div><div class="piece"><div class="piece-head"><span class="fmt">Post · LinkedIn</span><span class="from">de la nota 05</span><h4>Amazon y Meta negocian el desbloqueo de Muse</h4></div><p class="draft">TechCrunch informa que Amazon y Meta están conversando para terminar el bloqueo de dos meses al agente de IA Muse.
+
+Si sos creador de contenido y usás Muse para generar textos, podés volver a trabajar sin interrupciones.
+
+El bloqueo mostró lo frágil que es la interoperabilidad entre las IA de los gigantes tech.
+
+Queda pendiente ver qué condiciones acuerdan para que Muse vuelva a operar en la plataforma de Amazon.</p><p class="fid ok">✓ Control de fidelidad: cada cifra está en la fuente.</p></div><div class="piece"><div class="piece-head"><span class="fmt">Hilo · Threads</span><span class="from">de la nota 04</span><h4>¿Qué implica la constelación Starmind de SpaceX?</h4></div><p class="draft">La FCC dio luz verde a SpaceX para lanzar hasta un millón de satélites con centros de datos en órbita.
+
+↓
+
+Starmind será una red de pequeños nodos de cómputo conectados entre sí, no una solución de IA per se.
+
+↓
+
+Para un ingeniero de infraestructura cloud, esto abre la posibilidad de diseñar servicios que usen cómputo espacial.
+
+↓
+
+La autorización es la primera de su tipo en EE. UU, lo que marca un precedente regulatorio.</p><p class="fid ok">✓ Control de fidelidad: cada cifra está en la fuente.</p></div><div class="piece"><div class="piece-head"><span class="fmt">Opencast</span><span class="from">de las notas 01, 04</span><h4>Preguntas para el streaming</h4></div><ol class="qs"><li>¿Quién debería custodiar los datos privados cuando una IA entra en quiebra?</li><li>¿Qué riesgos de seguridad implica una constelación de centros de datos en el espacio?</li><li>¿Cómo afectaría a los usuarios locales la posible venta de sus chats a terceros?</li></ol><p class="fid ok">✓ Control de fidelidad: cada cifra está en la fuente.</p></div></section>
+<section><h3>Comunicados de empresas</h3><p>Es cierto que lo anunciaron. Que sea noticia es otra cosa: entran al brief cuando un medio independiente los cubra.</p><ul class="com-list"><li><span class="what"><a href="https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga" rel="noopener">Nuevo agente de voz en idioma indic disponible</a></span><span class="why">Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.</span></li><li><span class="what"><a href="https://huggingface.co/blog/ggml-org/llamacpp-amd-bench" rel="noopener">Llama.cpp lanza dashboard de benchmark para AMD</a></span><span class="why">Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.</span></li><li><span class="what"><a href="https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin" rel="noopener">Nemotron 3.5 Parse: datos abiertos y afinado rápido</a></span><span class="why">Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.</span></li><li><span class="what"><a href="https://huggingface.co/blog/training-swarms" rel="noopener">Guía para crear sistemas multi‑agente</a></span><span class="why">Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.</span></li></ul></section>
+<section><h3>Descartados, y por qué</h3><p>Lo que más ruido hacía y no pasó la rúbrica. Decir que no también es trabajo editorial.</p><ul class="cut-list"><li><span class="what">Aaronson cuestiona el valor de pruebas matemáticas de IA</span><span class="score-chip">Impacto 0</span><span class="why">Enfoque especulativo sin datos verificables.</span></li><li><span class="what">Claude se vuelve omnipresente en contenidos digitales</span><span class="score-chip">Señal 0</span><span class="why">Sin datos verificables, solo reflexión.</span></li><li><span class="what">Científicos trazan límites a agentes de IA</span><span class="score-chip">Impacto 0</span><span class="why">Poco dato concreto, mayormente reflexión.</span></li><li><span class="what">Opciones IA para foto de perfil profesional</span><span class="score-chip">Impacto 1</span><span class="why">Falta datos concretos y foco práctico.</span></li></ul></section>
+<footer>
+<p><span class="tag">Cómo se armó</span>71 items de 21 fuentes, agrupados en 30 historias. Puntuados con una rúbrica de cuatro ejes —señal, impacto, conversación, antihype—. La verificación la decide el código, no el modelo: dos medios independientes, o fuente primaria con datos concretos. Modelo usado: openai/gpt-oss-120b (Groq).</p>
+<p><span class="tag">Control de fidelidad</span>Cada cifra de lo redactado se compara con el texto de su fuente, y una segunda lectura busca afirmaciones que la fuente no sostiene. Hoy: 1 problemas detectados, 0 corregidos antes de publicar, 1 marcados para revisión humana.</p>
+<p>La máquina ordena, puntúa y justifica. Las decisiones editoriales y la redacción final son humanas.</p>
+<p><span class="tag">Estado de las fuentes</span></p>
+<ul class="estado"><li>✓ OpenAI · 1430</li><li>✓ Google AI · 20</li><li>✓ Google DeepMind · 100</li><li>✓ Hugging Face · 918</li><li>✓ NVIDIA · 18</li><li>✓ TechCrunch · 20</li><li>✓ The Verge · 10</li><li>✓ Ars Technica · 20</li><li>✓ MIT Technology Review · 10</li><li>✓ Xataka · 30</li><li>✗ Hacker News · no respondió</li><li>✓ The Decoder · 10</li><li>✓ Wired · 10</li><li>✓ Genbeta · 16</li><li>✓ Hipertextual · 15</li><li>✓ Xataka México · 20</li><li>✓ WWWhat&#x27;s new · 10</li><li>✓ Infobae · 30</li><li>✓ El Observador · 20</li><li>✓ Google Research · 15</li><li>✓ arXiv · 6</li><li>✓ Simon Willison · 10</li></ul>
+<p>1 fuente(s) no respondieron hoy. El brief se armó con las demás.</p>
+<p><span class="tag">Ediciones anteriores</span></p><ul class="archivo"><li><a href="../ediciones/2026-11-25.html">2026-11-25</a></li><li><a href="../ediciones/2026-11-24.html">2026-11-24</a></li><li><a href="../ediciones/2026-11-23.html">2026-11-23</a></li><li><a href="../ediciones/2026-11-22.html">2026-11-22</a></li><li><a href="../ediciones/2026-11-21.html">2026-11-21</a></li><li><a href="../ediciones/2026-11-20.html">2026-11-20</a></li><li><a href="../ediciones/2026-11-19.html">2026-11-19</a></li><li><a href="../ediciones/2026-11-18.html">2026-11-18</a></li><li><a href="../ediciones/2026-11-17.html">2026-11-17</a></li><li><a href="../ediciones/2026-11-16.html">2026-11-16</a></li><li><a href="../ediciones/2026-11-14.html">2026-11-14</a></li><li><a href="../ediciones/2026-11-13.html">2026-11-13</a></li><li><a href="../ediciones/2026-11-12.html">2026-11-12</a></li><li><a href="../ediciones/2026-11-11.html">2026-11-11</a></li><li><a href="../ediciones/2026-11-10.html">2026-11-10</a></li><li><a href="../ediciones/2026-11-09.html">2026-11-09</a></li><li><a href="../ediciones/2026-11-08.html">2026-11-08</a></li><li><a href="../ediciones/2026-11-07.html">2026-11-07</a></li><li><a href="../ediciones/2026-11-06.html">2026-11-06</a></li><li><a href="../ediciones/2026-11-05.html">2026-11-05</a></li><li><a href="../ediciones/2026-11-04.html">2026-11-04</a></li><li><a href="../ediciones/2026-11-03.html">2026-11-03</a></li><li><a href="../ediciones/2026-11-02.html">2026-11-02</a></li><li><a href="../ediciones/2026-11-01.html">2026-11-01</a></li><li><a href="../ediciones/2026-10-31.html">2026-10-31</a></li><li><a href="../ediciones/2026-10-30.html">2026-10-30</a></li><li><a href="../ediciones/2026-10-29.html">2026-10-29</a></li><li><a href="../ediciones/2026-10-28.html">2026-10-28</a></li><li><a href="../ediciones/2026-10-27.html">2026-10-27</a></li><li><a href="../ediciones/2026-10-26.html">2026-10-26</a></li></ul>
+<p>Código abierto: <a href="https://github.com/federicoramos67/radar-mutuo">github.com/federicoramos67/radar-mutuo</a> · Hecho por Federico Ramos.</p>
+</footer>
+</div>
+</body>
+</html>

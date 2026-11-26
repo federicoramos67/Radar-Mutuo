@@ -1,0 +1,949 @@
+{
+  "fecha": "2026-11-26T16:36:26.223169-03:00",
+  "revisados": 71,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1430
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 918
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": false,
+      "error": "HTTPError"
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h19",
+      "titular": "AGs cuestionan subasta de chats de Character.AI",
+      "resumen": "Fiscalías estatales alertan que la venta de la quiebra de Character.ai incluye datos privados de más de 21 millones de cuentas, 2,1 millones de menores.",
+      "porque_importa": "Un moderador de comunidad deberá revisar cómo manejar datos sensibles si la plataforma cambia de dueño.",
+      "angulo": "¿Quién protege la privacidad cuando una IA se vende?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 16,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Character.AI’s plan to auction off users’ private chats challenged by state AGs"
+    },
+    {
+      "id": "h28",
+      "titular": "FCC aprueba un millón de satélites para centros de datos",
+      "resumen": "La FCC concedió a SpaceX permiso para lanzar hasta un millón de satélites que formarán una constelación de pequeños centros de datos en órbita, bajo el proyecto Starmind.",
+      "porque_importa": "Un ingeniero de infraestructura cloud podrá planear servicios que dependan de cómputo orbital.",
+      "angulo": "¿Cuánta energía consumirá una constelación de datos en el espacio?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 3 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/espacio/spacex-tiene-luz-verde-para-desplegar-millon-satelites-centros-datos-no-ia-energia",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/25/spacex-de-elon-musk-recibe-autorizacion-para-lanzar-un-millon-de-satelites-y-crear-centros-de-datos-en-el-espacio/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "SpaceX tiene luz verde para desplegar un millón de satélites con centros de datos: no es por la IA es por la energía"
+    },
+    {
+      "id": "h21",
+      "titular": "Amazon y Meta negocian desbloqueo de Muse",
+      "resumen": "Según TechCrunch, ambas compañías están en conversaciones para terminar el bloqueo de dos meses al agente de IA Muse.",
+      "porque_importa": "Un creador de contenido que usa Muse podrá volver a generar textos sin interrupciones.",
+      "angulo": "El bloqueo de Muse muestra cuán frágil es la interoperabilidad entre IA de gigantes tech.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 3
+      },
+      "total": 9,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 3 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Verge",
+            "link": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Poco detalle, datos escasos.",
+      "naturaleza": "otro",
+      "titulo_original": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h57",
+      "titular": "Anthropic paga 1.500 M$ a escritores tras demanda",
+      "resumen": "Anthropic comenzó a abonar 1.500 millones de dólares a autores, según informó Infobae; la novelista Courtney Milan recibió su primera cuota de 2.200 USD por obra.",
+      "porque_importa": "Los editores y guionistas verán cómo se negocian derechos de uso de sus textos con IA.",
+      "angulo": "El pago masivo a escritores marca un precedente en la IA generativa.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/26/anthropic-inicia-el-pago-de-usd-1500-millones-a-escritores-tras-demanda-por-derechos-de-autor/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "caso_cliente",
+      "titulo_original": "Anthropic inicia el pago de USD 1.500 millones a escritores tras demanda por derechos de autor"
+    },
+    {
+      "id": "h53",
+      "titular": "IA genera renders de interiores en segundos",
+      "resumen": "Gemini, ChatGPT y apps como Interior AI crean imágenes de salas reformadas a partir de una foto, sin datos de medidas ni costos.",
+      "porque_importa": "Un diseñador de interiores podrá presentar visualizaciones rápidas a clientes, aunque sin precisión técnica.",
+      "angulo": "Renderizar espacios con IA: rapidez vs. exactitud.",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 3,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 12,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/11/26/reformas-decoracion-ia-foto-habitacion-gemini-chatgpt/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Ver tu casa reformada con una foto y la IA: qué hacen bien Gemini, ChatGPT y las apps de interiorismo, y lo que un render nunca te dirá"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h05",
+      "titular": "Nuevo agente de voz en idioma indic disponible",
+      "resumen": "Hugging Face lanza un agente de voz para lenguas indic con arquitectura CUGA.",
+      "porque_importa": "Desarrolladores de interfaces de voz ganan una herramienta local para esos idiomas.",
+      "angulo": "La voz indic llega a los proyectos de IA locales.",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 1,
+        "antihype": 2
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "An Indic Voice Agent with CUGA"
+    },
+    {
+      "id": "h01",
+      "titular": "Llama.cpp lanza dashboard de benchmark para AMD",
+      "resumen": "Hugging Face publicó un panel que muestra métricas de rendimiento de modelos Llama en procesadores AMD Ryzen y GPU Radeon.",
+      "porque_importa": "Un desarrollador que usa Llama en su laptop podrá comparar rápidamente su hardware AMD.",
+      "angulo": "Benchmark oficial para usuarios de AMD que prueban Llama.",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 1,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Sin datos de resultados concretos.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon"
+    },
+    {
+      "id": "h02",
+      "titular": "Nemotron 3.5 Parse: datos abiertos y afinado rápido",
+      "resumen": "Hugging Face anunció recursos abiertos y mejoras de inferencia para el modelo Nemotron 3.5 Parse.",
+      "porque_importa": "Un programador que afina modelos podrá acceder a datos y acelerar pruebas sin infraestructura propia.",
+      "angulo": "Facilitan el fine‑tuning de Nemotron 3.5 para equipos pequeños.",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 1,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Falta información de rendimiento o disponibilidad.",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference"
+    },
+    {
+      "id": "h03",
+      "titular": "Guía para crear sistemas multi‑agente",
+      "resumen": "Hugging Face publicó un tutorial sobre cómo construir, entrenar y evaluar enjambres, bandadas y pandillas de agentes.",
+      "porque_importa": "Un investigador de IA podrá seguir pasos claros para experimentar con sistemas de varios agentes.",
+      "angulo": "Los multi‑agentes dejan de ser solo teoría y pasan a tutorial práctico.",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 1,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/training-swarms",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Contenido sin datos nuevos, solo guía.",
+      "naturaleza": "otro",
+      "titulo_original": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h36",
+      "titular": "Aaronson cuestiona el valor de pruebas matemáticas de IA",
+      "resumen": "Scott Aaronson escribe que el interés real está en que una IA genere pruebas, no en la prueba en sí.",
+      "porque_importa": "Quien enseña matemáticas debe considerar el rol de la IA en la didáctica.",
+      "angulo": "Más allá del teorema, ¿qué implica una IA que prueba matemáticas?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 3,
+        "antihype": 1
+      },
+      "total": 5,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Enfoque especulativo sin datos verificables.",
+      "naturaleza": "opinion",
+      "titulo_original": "Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it"
+    },
+    {
+      "id": "h64",
+      "titular": "Claude se vuelve omnipresente en contenidos digitales",
+      "resumen": "Simon Willison comenta que la IA Claude aparece en videos de YouTube, presentaciones y correos, generando una desindividualización de la voz autoral.",
+      "porque_importa": "A comunicadores les alerta que su estilo puede perderse entre voces de IA.",
+      "angulo": "¿Quién firma el contenido cuando la IA escribe por vos?",
+      "formato": "post",
+      "puntos": {
+        "senal": 0,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 0
+      },
+      "total": 2,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo aparece en Simon Willison, que es un agregador. Falta un medio o la fuente original.",
+        "fuentes": [
+          {
+            "nombre": "Simon Willison",
+            "link": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+            "tipo": "comunidad"
+          }
+        ]
+      },
+      "descarte": "Sin datos verificables, solo reflexión.",
+      "naturaleza": "opinion",
+      "titulo_original": "Quoting Jack Despain Zhou"
+    },
+    {
+      "id": "h04",
+      "titular": "Científicos trazan límites a agentes de IA",
+      "resumen": "Un artículo de Hugging Face discute dónde deberían detenerse los agentes de IA.",
+      "porque_importa": "Ayuda a quien programa agentes a definir criterios de uso responsable.",
+      "angulo": "¿Hasta dónde debería llegar la autonomía de un agente?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 0,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 4,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es una pieza de opinión. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "Poco dato concreto, mayormente reflexión.",
+      "naturaleza": "opinion",
+      "titulo_original": "Where scientists draw the line on AI agents"
+    },
+    {
+      "id": "h52",
+      "titular": "Opciones IA para foto de perfil profesional",
+      "resumen": "LinkedIn exige foto representativa; se citan herramientas como HeadshotPro, Remini y Gemini sin datos de uso ni costos.",
+      "porque_importa": "Quien edita su CV necesita saber si la IA mejora su foto sin comprometer su imagen.",
+      "angulo": "¿Vale la pena usar IA para tu foto de LinkedIn?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/11/26/foto-perfil-profesional-ia-linkedin-cv-privacidad/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta datos concretos y foco práctico.",
+      "naturaleza": "otro",
+      "titulo_original": "Foto de perfil profesional con IA para LinkedIn o el CV: qué opciones hay, qué permite LinkedIn y qué pasa con tu cara"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h19",
+    "tesis": "La subasta de chats de Character.AI expone datos de 21 millones de usuarios, incluidos 2,1 millones de menores, sin detallar precios ni garantías de privacidad. La tensión está en cómo la venta de datos sensibles afecta a moderadores y a la confianza de la comunidad.",
+    "mirar": "Esperar la respuesta de la corte o de los AGs sobre si la venta se suspende y qué medidas de protección se exigen."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h19",
+      "titulo": "AGs contra la subasta de chats de Character.AI",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "Fiscalías de 42 estados alertan que la quiebra de Character.AI incluye datos de 21 millones de cuentas.",
+          "pantalla": "Titular y logo de Character.AI"
+        },
+        {
+          "t": "0:08",
+          "texto": "Entre esos datos hay 2,1 millones de menores registrados.",
+          "pantalla": "Gráfica con número de menores"
+        },
+        {
+          "t": "0:15",
+          "texto": "Los AGs piden detener la venta de los chats privados.",
+          "pantalla": "Manos levantando un stop"
+        },
+        {
+          "t": "0:23",
+          "texto": "Un moderador de comunidad tendría que decidir cómo manejar esa información si cambia de dueño.",
+          "pantalla": "Persona frente a pantalla revisando datos"
+        },
+        {
+          "t": "0:31",
+          "texto": "La pregunta es: ¿quién protege la privacidad cuando una IA se vende?",
+          "pantalla": "Interrogante sobre privacidad"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h28",
+      "titulo": "SpaceX y la constelación de centros de datos en órbita",
+      "placas": [
+        "La FCC aprobó a SpaceX lanzar hasta un millón de satélites.",
+        "El proyecto se llama Starmind y consistirá en pequeños centros de datos en el espacio.",
+        "Los satélites estarán conectados entre sí para ofrecer cómputo orbital.",
+        "No se menciona que sea para IA, sino para ampliar capacidad de procesamiento.",
+        "Este es el primer permiso de este tipo en EE. UU.",
+        "Un ingeniero de infraestructura cloud podrá planear servicios que dependan de esa capacidad."
+      ]
+    },
+    "post": {
+      "nota": "h21",
+      "titulo": "Amazon y Meta negocian el desbloqueo de Muse",
+      "texto": "TechCrunch informa que Amazon y Meta están conversando para terminar el bloqueo de dos meses al agente de IA Muse.\n\nSi sos creador de contenido y usás Muse para generar textos, podés volver a trabajar sin interrupciones.\n\nEl bloqueo mostró lo frágil que es la interoperabilidad entre las IA de los gigantes tech.\n\nQueda pendiente ver qué condiciones acuerdan para que Muse vuelva a operar en la plataforma de Amazon."
+    },
+    "hilo": {
+      "nota": "h28",
+      "titulo": "¿Qué implica la constelación Starmind de SpaceX?",
+      "partes": [
+        "La FCC dio luz verde a SpaceX para lanzar hasta un millón de satélites con centros de datos en órbita.",
+        "Starmind será una red de pequeños nodos de cómputo conectados entre sí, no una solución de IA per se.",
+        "Para un ingeniero de infraestructura cloud, esto abre la posibilidad de diseñar servicios que usen cómputo espacial.",
+        "La autorización es la primera de su tipo en EE. UU, lo que marca un precedente regulatorio."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h19",
+        "h28"
+      ],
+      "preguntas": [
+        "¿Quién debería custodiar los datos privados cuando una IA entra en quiebra?",
+        "¿Qué riesgos de seguridad implica una constelación de centros de datos en el espacio?",
+        "¿Cómo afectaría a los usuarios locales la posible venta de sus chats a terceros?"
+      ]
+    }
+  },
+  "fidelidad": {
+    "detectadas": 1,
+    "corregidas": 0,
+    "pendientes": [
+      {
+        "donde": "pieza:reel",
+        "tipo": "afirmacion",
+        "detalle": "«Un moderador de comunidad tendría que decidir cómo manejar esa información si cambia de dueño.»: La fuente no menciona a un moderador de comunidad ni su papel en la gestión de los datos"
+      }
+    ],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h19",
+      "titular": "AGs cuestionan subasta de chats de Character.AI",
+      "total": 16,
+      "estado": "verificada",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "TechCrunch",
+        "The Verge"
+      ]
+    },
+    {
+      "id": "h57",
+      "titular": "Anthropic paga 1.500 M$ a escritores tras demanda",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h28",
+      "titular": "FCC aprueba un millón de satélites para centros de datos",
+      "total": 12,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka",
+        "Infobae",
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h53",
+      "titular": "IA genera renders de interiores en segundos",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h56",
+      "titular": "Artistas cierran redes por uso no autorizado de datos",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h48",
+      "titular": "Gemini Notebook añade flashcards con imágenes",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hipertextual"
+      ]
+    },
+    {
+      "id": "h37",
+      "titular": "OpenAI corrige error de facturación en GPT‑6.2",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h60",
+      "titular": "Ciberseguridad: IA y nuevas estafas",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h21",
+      "titular": "Amazon y Meta negocian desbloqueo de Muse",
+      "total": 9,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch",
+        "The Verge",
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "Google publica método de razonamiento social verificable",
+      "total": 8,
+      "estado": "verificada",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Google Research"
+      ]
+    },
+    {
+      "id": "h38",
+      "titular": "AI china busca datos en Google y Meta",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h31",
+      "titular": "WhatsApp prueba mensajes programados y stickers sonoros",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "Nuevo agente de voz en idioma indic disponible",
+      "total": 7,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h58",
+      "titular": "Nvidia recorta suministro de GPU para gamers",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h63",
+      "titular": "OpenAI anuncia GPT‑6.2 Sol antes de Navidad",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h52",
+      "titular": "Opciones IA para foto de perfil profesional",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h49",
+      "titular": "Disney habla de IA en animación 2D",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hipertextual"
+      ]
+    },
+    {
+      "id": "h32",
+      "titular": "Escasez de chips eleva precios en Black Friday",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h36",
+      "titular": "Aaronson cuestiona el valor de pruebas matemáticas de IA",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "Llama.cpp lanza dashboard de benchmark para AMD",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "Nemotron 3.5 Parse: datos abiertos y afinado rápido",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "Guía para crear sistemas multi‑agente",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "Científicos trazan límites a agentes de IA",
+      "total": 4,
+      "estado": "comunicado",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h59",
+      "titular": "Juicio a Musk y OpenAI fijado para marzo",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h61",
+      "titular": "Musk y Huang advierten sobre IA y empleo",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h30",
+      "titular": "Paper de OpenAI sobre unir relatividad y cuántica",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h29",
+      "titular": "La inseguridad como condición estructural de Internet",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h47",
+      "titular": "Desayuno fuera: búsqueda de un “tercer lugar”",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Genbeta"
+      ]
+    },
+    {
+      "id": "h64",
+      "titular": "Claude se vuelve omnipresente en contenidos digitales",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "GTA VI y la eficiencia en videojuegos",
+      "total": 1,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    }
+  ]
+}

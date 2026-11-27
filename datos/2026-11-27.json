@@ -1,0 +1,789 @@
+{
+  "fecha": "2026-11-27T16:27:28.060566-03:00",
+  "revisados": 48,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 10,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1430
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 919
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h02",
+      "titular": "Nuevo dashboard benchmark llama.cpp para AMD",
+      "resumen": "Hugging Face lanza un panel que compara rendimiento de llama.cpp en CPUs Ryzen y GPUs Radeon. Incluye tiempos de inferencia y consumo.",
+      "porque_importa": "Quienes usan modelos locales pueden decidir mejor entre CPU y GPU según los resultados del benchmark.",
+      "angulo": "Mide tu CPU y GPU antes de entrenar modelos en casa",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 3
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Fuente primaria: Hugging Face. Es un lanzamiento con datos concretos.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h15",
+      "titular": "Chips Blackwell de Nvidia hallados en Shanghai sin licencia US",
+      "resumen": "Bloomberg, citado por The Decoder, revela que dos empresas chinas instalaron chips Blackwell de Nvidia en un data center, usando números de serie que apuntan a Gigabyte, sin licencia de exportación.",
+      "porque_importa": "Quien programa IA en la región debe vigilar riesgos legales al usar hardware prohibido.",
+      "angulo": "Una filtración que muestra el mercado negro de chips de IA",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports"
+    },
+    {
+      "id": "h16",
+      "titular": "Tres estudios respaldan el modelo JEPA de AMI Labs",
+      "resumen": "The Decoder resume que tres papers de Meta y AMI Labs muestran avances en planificación robótica y entrenamiento más eficiente con la arquitectura JEPA.",
+      "porque_importa": "Quien programa robots o IA puede explorar un modelo alternativo a los LLM para tareas de planificación.",
+      "angulo": "¿Podrá JEPA superar a los grandes modelos de lenguaje?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 3,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models"
+    }
+  ],
+  "comunicados": [
+    {
+      "id": "h01",
+      "titular": "Trainium3 y LTX‑2.5 generan video en pruebas",
+      "resumen": "Hugging Face muestra una demo donde el hardware Trainium3 procesa el modelo LTX‑2.5 para crear clips. No se publican métricas ni disponibilidad.",
+      "porque_importa": "Si editás video, la demo indica que podrías acelerar la generación de efectos visuales con hardware especializado.",
+      "angulo": "Una demo que sugiere velocidad, pero sin números claros",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 2,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "comunicado",
+        "motivo": "Lo dijo Hugging Face en su propio blog y es un anuncio sin datos verificables. Ningún medio independiente lo cubrió todavía.",
+        "fuentes": [
+          {
+            "nombre": "Hugging Face",
+            "link": "https://huggingface.co/blog/video-trainium3",
+            "tipo": "oficial"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "lanzamiento",
+      "titulo_original": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5"
+    }
+  ],
+  "descartados": [
+    {
+      "id": "h19",
+      "titular": "AI acelera el reverse engineering de GTA 6",
+      "resumen": "The Decoder señala que agentes de IA como Claude Code están ayudando a portar una versión filtrada de GTA 6 a PC.",
+      "porque_importa": "Los desarrolladores indie podrían usar IA para acelerar la adaptación de juegos no oficiales.",
+      "angulo": "¿Los agentes de IA amenazan la protección de los lanzamientos de videojuegos?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 1
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta de datos verificables y tono especulativo",
+      "naturaleza": "opinion",
+      "titulo_original": "Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?"
+    },
+    {
+      "id": "h14",
+      "titular": "Detectores de IA se engañan con cambios leves",
+      "resumen": "GPTZero y Pangram fallan al detectar textos modificados ligeramente, según pruebas de Xataka.",
+      "porque_importa": "A quien revisa contenidos generados por IA le cuesta validar su autenticidad.",
+      "angulo": "¿Hasta dónde llegan los detectores de IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 1
+      },
+      "total": 7,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/robotica-e-ia/gptzero-pangram-se-pelean-ser-mejor-detector-textos-hechos-ia-he-probado-basta-cambiar-unas-frases-para-enganarlos",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta datos concretos y la prueba es anecdótica.",
+      "naturaleza": "otro",
+      "titulo_original": "GPTZero y Pangram se pelean por ser el mejor detector de textos hechos con IA. Los he probado y basta cambiar unas frases para engañarlos"
+    },
+    {
+      "id": "h32",
+      "titular": "IA con cámara para arreglos caseros, pero con límites",
+      "resumen": "Artículo explica que Gemini Live, ChatGPT y Copilot pueden guiar reparaciones simples usando la cámara del móvil, pero advierten no confiar en trabajos eléctricos o de gas.",
+      "porque_importa": "Quien enseña bricolaje podrá usar la IA como apoyo visual, pero debe filtrar riesgos.",
+      "angulo": "La IA ayuda, pero no sustituye al profesional",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/11/27/arreglar-cosas-casa-camara-movil-ia-gemini-live-chatgpt-copilot/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Poco dato concreto, más consejo que noticia",
+      "naturaleza": "opinion",
+      "titulo_original": "Arreglar cosas en casa con la cámara del móvil y la IA: para qué sirven Gemini Live, ChatGPT y Copilot, y dónde no debes fiarte nunca"
+    },
+    {
+      "id": "h13",
+      "titular": "Fuga de capital en Taiwán vinculada a IA",
+      "resumen": "Bloomberg indica que inversores extranjeros retiran fondos de Taiwán por temores a la IA en los mercados.",
+      "porque_importa": "Quien asesora inversiones debe considerar riesgos percibidos de IA en bolsa.",
+      "angulo": "¿La IA está provocando pánico financiero?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 2
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Xataka. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Xataka",
+            "link": "https://www.xataka.com/empresas-y-economia/taiwan-sufre-mayor-fuga-capital-extranjero-su-historia-ia-gran-sospechosa",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Falta evidencia directa, especulación",
+      "naturaleza": "investigacion",
+      "titulo_original": "Taiwán sufre la mayor fuga de capital extranjero de su historia y la IA es la gran sospechosa"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h02",
+    "tesis": "No hay nota con cobertura independiente que permita extraer una postura basada en datos externos al anuncio.",
+    "mirar": "Revisar si aparecen próximas publicaciones con análisis independiente del benchmark para validar los resultados."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h02",
+      "titulo": "Benchmark llama.cpp para AMD",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "Hugging Face lanzó un panel de benchmark para llama.cpp.",
+          "pantalla": "Logo de Hugging Face y título del dashboard"
+        },
+        {
+          "t": "0:07",
+          "texto": "Compara tiempos de inferencia en CPUs Ryzen y GPUs Radeon.",
+          "pantalla": "Gráfica comparativa de CPU vs GPU"
+        },
+        {
+          "t": "0:14",
+          "texto": "Muestra consumo energético de cada configuración.",
+          "pantalla": "Barras de consumo por dispositivo"
+        },
+        {
+          "t": "0:21",
+          "texto": "Los resultados permiten evaluar el desempeño de cada dispositivo.",
+          "pantalla": "Desarrollador frente a su PC"
+        },
+        {
+          "t": "0:28",
+          "texto": "Podés decidir si usar CPU o GPU según los datos del benchmark.",
+          "pantalla": "Iconos de CPU y GPU"
+        },
+        {
+          "t": "0:35",
+          "texto": "Accedé al dashboard para revisar los resultados.",
+          "pantalla": "Pantalla del dashboard con botón “Try it”"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h02",
+      "titulo": "Benchmark llama.cpp en AMD",
+      "placas": [
+        "Hugging Face anunció un dashboard de benchmark para llama.cpp.",
+        "Incluye pruebas en CPUs Ryzen y GPUs Radeon.",
+        "Mide tiempos de inferencia y consumo energético.",
+        "Los datos sirven para comparar rendimiento de CPU y GPU.",
+        "Accedé al panel y revisá los resultados."
+      ]
+    },
+    "post": {
+      "nota": "h02",
+      "titulo": "Benchmark llama.cpp para AMD",
+      "texto": "Hugging Face lanzó un dashboard que compara el rendimiento de llama.cpp en CPUs Ryzen y GPUs Radeon.\n\nEl panel muestra tiempos de inferencia y consumo energético para cada dispositivo.\n\nSi programás modelos locales, podés usar esos datos para decidir si tu máquina se beneficia más de la CPU o de la GPU.\n\nProbá el benchmark antes de iniciar tu próximo proyecto."
+    },
+    "hilo": {
+      "nota": "h02",
+      "titulo": "Benchmark llama.cpp en hardware AMD",
+      "partes": [
+        "Hugging Face publicó un dashboard que compara llama.cpp en CPUs Ryzen y GPUs Radeon.",
+        "El benchmark incluye tiempos de inferencia y consumo energético por configuración.",
+        "Los datos permiten evaluar el desempeño de CPU y GPU para modelos locales.",
+        "Podés decidir entre CPU y GPU según los resultados del benchmark.",
+        "Probá el panel y ajustá tu setup antes de entrenar."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h02"
+      ],
+      "preguntas": [
+        "¿Cuál fue la diferencia de tiempo de inferencia entre la CPU Ryzen y la GPU Radeon en el benchmark?",
+        "¿Cómo afecta el consumo energético al decidir entre CPU y GPU para entrenar modelos locales?",
+        "¿Qué consideraciones específicas tenés que tener en cuenta al aplicar estos resultados?"
+      ],
+      "nota": null
+    }
+  },
+  "fidelidad": {
+    "detectadas": 13,
+    "corregidas": 10,
+    "pendientes": [
+      {
+        "donde": "pieza:carrusel",
+        "tipo": "afirmacion",
+        "detalle": "«Incluye pruebas en CPUs Ryzen y GPUs Radeon.»: La fuente no detalla que incluya pruebas en esas CPUs y GPUs"
+      },
+      {
+        "donde": "pieza:carrusel",
+        "tipo": "afirmacion",
+        "detalle": "«Mide tiempos de inferencia y consumo energético.»: La fuente no especifica que mida esos parámetros"
+      },
+      {
+        "donde": "pieza:post",
+        "tipo": "afirmacion",
+        "detalle": "«Probá el benchmark antes de iniciar tu próximo proyecto.»: La fuente no indica que se pueda probar el benchmark"
+      }
+    ],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h15",
+      "titular": "Chips Blackwell de Nvidia hallados en Shanghai sin licencia US",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "Tres estudios respaldan el modelo JEPA de AMI Labs",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h20",
+      "titular": "SAP recortará al menos 10 000 puestos por IA",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "EEUU endurece restricciones a GPUs Nvidia para China",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "Hackers vulneraron la plataforma Cloud One de la USAF",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h35",
+      "titular": "EEUU cita a Nvidia como testigo en caso de desvío de chips a China",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h39",
+      "titular": "Bots de compra fallan en Black Friday",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h36",
+      "titular": "Drones cosechan manzanas 24 hs en Italia",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h41",
+      "titular": "Fintech Mozart lanza vehículo financiero Kaudal",
+      "total": 12,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "El Observador"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "Nuevo dashboard benchmark llama.cpp para AMD",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h37",
+      "titular": "Apple explora agente IA interno",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "OpenAI desarrolla la capa semántica \"Athena\"",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h40",
+      "titular": "Asistentes de IA piden confirmación antes de pagar",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h34",
+      "titular": "IA restaura y colorea fotos familiares",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h32",
+      "titular": "IA con cámara para arreglos caseros, pero con límites",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "AI acelera el reverse engineering de GTA 6",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "Fuga de capital en Taiwán vinculada a IA",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h38",
+      "titular": "Amazon y Meta negocian desbloqueo a Muse",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "Detectores de IA se engañan con cambios leves",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "Trainium3 y LTX‑2.5 generan video en pruebas",
+      "total": 6,
+      "estado": "comunicado",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Galaxy S25 a menos de 475 € en Black Friday",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Amazon sube precio del Pixel 11 al final del Black Friday",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "Tele LG de 65 ” bajo 400 € en MediaMarkt",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h33",
+      "titular": "Fiscalían a Character.ai por vender chats privados",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "Abascal menciona IA en debate electoral",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h11",
+      "titular": "Ofertas de móviles en Black Friday se agotan",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "promocion",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h25",
+      "titular": "Chip nuevo procesa IA con luz",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h43",
+      "titular": "Chat grupal con IA que habla a tus espaldas",
+      "total": 3,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "Afeitadora Philips bajo 33 € en Black Friday",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h42",
+      "titular": "Hacker News comparte artículo “I’m Scared of AI”",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Hacker News"
+      ]
+    }
+  ]
+}

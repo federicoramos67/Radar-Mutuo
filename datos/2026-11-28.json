@@ -1,0 +1,748 @@
+{
+  "fecha": "2026-11-28T15:13:38.949675-03:00",
+  "revisados": 31,
+  "con_modelo": true,
+  "modelos": [
+    "openai/gpt-oss-120b (Groq)"
+  ],
+  "errores_modelo": [],
+  "pedidos_al_modelo": 9,
+  "fuentes": [
+    {
+      "nombre": "OpenAI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 1430
+    },
+    {
+      "nombre": "Google AI",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google DeepMind",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 100
+    },
+    {
+      "nombre": "Hugging Face",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 919
+    },
+    {
+      "nombre": "NVIDIA",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "nombre": "TechCrunch",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "The Verge",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Ars Technica",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "MIT Technology Review",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Xataka",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "Hacker News",
+      "tipo": "comunidad",
+      "ok": false,
+      "error": "HTTPError"
+    },
+    {
+      "nombre": "The Decoder",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Wired",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Genbeta",
+      "tipo": "medio",
+      "ok": true,
+      "items": 16
+    },
+    {
+      "nombre": "Hipertextual",
+      "tipo": "medio",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "Xataka México",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "WWWhat's new",
+      "tipo": "medio",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "nombre": "Infobae",
+      "tipo": "medio",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "nombre": "El Observador",
+      "tipo": "medio",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "nombre": "Google Research",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "nombre": "arXiv",
+      "tipo": "oficial",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "nombre": "Simon Willison",
+      "tipo": "comunidad",
+      "ok": true,
+      "items": 10
+    }
+  ],
+  "publicables": [
+    {
+      "id": "h01",
+      "titular": "OpenAI contraataca a Apple con una contrademanda",
+      "resumen": "OpenAI presentó una contrademanda tras la demanda de Apple del verano pasado.",
+      "porque_importa": "Si trabajás en compliance, deberás seguir el nuevo litigio entre ambas compañías.",
+      "angulo": "¿Qué implica la disputa legal para los proveedores de IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 3,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 11,
+      "verificacion": {
+        "estado": "verificada",
+        "motivo": "Corroborada por 2 medios independientes.",
+        "fuentes": [
+          {
+            "nombre": "TechCrunch",
+            "link": "https://techcrunch.com/2026/11/28/openais-new-countersuit-accuses-apple-of-unlawfully-pressuring-vendors/",
+            "tipo": "medio"
+          },
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "otro",
+      "titulo_original": "OpenAI’s new countersuit accuses Apple of ‘unlawfully pressuring vendors’"
+    }
+  ],
+  "sin_confirmar": [
+    {
+      "id": "h20",
+      "titular": "NY prohíbe venta de juguetes con IA 5 años",
+      "resumen": "La ciudad impone una prohibición de cinco años y multas de hasta 15.000 USD diarias a la venta de juguetes con chatbots de IA tras un estudio que mostró riesgos.",
+      "porque_importa": "Un responsable de marketing de juguetes deberá replantear la línea de productos para evitar sanciones.",
+      "angulo": "Regulación fuerte contra juguetes con IA en Nueva York.",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 4,
+        "conversacion": 3,
+        "antihype": 4
+      },
+      "total": 15,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó WWWhat's new. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "WWWhat's new",
+            "link": "https://wwwhatsnew.com/2026/11/27/nueva-york-prohibe-juguetes-chatbots-ia-cinco-anos/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "evento",
+      "titulo_original": "Nueva York prohíbe durante cinco años la venta de juguetes con chatbots de IA"
+    },
+    {
+      "id": "h24",
+      "titular": "Encuesta muestra que chatbots nocturnos generan soledad",
+      "resumen": "463 adultos encuestados reportaron variaciones en satisfacción y bienestar según la intimidad del chatbot usado a las 3 a.m.",
+      "porque_importa": "Quien diseña experiencias de chatbot podrá ajustar la “intimidad” para evitar efectos negativos.",
+      "angulo": "¿Los bots nocturnos son compañía o aislamiento?",
+      "formato": "post",
+      "puntos": {
+        "senal": 4,
+        "impacto": 2,
+        "conversacion": 4,
+        "antihype": 4
+      },
+      "total": 14,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/28/el-chatbot-que-escucha-a-las-3-de-la-manana-compania-real-o-soledad-disfrazada/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "",
+      "naturaleza": "investigacion",
+      "titulo_original": "El chatbot que escucha a las 3 de la mañana, ¿compañía real o soledad disfrazada?"
+    }
+  ],
+  "comunicados": [],
+  "descartados": [
+    {
+      "id": "h30",
+      "titular": "Ilustraciones generadas por código superan a modelos de imagen",
+      "resumen": "Se observa que los LLMs de 2026 son mejores en razonamiento visual que los modelos de generación de imágenes tradicionales.",
+      "porque_importa": "Quien programa IA visual podrá usar prompts de código en vez de buscar imágenes externas.",
+      "angulo": "¿Deberían los diseñadores cambiar a prompts de código?",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 2,
+        "conversacion": 3,
+        "antihype": 1
+      },
+      "total": 8,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo aparece en Simon Willison, que es un agregador. Falta un medio o la fuente original.",
+        "fuentes": [
+          {
+            "nombre": "Simon Willison",
+            "link": "https://simonwillison.net/2026/Nov/28/code-driven-ai-illustrations/",
+            "tipo": "comunidad"
+          }
+        ]
+      },
+      "descarte": "Falta de datos concretos y fuentes verificables.",
+      "naturaleza": "opinion",
+      "titulo_original": "Code-driven AI illustrations are more useful than images from dedicated image models"
+    },
+    {
+      "id": "h07",
+      "titular": "Tao llama \"basura tóxica\" a pruebas de IA de grandes firmas",
+      "resumen": "En el podcast Hard Fork, Tao describió su visión de \"Big Math\" y criticó pruebas de IA de grandes tecnológicas como basura tóxica.",
+      "porque_importa": "A quien escribe papers le obliga a justificar la validez de resultados generados por IA.",
+      "angulo": "¿Puede la IA producir pruebas sin explicación?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/terence-tao-sees-ai-ushering-in-big-math-but-calls-major-tech-firms-proofs-toxic-waste/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Poco dato concreto, mayormente opinión",
+      "naturaleza": "opinion",
+      "titulo_original": "Terence Tao sees AI ushering in \"Big Math,\" but calls major tech firms' proofs \"toxic waste\""
+    },
+    {
+      "id": "h09",
+      "titular": "Humanity's First Exam muestra fallas en IA",
+      "resumen": "DeepMind probó 18 modelos con 16 respuestas correctas seguidas; incluso los líderes fallaron en tareas simples, con 73 % de errores en percepción visual.",
+      "porque_importa": "Quien entrena modelos verá que la consistencia sigue siendo un reto práctico.",
+      "angulo": "Los mejores modelos aún tropiezan con lo cotidiano",
+      "formato": "post",
+      "puntos": {
+        "senal": 2,
+        "impacto": 0,
+        "conversacion": 3,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó The Decoder. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "The Decoder",
+            "link": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Datos sin contexto de rendimiento real, poco aplicable",
+      "naturaleza": "investigacion",
+      "titulo_original": "Google Deepmind's \"Humanity's First Exam\" shows top AI models still fail simple everyday tasks under repeated runs"
+    },
+    {
+      "id": "h29",
+      "titular": "Científico sugiere IA podría romper cifrado",
+      "resumen": "Scott Aaronson comenta que no hay pruebas de ataques prácticos y desconoce detalles de supuestos hallazgos en laboratorios de IA.",
+      "porque_importa": "Un especialista en seguridad no podrá basar su estrategia en una amenaza no confirmada.",
+      "angulo": "¿Deberíamos temer a un cifrado vulnerable por IA?",
+      "formato": "post",
+      "puntos": {
+        "senal": 1,
+        "impacto": 1,
+        "conversacion": 3,
+        "antihype": 1
+      },
+      "total": 6,
+      "verificacion": {
+        "estado": "sin_confirmar",
+        "motivo": "Solo lo publicó Infobae. Falta una segunda fuente independiente o el anuncio oficial.",
+        "fuentes": [
+          {
+            "nombre": "Infobae",
+            "link": "https://www.infobae.com/tecno/2026/11/28/cientifico-cree-casi-seguro-que-laboratorios-de-ia-guardan-hallazgos-que-afectarian-el-cifrado-de-internet/",
+            "tipo": "medio"
+          }
+        ]
+      },
+      "descarte": "Afirmación sin evidencia ni datos.",
+      "naturaleza": "opinion",
+      "titulo_original": "Científico cree casi seguro que laboratorios de IA guardan hallazgos que afectarían el cifrado de internet"
+    }
+  ],
+  "nota_dia": {
+    "nota": "h01",
+    "tesis": "El contraataque legal de OpenAI revela que la disputa entre ambas gigantes sigue sin resolverse y que los proveedores quedan atrapados entre demandas cruzadas. Lo que aún no se sabe es cómo afectará a los acuerdos de licencia y a los precios de los servicios de IA para los usuarios finales.",
+    "mirar": "Esperar la respuesta de Apple y cualquier medida provisional que imponga el tribunal sobre el acceso a las APIs de OpenAI."
+  },
+  "piezas": {
+    "reel": {
+      "nota": "h01",
+      "titulo": "OpenAI contraataca a Apple con una contrademanda",
+      "beats": [
+        {
+          "t": "0:00",
+          "texto": "OpenAI presentó una contrademanda contra Apple en California.",
+          "pantalla": "Logo de OpenAI y Apple frente a un juzgado"
+        },
+        {
+          "t": "0:07",
+          "texto": "Acusa a Apple de robar secretos comerciales.",
+          "pantalla": "Documento con la frase “trade secret theft” resaltada"
+        },
+        {
+          "t": "0:14",
+          "texto": "Dice que Apple presiona ilícitamente a proveedores compartidos.",
+          "pantalla": "Gráfica de cadena de suministro con flechas de presión"
+        },
+        {
+          "t": "0:21",
+          "texto": "La disputa sigue al pleito de Apple del verano pasado.",
+          "pantalla": "Calendario marcando el verano y la palabra “lawsuit”"
+        },
+        {
+          "t": "0:28",
+          "texto": "Si trabajás en compliance, este caso te afecta directamente.",
+          "pantalla": "Persona revisando contratos con gafas de lectura"
+        },
+        {
+          "t": "0:35",
+          "texto": "Seguiremos la evolución del litigio y su impacto en la IA.",
+          "pantalla": "Lupa sobre un contrato y el logo de IA"
+        }
+      ]
+    },
+    "carrusel": {
+      "nota": "h01",
+      "titulo": "OpenAI contraataca a Apple",
+      "placas": [
+        "OpenAI presentó una contrademanda en California.",
+        "Acusa a Apple de robar secretos comerciales.",
+        "Alega presión ilegal a proveedores compartidos.",
+        "La demanda sigue al pleito de Apple del verano pasado.",
+        "Impacta a profesionales de compliance y proveedores de IA."
+      ]
+    },
+    "post": {
+      "nota": "h01",
+      "titulo": "OpenAI contraataca a Apple con una contrademanda",
+      "texto": "OpenAI presentó una contrademanda contra Apple en un tribunal de California.\n\nLa empresa acusa a Apple de robar secretos comerciales y de presionar ilícitamente a proveedores que trabajan con ambas compañías.\n\nLa acción legal sigue a la demanda que Apple interpuso contra OpenAI el verano pasado.\n\nSi trabajás en compliance, este litigio puede cambiar la forma en que gestionás contratos y relaciones con proveedores de IA.\n\nMantente al tanto de los próximos pasos del caso y su posible repercusión en el ecosistema de inteligencia artificial."
+    },
+    "hilo": {
+      "nota": "h01",
+      "titulo": "OpenAI contraataca a Apple: lo que necesitás saber",
+      "partes": [
+        "OpenAI ha presentado una contrademanda contra Apple en California, acusando a la gigante de robar secretos comerciales.",
+        "La demanda alega que Apple presiona de forma ilícita a proveedores que suministran tanto a OpenAI como a Apple.",
+        "Este litigio sigue a la demanda que Apple presentó contra OpenAI el verano pasado, marcando una escalada legal entre ambas compañías.",
+        "Para los profesionales de compliance, el caso implica revisar cláusulas de confidencialidad y condiciones de suministro con proveedores de IA.",
+        "El conflicto podría influir en futuras colaboraciones y en la disponibilidad de tecnologías de IA en dispositivos Apple."
+      ]
+    },
+    "opencast": {
+      "notas": [
+        "h01"
+      ],
+      "preguntas": [
+        "¿Cómo afecta la presión de Apple a los proveedores de IA en la práctica diaria de un compliance officer?",
+        "¿Qué riesgos legales enfrentan las startups que usan componentes de ambas compañías?",
+        "Si la contrademanda prospera, ¿qué cambios podrían esperarse en los acuerdos de confidencialidad entre proveedores y gigantes tecnológicos?"
+      ]
+    }
+  },
+  "fidelidad": {
+    "detectadas": 0,
+    "corregidas": 0,
+    "pendientes": [],
+    "revision_modelo": true
+  },
+  "todo_lo_revisado": [
+    {
+      "id": "h20",
+      "titular": "NY prohíbe venta de juguetes con IA 5 años",
+      "total": 15,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h24",
+      "titular": "Encuesta muestra que chatbots nocturnos generan soledad",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h12",
+      "titular": "Chips Blackwell de Nvidia hallados en Shanghai",
+      "total": 14,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h31",
+      "titular": "Lanzan datasette-charts 0.4a0 con hook extensible",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "id": "h14",
+      "titular": "Hackers vulneran la nube Cloud One de la USAF",
+      "total": 13,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h01",
+      "titular": "OpenAI contraataca a Apple con una contrademanda",
+      "total": 11,
+      "estado": "verificada",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch",
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h18",
+      "titular": "Samsung lanza Now Nudge en One UI 9",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka México"
+      ]
+    },
+    {
+      "id": "h08",
+      "titular": "Parlamento británico exige informe METR sin censura a Anthropic",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "evento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h26",
+      "titular": "Pinterest añade controles parentales para contenido IA",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h15",
+      "titular": "OpenAI desarrolla Athena, capa semántica para agentes",
+      "total": 11,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h27",
+      "titular": "IA descubre 33 materiales olvidados con potencial futuro",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h10",
+      "titular": "Embo levanta $110 M para IA en robots",
+      "total": 10,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h23",
+      "titular": "Ejecutivo de Anthropic defiende a Claude ante críticas",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h13",
+      "titular": "Meta y AMI Labs publican tres estudios sobre JEPA",
+      "total": 9,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h30",
+      "titular": "Ilustraciones generadas por código superan a modelos de imagen",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "id": "h25",
+      "titular": "IA detectó fenómeno que ocurre 1 de 10 000 000 000 casos",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h28",
+      "titular": "Japón propone multas a IA que ignore órdenes",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h19",
+      "titular": "IA paga pizza desde cuenta bancaria",
+      "total": 8,
+      "estado": "sin_confirmar",
+      "naturaleza": "caso_cliente",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h22",
+      "titular": "Character.ai quiere vender chats privados",
+      "total": 7,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h07",
+      "titular": "Tao llama \"basura tóxica\" a pruebas de IA de grandes firmas",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h09",
+      "titular": "Humanity's First Exam muestra fallas en IA",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "investigacion",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h29",
+      "titular": "Científico sugiere IA podría romper cifrado",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "opinion",
+      "fuentes": [
+        "Infobae"
+      ]
+    },
+    {
+      "id": "h21",
+      "titular": "IA guía reparaciones caseras con cámara del móvil",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "WWWhat's new"
+      ]
+    },
+    {
+      "id": "h16",
+      "titular": "IA acelera el hack de GTA 6 a PC",
+      "total": 6,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "The Decoder"
+      ]
+    },
+    {
+      "id": "h02",
+      "titular": "CEO de Sakana AI habla de seguridad nacional y competitividad",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "h06",
+      "titular": "IA facilita desbloquear firmware de cámaras",
+      "total": 5,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h03",
+      "titular": "OPPO lanza el Find X9, nuevo móvil premium",
+      "total": 4,
+      "estado": "sin_confirmar",
+      "naturaleza": "lanzamiento",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h04",
+      "titular": "China domina producción de DRAM",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    },
+    {
+      "id": "h17",
+      "titular": "Nuevo chip usa luz para ejecutar IA",
+      "total": 2,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Wired"
+      ]
+    },
+    {
+      "id": "h05",
+      "titular": "Iglesia alemana toca pieza hasta 2640",
+      "total": 0,
+      "estado": "sin_confirmar",
+      "naturaleza": "otro",
+      "fuentes": [
+        "Xataka"
+      ]
+    }
+  ]
+}
